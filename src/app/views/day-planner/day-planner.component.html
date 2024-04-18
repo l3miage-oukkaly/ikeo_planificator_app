@@ -1,0 +1,38 @@
+<div style="display: flex; flex-direction: row; min-height: 80vh; text-align: center">
+  <div style="margin: auto" class="column">
+    <button mat-fab color="primary" aria-label="Example icon button with a delete icon" (click)="addTour()">
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="add"></mat-icon>
+    </button>
+  </div>
+  @for (column of day.tours; track column; let i = $index) {
+    <div class="column">
+      <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">
+        <mat-card-header>
+          <mat-card-title>Tournée {{i + 1}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content style="padding: 0">
+          <mat-divider style="background: white"></mat-divider>
+          <div style="display: flex; flex-direction: row">
+            <p style="margin-bottom: 0.4em; margin-top:0.4em; padding-left: 16px">Livreurs : {{column.deliveryMen.join(', ')}}</p>
+            <button mat-mini-fab style="border-radius: 5px; height: 2em; width: 2em; margin-left: auto; margin-right: 15px" color="primary">
+              <mat-icon fontIcon="add"></mat-icon>
+            </button>
+          </div>
+          <mat-divider style="background: white"></mat-divider>
+          <div style="display: flex; flex-direction: row">
+            <p style="margin-bottom: 0.4em; margin-top:0.4em; padding-left: 16px">Camion : {{column.truck}}</p>
+            <button mat-mini-fab style="border-radius: 5px; height: 2em; width: 2em;margin-left: auto; margin-right: 15px" color="primary">
+              <mat-icon fontIcon="add"></mat-icon>
+            </button>
+          </div>
+          <mat-divider style="background: white"></mat-divider>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  }
+</div>
+
+<div style="text-align: center; margin-top: auto; margin-bottom: 0">
+  <button>Validate</button>
+</div>
+
