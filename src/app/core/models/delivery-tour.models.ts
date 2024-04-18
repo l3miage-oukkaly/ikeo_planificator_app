@@ -1,8 +1,8 @@
-import {Order} from "./order.models";
+import {Delivery} from "./delivery.models";
 
 export interface DeliveryTour {
-  id?: string
-  deliveries : [orders: Order[], distanceToCover: number],
+  refTour?: string
+  deliveries : [orders: Delivery, distanceToCover: number],
   deliveryMen : string[],
   truck : string,
   distanceToCover: number
