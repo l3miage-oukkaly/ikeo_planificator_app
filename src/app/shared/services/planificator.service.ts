@@ -14,7 +14,6 @@ export class PlanificatorService {
   private planificatorProtocols: PlanificatorProtocolsImplementation = new PlanificatorProtocolsImplementation()
   private datePipe = inject(DatePipe)
   currentDate = (new Date)
-  tomorrowDate = this.datePipe.transform(this.currentDate.setDate(this.currentDate.getDate() + 1), 'yyyy-MM-dd')
 
   constructor() {}
 
@@ -28,5 +27,9 @@ export class PlanificatorService {
 
   async sendDay(date: string, day: Day) {
     return await this.planificatorProtocols.sendDay(date, day)
+  }
+
+  getTomorrowDate(): string {
+    return this.datePipe.transform(this.currentDate.setDate(this.currentDate.getDate() + 1), 'yyyy-MM-dd')!
   }
 }
