@@ -2,5 +2,6 @@
 // When implementing RO, change it to Order[]
 
 export interface Delivery {
-  orders: string[]
+  orders: string[],
+  distanceToCover?: number
 }
