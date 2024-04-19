@@ -1,4 +1,4 @@
-import {Component, inject} from '@angular/core';
+import {ChangeDetectionStrategy, Component, inject} from '@angular/core';
 import {RouterLink} from "@angular/router";
 import {PlanificatorService} from "../../shared/services/planificator.service";
 import {SetupBundle} from "../../core/models/setup-bundle.models";
@@ -11,7 +11,8 @@ import {DatePipe} from "@angular/common";
     RouterLink
   ],
   templateUrl: './homepage.component.html',
-  styleUrl: './homepage.component.css'
+  styleUrl: './homepage.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomepageComponent {
   private planificatorService = inject(PlanificatorService)
@@ -24,7 +25,7 @@ export class HomepageComponent {
 
   // Temporary method when "Visualiser J+1" is clicked
   displayDayPlusOne_Dev() {
-    console.log(this.planificatorService.tomorrowDate)
+    console.log(this.planificatorService.getTomorrowDate())
   }
 
 }

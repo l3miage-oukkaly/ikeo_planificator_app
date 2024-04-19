@@ -1,4 +1,4 @@
-import {Component, inject, Input, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, Component, inject, Input, OnInit} from '@angular/core';
 import {SetupBundle} from "../../core/models/setup-bundle.models";
 import {PlanificatorService} from "../../shared/services/planificator.service";
 import {MatRow} from "@angular/material/table";
@@ -21,14 +21,15 @@ import {MatDivider} from "@angular/material/divider";
     MatDivider
   ],
   templateUrl: './day-planner.component.html',
-  styleUrl: './day-planner.component.css'
+  styleUrl: './day-planner.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class DayPlannerComponent implements OnInit {
   planificatorService = inject(PlanificatorService)
   bundle! : SetupBundle
   setupBundleTest : SetupBundle = {multipleOrders: [{orders: ['C1', 'C2']}, {orders: ['C3']}],
     deliveryMen: ['AWS','ABB','TEL','POL'], trucks: ['XP-098-IO', 'PO-374-BN', 'AE-473-AD']};
-  day : Day = {date: this.planificatorService.tomorrowDate!, tours: []}
+  day : Day = {date: this.planificatorService.getTomorrowDate(), tours: []}
 
   constructor() {}
 
