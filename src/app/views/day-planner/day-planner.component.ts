@@ -8,6 +8,8 @@ import {MatIconModule} from "@angular/material/icon";
 import { MatCardModule} from "@angular/material/card";
 import {NgClass} from "@angular/common";
 import {MatDivider} from "@angular/material/divider";
+import {CdkAccordionModule} from "@angular/cdk/accordion";
+import {DeliveryTour} from "../../core/models/delivery-tour.models";
 
 @Component({
   selector: 'app-day-planner',
@@ -18,7 +20,8 @@ import {MatDivider} from "@angular/material/divider";
     MatIconModule,
     MatCardModule,
     NgClass,
-    MatDivider
+    MatDivider,
+    CdkAccordionModule
   ],
   templateUrl: './day-planner.component.html',
   styleUrl: './day-planner.component.css',
@@ -36,7 +39,7 @@ export class DayPlannerComponent implements OnInit {
   addTour() {
     if (this.day.tours.length === 0) {
       this.day.tours.push({
-        deliveryMen: ['AWS'], truck: '', distanceToCover: 0,
+        deliveryMen: [], truck: '', distanceToCover: 0,
         deliveries: this.setupBundleTest.multipleOrders.map((delivery) => {
           return {orders: delivery.orders, distanceToCover: 0}
         })
@@ -44,6 +47,31 @@ export class DayPlannerComponent implements OnInit {
     } else {
       this.day.tours.push({deliveryMen: [], truck: '', distanceToCover: 0, deliveries: []})
     }
+  }
+
+  addDeliveryMan(index: number, tour: DeliveryTour) {
+    tour.deliveryMen.push(this.setupBundleTest.deliveryMen.at(index)!)
+    this.setupBundleTest.deliveryMen.splice(index, 1)
+  }
+
+  removeDeliveryMan(index:number, tour: DeliveryTour) {
+    this.setupBundleTest.deliveryMen.push(tour.deliveryMen.at(index)!)
+    tour.deliveryMen.splice(index, 1)
+  }
+
+  addTruck(index: number, tour: DeliveryTour) {
+    tour.truck = this.setupBundleTest.trucks.at(index)!
+    this.setupBundleTest.trucks.splice(index, 1)
+  }
+
+  removeTruck(tour: DeliveryTour) {
+    this.setupBundleTest.trucks.push(tour.truck)
+    tour.truck = ''
+  }
+
+  replaceTruck(index: number, tour: DeliveryTour) {
+    this.setupBundleTest.trucks.push(tour.truck)
+    this.addTruck(index, tour)
   }
 
   ngOnInit() {
