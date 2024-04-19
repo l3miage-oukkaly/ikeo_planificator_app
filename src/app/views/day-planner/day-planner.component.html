@@ -1,89 +1,45 @@
 <div style="display: flex; flex-direction: row; min-height: 80vh; text-align: center">
-  <div style="margin: auto" class="column">
+  <div style="margin: auto; min-width: 10vw" class="column">
     <button mat-fab color="primary" aria-label="Example icon button with a delete icon" (click)="addTour()">
       <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="add"></mat-icon>
     </button>
   </div>
-  @for (column of day.tours; track column; let i = $index) {
-    <div class="column">
-      <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">
-        <mat-card-header style="justify-content: center">
-          <mat-card-title>Tournée {{i + 1}}</mat-card-title>
-        </mat-card-header>
-        <mat-card-content style="padding: 0">
-          <mat-divider style="background: white"></mat-divider>
-          <cdk-accordion class="ex-acc">
-            <cdk-accordion-item #accordionItem1="cdkAccordionItem" class="ex-acc-item"
-                                role="button" tabindex="0" [attr.id]="'accordion-header'" [attr.aria-expanded]="accordionItem1.expanded"
-                                [attr.aria-controls]="'accordion-body'">
-              <div style="margin-left: 16px; text-align: start;display: flex; flex-direction: row">
-                <p style="margin-bottom: 0.4em; margin-top:0.4em">Livreurs</p>
-                <div style="margin-top: 0.4em; width: 100%; text-align: center">
-                  @for (deliveryman of column.deliveryMen; track deliveryman; let j = $index) {
-                    <button style="border-radius: 8px; border: none" (click)="removeDeliveryMan(j, column)">{{deliveryman}}</button>
-                  }
-                </div>
-                <span style="margin-left: auto; margin-right: 15px">
-                  <button mat-mini-fab (click)="accordionItem1.toggle()" style="border-radius: 5px; height: 2em; width: 2em;" color="primary">
-                    <mat-icon fontIcon="add"></mat-icon>
-                  </button>
-                </span>
-              </div>
-              <div role="region"
-                [style.display]="accordionItem1.expanded ? '' : 'none'"
-                [attr.id]="'accordion-body'"
-                [attr.aria-labelledby]="'accordion-header'"
-                style="margin-left: 16px; text-align: start">
-                @for (delman of setupBundleTest.deliveryMen; track delman; let index = $index) {
-                  <button (click)="addDeliveryMan(index, column)" style="border-radius: 8px; border: none">{{delman}}</button>
-                }
-              </div>
-            </cdk-accordion-item>
-          </cdk-accordion>
-          <mat-divider style="background: white"></mat-divider>
-          <cdk-accordion class="ex-acc">
-            <cdk-accordion-item #accordionItem2="cdkAccordionItem" class="ex-acc-item"
-                                role="button" tabindex="0" [attr.id]="'accordion-header'" [attr.aria-expanded]="accordionItem2.expanded"
-                                [attr.aria-controls]="'accordion-body'">
-              <div style="margin-left: 16px; text-align: start;display: flex; flex-direction: row">
-                <p style="margin-bottom: 0.4em; margin-top:0.4em">Camion</p>
-                <div style="margin-top: 0.4em; width: 100%; text-align: center">
-                  @if (column.truck != '') {
-                    <button style="border-radius: 8px; border: none" (click)="removeTruck(column)">{{column.truck}}</button>
-                  }
-                </div>
-                <span style="margin-left: auto; margin-right: 15px">
-                  <button mat-mini-fab (click)="accordionItem2.toggle()" style="border-radius: 5px; height: 2em; width: 2em;" color="primary">
-                    <mat-icon fontIcon="add"></mat-icon>
-                  </button>
-                </span>
-              </div>
-              <div role="region"
-                   [style.display]="accordionItem2.expanded ? '' : 'none'"
-                   [attr.id]="'accordion-body'"
-                   [attr.aria-labelledby]="'accordion-header'"
-                   style="margin-left: 16px; text-align: start">
-                @if (column.truck === '') {
-                  @for (truck of setupBundleTest.trucks; track truck; let index = $index) {
-                    <button (click)="addTruck(index, column)" style="border-radius: 8px; border: none">{{truck}}</button>
-                  }
-                } @else {
-                  @for (truck of setupBundleTest.trucks; track truck; let index = $index) {
-                    <button (click)="replaceTruck(index, column)" style="border-radius: 8px; border: none">{{truck}}</button>
-                  }
-                }
-
-              </div>
-            </cdk-accordion-item>
-          </cdk-accordion>
-          <mat-divider style="background: white"></mat-divider>
-        </mat-card-content>
-      </mat-card>
-    </div>
-  }
+  <div cdkDropListGroup style="display: flex; flex-direction: row; min-height: 80vh; text-align: center">
+    @for (column of DaySig().tours; track column; let i = $index) {
+      <div class="column" style="min-width: 20vw; width: 100%;" cdkDropList [cdkDropListData]="column.deliveries"
+      (cdkDropListDropped)="moveDelivery($event)">
+        <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">
+          <mat-card-header style="justify-content: center; padding-right: 0">
+            <mat-card-title>Tournée {{i + 1}}</mat-card-title>
+            <span style="margin-left: auto; margin-right: 15px">
+                    <button mat-mini-fab (click)="removeTour(i)" style="border-radius: 5px; height: 2em; width: 2em;" color="primary">
+                      <mat-icon fontIcon="delete"></mat-icon>
+                    </button>
+                  </span>
+          </mat-card-header>
+          <mat-card-content style="padding: 0">
+            <mat-divider style="color: white; background: white"></mat-divider>
+            <app-accordion-deliverymen [day]="DaySig"
+                                       [bundle]="BundleSig"
+                                       [deliveryTourIndex]="i">
+            </app-accordion-deliverymen>
+            <mat-divider style="background: white"></mat-divider>
+            <app-accordion-truck [day]="DaySig"
+                                 [bundle]="BundleSig"
+                                 [deliveryTourIndex]="i">
+            </app-accordion-truck>
+            <mat-divider style="background: white"></mat-divider>
+            @for (delivery of column.deliveries; track delivery) {
+              <div cdkDrag cdkDragPreviewContainer="parent">{{delivery.orders.join(', ')}}
+                <div *cdkDragPlaceholder></div></div>
+            }
+          </mat-card-content>
+        </mat-card>
+      </div>
+    }
+  </div>
 </div>
-
 <div style="text-align: center; margin-top: auto; margin-bottom: 0">
-  <button>Validate</button>
+  <button [disabled]="isValidDay()" (click)="sendDay_Dev(planificatorService.getTomorrowDate(), DaySig())">Validate</button>
 </div>
 

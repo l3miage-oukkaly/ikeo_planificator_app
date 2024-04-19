@@ -1,0 +1,28 @@
+<cdk-accordion class="ex-acc">
+  <cdk-accordion-item #accordionItem1="cdkAccordionItem" class="ex-acc-item"
+                      role="button" tabindex="0" [attr.id]="'accordion-header'" [attr.aria-expanded]="accordionItem1.expanded"
+                      [attr.aria-controls]="'accordion-body'">
+    <div style="margin-left: 16px; text-align: start;display: flex; flex-direction: row">
+      <p style="margin-bottom: 0.4em; margin-top:0.4em">Livreurs</p>
+      <div style="margin-top: 0.4em; width: 100%; text-align: center">
+        @for (deliveryman of day().tours[deliveryTourIndex].deliveryMen; track deliveryman; let j = $index) {
+          <button style="border-radius: 8px; border: none" (click)="removeDeliveryMan(j)">{{deliveryman}}</button>
+        }
+      </div>
+      <span style="margin-left: auto; margin-right: 15px">
+                    <button mat-mini-fab (click)="accordionItem1.toggle()" style="border-radius: 5px; height: 2em; width: 2em;" color="primary">
+                      <mat-icon fontIcon="add"></mat-icon>
+                    </button>
+                  </span>
+    </div>
+    <div role="region"
+         [style.display]="accordionItem1.expanded ? '' : 'none'"
+         [attr.id]="'accordion-body'"
+         [attr.aria-labelledby]="'accordion-header'"
+         style="margin-left: 16px; text-align: start">
+      @for (delman of bundle().deliveryMen; track delman; let index = $index) {
+        <button (click)="addDeliveryMan(index)" style="border-radius: 8px; border: none">{{delman}}</button>
+      }
+    </div>
+  </cdk-accordion-item>
+</cdk-accordion>
