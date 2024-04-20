@@ -21,12 +21,14 @@
             <mat-divider style="color: white; background: white"></mat-divider>
             <app-accordion-deliverymen [day]="DaySig"
                                        [bundle]="BundleSig"
-                                       [deliveryTourIndex]="i">
+                                       [deliveryTourIndex]="i"
+                                       [mode]="'edit'">
             </app-accordion-deliverymen>
             <mat-divider style="background: white"></mat-divider>
             <app-accordion-truck [day]="DaySig"
                                  [bundle]="BundleSig"
-                                 [deliveryTourIndex]="i">
+                                 [deliveryTourIndex]="i"
+                                 [mode]="'edit'">
             </app-accordion-truck>
             <mat-divider style="background: white"></mat-divider>
             @for (delivery of column.deliveries; track delivery) {

@@ -87,32 +87,15 @@ export class DayPlannerComponent implements OnInit {
     }
   }
 
-  removeDeliveryMan(delIndex:number, tourIndex: number) {
-    this.BundleSig().deliveryMen.push(this.DaySig().tours[tourIndex].deliveryMen.at(delIndex)!)
-    const delMen = this.DaySig().tours[tourIndex].deliveryMen.splice(delIndex, 1)
-    this.DaySig.set({date:this.DaySig().date, tours: this.DaySig().tours.map((tour, index) => {
-        if (index === tourIndex) {
-          tour.deliveryMen = delMen
-        }
-        return tour
-      })})
-  }
-
   removeAllDeliveryMen(tourIndex: number) {
     this.DaySig().tours[tourIndex].deliveryMen.map((deliveryMan , index) => {
-      this.removeDeliveryMan(index, tourIndex)
+      this.BundleSig().deliveryMen.push(deliveryMan)
     })
   }
 
   removeTruck(tourIndex: number) {
     if (this.DaySig().tours[tourIndex].truck != '') {
       this.BundleSig().trucks.push(this.DaySig().tours[tourIndex].truck)
-      this.DaySig.set({date:this.DaySig().date, tours: this.DaySig().tours.map((tour, index) => {
-          if (index === tourIndex) {
-            tour.truck = ''
-          }
-          return tour
-        })})
     }
   }
 
