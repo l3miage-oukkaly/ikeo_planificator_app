@@ -52,7 +52,7 @@ export class DayPlannerComponent implements OnInit {
   //   multipleOrders: [{ orders: ['C1', 'C2'] }, { orders: ['C3'] }],
   //   deliveryMen: ['AWS', 'ABB', 'TEL', 'POL'], trucks: ['XP-098-IO', 'PO-374-BN', 'AE-473-AD']
   // };
-  BundleSig = signal<SetupBundle>({ multipleOrders: [], deliveryMen: [], trucks: [] })
+  BundleSig = signal<SetupBundle>({ multipleOrders: [], deliverymen: [], trucks: [] })
   DaySig = signal<Day>({ date: this.planificatorService.getTomorrowDate(), tours: [] })
 
   constructor() { }
@@ -62,7 +62,7 @@ export class DayPlannerComponent implements OnInit {
       this.DaySig().tours.push({
         deliveryMen: [], truck: '', distanceToCover: 0,
         deliveries: this.BundleSig().multipleOrders.map((delivery) => {
-          return { orders: delivery.orders, distanceToCover: 0 }
+          return { orders: delivery as unknown as string[], distanceToCover: 0 }
         })
       })
     } else {
@@ -91,7 +91,7 @@ export class DayPlannerComponent implements OnInit {
 
   removeAllDeliveryMen(tourIndex: number) {
     this.DaySig().tours[tourIndex].deliveryMen.map((deliveryMan) => {
-      this.BundleSig().deliveryMen.push(deliveryMan)
+      this.BundleSig().deliverymen.push(deliveryMan)
     })
   }
 
