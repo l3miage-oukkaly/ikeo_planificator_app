@@ -28,7 +28,7 @@
            [attr.id]="'accordion-body'"
            [attr.aria-labelledby]="'accordion-header'"
            style="margin-left: 16px; text-align: start">
-        @for (delman of bundle().deliveryMen; track delman; let index = $index) {
+        @for (delman of bundle().deliverymen; track delman; let index = $index) {
           <button (click)="addDeliveryMan(index)" style="border-radius: 8px; border: none">{{delman}}</button>
         }
       </div>

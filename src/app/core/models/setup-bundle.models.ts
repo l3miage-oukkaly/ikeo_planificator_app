@@ -1,7 +1,7 @@
-import {Delivery} from "./delivery.models";
+import { Delivery } from "./delivery.models";
 
 export interface SetupBundle {
-  multipleOrders : Delivery[],
-  deliveryMen : string[],
+  multipleOrders: Delivery[],
+  deliverymen: string[],
   trucks: string[]
 }
