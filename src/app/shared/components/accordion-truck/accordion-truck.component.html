@@ -1,0 +1,42 @@
+<cdk-accordion class="ex-acc" [ngClass]="{'editable': mode==='edit'}" #accordion>
+  <cdk-accordion-item #accordionItem2="cdkAccordionItem" class="ex-acc-item"
+                      role="button" tabindex="0" [attr.id]="'accordion-header'" [attr.aria-expanded]="accordionItem2.expanded"
+                      [attr.aria-controls]="'accordion-body'">
+    <div style="margin-left: 16px; text-align: start;display: flex; flex-direction: row">
+      <p style="margin-bottom: 0.4em; margin-top:0.4em">Camion</p>
+      <div style="margin-top: 0.4em; width: 100%; text-align: center">
+        @if (accordion.classList.contains('editable')) {
+          @if (day().tours[deliveryTourIndex].truck != '') {
+            <button style="border-radius: 8px; border: none" (click)="removeTruck()">{{day().tours[deliveryTourIndex].truck}}</button>
+          }
+        } @else {
+            <p>{{day().tours[deliveryTourIndex].truck}}</p>
+        }
+      </div>
+      @if (accordion.classList.contains('editable')) {
+        <span style="margin-left: auto; margin-right: 15px">
+                    <button mat-mini-fab (click)="accordionItem2.toggle()" style="border-radius: 5px; height: 2em; width: 2em;" color="primary">
+                      <mat-icon fontIcon="add"></mat-icon>
+                    </button>
+                  </span>
+      }
+    </div>
+    @if (accordion.classList.contains('editable')) {
+      <div role="region"
+           [style.display]="accordionItem2.expanded ? '' : 'none'"
+           [attr.id]="'accordion-body'"
+           [attr.aria-labelledby]="'accordion-header'"
+           style="margin-left: 16px; text-align: start">
+        @if (day().tours[deliveryTourIndex].truck === '') {
+          @for (truck of bundle().trucks; track truck; let index = $index) {
+            <button (click)="addTruck(index)" style="border-radius: 8px; border: none">{{truck}}</button>
+          }
+        } @else {
+          @for (truck of bundle().trucks; track truck; let index = $index) {
+            <button (click)="replaceTruck(index)" style="border-radius: 8px; border: none">{{truck}}</button>
+          }
+        }
+      </div>
+    }
+  </cdk-accordion-item>
+</cdk-accordion>

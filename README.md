@@ -1,4 +1,4 @@
-# Ikeo Planificator - V1.0 (Golem)
+# Ikeo PlanificatorProtocols - V1.0 (Golem)
 
 ### Version française :
 
@@ -58,7 +58,7 @@ The creation process of a Day consists in :
   - Bundle { Deliveries : Delivery[], DeliveryMen : DeliveryMan[], Trucks: Truck[] }
   - The Deliveries list is the list of the 30 oldest orders, grouped in sub-lists addressed to the same Client.
   - The DeliveryMen list is a list such as \[Name, Surname, ID]
-- Display of a view that enables the Planificator to create delivery tours and to assign teams and deliveries to each
+- Display of a view that enables the PlanificatorProtocols to create delivery tours and to assign teams and deliveries to each
   - Whenever the planificator creates a new tour, it has to assign one ore more delivery men to it, as well as the
 truck they will be driving. They form a Team.
   - Whenever the **first delivery tour** is created, every single delivery of the Deliveries list will be assigned 
