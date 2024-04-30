@@ -4692,3 +4692,164 @@ chunk-Y6D63S2U.js   | day-planner-component | 11.65 kB |
 Application bundle generation complete. [0.136 seconds]
 
 Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    |  1.88 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-CQ2CBGAE.js   | -                       | 16.85 kB | 
+chunk-CKH3FG36.js   | day-planner-component   | 11.68 kB | 
+chunk-CVSVAV42.js   | -                       |  6.31 kB | 
+chunk-LOALQT2J.js   | day-displayer-component |  4.85 kB | 
+chunk-4Y32OQFP.js   | homepage-component      |  2.33 kB | 
+
+Application bundle generation complete. [0.207 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    |  1.88 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-QQC6S42X.js   | -                       | 16.86 kB | 
+chunk-RNLVCQ6K.js   | day-planner-component   | 11.68 kB | 
+chunk-I4CY2XJH.js   | -                       |  6.39 kB | 
+chunk-HXSODMNN.js   | day-displayer-component |  4.85 kB | 
+chunk-PVQ5LXAT.js   | homepage-component      |  2.33 kB | 
+
+Application bundle generation complete. [0.317 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.152 seconds]
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/views/day-planner/day-planner.component.ts:1:52:
+      1 │ ...DetectionStrategy, Component, inject OnInit } from '@angular/core';
+        ╵                                         ~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  |  93.52 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |   1.88 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 179.60 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-QQC6S42X.js   | -                       |  16.86 kB | 
+chunk-XTCT4EF7.js   | day-planner-component   |  11.68 kB | 
+chunk-I4CY2XJH.js   | -                       |   6.39 kB | 
+chunk-HXSODMNN.js   | day-displayer-component |   4.85 kB | 
+chunk-PVQ5LXAT.js   | homepage-component      |   2.33 kB | 
+
+Application bundle generation complete. [0.139 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.88 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-EQWEBRIG.js   | day-planner-component | 11.44 kB | 
+
+Application bundle generation complete. [0.272 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-Q6V3XAVY.js   | day-preview-component |  5.47 kB | 
+
+Application bundle generation complete. [0.206 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-7FB4IA2G.js   | day-preview-component |  5.50 kB | 
+
+Application bundle generation complete. [0.138 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-QUEQBFRX.js   | day-planner-component | 11.45 kB | 
+chunk-Q6V3XAVY.js   | day-preview-component |  5.47 kB | 
+
+Application bundle generation complete. [0.173 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-GLFPX6GM.js   | day-planner-component | 11.45 kB | 
+
+Application bundle generation complete. [0.185 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-5XGM7EFI.js   | day-planner-component | 11.46 kB | 
+
+Application bundle generation complete. [0.128 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-BHMEDL4G.js   | day-preview-component |  5.75 kB | 
+
+Application bundle generation complete. [0.125 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-UO7DAPV2.js   | day-preview-component |  5.58 kB | 
+
+Application bundle generation complete. [0.159 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-2EEEYBV7.js   | day-planner-component | 11.54 kB | 
+
+Application bundle generation complete. [0.155 seconds]
+
+Page reload sent to client(s).

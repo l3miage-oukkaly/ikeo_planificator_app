@@ -6,11 +6,11 @@
       <p style="margin-bottom: 0.4em; margin-top:0.4em">Camion</p>
       <div style="margin-top: 0.4em; width: 100%; text-align: center">
         @if (accordion.classList.contains('editable')) {
-          @if (planificatorService.daySig().tours[deliveryTourIndex].truck != '') {
-            <button style="border-radius: 8px; border: none" (click)="planificatorService.removeTruck(deliveryTourIndex)">{{planificatorService.daySig().tours[deliveryTourIndex].truck}}</button>
+          @if (planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].truck != '') {
+            <button style="border-radius: 8px; border: none" (click)="planificatorService.removeTruck(deliveryTourIndex)">{{planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].truck}}</button>
           }
         } @else {
-            <p>{{planificatorService.daySig().tours[deliveryTourIndex].truck}}</p>
+            <p>{{planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].truck}}</p>
         }
       </div>
       @if (accordion.classList.contains('editable')) {
@@ -27,12 +27,12 @@
            [attr.id]="'accordion-body'"
            [attr.aria-labelledby]="'accordion-header'"
            style="margin-left: 16px; text-align: start">
-        @if (planificatorService.daySig().tours[deliveryTourIndex].truck === '') {
-          @for (truck of planificatorService.bundleSig().trucks; track truck; let index = $index) {
+        @if (planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].truck === '') {
+          @for (truck of planificatorService.sigSetupBundle().trucks; track truck; let index = $index) {
             <button (click)="planificatorService.addTruck(index, deliveryTourIndex)" style="border-radius: 8px; border: none">{{truck}}</button>
           }
         } @else {
-          @for (truck of planificatorService.bundleSig().trucks; track truck; let index = $index) {
+          @for (truck of planificatorService.sigSetupBundle().trucks; track truck; let index = $index) {
             <button (click)="planificatorService.replaceTruck(index, deliveryTourIndex)" style="border-radius: 8px; border: none">{{truck}}</button>
           }
         }

@@ -5,7 +5,7 @@
     </button>
   </div>
   <div cdkDropListGroup style="display: flex; flex-direction: row; min-height: 80vh; text-align: center">
-    @for (column of planificatorService.daySig().tours; track column; let i = $index) {
+    @for (column of planificatorService.sigPlanifiedDay().tours; track column; let i = $index) {
       <div class="column" style="min-width: 20vw; width: 100%;" cdkDropList [cdkDropListData]="column.deliveries"
       (cdkDropListDropped)="moveDelivery($event)">
         <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">
@@ -38,5 +38,5 @@
   </div>
 </div>
 <div style="text-align: center; margin-top: auto; margin-bottom: 0">
-  <a [routerLink]="['/']"><button [disabled]="isValidDay()" (click)="planificatorService.sendDay(planificatorService.getTomorrowDate(), planificatorService.daySig())">Validate</button></a>
+  <a [routerLink]="['/day-previewer']"><button [disabled]="isValidDay()">Prévisualiser</button></a>
 </div>

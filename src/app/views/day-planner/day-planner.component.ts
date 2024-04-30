@@ -1,8 +1,6 @@
-import { ChangeDetectionStrategy, Component, inject, Input, OnInit, signal } from '@angular/core';
-import { SetupBundle } from "../../core/models/setup-bundle.models";
+import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/core';
 import { PlanificatorService } from "../../shared/services/planificator.service";
 import { MatRow } from "@angular/material/table";
-import { Day } from "../../core/models/day.models";
 import { MatButtonModule } from "@angular/material/button";
 import { MatIconModule } from "@angular/material/icon";
 import { MatCardModule } from "@angular/material/card";
@@ -80,14 +78,16 @@ export class DayPlannerComponent implements OnInit {
   }
 
   isValidDay() {
-    if (this.planificatorService.daySig().tours.length === 0) {
+    if (this.planificatorService.sigPlanifiedDay().tours.length === 0) {
       return true
     }
-    return this.planificatorService.daySig().tours.map((tour) => this.isValidTour(tour)).filter((bool) => !bool).length != 0
+    return this.planificatorService.sigPlanifiedDay().tours.map((tour) => this.isValidTour(tour)).filter((bool) => !bool).length != 0
   }
 
   async ngOnInit() {
-    await this.planificatorService.getSetupBundle()
+    if (this.planificatorService.sigPlanifiedDay().tours.length === 0) {
+      await this.planificatorService.getSetupBundle()
+    }
   }
 }
 
