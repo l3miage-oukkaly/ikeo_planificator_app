@@ -14,6 +14,7 @@ export class PlanificatorService {
   private planificatorProtocols: PlanificatorProtocolsImplementation = new PlanificatorProtocolsImplementation()
   private datePipe = inject(DatePipe)
   currentDate = (new Date)
+  private daySig = signal<Day>({date: this.getTomorrowDate(), tours: []})
 
   constructor() {}
 

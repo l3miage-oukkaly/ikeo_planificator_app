@@ -1,0 +1,123 @@
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  |  93.52 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |   1.88 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 179.60 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-2MR2FRHL.js   | -                       |  17.66 kB | 
+chunk-OVGPIMHK.js   | day-planner-component   |  10.46 kB | 
+chunk-7AT64BEA.js   | day-displayer-component |   5.09 kB | 
+chunk-PL6O4T3C.js   | -                       |   2.83 kB | 
+chunk-2PLW4XWT.js   | homepage-component      |   2.33 kB | 
+
+Application bundle generation complete. [1.011 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.140 seconds]
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+? Port 4303 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.055 seconds]
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+? Port 4303 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.056 seconds]
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+? Port 4303 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.052 seconds]
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+? Port 4303 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.058 seconds]
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+? Port 4303 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.071 seconds]
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+? Port 4303 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.071 seconds]
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+? Port 4303 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    |  1.88 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-D4A74LJL.js   | day-planner-component   | 10.46 kB | 
+chunk-O3FCEMAL.js   | day-displayer-component |  5.09 kB | 
+chunk-LCO7VSRG.js   | -                       |  2.90 kB | 
+chunk-P45T3QMM.js   | homepage-component      |  2.33 kB | 
+
+Application bundle generation complete. [0.221 seconds]
+
+Page reload sent to client(s).
