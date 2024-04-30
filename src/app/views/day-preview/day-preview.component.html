@@ -27,7 +27,7 @@
     </div>
   }
 </div>
-<div>
+<div style="text-align: center">
   <a [routerLink]="['/day-planner']"><button>Ajuster</button></a>
   <a [routerLink]="['/']"><button disabled>Optimiser</button></a>
   <a [routerLink]="['/']"><button (click)="planificatorService.sendDay(planificatorService.getTomorrowDate(), planificatorService.sigPlanifiedDay())">Valider</button></a>

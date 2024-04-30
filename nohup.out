@@ -4853,3 +4853,2619 @@ chunk-2EEEYBV7.js   | day-planner-component | 11.54 kB |
 Application bundle generation complete. [0.155 seconds]
 
 Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    |  1.99 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-XTWVGXAV.js   | -                       | 16.86 kB | 
+chunk-NLUIOUJB.js   | day-planner-component   | 11.54 kB | 
+chunk-4Z7QPBWI.js   | -                       |  6.40 kB | 
+chunk-Y24XLBKI.js   | day-preview-component   |  5.58 kB | 
+chunk-NCIRL65E.js   | day-displayer-component |  4.85 kB | 
+chunk-ZQUTX6OF.js   | homepage-component      |  2.33 kB | 
+
+Application bundle generation complete. [0.145 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    |  1.99 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-QQC6S42X.js   | -                       | 16.86 kB | 
+chunk-2EEEYBV7.js   | day-planner-component   | 11.54 kB | 
+chunk-I4CY2XJH.js   | -                       |  6.39 kB | 
+chunk-UO7DAPV2.js   | day-preview-component   |  5.58 kB | 
+chunk-HXSODMNN.js   | day-displayer-component |  4.85 kB | 
+chunk-PVQ5LXAT.js   | homepage-component      |  2.33 kB | 
+
+Application bundle generation complete. [0.143 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-MKXVCIRP.js   | day-preview-component |  5.61 kB | 
+
+Application bundle generation complete. [0.147 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-5J4QOWRU.js   | day-planner-component | 11.60 kB | 
+
+Application bundle generation complete. [0.253 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-EDCW4UHX.js   | day-planner-component | 11.58 kB | 
+
+Application bundle generation complete. [0.221 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-2EEEYBV7.js   | day-planner-component | 11.54 kB | 
+
+Application bundle generation complete. [0.150 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-ILY44CLE.js   | day-planner-component | 11.57 kB | 
+
+Application bundle generation complete. [0.256 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-2OMN35XR.js   | day-planner-component | 11.60 kB | 
+
+Application bundle generation complete. [0.150 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-ILY44CLE.js   | day-planner-component | 11.57 kB | 
+
+Application bundle generation complete. [0.170 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-5J4QOWRU.js   | day-planner-component | 11.60 kB | 
+
+Application bundle generation complete. [0.171 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-RVJF45FD.js   | day-planner-component | 11.60 kB | 
+
+Application bundle generation complete. [0.293 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-5J4QOWRU.js   | day-planner-component | 11.60 kB | 
+
+Application bundle generation complete. [0.229 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-SUUH5RR2.js   | day-planner-component | 11.66 kB | 
+
+Application bundle generation complete. [0.161 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.165 seconds]
+
+✘ [ERROR] NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags [plugin angular-compiler]
+
+    src/app/views/day-planner/day-planner.component.html:41:85:
+      41 │ ...er']"><button[disabled]="isValidDay()">Prévisualiser</button></a>
+         ╵                                                       ~~~~~~~~~
+
+  Error occurs in the template of component DayPlannerComponent.
+
+    src/app/views/day-planner/day-planner.component.ts:47:15:
+      47 │   templateUrl: './day-planner.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG5002: Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags [plugin angular-compiler]
+
+    src/app/views/day-planner/day-planner.component.html:41:94:
+      41 │ ...er']"><button[disabled]="isValidDay()">Prévisualiser</button></a>
+         ╵                                                                ~~~~
+
+  Error occurs in the template of component DayPlannerComponent.
+
+    src/app/views/day-planner/day-planner.component.ts:47:15:
+      47 │   templateUrl: './day-planner.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  |  93.52 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |   1.99 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 179.71 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-QQC6S42X.js   | -                       |  16.86 kB | 
+chunk-DLFYJSZW.js   | day-planner-component   |  11.60 kB | 
+chunk-I4CY2XJH.js   | -                       |   6.39 kB | 
+chunk-MKXVCIRP.js   | day-preview-component   |   5.61 kB | 
+chunk-HXSODMNN.js   | day-displayer-component |   4.85 kB | 
+chunk-PVQ5LXAT.js   | homepage-component      |   2.33 kB | 
+
+Application bundle generation complete. [0.164 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-NPP5IQGJ.js   | day-planner-component | 11.66 kB | 
+
+Application bundle generation complete. [0.151 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-7DG6KAJV.js   | day-planner-component | 11.66 kB | 
+
+Application bundle generation complete. [0.118 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-DK4WOI56.js   | day-planner-component | 11.66 kB | 
+
+Application bundle generation complete. [0.152 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-GCR34ZST.js   | day-planner-component | 11.66 kB | 
+
+Application bundle generation complete. [0.115 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-ZP3KHOH5.js   | day-planner-component | 11.66 kB | 
+
+Application bundle generation complete. [0.121 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-3ZCNEY63.js   | day-planner-component | 11.66 kB | 
+
+Application bundle generation complete. [0.134 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-Z3H3WPDK.js   | day-planner-component | 11.66 kB | 
+
+Application bundle generation complete. [0.205 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-6D2D5DI6.js   | day-planner-component | 11.66 kB | 
+
+Application bundle generation complete. [0.156 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-XUA5KT75.js   | day-planner-component | 11.68 kB | 
+
+Application bundle generation complete. [0.206 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-WN6DDYPC.js   | day-planner-component | 11.60 kB | 
+
+Application bundle generation complete. [0.151 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-YMPVK5XV.js   | day-planner-component | 11.63 kB | 
+
+Application bundle generation complete. [0.168 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-UWHMEURJ.js   | day-planner-component | 11.64 kB | 
+
+Application bundle generation complete. [0.131 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-VIIBFJGP.js   | day-planner-component | 11.64 kB | 
+
+Application bundle generation complete. [0.152 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-PVIEJZUN.js   | day-planner-component | 11.67 kB | 
+
+Application bundle generation complete. [0.202 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-5LJ63LYV.js   | day-planner-component | 11.67 kB | 
+
+Application bundle generation complete. [0.150 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-LBPQED6N.js   | day-planner-component | 11.67 kB | 
+
+Application bundle generation complete. [0.143 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-HTOM3HQI.js   | day-planner-component | 11.67 kB | 
+
+Application bundle generation complete. [0.140 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-NPK5CJ4R.js   | day-planner-component | 11.67 kB | 
+
+Application bundle generation complete. [0.118 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-VMDMBCHP.js   | day-planner-component | 11.70 kB | 
+
+Application bundle generation complete. [0.161 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-O3VQBDG4.js   | day-planner-component | 11.70 kB | 
+
+Application bundle generation complete. [0.163 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-ZDKAL5WJ.js   | day-planner-component | 11.69 kB | 
+
+Application bundle generation complete. [0.145 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-BKWFLJ3G.js   | day-planner-component | 11.68 kB | 
+
+Application bundle generation complete. [0.134 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-G3GIVEB3.js   | day-planner-component | 11.68 kB | 
+
+Application bundle generation complete. [0.131 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-2CTTVVOW.js   | day-planner-component | 11.68 kB | 
+
+Application bundle generation complete. [0.133 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-H3EUAQ2F.js   | day-planner-component | 11.68 kB | 
+
+Application bundle generation complete. [0.190 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-FGLIGSNT.js   | day-planner-component | 11.70 kB | 
+
+Application bundle generation complete. [0.147 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-D3M56CBK.js   | day-planner-component | 11.72 kB | 
+
+Application bundle generation complete. [0.131 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-HCUUA4W6.js   | day-planner-component | 11.72 kB | 
+
+Application bundle generation complete. [0.155 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-VHLXG2OF.js   | day-planner-component | 11.73 kB | 
+
+Application bundle generation complete. [0.122 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-EQ5J4ZSF.js   | day-planner-component | 11.73 kB | 
+
+Application bundle generation complete. [0.123 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-L4BN5E5C.js   | day-preview-component |  5.77 kB | 
+
+Application bundle generation complete. [0.122 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-UWNQQEQT.js   | day-preview-component |  5.81 kB | 
+
+Application bundle generation complete. [0.099 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-BPGKBID7.js   | day-planner-component | 11.72 kB | 
+
+Application bundle generation complete. [0.182 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-EQ5J4ZSF.js   | day-planner-component | 11.73 kB | 
+
+Application bundle generation complete. [0.167 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-DXGHDJX4.js   | day-planner-component | 11.75 kB | 
+
+Application bundle generation complete. [0.135 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-EQ5J4ZSF.js   | day-planner-component | 11.73 kB | 
+
+Application bundle generation complete. [0.143 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-UWVDNJSA.js   | day-planner-component | 11.73 kB | 
+
+Application bundle generation complete. [0.214 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-EQ5J4ZSF.js   | day-planner-component | 11.73 kB | 
+
+Application bundle generation complete. [0.116 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-NVRQTMN2.js   | day-planner-component | 11.75 kB | 
+
+Application bundle generation complete. [0.179 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-EQ5J4ZSF.js   | day-planner-component | 11.73 kB | 
+
+Application bundle generation complete. [0.139 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-LPRY7XJB.js   | day-planner-component | 11.72 kB | 
+
+Application bundle generation complete. [0.181 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  |  1.99 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-7ABWASED.js   | day-planner-component | 11.73 kB | 
+
+Application bundle generation complete. [0.201 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.207 seconds]
+
+✘ [ERROR] NG8001: 'mat-drawer-container' is not a known element:
+1. If 'mat-drawer-container' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'mat-drawer-container' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:0:0:
+      0 │ 
+        ╵ ^
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:8:15:
+      8 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8001: 'mat-drawer' is not a known element:
+1. If 'mat-drawer' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'mat-drawer' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:2:2:
+      2 │   <mat-drawer #sidenav mode="over">
+        ╵   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:8:15:
+      8 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8001: 'app-side-menu' is not a known element:
+1. If 'app-side-menu' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-side-menu' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:3:4:
+      3 │     <app-side-menu (sidenav)="sidenav.toggle()"></app-side-menu>
+        ╵     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:8:15:
+      8 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'toggle' does not exist on type 'HTMLElement'. Did you mean 'ontoggle'? [plugin angular-compiler]
+
+    src/app/app.component.html:3:38:
+      3 │     <app-side-menu (sidenav)="sidenav.toggle()"></app-side-menu>
+        ╵                                       ~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:8:15:
+      8 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8001: 'mat-drawer-content' is not a known element:
+1. If 'mat-drawer-content' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'mat-drawer-content' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:5:2:
+      5 │   <mat-drawer-content>
+        ╵   ~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:8:15:
+      8 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8001: 'app-header' is not a known element:
+1. If 'app-header' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:6:4:
+      6 │     <app-header (sidenav)="sidenav.toggle()"></app-header>
+        ╵     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:8:15:
+      8 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG1: Property 'toggle' does not exist on type 'HTMLElement'. Did you mean 'ontoggle'? [plugin angular-compiler]
+
+    src/app/app.component.html:6:35:
+      6 │     <app-header (sidenav)="sidenav.toggle()"></app-header>
+        ╵                                    ~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:8:15:
+      8 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.248 seconds]
+
+✘ [ERROR] NG8001: 'mat-drawer-container' is not a known element:
+1. If 'mat-drawer-container' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'mat-drawer-container' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:0:0:
+      0 │ 
+        ╵ ^
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:9:15:
+      9 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8001: 'app-side-menu' is not a known element:
+1. If 'app-side-menu' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-side-menu' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:3:4:
+      3 │     <app-side-menu (sidenav)="sidenav.toggle()"></app-side-menu>
+        ╵     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:9:15:
+      9 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.092 seconds]
+
+✘ [ERROR] NG8001: 'app-side-menu' is not a known element:
+1. If 'app-side-menu' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'app-side-menu' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:3:4:
+      3 │     <app-side-menu (sidenav)="sidenav.toggle()"></app-side-menu>
+        ╵     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:9:15:
+      9 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  |  93.52 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |   7.23 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 184.95 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-QQC6S42X.js   | -                       |  16.86 kB | 
+chunk-7ABWASED.js   | day-planner-component   |  11.73 kB | 
+chunk-I4CY2XJH.js   | -                       |   6.39 kB | 
+chunk-UWNQQEQT.js   | day-preview-component   |   5.81 kB | 
+chunk-HXSODMNN.js   | day-displayer-component |   4.85 kB | 
+chunk-PVQ5LXAT.js   | homepage-component      |   2.33 kB | 
+
+Application bundle generation complete. [0.206 seconds]
+
+Page reload sent to client(s).
+2:46:43 PM [vite] ✨ new dependencies optimized: @angular/material/sidenav
+2:46:43 PM [vite] ✨ optimized dependencies changed. reloading
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.113 seconds]
+
+✘ [ERROR] TS2304: Cannot find name 'Output'. [plugin angular-compiler]
+
+    src/app/shared/components/header/header.component.ts:12:3:
+      12 │   @Output() sidenav: EventEmitter<any> = new EventEmitter();
+         ╵    ~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'EventEmitter'. [plugin angular-compiler]
+
+    src/app/shared/components/header/header.component.ts:12:21:
+      12 │   @Output() sidenav: EventEmitter<any> = new EventEmitter();
+         ╵                      ~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'EventEmitter'. [plugin angular-compiler]
+
+    src/app/shared/components/header/header.component.ts:12:45:
+      12 │   @Output() sidenav: EventEmitter<any> = new EventEmitter();
+         ╵                                              ~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.243 seconds]
+
+✘ [ERROR] TS2304: Cannot find name 'Output'. [plugin angular-compiler]
+
+    src/app/shared/components/header/header.component.ts:19:3:
+      19 │   @Output() sidenav: EventEmitter<any> = new EventEmitter();
+         ╵    ~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'EventEmitter'. [plugin angular-compiler]
+
+    src/app/shared/components/header/header.component.ts:19:21:
+      19 │   @Output() sidenav: EventEmitter<any> = new EventEmitter();
+         ╵                      ~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'EventEmitter'. [plugin angular-compiler]
+
+    src/app/shared/components/header/header.component.ts:19:45:
+      19 │   @Output() sidenav: EventEmitter<any> = new EventEmitter();
+         ╵                                              ~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.141 seconds]
+
+✘ [ERROR] TS2304: Cannot find name 'Output'. [plugin angular-compiler]
+
+    src/app/shared/components/header/header.component.ts:21:3:
+      21 │   @Output() sidenav: EventEmitter<any> = new EventEmitter();
+         ╵    ~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'EventEmitter'. [plugin angular-compiler]
+
+    src/app/shared/components/header/header.component.ts:21:21:
+      21 │   @Output() sidenav: EventEmitter<any> = new EventEmitter();
+         ╵                      ~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'EventEmitter'. [plugin angular-compiler]
+
+    src/app/shared/components/header/header.component.ts:21:45:
+      21 │   @Output() sidenav: EventEmitter<any> = new EventEmitter();
+         ╵                                              ~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  |  93.52 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |   8.56 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 186.27 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-QQC6S42X.js   | -                       |  16.86 kB | 
+chunk-7ABWASED.js   | day-planner-component   |  11.73 kB | 
+chunk-I4CY2XJH.js   | -                       |   6.39 kB | 
+chunk-UWNQQEQT.js   | day-preview-component   |   5.81 kB | 
+chunk-HXSODMNN.js   | day-displayer-component |   4.85 kB | 
+chunk-PVQ5LXAT.js   | homepage-component      |   2.33 kB | 
+
+Application bundle generation complete. [0.146 seconds]
+
+Page reload sent to client(s).
+2:47:36 PM [vite] ✨ new dependencies optimized: @angular/material/toolbar
+2:47:36 PM [vite] ✨ optimized dependencies changed. reloading
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  8.68 kB | 
+
+Application bundle generation complete. [0.162 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names  | Raw size
+styles.css          | styles | 93.54 kB | 
+
+Application bundle generation complete. [0.084 seconds]
+
+HMR update sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names  | Raw size
+styles.css          | styles | 93.52 kB | 
+
+Application bundle generation complete. [0.078 seconds]
+
+HMR update sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  8.71 kB | 
+
+Application bundle generation complete. [0.096 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  8.70 kB | 
+
+Application bundle generation complete. [0.100 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  8.71 kB | 
+
+Application bundle generation complete. [0.102 seconds]
+
+▲ [WARNING] Expected ":" [plugin angular-compiler] [css-syntax-error]
+
+    src/app/app.component.css:4:5:
+      4 │   col
+        │      ^
+        ╵      :
+
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  8.72 kB | 
+
+Application bundle generation complete. [0.089 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  8.94 kB | 
+
+Application bundle generation complete. [0.090 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.00 kB | 
+
+Application bundle generation complete. [0.125 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  8.94 kB | 
+
+Application bundle generation complete. [0.109 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  8.99 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.00 kB | 
+
+Application bundle generation complete. [0.107 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.00 kB | 
+
+Application bundle generation complete. [0.122 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  8.99 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  8.99 kB | 
+
+Application bundle generation complete. [0.088 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.05 kB | 
+
+Application bundle generation complete. [0.133 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.105 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.04 kB | 
+
+Application bundle generation complete. [0.126 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.10 kB | 
+
+Application bundle generation complete. [0.110 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.12 kB | 
+
+Application bundle generation complete. [0.092 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.11 kB | 
+
+Application bundle generation complete. [0.126 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.12 kB | 
+
+Application bundle generation complete. [0.087 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.12 kB | 
+
+Application bundle generation complete. [0.095 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.14 kB | 
+
+Application bundle generation complete. [0.097 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.12 kB | 
+
+Application bundle generation complete. [0.105 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.12 kB | 
+
+Application bundle generation complete. [0.114 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.11 kB | 
+
+Application bundle generation complete. [0.093 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.11 kB | 
+
+Application bundle generation complete. [0.093 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.09 kB | 
+
+Application bundle generation complete. [0.102 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.10 kB | 
+
+Application bundle generation complete. [0.089 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.11 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.11 kB | 
+
+Application bundle generation complete. [0.114 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.11 kB | 
+
+Application bundle generation complete. [0.102 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.12 kB | 
+
+Application bundle generation complete. [0.099 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.11 kB | 
+
+Application bundle generation complete. [0.090 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.12 kB | 
+
+Application bundle generation complete. [0.109 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.12 kB | 
+
+Application bundle generation complete. [0.105 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.14 kB | 
+
+Application bundle generation complete. [0.091 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.14 kB | 
+
+Application bundle generation complete. [0.087 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.14 kB | 
+
+Application bundle generation complete. [0.130 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.17 kB | 
+
+Application bundle generation complete. [0.091 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.099 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.083 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.17 kB | 
+
+Application bundle generation complete. [0.085 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.14 kB | 
+
+Application bundle generation complete. [0.108 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.094 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.17 kB | 
+
+Application bundle generation complete. [0.084 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.14 kB | 
+
+Application bundle generation complete. [0.099 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.17 kB | 
+
+Application bundle generation complete. [0.106 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.04 kB | 
+
+Application bundle generation complete. [0.127 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.126 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.101 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.22 kB | 
+
+Application bundle generation complete. [0.097 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.104 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.106 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.099 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.110 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.091 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.118 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.121 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.19 kB | 
+
+Application bundle generation complete. [0.092 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.70 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.76 kB | 
+
+Application bundle generation complete. [0.175 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.76 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.76 kB | 
+
+Application bundle generation complete. [0.109 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.75 kB | 
+
+Application bundle generation complete. [0.088 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.82 kB | 
+
+Application bundle generation complete. [0.137 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.88 kB | 
+
+Application bundle generation complete. [0.090 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.83 kB | 
+
+Application bundle generation complete. [0.160 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.83 kB | 
+
+Application bundle generation complete. [0.099 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.84 kB | 
+
+Application bundle generation complete. [0.093 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.83 kB | 
+
+Application bundle generation complete. [0.100 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.84 kB | 
+
+Application bundle generation complete. [0.090 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.83 kB | 
+
+Application bundle generation complete. [0.091 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.83 kB | 
+
+Application bundle generation complete. [0.087 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.83 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.83 kB | 
+
+Application bundle generation complete. [0.095 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.75 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.75 kB | 
+
+Application bundle generation complete. [0.087 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.76 kB | 
+
+Application bundle generation complete. [0.096 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.76 kB | 
+
+Application bundle generation complete. [0.133 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.75 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.82 kB | 
+
+Application bundle generation complete. [0.186 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.82 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.80 kB | 
+
+Application bundle generation complete. [0.129 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.81 kB | 
+
+Application bundle generation complete. [0.115 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.79 kB | 
+
+Application bundle generation complete. [0.097 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.78 kB | 
+
+Application bundle generation complete. [0.112 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.81 kB | 
+
+Application bundle generation complete. [0.089 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.82 kB | 
+
+Application bundle generation complete. [0.088 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.80 kB | 
+
+Application bundle generation complete. [0.128 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.84 kB | 
+
+Application bundle generation complete. [0.106 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.83 kB | 
+
+Application bundle generation complete. [0.093 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.83 kB | 
+
+Application bundle generation complete. [0.084 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.81 kB | 
+
+Application bundle generation complete. [0.099 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.76 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.75 kB | 
+
+Application bundle generation complete. [0.104 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.76 kB | 
+
+Application bundle generation complete. [0.111 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.77 kB | 
+
+Application bundle generation complete. [0.125 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.78 kB | 
+
+Application bundle generation complete. [0.129 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.79 kB | 
+
+Application bundle generation complete. [0.142 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.79 kB | 
+
+Application bundle generation complete. [0.097 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.32 kB | 
+
+Application bundle generation complete. [0.161 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.27 kB | 
+
+Application bundle generation complete. [0.137 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.32 kB | 
+
+Application bundle generation complete. [0.118 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.32 kB | 
+
+Application bundle generation complete. [0.131 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.31 kB | 
+
+Application bundle generation complete. [0.133 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.33 kB | 
+
+Application bundle generation complete. [0.122 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.33 kB | 
+
+Application bundle generation complete. [0.119 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.085 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.33 kB | 
+
+Application bundle generation complete. [0.079 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.139 seconds]
+
+✘ [ERROR] NG9: Property 'toggle' does not exist on type 'AppComponent'. [plugin angular-compiler]
+
+    src/app/app.component.html:3:106:
+      3 │ ...aria-label="Example icon-button with menu icon" (click)="toggle()">
+        ╵                                                             ~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:13:15:
+      13 │   templateUrl: './app.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  |  93.52 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.33 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 188.05 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-QQC6S42X.js   | -                       |  16.86 kB | 
+chunk-7ABWASED.js   | day-planner-component   |  11.73 kB | 
+chunk-I4CY2XJH.js   | -                       |   6.39 kB | 
+chunk-UWNQQEQT.js   | day-preview-component   |   5.81 kB | 
+chunk-HXSODMNN.js   | day-displayer-component |   4.85 kB | 
+chunk-PVQ5LXAT.js   | homepage-component      |   2.33 kB | 
+
+Application bundle generation complete. [0.154 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.49 kB | 
+
+Application bundle generation complete. [0.114 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.089 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.55 kB | 
+
+Application bundle generation complete. [0.095 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.54 kB | 
+
+Application bundle generation complete. [0.131 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.61 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.56 kB | 
+
+Application bundle generation complete. [0.129 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.62 kB | 
+
+Application bundle generation complete. [0.108 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.69 kB | 
+
+Application bundle generation complete. [0.176 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.69 kB | 
+
+Application bundle generation complete. [0.115 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.47 kB | 
+
+Application bundle generation complete. [0.135 seconds]
+
+▲ [WARNING] Expected "{" but found end of file [plugin angular-compiler] [css-syntax-error]
+
+    src/app/app.component.css:22:0:
+      22 │ 
+         │ ^
+         ╵ {
+
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.46 kB | 
+
+Application bundle generation complete. [0.092 seconds]
+
+▲ [WARNING] Expected "{" but found end of file [plugin angular-compiler] [css-syntax-error]
+
+    src/app/app.component.css:22:0:
+      22 │ 
+         │ ^
+         ╵ {
+
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.50 kB | 
+
+Application bundle generation complete. [0.096 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.50 kB | 
+
+Application bundle generation complete. [0.176 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.53 kB | 
+
+Application bundle generation complete. [0.111 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.53 kB | 
+
+Application bundle generation complete. [0.141 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.50 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.51 kB | 
+
+Application bundle generation complete. [0.135 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.47 kB | 
+
+Application bundle generation complete. [0.101 seconds]
+
+▲ [WARNING] Expected "{" but found end of file [plugin angular-compiler] [css-syntax-error]
+
+    src/app/app.component.css:22:0:
+      22 │ 
+         │ ^
+         ╵ {
+
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.47 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+▲ [WARNING] Expected "{" but found end of file [plugin angular-compiler] [css-syntax-error]
+
+    src/app/app.component.css:22:0:
+      22 │ 
+         │ ^
+         ╵ {
+
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.47 kB | 
+
+Application bundle generation complete. [0.124 seconds]
+
+▲ [WARNING] Expected "{" but found end of file [plugin angular-compiler] [css-syntax-error]
+
+    src/app/app.component.css:21:0:
+      21 │ 
+         │ ^
+         ╵ {
+
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.55 kB | 
+
+Application bundle generation complete. [0.131 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.43 kB | 
+
+Application bundle generation complete. [0.103 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.59 kB | 
+
+Application bundle generation complete. [0.162 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.42 kB | 
+
+Application bundle generation complete. [0.126 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.44 kB | 
+
+Application bundle generation complete. [0.156 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.42 kB | 
+
+Application bundle generation complete. [0.132 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.43 kB | 
+
+Application bundle generation complete. [0.101 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.42 kB | 
+
+Application bundle generation complete. [0.110 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.091 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.54 kB | 
+
+Application bundle generation complete. [0.102 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.47 kB | 
+
+Application bundle generation complete. [0.119 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.42 kB | 
+
+Application bundle generation complete. [0.107 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.86 kB | 
+
+Application bundle generation complete. [0.121 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.89 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.86 kB | 
+
+Application bundle generation complete. [0.109 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.88 kB | 
+
+Application bundle generation complete. [0.127 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.88 kB | 
+
+Application bundle generation complete. [0.138 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.86 kB | 
+
+Application bundle generation complete. [0.092 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.88 kB | 
+
+Application bundle generation complete. [0.115 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.89 kB | 
+
+Application bundle generation complete. [0.149 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.89 kB | 
+
+Application bundle generation complete. [0.113 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.89 kB | 
+
+Application bundle generation complete. [0.099 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.89 kB | 
+
+Application bundle generation complete. [0.168 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.86 kB | 
+
+Application bundle generation complete. [0.088 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.88 kB | 
+
+Application bundle generation complete. [0.075 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.89 kB | 
+
+Application bundle generation complete. [0.142 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.86 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.89 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.91 kB | 
+
+Application bundle generation complete. [0.097 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.86 kB | 
+
+Application bundle generation complete. [0.171 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.81 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.84 kB | 
+
+Application bundle generation complete. [0.101 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.86 kB | 
+
+Application bundle generation complete. [0.128 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.86 kB | 
+
+Application bundle generation complete. [0.144 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.84 kB | 
+
+Application bundle generation complete. [0.107 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  |  9.84 kB | 
+
+Application bundle generation complete. [0.075 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.077 seconds]
+
+✘ [ERROR] NG8001: 'h' is not a known element:
+1. If 'h' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:4:51:
+      4 │ ...rLink="/"><button class="logo"><h>Ikeo Planificator App</h></but...
+        ╵                                   ~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:13:15:
+      13 │   templateUrl: './app.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  |  93.52 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |   9.84 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 187.55 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-QQC6S42X.js   | -                       |  16.86 kB | 
+chunk-7ABWASED.js   | day-planner-component   |  11.73 kB | 
+chunk-I4CY2XJH.js   | -                       |   6.39 kB | 
+chunk-UWNQQEQT.js   | day-preview-component   |   5.81 kB | 
+chunk-HXSODMNN.js   | day-displayer-component |   4.85 kB | 
+chunk-PVQ5LXAT.js   | homepage-component      |   2.33 kB | 
+
+Application bundle generation complete. [0.154 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.14 kB | 
+
+Application bundle generation complete. [0.112 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.14 kB | 
+
+Application bundle generation complete. [0.169 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.16 kB | 
+
+Application bundle generation complete. [0.130 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.14 kB | 
+
+Application bundle generation complete. [0.112 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.14 kB | 
+
+Application bundle generation complete. [0.101 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.14 kB | 
+
+Application bundle generation complete. [0.090 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.14 kB | 
+
+Application bundle generation complete. [0.121 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.16 kB | 
+
+Application bundle generation complete. [0.102 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.15 kB | 
+
+Application bundle generation complete. [0.128 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.23 kB | 
+
+Application bundle generation complete. [0.117 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.21 kB | 
+
+Application bundle generation complete. [0.092 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.25 kB | 
+
+Application bundle generation complete. [0.133 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.25 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.26 kB | 
+
+Application bundle generation complete. [0.101 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.25 kB | 
+
+Application bundle generation complete. [0.107 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.26 kB | 
+
+Application bundle generation complete. [0.092 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.25 kB | 
+
+Application bundle generation complete. [0.108 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.25 kB | 
+
+Application bundle generation complete. [0.082 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.25 kB | 
+
+Application bundle generation complete. [0.093 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.26 kB | 
+
+Application bundle generation complete. [0.085 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.26 kB | 
+
+Application bundle generation complete. [0.108 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 10.26 kB | 
+
+Application bundle generation complete. [0.109 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-YIUL6RRU.js   | homepage-component |  2.60 kB | 
+
+Application bundle generation complete. [0.085 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-GII7CTIQ.js   | homepage-component |  2.60 kB | 
+
+Application bundle generation complete. [0.089 seconds]
+
+Page reload sent to client(s).

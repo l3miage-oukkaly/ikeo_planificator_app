@@ -1,0 +1,26 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.logo {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
+
+button {
+  color: #673ab8;
+  margin-bottom: 0.2em;
+}
+
+.account {
+  font-size: 1.3em;
+  padding-right: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+mat-toolbar {
+  background: black;
+}
+
