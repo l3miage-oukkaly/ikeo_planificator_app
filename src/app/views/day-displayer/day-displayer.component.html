@@ -1,5 +1,5 @@
 <div style="display: flex; flex-direction: row; min-height: 80vh; text-align: center">
-    @for (column of DaySig().tours; track column; let i = $index) {
+    @for (column of planificatorService.daySig().tours; track column; let i = $index) {
       <div class="column" style="min-width: 20vw; width: 100%;">
         <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">
           <mat-card-header style="justify-content: center">
@@ -8,15 +8,13 @@
           <mat-card-content style="padding: 0">
             <mat-divider style="color: white; background: white"></mat-divider>
             <div style="margin-right: 5em">
-              <app-accordion-deliverymen [day]="DaySig"
-                                         [deliveryTourIndex]="i"
+              <app-accordion-deliverymen [deliveryTourIndex]="i"
                                          [mode]="'display'">
               </app-accordion-deliverymen>
             </div>
             <mat-divider style="background: white"></mat-divider>
             <div style="margin-right: 5em">
-              <app-accordion-truck [day]="DaySig"
-                                   [deliveryTourIndex]="i"
+              <app-accordion-truck [deliveryTourIndex]="i"
                                    [mode]="'display'">
               </app-accordion-truck>
             </div>
