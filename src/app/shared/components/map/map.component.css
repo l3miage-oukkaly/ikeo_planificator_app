@@ -1,0 +1,10 @@
+.map-frame {
+  border: 2px solid black;
+  height: 250px;
+  width: 250px;
+}
+
+#map {
+  height: 250px;
+  width: 250px;
+}

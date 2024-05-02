@@ -1,7 +1,15 @@
 <div style="text-align: center">
   <p>Entrepôt X : Nom & Prénom</p>
 
-  <a [routerLink]="['/day-planner']"><button style="margin-right: 2em">Planifier J+1</button></a>
+  @if (planificatorService.sigPlanifiedDay().tours.length === 0) {
+    <a [routerLink]="['/day-planner']"><button style="margin-right: 2em">Planifier J+1</button></a>
+  } @else {
+    <a [routerLink]="['/day-planner']"><button style="margin-right: 2em">Ajuster J+1</button></a>
+  }
   <a [routerLink]="['/day-displayer']"><button style="margin-left: 2em">Visualiser J+1</button></a>
 </div>
+<div>
+  <app-map></app-map>
+</div>
+
 
