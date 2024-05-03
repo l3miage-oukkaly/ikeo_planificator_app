@@ -84,7 +84,16 @@ export class PlanificatorService {
 
   removeTruck(tourIndex: number) {
     if (this._sigPlanifiedDay().tours[tourIndex].truck != '') {
-      this._sigSetupBundle().trucks.push(this._sigPlanifiedDay().tours[tourIndex].truck)
+      this._sigSetupBundle.update((setupBundle) => {
+        return { multipleOrders: setupBundle.multipleOrders, deliverymen: setupBundle.deliverymen, trucks: setupBundle.trucks.concat(this._sigPlanifiedDay().tours[tourIndex].truck) }
+      })
+      this._sigPlanifiedDay.update((day) => {return {date: day.date, tours: day.tours.map((tour, index) => {
+          if (index === tourIndex) {
+            tour.truck = ''
+          }
+          return tour
+        })
+      }})
     }
   }
 

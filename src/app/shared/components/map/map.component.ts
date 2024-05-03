@@ -1,7 +1,6 @@
 import {AfterViewInit, ChangeDetectionStrategy, Component, inject, OnInit} from '@angular/core';
 import * as L from 'leaflet';
 import {MapService} from "../../services/map.service";
-import {ShapeService} from "../../services/shape.service";
 import {Delivery} from "../../../core/models/delivery.models";
 
 const iconRetinaUrl = 'assets/marker-icon-2x.png';
@@ -33,8 +32,7 @@ export class MapComponent implements AfterViewInit {
   testDeliveries: Delivery[] = [{orders:[], address:"10 rue des oiseaux"}, {orders:[], address:"76 rue des fleurs"},
     {orders:[], address:"11 avenue du bois"}, {orders:[], address:"12 rue des roses"},]
 
-  constructor() {
-  }
+  constructor() {}
 
   ngAfterViewInit() {
     this.initMap()

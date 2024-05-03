@@ -11689,3 +11689,958 @@ chunk-NGQP35OF.js   | homepage-component |  7.66 kB |
 Application bundle generation complete. [0.102 seconds]
 
 Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-QQC6S42X.js   | -                       |  16.86 kB | 
+chunk-7ABWASED.js   | day-planner-component   |  11.73 kB | 
+chunk-35OKQ4OS.js   | homepage-component      |   8.66 kB | 
+chunk-I4CY2XJH.js   | -                       |   6.39 kB | 
+chunk-UWNQQEQT.js   | day-preview-component   |   5.81 kB | 
+chunk-HXSODMNN.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [1.155 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-QQC6S42X.js   | -                       |  16.86 kB | 
+chunk-7ABWASED.js   | day-planner-component   |  11.73 kB | 
+chunk-35OKQ4OS.js   | homepage-component      |   8.66 kB | 
+chunk-I4CY2XJH.js   | -                       |   6.39 kB | 
+chunk-UWNQQEQT.js   | day-preview-component   |   5.81 kB | 
+chunk-HXSODMNN.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [1.194 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-QQC6S42X.js   | -                       |  16.86 kB | 
+chunk-7ABWASED.js   | day-planner-component   |  11.73 kB | 
+chunk-35OKQ4OS.js   | homepage-component      |   8.66 kB | 
+chunk-I4CY2XJH.js   | -                       |   6.39 kB | 
+chunk-UWNQQEQT.js   | day-preview-component   |   5.81 kB | 
+chunk-HXSODMNN.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [1.134 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-CLFBW6BN.js   | homepage-component |  8.65 kB | 
+
+Application bundle generation complete. [0.354 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-33HWPGXM.js   | homepage-component |  8.75 kB | 
+
+Application bundle generation complete. [0.110 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-HEX7PK56.js   | homepage-component |  8.73 kB | 
+
+Application bundle generation complete. [0.163 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-L6VHGT3E.js   | homepage-component |  8.74 kB | 
+
+Application bundle generation complete. [0.098 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-BZMNBTOC.js   | homepage-component |  8.74 kB | 
+
+Application bundle generation complete. [0.105 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-6JFSXN7C.js   | homepage-component |  8.74 kB | 
+
+Application bundle generation complete. [0.130 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-NGBGS6BH.js   | homepage-component |  8.82 kB | 
+
+Application bundle generation complete. [0.202 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-TJBH7TPR.js   | homepage-component |  8.83 kB | 
+
+Application bundle generation complete. [0.089 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-XFBFCYVT.js   | homepage-component |  8.84 kB | 
+
+Application bundle generation complete. [0.195 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-MEMDMTR6.js   | homepage-component |  8.90 kB | 
+
+Application bundle generation complete. [0.130 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.125 seconds]
+
+✘ [ERROR] TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '{ localhostUrl: string; roUrl: string; getSetupBundleUrl: string; postDayUrl: string; getDayUrl: string; }' is not assignable to parameter of type 'string'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:35:18:
+      35 │     this.http.get(environment, {})
+         ╵                   ~~~~~~~~~~~
+
+  The last overload is declared here.
+
+    node_modules/@angular/common/http/index.d.ts:1277:4:
+      1277 │     get<T>(url: string, options?: {
+           ╵     ~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.147 seconds]
+
+✘ [ERROR] Unexpected "}"
+
+    src/app/shared/services/map.service.ts:27:54:
+      27 │         this.http.get(environment.roUrl, body, { '':  });
+         ╵                                                       ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'body'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:35:37:
+      35 │     this.http.get(environment.roUrl, body: {''})
+         ╵                                      ~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:35:41:
+      35 │     this.http.get(environment.roUrl, body: {''})
+         ╵                                          ^
+
+
+✘ [ERROR] TS2554: Expected 1-2 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:35:43:
+      35 │     this.http.get(environment.roUrl, body: {''})
+         ╵                                            ~~~~
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:35:46:
+      35 │     this.http.get(environment.roUrl, body: {''})
+         ╵                                               ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.140 seconds]
+
+✘ [ERROR] Unexpected "}"
+
+    src/app/shared/services/map.service.ts:27:64:
+      27 │         this.http.get(environment.roUrl, { params: { 'matrix':  } });
+         ╵                                                                 ^
+
+
+✘ [ERROR] TS1109: Expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:35:57:
+      35 │     this.http.get(environment.roUrl, {params: {'matrix': }})
+         ╵                                                          ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.115 seconds]
+
+✘ [ERROR] TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'number[][]' is not assignable to type 'string | number | boolean | readonly (string | number | boolean)[]'.
+      Type 'number[][]' is not assignable to type 'readonly (string | number | boolean)[]'.
+        Type 'number[]' is not assignable to type 'string | number | boolean'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:35:47:
+      35 │ ...nvironment.roUrl, {params: {'matrix': distancesMatrix, 'k': 1, }})
+         ╵                                ~~~~~~~~
+
+  The last overload is declared here.
+
+    node_modules/@angular/common/http/index.d.ts:1277:4:
+      1277 │     get<T>(url: string, options?: {
+           ╵     ~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-MCGVVNJO.js   | -                       |  16.86 kB | 
+chunk-NCFS6KHY.js   | day-planner-component   |  11.73 kB | 
+chunk-5TTFMYMC.js   | homepage-component      |   8.90 kB | 
+chunk-BUJPW7UU.js   | -                       |   6.46 kB | 
+chunk-D6KNWTLI.js   | day-preview-component   |   5.81 kB | 
+chunk-FQLND3BD.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [0.110 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-JUGQKNX2.js   | homepage-component |  8.91 kB | 
+
+Application bundle generation complete. [0.182 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-ZWIGJYH5.js   | homepage-component |  8.90 kB | 
+
+Application bundle generation complete. [0.132 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.162 seconds]
+
+✘ [ERROR] Unexpected "}"
+
+    src/app/shared/services/map.service.ts:27:60:
+      27 │         return this.http.get(environment.roUrl, { 'body:':  });
+         ╵                                                             ^
+
+
+✘ [ERROR] TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Object literal may only specify known properties, and ''body:'' does not exist in type '{ headers?: HttpHeaders | { [header: string]: string | string[]; } | undefined; context?: HttpContext | undefined; observe?: "body" | undefined; params?: HttpParams | { ...; } | undefined; reportProgress?: boolean | undefined; responseType?: "json" | undefined; withCredentials?: boolean | undefined; transferCache?: ...'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:35:46:
+      35 │     return this.http.get(environment.roUrl, { 'body:'});
+         ╵                                               ~~~~~~~
+
+  The last overload is declared here.
+
+    node_modules/@angular/common/http/index.d.ts:1277:4:
+      1277 │     get<T>(url: string, options?: {
+           ╵     ~~~
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:35:53:
+      35 │     return this.http.get(environment.roUrl, { 'body:'});
+         ╵                                                      ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.188 seconds]
+
+✘ [ERROR] Unexpected ";"
+
+    src/app/shared/services/map.service.ts:27:21:
+      27 │         const body = ;
+         ╵                      ^
+
+
+✘ [ERROR] TS1109: Expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:36:4:
+      36 │     return this.http.get(environment.roUrl, );
+         ╵     ~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-MCGVVNJO.js   | -                       |  16.86 kB | 
+chunk-NCFS6KHY.js   | day-planner-component   |  11.73 kB | 
+chunk-GWK5SN5I.js   | homepage-component      |   8.93 kB | 
+chunk-BUJPW7UU.js   | -                       |   6.46 kB | 
+chunk-D6KNWTLI.js   | day-preview-component   |   5.81 kB | 
+chunk-FQLND3BD.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [0.114 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-L3FFN77E.js   | homepage-component |  8.93 kB | 
+
+Application bundle generation complete. [0.094 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-53YCIF4E.js   | homepage-component |  8.94 kB | 
+
+Application bundle generation complete. [0.156 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-HD2J3PIU.js   | homepage-component |  8.94 kB | 
+
+Application bundle generation complete. [0.101 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-TAF2EVC6.js   | homepage-component |  8.95 kB | 
+
+Application bundle generation complete. [0.095 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.116 seconds]
+
+✘ [ERROR] TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'string' has no properties in common with type '{ headers?: HttpHeaders | { [header: string]: string | string[]; } | undefined; context?: HttpContext | undefined; observe?: "body" | undefined; params?: HttpParams | { ...; } | undefined; reportProgress?: boolean | undefined; responseType?: "json" | undefined; withCredentials?: boolean | undefined; transferCache?: ...'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:36:44:
+      36 │     return this.http.get(environment.roUrl, body);
+         ╵                                             ~~~~
+
+  The last overload is declared here.
+
+    node_modules/@angular/common/http/index.d.ts:1277:4:
+      1277 │     get<T>(url: string, options?: {
+           ╵     ~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.059 seconds]
+
+✘ [ERROR] TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'string' has no properties in common with type '{ headers?: HttpHeaders | { [header: string]: string | string[]; } | undefined; context?: HttpContext | undefined; observe?: "body" | undefined; params?: HttpParams | { ...; } | undefined; reportProgress?: boolean | undefined; responseType?: "json" | undefined; withCredentials?: boolean | undefined; transferCache?: ...'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:36:44:
+      36 │     return this.http.get(environment.roUrl, body);
+         ╵                                             ~~~~
+
+  The last overload is declared here.
+
+    node_modules/@angular/common/http/index.d.ts:1277:4:
+      1277 │     get<T>(url: string, options?: {
+           ╵     ~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-RUKFAXNW.js   | -                       |  16.86 kB | 
+chunk-O4FOFKHG.js   | day-planner-component   |  11.73 kB | 
+chunk-PEZCLRCU.js   | homepage-component      |   8.98 kB | 
+chunk-T27IENU5.js   | -                       |   6.45 kB | 
+chunk-COFXYBIB.js   | day-preview-component   |   5.81 kB | 
+chunk-UMHYXYIW.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [0.203 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.101 seconds]
+
+✘ [ERROR] TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'string' has no properties in common with type '{ headers?: HttpHeaders | { [header: string]: string | string[]; } | undefined; context?: HttpContext | undefined; observe?: "body" | undefined; params?: HttpParams | { ...; } | undefined; reportProgress?: boolean | undefined; responseType?: "json" | undefined; withCredentials?: boolean | undefined; transferCache?: ...'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:36:44:
+      36 │     return this.http.get(environment.roUrl, body);
+         ╵                                             ~~~~
+
+  The last overload is declared here.
+
+    node_modules/@angular/common/http/index.d.ts:1277:4:
+      1277 │     get<T>(url: string, options?: {
+           ╵     ~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.054 seconds]
+
+✘ [ERROR] TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'string' has no properties in common with type '{ headers?: HttpHeaders | { [header: string]: string | string[]; } | undefined; context?: HttpContext | undefined; observe?: "body" | undefined; params?: HttpParams | { ...; } | undefined; reportProgress?: boolean | undefined; responseType?: "json" | undefined; withCredentials?: boolean | undefined; transferCache?: ...'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:36:44:
+      36 │     return this.http.get(environment.roUrl, body);
+         ╵                                             ~~~~
+
+  The last overload is declared here.
+
+    node_modules/@angular/common/http/index.d.ts:1277:4:
+      1277 │     get<T>(url: string, options?: {
+           ╵     ~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.194 seconds]
+
+✘ [ERROR] TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'string' is not assignable to type '"body"'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:36:45:
+      36 │     return this.http.get(environment.roUrl, {observe: body, })
+         ╵                                              ~~~~~~~
+
+  The last overload is declared here.
+
+    node_modules/@angular/common/http/index.d.ts:1277:4:
+      1277 │     get<T>(url: string, options?: {
+           ╵     ~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.098 seconds]
+
+✘ [ERROR] TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'string' is not assignable to type 'HttpParams | { [param: string]: string | number | boolean | readonly (string | number | boolean)[]; } | undefined'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:36:84:
+      36 │ ...ment.roUrl, {observe: 'body', responseType: 'json', params: body})
+         ╵                                                        ~~~~~~
+
+  The last overload is declared here.
+
+    node_modules/@angular/common/http/index.d.ts:1277:4:
+      1277 │     get<T>(url: string, options?: {
+           ╵     ~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-MCGVVNJO.js   | -                       |  16.86 kB | 
+chunk-NCFS6KHY.js   | day-planner-component   |  11.73 kB | 
+chunk-6CRB446R.js   | homepage-component      |   8.98 kB | 
+chunk-BUJPW7UU.js   | -                       |   6.46 kB | 
+chunk-D6KNWTLI.js   | day-preview-component   |   5.81 kB | 
+chunk-FQLND3BD.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [0.135 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-FNFYYQG6.js   | homepage-component |  9.00 kB | 
+
+Application bundle generation complete. [0.096 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-TLM3QZGN.js   | homepage-component |  9.01 kB | 
+
+Application bundle generation complete. [0.132 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-DHPBWE7G.js   | homepage-component |  9.01 kB | 
+
+Application bundle generation complete. [0.086 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-WF7VNQNM.js   | homepage-component |  9.01 kB | 
+
+Application bundle generation complete. [0.106 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-UQRI7X3G.js   | homepage-component |  9.03 kB | 
+
+Application bundle generation complete. [0.150 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-DKOEWLLO.js   | homepage-component |  9.03 kB | 
+
+Application bundle generation complete. [0.082 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-W3IBKDTY.js   | homepage-component |  9.04 kB | 
+
+Application bundle generation complete. [0.104 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-VGWMGWMY.js   | homepage-component |  9.04 kB | 
+
+Application bundle generation complete. [0.114 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-564USR37.js   | homepage-component |  9.00 kB | 
+
+Application bundle generation complete. [0.082 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-6UDSO36K.js   | homepage-component |  9.03 kB | 
+
+Application bundle generation complete. [0.145 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-MCGVVNJO.js   | -                       |  16.86 kB | 
+chunk-NCFS6KHY.js   | day-planner-component   |  11.73 kB | 
+chunk-6UDSO36K.js   | homepage-component      |   9.03 kB | 
+chunk-BUJPW7UU.js   | -                       |   6.46 kB | 
+chunk-D6KNWTLI.js   | day-preview-component   |   5.81 kB | 
+chunk-FQLND3BD.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [1.215 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-3DOCOKTR.js   | -                       |  16.86 kB | 
+chunk-VRFU6J5A.js   | day-planner-component   |  11.73 kB | 
+chunk-D3EVNPW3.js   | homepage-component      |   9.09 kB | 
+chunk-2LJQIHAN.js   | -                       |   6.46 kB | 
+chunk-3V4JCSLS.js   | day-preview-component   |   5.81 kB | 
+chunk-UYQFPH2J.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [1.367 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-3DOCOKTR.js   | -                       |  16.86 kB | 
+chunk-VRFU6J5A.js   | day-planner-component   |  11.73 kB | 
+chunk-D3EVNPW3.js   | homepage-component      |   9.09 kB | 
+chunk-2LJQIHAN.js   | -                       |   6.46 kB | 
+chunk-3V4JCSLS.js   | day-preview-component   |   5.81 kB | 
+chunk-UYQFPH2J.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [1.227 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-ABSO3BWP.js   | homepage-component |  9.19 kB | 
+
+Application bundle generation complete. [0.276 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 10.26 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-33OILICW.js   | homepage-component |  9.26 kB | 
+
+Application bundle generation complete. [0.149 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.255 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'string' is not assignable to parameter of type 'Delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:31:83:
+      31 │ ...oCoords(map, encodeURIComponent(delivery.address!)))).then((coo...
+         ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'address'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:92:
+      51 │ ...se.data.gouv.fr/search/?q="+address+"&limit=1")).then((res:any)...
+         ╵                                ~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.117 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'string' is not assignable to parameter of type 'Delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:31:83:
+      31 │ ...oCoords(map, encodeURIComponent(delivery.address!)))).then((coo...
+         ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'customerAddress' does not exist on type 'Delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:120:
+      51 │ ...deURIComponent(delivery.customerAddress)+"&limit=1")).then((res...
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.088 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'string' is not assignable to parameter of type 'Delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:31:83:
+      31 │ ...oCoords(map, encodeURIComponent(delivery.address!)))).then((coo...
+         ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string | number | boolean'.
+  Type 'undefined' is not assignable to type 'string | number | boolean'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:111:
+      51 │ ...?q="+encodeURIComponent(delivery.address)+"&limit=1")).then((re...
+         ╵                            ~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.099 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'string' is not assignable to parameter of type 'Delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:31:83:
+      31 │ ...oCoords(map, encodeURIComponent(delivery.address!)))).then((coo...
+         ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-3DOCOKTR.js   | -                       |  16.86 kB | 
+chunk-VRFU6J5A.js   | day-planner-component   |  11.73 kB | 
+chunk-X4ONFOU7.js   | homepage-component      |   9.42 kB | 
+chunk-2LJQIHAN.js   | -                       |   6.46 kB | 
+chunk-3V4JCSLS.js   | day-preview-component   |   5.81 kB | 
+chunk-UYQFPH2J.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [0.132 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 106.27 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  10.26 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 200.72 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-3DOCOKTR.js   | -                       |  16.86 kB | 
+chunk-VRFU6J5A.js   | day-planner-component   |  11.73 kB | 
+chunk-X4ONFOU7.js   | homepage-component      |   9.42 kB | 
+chunk-2LJQIHAN.js   | -                       |   6.46 kB | 
+chunk-3V4JCSLS.js   | day-preview-component   |   5.81 kB | 
+chunk-UYQFPH2J.js   | day-displayer-component |   4.85 kB | 
+
+Application bundle generation complete. [1.181 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 10.26 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-Y6HS4HA6.js   | -                       | 16.86 kB | 
+chunk-DHL6V64S.js   | day-planner-component   | 11.73 kB | 
+chunk-SX5MXCJE.js   | homepage-component      |  9.42 kB | 
+chunk-LCU4ZPJP.js   | -                       |  6.61 kB | 
+chunk-DKVCLCXI.js   | day-preview-component   |  5.81 kB | 
+chunk-WFGS5LDC.js   | day-displayer-component |  4.85 kB | 
+
+Application bundle generation complete. [0.184 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 10.26 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-FMMEZRJ3.js   | -                       | 16.86 kB | 
+chunk-DK773AHD.js   | day-planner-component   | 11.73 kB | 
+chunk-W6HPJQKS.js   | homepage-component      |  9.42 kB | 
+chunk-OHKXMUXJ.js   | -                       |  6.88 kB | 
+chunk-OTV3WOTV.js   | day-preview-component   |  5.81 kB | 
+chunk-6TK4FQTX.js   | day-displayer-component |  4.85 kB | 
+
+Application bundle generation complete. [0.104 seconds]
+
+Page reload sent to client(s).
