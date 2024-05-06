@@ -15,4 +15,6 @@ import {MatIconButton} from "@angular/material/button";
 })
 export class AppComponent {
   title = 'ikeo-planificator-app';
+
+  constructor() {}
 }

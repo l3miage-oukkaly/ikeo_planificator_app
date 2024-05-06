@@ -5,6 +5,13 @@
     </button>
     <span><a routerLink="/"><button class="logo">Ikeo Planificator App</button></a></span>
     <span class="spacer"></span>
+    <mat-icon class="sun-moon">light_mode</mat-icon>
+    <mat-slide-toggle
+      color="#673ab8"
+      [checked]="sigDarkMode()"
+      (toggleChange)="changeTheme()">
+    </mat-slide-toggle>
+    <mat-icon class="sun-moon">dark_mode</mat-icon>
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with account_circle icon">
       <mat-icon class="account">account_circle</mat-icon>
     </button>

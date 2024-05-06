@@ -2,22 +2,7 @@
   width: 100%;
 }
 
-.elevated-card-even {
-  background: #272727;
-  height: 100%;
-}
-
-.elevated-card-odd {
-  background: #373737;
-  height: 100%;
-}
-
-button:enabled {
-  background: #673ab8;
-  border-radius: 4px;
-  border: 1px groove #673ab8;
-  color: white;
-  padding: 2px 4px 2px 4px;
+button {
   margin-left: 1em;
   margin-right: 1em;
 }

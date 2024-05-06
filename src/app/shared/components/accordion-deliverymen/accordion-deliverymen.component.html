@@ -7,7 +7,7 @@
       <div style="margin-top: 0.4em; width: 100%; text-align: center">
         @if (accordion.classList.contains('editable')) {
           @for (deliveryman of planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].deliveryMen; track deliveryman; let j = $index) {
-            <button style="border-radius: 8px; border: none" (click)="planificatorService.removeDeliveryMan(j, deliveryTourIndex)">{{deliveryman}}</button>
+            <button class="accordion-button" (click)="planificatorService.removeDeliveryMan(j, deliveryTourIndex)">{{deliveryman}}</button>
           }
         } @else {
          <p>{{planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].deliveryMen.join(', ')}}</p>
@@ -29,7 +29,7 @@
            [attr.aria-labelledby]="'accordion-header'"
            style="margin-left: 16px; text-align: start">
         @for (delman of planificatorService.sigSetupBundle().deliverymen; track delman; let index = $index) {
-          <button (click)="planificatorService.addDeliveryMan(index, deliveryTourIndex)" style="border-radius: 8px; border: none">{{delman}}</button>
+          <button class="accordion-button" (click)="planificatorService.addDeliveryMan(index, deliveryTourIndex)">{{delman}}</button>
         }
       </div>
     }

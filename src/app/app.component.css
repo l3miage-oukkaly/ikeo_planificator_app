@@ -1,20 +1,3 @@
-mat-drawer-container {
-  height: 100%;
-  background: #181818;
-  color: white;
-}
-
-mat-drawer {
-  background: #272727;
-  min-width: 20vw;
-}
-
-.logo {
-  background: none;
-  border: none;
-  color: white;
-}
-
 .div-title {
   text-align: center;
 }

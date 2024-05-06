@@ -3,15 +3,16 @@
 }
 
 .logo {
-  background: none;
-  border: none;
-  color: white;
   font-size: 1rem;
 }
 
-button {
+.example-icon {
   color: #673ab8;
   margin-bottom: 0.2em;
+}
+
+header {
+  border-bottom: #673ab8 solid 1px;
 }
 
 .account {
@@ -20,7 +21,4 @@ button {
   padding-bottom: 0.3em;
 }
 
-mat-toolbar {
-  background: black;
-}
 
