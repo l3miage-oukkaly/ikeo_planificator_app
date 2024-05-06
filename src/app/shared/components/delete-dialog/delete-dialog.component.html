@@ -1,0 +1,8 @@
+<h2 mat-dialog-title>Supprimer une tournée</h2>
+<mat-dialog-content>
+  Voulez-vous supprimer la Tournée {{data.tourIndex + 1}} ?
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>No</button>
+  <button mat-flat-button color="primary" mat-dialog-close (click)="planificatorService.removeTour(data.tourIndex)" cdkFocusInitial>Ok</button>
+</mat-dialog-actions>

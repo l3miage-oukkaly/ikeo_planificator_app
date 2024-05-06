@@ -1,0 +1,34 @@
+<div style="display: flex; flex-direction: row; min-height: 80vh; text-align: center">
+  @for (column of planificatorService.sigPlanifiedDay().tours; track column; let i = $index) {
+    <div class="column" style="min-width: 20vw; width: 100%;">
+      <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">
+        <mat-card-header style="justify-content: center">
+          <mat-card-title>Tournée {{i + 1}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content style="padding: 0">
+          <mat-divider style="color: white; background: white"></mat-divider>
+          <div style="margin-right: 5em">
+            <app-accordion-deliverymen [deliveryTourIndex]="i"
+                                       [mode]="'display'">
+            </app-accordion-deliverymen>
+          </div>
+          <mat-divider style="background: white"></mat-divider>
+          <div style="margin-right: 5em">
+            <app-accordion-truck [deliveryTourIndex]="i"
+                                 [mode]="'display'">
+            </app-accordion-truck>
+          </div>
+          <mat-divider style="background: white"></mat-divider>
+          @for (delivery of column.deliveries; track delivery) {
+            <div>{{delivery.orders.join(', ')}}</div>
+          }
+        </mat-card-content>
+      </mat-card>
+    </div>
+  }
+</div>
+<div style="text-align: center">
+  <a [routerLink]="['/day-planner']"><button class="preview-button">Ajuster</button></a>
+  <a [routerLink]="['/']"><button disabled class="preview-button">Optimiser</button></a>
+  <a [routerLink]="['/']"><button class="preview-button" (click)="planificatorService.sendDay(planificatorService.getTomorrowDate(), planificatorService.sigPlanifiedDay())">Valider</button></a>
+</div>
