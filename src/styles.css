@@ -1,90 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
 @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
 
 body {
-  --text-color: black;
-  --bkg-color: white;
-  --bkg-header-color: lightgrey;
-  --bkg-elevated-even: #EDEDED;
-  --bkg-elevated-odd: #F5F5F5;
-  --bkg-accordion-button: #424242;
-  margin: 0; font-family: Roboto,
-"Helvetica Neue", sans-serif;
-}
-
-body.dark-theme {
-  --text-color: white;
-  --bkg-color: #181818;
-  --bkg-header-color: black;
-  --bkg-accordion-button: #DBDBDB;
-  --bkg-elevated-even: #272727;
-  --bkg-elevated-odd: #373737;
+  background: #181818;
+  color: white;
 }
 
 html, body { height: 100%; }
-
-mat-drawer-container {
-  height: 100%;
-  background: var(--bkg-color)!important;
-  color: var(--text-color)!important;
-}
-
-mat-drawer {
-  background: var(--bkg-color)!important;
-  min-width: 20vw!important;
-}
-
-mat-divider {
-  background: var(--text-color)!important;
-  color: var(--text-color)!important;
-}
-
-.elevated-card-even {
-  background: var(--bkg-elevated-even)!important;
-  height: 100%;
-}
-
-.elevated-card-odd {
-  background: var(--bkg-elevated-odd)!important;
-  height: 100%;
-}
-
-mat-toolbar {
-  background: var(--bkg-header-color)!important;
-}
-
-.logo {
-  background: none;
-  border: none;
-  color: var(--text-color)!important;
-}
-
-.side-menu-button {
-  color: var(--text-color)!important;
-}
-
-.accordion-button {
-  color: var(--text-color)!important;
-  background: inherit!important;
-  border-radius: 8px;
-  border: 1px solid #673ab8;
-}
-
-.sun-moon {
-  color: #673ab8;
-  padding-top: 3px;
-  margin-right: 5px;
-}
-
-button:disabled {
-  background: #BDBDBD;
-  color: #9E9E9E;
-  border-radius: 4px;
-}
-
-.preview-button:enabled {
-  background: #673ab8;
-  border-radius: 4px;
-  border: 1px groove #673ab8;
-  color: white;
-  padding: 2px 4px 2px 4px;
-}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -4,5 +4,4 @@
 export interface Delivery {
   orders: string[],
   distanceToCover?: number
-  address?:string
 }
