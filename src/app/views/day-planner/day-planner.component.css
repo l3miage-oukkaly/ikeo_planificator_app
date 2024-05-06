@@ -1,3 +1,13 @@
 .column {
   width: 100%;
 }
+
+.elevated-card-even {
+  background: #272727;
+  height: 100%;
+}
+
+.elevated-card-odd {
+  background: #373737;
+  height: 100%;
+}

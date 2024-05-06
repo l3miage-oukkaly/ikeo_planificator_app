@@ -6,6 +6,5 @@ import {DayPlannerComponent} from "./views/day-planner/day-planner.component";
 export const routes: Routes = [
   {path:'', loadComponent: () => import('./views/homepage/homepage.component').then(m => m.HomepageComponent)},
   {path:'day-planner', loadComponent: () => import('./views/day-planner/day-planner.component').then(m => m.DayPlannerComponent)},
-  {path:'day-displayer', loadComponent: () => import('./views/day-displayer/day-displayer.component').then(m => m.DayDisplayerComponent)},
-  {path:'day-previewer', loadComponent: () => import('./views/day-preview/day-preview.component').then(m => m.DayPreviewComponent)}
+  {path:'day-displayer', loadComponent: () => import('./views/day-displayer/day-displayer.component').then(m => m.DayDisplayerComponent)}
 ];

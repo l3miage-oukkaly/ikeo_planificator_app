@@ -6,11 +6,11 @@
       <p style="margin-bottom: 0.4em; margin-top:0.4em">Livreurs</p>
       <div style="margin-top: 0.4em; width: 100%; text-align: center">
         @if (accordion.classList.contains('editable')) {
-          @for (deliveryman of planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].deliveryMen; track deliveryman; let j = $index) {
-            <button class="accordion-button" (click)="planificatorService.removeDeliveryMan(j, deliveryTourIndex)">{{deliveryman}}</button>
+          @for (deliveryman of day().tours[deliveryTourIndex].deliveryMen; track deliveryman; let j = $index) {
+            <button style="border-radius: 8px; border: none" (click)="removeDeliveryMan(j)">{{deliveryman}}</button>
           }
         } @else {
-         <p>{{planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].deliveryMen.join(', ')}}</p>
+         <p>{{day().tours[deliveryTourIndex].deliveryMen.join(', ')}}</p>
         }
       </div>
       @if (accordion.classList.contains('editable')) {
@@ -28,8 +28,8 @@
            [attr.id]="'accordion-body'"
            [attr.aria-labelledby]="'accordion-header'"
            style="margin-left: 16px; text-align: start">
-        @for (delman of planificatorService.sigSetupBundle().deliverymen; track delman; let index = $index) {
-          <button class="accordion-button" (click)="planificatorService.addDeliveryMan(index, deliveryTourIndex)">{{delman}}</button>
+        @for (delman of bundle().deliverymen; track delman; let index = $index) {
+          <button (click)="addDeliveryMan(index)" style="border-radius: 8px; border: none">{{delman}}</button>
         }
       </div>
     }

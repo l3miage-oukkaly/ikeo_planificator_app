@@ -37,9 +37,13 @@ import { NgClass } from "@angular/common";
 })
 export class DayDisplayerComponent implements OnInit {
   planificatorService = inject(PlanificatorService)
+  DaySig = signal<Day>({ date: this.planificatorService.getTomorrowDate(), tours: [] })
 
-  async ngOnInit() {
-    await this.planificatorService.getDay(this.planificatorService.getTomorrowDate())
+  ngOnInit() {
+    this.getDayPlusOne()
   }
 
+  async getDayPlusOne() {
+    this.DaySig.set(await this.planificatorService.getDay(this.planificatorService.getTomorrowDate()))
+  }
 }

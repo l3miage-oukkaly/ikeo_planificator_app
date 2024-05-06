@@ -1,6 +1,8 @@
-import { ChangeDetectionStrategy, Component, inject, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, Input, OnInit, signal } from '@angular/core';
+import { SetupBundle } from "../../core/models/setup-bundle.models";
 import { PlanificatorService } from "../../shared/services/planificator.service";
 import { MatRow } from "@angular/material/table";
+import { Day } from "../../core/models/day.models";
 import { MatButtonModule } from "@angular/material/button";
 import { MatIconModule } from "@angular/material/icon";
 import { MatCardModule } from "@angular/material/card";
@@ -21,9 +23,6 @@ import {
   AccordionDeliverymenComponent
 } from "../../shared/components/accordion-deliverymen/accordion-deliverymen.component";
 import { AccordionTruckComponent } from "../../shared/components/accordion-truck/accordion-truck.component";
-import {RouterLink} from "@angular/router";
-import {MatDialog} from "@angular/material/dialog";
-import {DeleteDialogComponent} from "../../shared/components/delete-dialog/delete-dialog.component";
 
 @Component({
   selector: 'app-day-planner',
@@ -41,8 +40,7 @@ import {DeleteDialogComponent} from "../../shared/components/delete-dialog/delet
     CdkDrag,
     CdkDragPlaceholder,
     AccordionDeliverymenComponent,
-    AccordionTruckComponent,
-    RouterLink
+    AccordionTruckComponent
   ],
   templateUrl: './day-planner.component.html',
   styleUrl: './day-planner.component.css',
@@ -50,19 +48,57 @@ import {DeleteDialogComponent} from "../../shared/components/delete-dialog/delet
 })
 export class DayPlannerComponent implements OnInit {
   planificatorService = inject(PlanificatorService)
-  dialog = inject(MatDialog)
+  // setupBundleTest: SetupBundle = {
+  //   multipleOrders: [{ orders: ['C1', 'C2'] }, { orders: ['C3'] }],
+  //   deliveryMen: ['AWS', 'ABB', 'TEL', 'POL'], trucks: ['XP-098-IO', 'PO-374-BN', 'AE-473-AD']
+  // };
+  BundleSig = signal<SetupBundle>({ multipleOrders: [], deliverymen: [], trucks: [] })
+  DaySig = signal<Day>({ date: this.planificatorService.getTomorrowDate(), tours: [] })
 
   constructor() { }
 
-  openDialog(enterAnimationDuration: string, exitAnimationDuration: string, tourIndex: number): void {
-    this.dialog.open(DeleteDialogComponent, {
-      width: '500px',
-      enterAnimationDuration,
-      exitAnimationDuration,
-      data: {
-        tourIndex
-      }
-    });
+  addTour() {
+    if (this.DaySig().tours.length === 0) {
+      this.DaySig().tours.push({
+        deliveryMen: [], truck: '', distanceToCover: 0,
+        deliveries: this.BundleSig().multipleOrders.map((delivery) => {
+          return { orders: delivery as unknown as string[], distanceToCover: 0 }
+        })
+      })
+    } else {
+      this.DaySig().tours.push({ deliveryMen: [], truck: '', distanceToCover: 0, deliveries: [] })
+    }
+    this.DaySig.set(this.DaySig())
+  }
+
+  // Must remove truck, deliveryMen and move all deliveries to the first tour
+  // If was first tour, just remove truck & deliveryMen
+  removeTour(tourIndex: number) {
+    this.removeAllDeliveryMen(tourIndex)
+    this.removeTruck(tourIndex)
+    if (this.DaySig().tours.length === 1) {
+      this.DaySig.set({ date: this.DaySig().date, tours: [] })
+    } else if (tourIndex != 0) {
+      this.DaySig().tours[tourIndex].deliveries.map((delivery) => this.DaySig().tours[0].deliveries.push(delivery))
+      const tours = this.DaySig().tours.filter((tour, index) => index != tourIndex)
+      this.DaySig.set({ date: this.DaySig().date, tours })
+    } else {
+      this.DaySig().tours[tourIndex].deliveries.map((delivery) => this.DaySig().tours[1].deliveries.push(delivery))
+      const tours = this.DaySig().tours.filter((tour, index) => index != tourIndex)
+      this.DaySig.set({ date: this.DaySig().date, tours })
+    }
+  }
+
+  removeAllDeliveryMen(tourIndex: number) {
+    this.DaySig().tours[tourIndex].deliveryMen.map((deliveryMan) => {
+      this.BundleSig().deliverymen.push(deliveryMan)
+    })
+  }
+
+  removeTruck(tourIndex: number) {
+    if (this.DaySig().tours[tourIndex].truck != '') {
+      this.BundleSig().trucks.push(this.DaySig().tours[tourIndex].truck)
+    }
   }
 
   moveDelivery(event: CdkDragDrop<Delivery[]>) {
@@ -78,19 +114,22 @@ export class DayPlannerComponent implements OnInit {
   }
 
   isValidDay() {
-    if (this.planificatorService.sigPlanifiedDay().tours.length === 0) {
+    if (this.DaySig().tours.length === 0) {
       return true
     }
-    return this.planificatorService.sigPlanifiedDay().tours.map((tour) => this.isValidTour(tour)).filter((bool) => !bool).length != 0
+    return this.DaySig().tours.map((tour) => this.isValidTour(tour)).filter((bool) => !bool).length != 0
   }
 
-  async ngOnInit() {
-    if (this.planificatorService.sigPlanifiedDay().tours.length === 0) {
-      await this.planificatorService.getSetupBundle()
-    }
+  ngOnInit() {
+    this.planDayPlusOne()
   }
-}
 
-export interface DialogData {
-  tourIndex: number
+  // GETs the SetupBundle from the server
+  async planDayPlusOne() {
+    this.BundleSig.set(await this.planificatorService.getSetupBundle())
+  }
+
+  sendDay_Dev(date: string, day: Day) {
+    this.planificatorService.sendDay(date, day)
+  }
 }
