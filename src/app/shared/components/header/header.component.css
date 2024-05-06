@@ -1,0 +1,24 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.logo {
+  font-size: 1rem;
+}
+
+.example-icon {
+  color: #673ab8;
+  margin-bottom: 0.2em;
+}
+
+header {
+  border-bottom: #673ab8 solid 1px;
+}
+
+.account {
+  font-size: 1.3em;
+  padding-right: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+

@@ -1,1 +1,12 @@
-<router-outlet></router-outlet>
+<mat-drawer-container class="example-container" hasBackdrop="hasBackdrop.value">
+  <mat-drawer #sidenav mode="over">
+    <div class="div-title">
+      <span><a routerLink="/"><button class="logo" (click)="sidenav.toggle()"><h3>Ikeo Planificator App</h3></button></a></span>
+    </div>
+    <app-side-menu (sidenav)="sidenav.toggle()"></app-side-menu>
+  </mat-drawer>
+  <mat-drawer-content>
+    <app-header (sidenav)="sidenav.toggle()"></app-header>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

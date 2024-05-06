@@ -6,11 +6,11 @@
       <p style="margin-bottom: 0.4em; margin-top:0.4em">Camion</p>
       <div style="margin-top: 0.4em; width: 100%; text-align: center">
         @if (accordion.classList.contains('editable')) {
-          @if (day().tours[deliveryTourIndex].truck != '') {
-            <button style="border-radius: 8px; border: none" (click)="removeTruck()">{{day().tours[deliveryTourIndex].truck}}</button>
+          @if (planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].truck != '') {
+            <button class="accordion-button" (click)="planificatorService.removeTruck(deliveryTourIndex)">{{planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].truck}}</button>
           }
         } @else {
-            <p>{{day().tours[deliveryTourIndex].truck}}</p>
+            <p>{{planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].truck}}</p>
         }
       </div>
       @if (accordion.classList.contains('editable')) {
@@ -27,13 +27,13 @@
            [attr.id]="'accordion-body'"
            [attr.aria-labelledby]="'accordion-header'"
            style="margin-left: 16px; text-align: start">
-        @if (day().tours[deliveryTourIndex].truck === '') {
-          @for (truck of bundle().trucks; track truck; let index = $index) {
-            <button (click)="addTruck(index)" style="border-radius: 8px; border: none">{{truck}}</button>
+        @if (planificatorService.sigPlanifiedDay().tours[deliveryTourIndex].truck === '') {
+          @for (truck of planificatorService.sigSetupBundle().trucks; track truck; let index = $index) {
+            <button (click)="planificatorService.addTruck(index, deliveryTourIndex)" class="accordion-button">{{truck}}</button>
           }
         } @else {
-          @for (truck of bundle().trucks; track truck; let index = $index) {
-            <button (click)="replaceTruck(index)" style="border-radius: 8px; border: none">{{truck}}</button>
+          @for (truck of planificatorService.sigSetupBundle().trucks; track truck; let index = $index) {
+            <button (click)="planificatorService.replaceTruck(index, deliveryTourIndex)" class="accordion-button">{{truck}}</button>
           }
         }
       </div>

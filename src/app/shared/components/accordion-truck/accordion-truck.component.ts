@@ -1,4 +1,13 @@
-import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output, signal, WritableSignal } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  EventEmitter,
+  inject,
+  Input,
+  Output,
+  signal,
+  WritableSignal
+} from '@angular/core';
 import { CdkAccordion, CdkAccordionItem } from "@angular/cdk/accordion";
 import { MatIcon } from "@angular/material/icon";
 import { MatMiniFabButton } from "@angular/material/button";
@@ -7,6 +16,7 @@ import { Day } from "../../../core/models/day.models";
 import { Delivery } from "../../../core/models/delivery.models";
 import { SetupBundle } from "../../../core/models/setup-bundle.models";
 import { NgClass } from "@angular/common";
+import {PlanificatorService} from "../../services/planificator.service";
 
 @Component({
   selector: 'app-accordion-truck',
@@ -24,41 +34,7 @@ import { NgClass } from "@angular/common";
 })
 export class AccordionTruckComponent {
   @Input({ required: true }) deliveryTourIndex!: number
-  @Input() bundle!: WritableSignal<SetupBundle>
-  @Input({ required: true }) day!: WritableSignal<Day>
   @Input({ required: true }) mode!: "edit" | "display"
+  planificatorService = inject(PlanificatorService)
 
-  removeTruck() {
-    this.bundle().trucks.push(this.day().tours[this.deliveryTourIndex].truck)
-    this.day.set({
-      date: this.day().date, tours: this.day().tours.map((tour, index) => {
-        if (index === this.deliveryTourIndex) {
-          tour.truck = ''
-        }
-        return tour
-      })
-    })
-  }
-
-  addTruck(truckIndex: number) {
-    this.day.set({
-      date: this.day().date, tours: this.day().tours.map((tour, index) => {
-        if (index === this.deliveryTourIndex) {
-          tour.truck = this.bundle().trucks.at(truckIndex)!
-        }
-        return tour
-      })
-    })
-    this.bundle().trucks.splice(truckIndex, 1)
-  }
-
-  replaceTruck(index: number) {
-    const trucks = this.bundle().trucks
-    trucks.push(this.day().tours[this.deliveryTourIndex].truck)
-    this.bundle.set({
-      multipleOrders: this.bundle().multipleOrders, deliverymen: this.bundle().deliverymen,
-      trucks
-    })
-    this.addTruck(index)
-  }
 }

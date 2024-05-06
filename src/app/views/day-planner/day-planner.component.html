@@ -1,33 +1,29 @@
 <div style="display: flex; flex-direction: row; min-height: 80vh; text-align: center">
   <div style="margin: auto; min-width: 10vw" class="column">
-    <button mat-fab color="primary" aria-label="Example icon button with a delete icon" (click)="addTour()">
+    <button mat-fab color="primary" aria-label="Example icon button with a delete icon" (click)="planificatorService.addTour()">
       <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="add"></mat-icon>
     </button>
   </div>
   <div cdkDropListGroup style="display: flex; flex-direction: row; min-height: 80vh; text-align: center">
-    @for (column of DaySig().tours; track column; let i = $index) {
-      <div class="column" style="min-width: 20vw; width: 100%;" cdkDropList [cdkDropListData]="column.deliveries"
+    @for (column of planificatorService.sigPlanifiedDay().tours; track column; let i = $index) {
+      <div class="column" style="min-width: 20vw; width: 20vw;" cdkDropList [cdkDropListData]="column.deliveries"
       (cdkDropListDropped)="moveDelivery($event)">
         <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">
           <mat-card-header style="justify-content: center; padding-right: 0">
             <mat-card-title>Tournée {{i + 1}}</mat-card-title>
             <span style="margin-left: auto; margin-right: 15px">
-                    <button mat-mini-fab (click)="removeTour(i)" style="border-radius: 5px; height: 2em; width: 2em;" color="primary">
+                    <button mat-mini-fab (click)="openDialog('0ms', '0ms', i)" style="border-radius: 5px; height: 2em; width: 2em;" color="primary">
                       <mat-icon fontIcon="delete"></mat-icon>
                     </button>
                   </span>
           </mat-card-header>
           <mat-card-content style="padding: 0">
             <mat-divider style="color: white; background: white"></mat-divider>
-            <app-accordion-deliverymen [day]="DaySig"
-                                       [bundle]="BundleSig"
-                                       [deliveryTourIndex]="i"
+            <app-accordion-deliverymen [deliveryTourIndex]="i"
                                        [mode]="'edit'">
             </app-accordion-deliverymen>
             <mat-divider style="background: white"></mat-divider>
-            <app-accordion-truck [day]="DaySig"
-                                 [bundle]="BundleSig"
-                                 [deliveryTourIndex]="i"
+            <app-accordion-truck [deliveryTourIndex]="i"
                                  [mode]="'edit'">
             </app-accordion-truck>
             <mat-divider style="background: white"></mat-divider>
@@ -42,5 +38,5 @@
   </div>
 </div>
 <div style="text-align: center; margin-top: auto; margin-bottom: 0">
-  <button [disabled]="isValidDay()" (click)="sendDay_Dev(planificatorService.getTomorrowDate(), DaySig())">Validate</button>
+  <a [routerLink]="['/day-previewer']"><button class="preview-button" [disabled]="isValidDay()">Prévisualiser</button></a>
 </div>
