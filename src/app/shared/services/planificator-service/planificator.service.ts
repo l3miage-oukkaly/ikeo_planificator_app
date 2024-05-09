@@ -26,7 +26,7 @@ export class PlanificatorService  {
   }
 
   async sendDay(date: string, day: Day) {
-    return await this.planificatorProtocols.sendDay(date, day)
+    return await this.planificatorProtocols.sendDay(day)
   }
 
   getTomorrowDate(): string {

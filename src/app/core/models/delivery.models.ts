@@ -2,7 +2,7 @@
 // When implementing RO, change it to Order[]
 
 export interface Delivery {
+  address: string
   orders: string[],
   distanceToCover?: number
-  address?:string
 }

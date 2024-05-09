@@ -19,8 +19,16 @@
               </app-accordion-truck>
             </div>
             <mat-divider></mat-divider>
-            @for (delivery of column.deliveries; track delivery) {
-              <div>{{delivery.orders.join(', ')}}</div>
+            @for (delivery of column.deliveries; track delivery; let delindex = $index) {
+              <mat-card style="font-size: small" [ngClass]="{'elevated-card-even2': delindex%2 === 0, 'elevated-card-odd2': delindex%2 !=0}">
+                <mat-card-header style="padding-top: 5px">
+                  <mat-card-title style="font-size: medium"><b>Livraison {{delindex + 1}}</b></mat-card-title>
+                </mat-card-header>
+                <mat-card-content style="text-align: start; padding-bottom: 5px">
+                  <p><b>Commandes :</b> {{ delivery.orders.join(', ') }} </p>
+                  <p><b>Adresse :</b>{{ delivery.address }}</p>
+                </mat-card-content>
+              </mat-card>
             }
           </mat-card-content>
         </mat-card>

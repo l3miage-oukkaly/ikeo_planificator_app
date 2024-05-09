@@ -5,7 +5,8 @@ import { routes } from './app.routes';
 import {HttpClient, provideHttpClient} from "@angular/common/http";
 import {DatePipe} from "@angular/common";
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import {provideAnimations} from "@angular/platform-browser/animations";
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes), provideHttpClient(), DatePipe, provideAnimationsAsync()]
+  providers: [provideRouter(routes), provideHttpClient(), DatePipe, provideAnimationsAsync(), provideAnimations()]
 };

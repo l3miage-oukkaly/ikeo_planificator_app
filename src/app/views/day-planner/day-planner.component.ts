@@ -3,7 +3,7 @@ import { PlanificatorService } from "../../shared/services/planificator.service"
 import { MatRow } from "@angular/material/table";
 import { MatButtonModule } from "@angular/material/button";
 import { MatIconModule } from "@angular/material/icon";
-import { MatCardModule } from "@angular/material/card";
+import {MatCard, MatCardContent, MatCardHeader, MatCardModule, MatCardTitle} from "@angular/material/card";
 import { NgClass } from "@angular/common";
 import { MatDivider } from "@angular/material/divider";
 import { CdkAccordionModule } from "@angular/cdk/accordion";
@@ -42,7 +42,11 @@ import {DeleteDialogComponent} from "../../shared/components/delete-dialog/delet
     CdkDragPlaceholder,
     AccordionDeliverymenComponent,
     AccordionTruckComponent,
-    RouterLink
+    RouterLink,
+    MatCard,
+    MatCardContent,
+    MatCardHeader,
+    MatCardTitle
   ],
   templateUrl: './day-planner.component.html',
   styleUrl: './day-planner.component.css',

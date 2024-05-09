@@ -1,5 +1,5 @@
 <div style="display: flex; flex-direction: row; min-height: 80vh; text-align: center">
-  <div style="margin: auto; min-width: 10vw" class="column">
+  <div style="margin: calc(80vh / 2) auto; min-width: 10vw" class="column">
     <button mat-fab color="primary" aria-label="Example icon button with a delete icon" (click)="planificatorService.addTour()">
       <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="add"></mat-icon>
     </button>
@@ -27,10 +27,20 @@
                                  [mode]="'edit'">
             </app-accordion-truck>
             <mat-divider style="background: white"></mat-divider>
-            @for (delivery of column.deliveries; track delivery) {
-              <div cdkDrag cdkDragPreviewContainer="parent">{{delivery.orders.join(', ')}}
-                <div *cdkDragPlaceholder></div></div>
-            }
+            <div>
+              @for (delivery of column.deliveries; track delivery; let delindex = $index) {
+                <mat-card style="font-size: small" [ngClass]="{'elevated-card-even2': delindex%2 === 0, 'elevated-card-odd2': delindex%2 !=0}" cdkDrag cdkDragPreviewContainer="parent">
+                  <div *cdkDragPlaceholder></div>
+                  <mat-card-header style="padding-top: 5px">
+                    <mat-card-title style="font-size: medium"><b>Livraison {{delindex + 1}}</b></mat-card-title>
+                  </mat-card-header>
+                  <mat-card-content style="text-align: start; padding-bottom: 5px">
+                    <p><b>Commandes :</b> {{ delivery.orders.join(', ') }} </p>
+                    <p><b>Adresse :</b>{{ delivery.address }}</p>
+                  </mat-card-content>
+                </mat-card>
+              }
+            </div>
           </mat-card-content>
         </mat-card>
       </div>

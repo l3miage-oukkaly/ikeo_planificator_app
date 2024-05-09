@@ -34,11 +34,12 @@ export class PlanificatorService {
   }
 
   async sendDay(date: string, day: Day) {
-    return await this.planificatorProtocols.sendDay(date, day).then(() => this.resetValues())
+    return await this.planificatorProtocols.sendDay(day).then(() => this.resetValues())
   }
 
   getTomorrowDate(): string {
-    return this.datePipe.transform(this.currentDate.setDate(this.currentDate.getDate() + 1), 'yyyy-MM-dd')!
+    const dateToReturn = new Date()
+    return this.datePipe.transform(dateToReturn.setDate(dateToReturn.getDate() + 1), 'yyyy-MM-dd')!
   }
 
   resetValues() {
@@ -52,7 +53,7 @@ export class PlanificatorService {
       updateArray.push({
         deliveryMen: [], truck: '', distanceToCover: 0,
         deliveries: this._sigSetupBundle().multipleOrders.map((delivery) => {
-          return { orders: delivery as unknown as string[], distanceToCover: 0 }
+          return { orders: delivery.orders as unknown as string[], address: delivery.address, distanceToCover: 0 }
         })
       })
     } else {
