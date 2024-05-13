@@ -1,0 +1,24 @@
+<h2 mat-dialog-title>Planifier une journée</h2>
+@if (pageSig() === 'main') {
+  <mat-dialog-content>
+    Quel mode de planification voulez-vous utiliser ?
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button mat-dialog-close [routerLink]="['/day-planner']">Manuel</button>
+    <button mat-flat-button color="primary" (click)="changePage()" cdkFocusInitial>Automatique</button>
+  </mat-dialog-actions>
+} @else {
+  <mat-dialog-content>
+    Combien de tournées voulez-vous planifier ?
+    <mat-form-field style="width: 200px">
+      <button mat-button (click)="toursValueChange('minus')" matPrefix><mat-icon>remove</mat-icon></button>
+      <input matInput [(ngModel)]="toursCountSig" style="text-align: center;">
+      <button mat-button (click)="toursValueChange('plus')" matSuffix><mat-icon>add</mat-icon></button>
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="changePage()">Retour</button>
+    <button mat-flat-button color="primary" mat-dialog-close (click)="planificatorService.buildDayAutomatically(toursCountSig())" cdkFocusInitial>Valider</button>
+  </mat-dialog-actions>
+}
+

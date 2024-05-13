@@ -78,7 +78,7 @@ export class DayPlannerComponent implements OnInit {
   }
 
   isValidTour(tour: DeliveryTour): boolean {
-    return (tour.deliveries.length != 0 && tour.truck != '' && tour.deliveryMen.length != 0)
+    return (tour.deliveries.length != 0 && tour.truck != '' && tour.deliverymen.length != 0)
   }
 
   isValidDay() {

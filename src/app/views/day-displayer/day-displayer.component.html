@@ -1,4 +1,4 @@
-<div style="display: flex; flex-direction: row; min-height: 80vh; text-align: center">
+<div style="display: flex; flex-direction: row; min-height: 80vh; text-align: center; overflow: scroll">
     @for (column of planificatorService.sigPlanifiedDay().tours; track column; let i = $index) {
       <div class="column" style="min-width: 20vw; width: 100%;">
         <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">

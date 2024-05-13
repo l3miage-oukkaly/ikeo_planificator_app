@@ -1,4 +1,4 @@
-<div style="display: flex; flex-direction: row; min-height: 80vh; text-align: center">
+<div style="display: flex; flex-direction: row; min-height: 80vh; text-align: center; overflow: scroll">
   @for (column of planificatorService.sigPlanifiedDay().tours; track column; let i = $index) {
     <div class="column" style="min-width: 20vw; width: 100%;">
       <mat-card [ngClass]="{'elevated-card-even': i%2 === 0, 'elevated-card-odd': i%2 !=0}">
@@ -19,10 +19,19 @@
             </app-accordion-truck>
           </div>
           <mat-divider style="background: white"></mat-divider>
-          @for (delivery of column.deliveries; track delivery) {
-            <div>{{delivery.orders.join(', ')}}</div>
+          @for (delivery of column.deliveries; track delivery; let delindex = $index) {
+            <mat-card style="font-size: small" [ngClass]="{'elevated-card-even2': delindex%2 === 0, 'elevated-card-odd2': delindex%2 !=0}">
+              <mat-card-header style="padding-top: 5px">
+                <mat-card-title style="font-size: medium"><b>Livraison {{delindex + 1}}</b></mat-card-title>
+              </mat-card-header>
+              <mat-card-content style="text-align: start; padding-bottom: 5px">
+                <p><b>Commandes :</b> {{ delivery.orders.join(', ') }} </p>
+                <p><b>Adresse :</b>{{ delivery.address }}</p>
+              </mat-card-content>
+            </mat-card>
           }
         </mat-card-content>
+        <button class="preview-button" style="margin-top: auto; margin-bottom: 0" (click)="openDialog('0ms', '0ms', i)">Affichage</button>
       </mat-card>
     </div>
   }

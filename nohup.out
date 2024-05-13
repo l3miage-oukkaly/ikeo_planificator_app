@@ -26991,3 +26991,3992 @@ Application bundle generation failed. [0.105 seconds]
   You can mark the path "src/app/assets/stylesheets/dark-mode-styles.css" as external to exclude it from the bundle, which will remove this error and leave the unresolved path in the bundle.
 
 
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-CJS6EELG.js   | -                       |  16.78 kB | 
+chunk-5QR2D37Q.js   | day-planner-component   |  12.59 kB | 
+chunk-O4UDVLMR.js   | homepage-component      |   9.77 kB | 
+chunk-RCCWZ5DL.js   | -                       |   6.56 kB | 
+chunk-NEWBD6CE.js   | day-displayer-component |   5.65 kB | 
+chunk-PR5F43MN.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [1.237 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-736C2W4X.js   | homepage-component |  9.79 kB | 
+
+Application bundle generation complete. [0.379 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-XFXUTWDT.js   | -                       | 16.78 kB | 
+chunk-Z6C5UKY7.js   | day-planner-component   | 12.59 kB | 
+chunk-247WN27K.js   | homepage-component      |  9.79 kB | 
+chunk-BLKOQ7UP.js   | -                       |  6.56 kB | 
+chunk-EUPWSYQ4.js   | day-displayer-component |  5.65 kB | 
+chunk-DVAMJ5AQ.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.670 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-XFXUTWDT.js   | -                       |  16.78 kB | 
+chunk-Z6C5UKY7.js   | day-planner-component   |  12.59 kB | 
+chunk-247WN27K.js   | homepage-component      |   9.79 kB | 
+chunk-BLKOQ7UP.js   | -                       |   6.56 kB | 
+chunk-EUPWSYQ4.js   | day-displayer-component |   5.65 kB | 
+chunk-DVAMJ5AQ.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [1.222 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-BUFBYUCB.js   | homepage-component |  9.88 kB | 
+
+Application bundle generation complete. [0.461 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-Q53RTM52.js   | homepage-component    | 10.15 kB | 
+chunk-YFNTDC4L.js   | day-planner-component |  9.90 kB | 
+chunk-TU5WXPKU.js   | -                     |  2.67 kB | 
+
+Application bundle generation complete. [0.324 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-ASXQJ45D.js   | homepage-component | 10.29 kB | 
+
+Application bundle generation complete. [0.223 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.315 seconds]
+
+✘ [ERROR] NG4: Expected 4 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.html:6:21:
+      6 │     <button (click)="openDialog('0ms', '0ms')"></button>
+        ╵                      ~~~~~~~~~~
+
+  Error occurs in the template of component HomepageComponent.
+
+    src/app/views/homepage/homepage.component.ts:17:15:
+      17 │   templateUrl: './homepage.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7010: 'openDialog', which lacks return-type annotation, implicitly has an 'any' return type. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:25:2:
+      25 │   openDialog(enterAnimationDuration: string, exitAnimationDuration...
+         ╵   ~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:25:74:
+      25 │ ...erAnimationDuration: string, exitAnimationDuration: string: void {
+         ╵                                                              ^
+
+
+✘ [ERROR] TS2300: Duplicate identifier '(Missing)'. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:25:75:
+      25 │ ...erAnimationDuration: string, exitAnimationDuration: string: void {
+         ╵                                                               ^
+
+
+✘ [ERROR] TS7006: Parameter '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:25:75:
+      25 │ ...erAnimationDuration: string, exitAnimationDuration: string: void {
+         ╵                                                               ^
+
+
+✘ [ERROR] TS1359: Identifier expected. 'void' is a reserved word that cannot be used here. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:25:76:
+      25 │ ...erAnimationDuration: string, exitAnimationDuration: string: void {
+         ╵                                                                ~~~~
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:26:8:
+      26 │     this.dialog.open(DeleteDialogComponent, {
+         ╵         ^
+
+
+✘ [ERROR] TS2300: Duplicate identifier '(Missing)'. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:26:8:
+      26 │     this.dialog.open(DeleteDialogComponent, {
+         ╵         ^
+
+
+✘ [ERROR] TS2842: '(Missing)' is an unused renaming of 'this'. Did you intend to use it as a type annotation? [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:26:8:
+      26 │     this.dialog.open(DeleteDialogComponent, {
+         ╵         ^
+
+  We can only write a type for 'this' by adding a type for the entire parameter here.
+
+    src/app/views/homepage/homepage.component.ts:26:20:
+      26 │     this.dialog.open(DeleteDialogComponent, {
+         ╵                     ^
+
+
+✘ [ERROR] TS7031: Binding element '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:26:8:
+      26 │     this.dialog.open(DeleteDialogComponent, {
+         ╵         ^
+
+
+✘ [ERROR] TS7031: Binding element 'dialog' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:26:9:
+      26 │     this.dialog.open(DeleteDialogComponent, {
+         ╵          ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:26:15:
+      26 │     this.dialog.open(DeleteDialogComponent, {
+         ╵                ^
+
+
+✘ [ERROR] TS7031: Binding element 'open' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:26:16:
+      26 │     this.dialog.open(DeleteDialogComponent, {
+         ╵                 ~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:26:20:
+      26 │     this.dialog.open(DeleteDialogComponent, {
+         ╵                     ^
+
+
+✘ [ERROR] TS2695: Left side of comma operator is unused and has no side effects. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:26:21:
+      26 │     this.dialog.open(DeleteDialogComponent, {
+         ╵                      ~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'enterAnimationDuration'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:28:6:
+      28 │       enterAnimationDuration,
+         ╵       ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'exitAnimationDuration'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:29:6:
+      29 │       exitAnimationDuration
+         ╵       ~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1128: Declaration or statement expected. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:31:2:
+      31 │   }
+         ╵   ^
+
+
+✘ [ERROR] TS1128: Declaration or statement expected. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:32:0:
+      32 │ }
+         ╵ ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-XFXUTWDT.js   | -                       |  16.78 kB | 
+chunk-ZL2YBQ6W.js   | homepage-component      |  10.56 kB | 
+chunk-YFNTDC4L.js   | day-planner-component   |   9.90 kB | 
+chunk-BLKOQ7UP.js   | -                       |   6.56 kB | 
+chunk-EUPWSYQ4.js   | day-displayer-component |   5.65 kB | 
+chunk-DVAMJ5AQ.js   | day-preview-component   |   5.58 kB | 
+chunk-TU5WXPKU.js   | -                       |   2.67 kB | 
+
+Application bundle generation complete. [0.212 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-SPVIMRZZ.js   | homepage-component | 10.37 kB | 
+
+Application bundle generation complete. [0.208 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-Z6C5UKY7.js   | day-planner-component | 12.59 kB | 
+chunk-G46HVQJI.js   | homepage-component    | 12.47 kB | 
+
+Application bundle generation complete. [0.382 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-JVK6IFKS.js   | homepage-component | 12.61 kB | 
+
+Application bundle generation complete. [0.187 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-S4RHFDH4.js   | homepage-component | 12.61 kB | 
+
+Application bundle generation complete. [0.135 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-V4PJARLH.js   | homepage-component | 12.87 kB | 
+
+Application bundle generation complete. [0.230 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-XGLRXC4J.js   | -                       | 16.78 kB | 
+chunk-7724WBAG.js   | day-planner-component   | 12.59 kB | 
+chunk-ZVDHUO66.js   | -                       | 11.08 kB | 
+chunk-YD2UB5SO.js   | homepage-component      |  8.60 kB | 
+chunk-QDQXH22K.js   | day-displayer-component |  5.65 kB | 
+chunk-Z256V3VT.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.656 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-LIC5XP2R.js   | -                       | 16.78 kB | 
+chunk-3GWDBAH4.js   | day-planner-component   | 12.59 kB | 
+chunk-W4PECNUM.js   | -                       | 11.32 kB | 
+chunk-SMBLMUF6.js   | homepage-component      |  8.60 kB | 
+chunk-JWH47MBA.js   | day-displayer-component |  5.65 kB | 
+chunk-CKUO5QCR.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.423 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-VWGW2YCK.js   | -                       | 16.78 kB | 
+chunk-5NKCVIKI.js   | day-planner-component   | 12.59 kB | 
+chunk-3PMR67ZO.js   | -                       | 11.32 kB | 
+chunk-DWYPQDE4.js   | homepage-component      |  8.60 kB | 
+chunk-XMBGKTVI.js   | day-displayer-component |  5.65 kB | 
+chunk-3STS3ICC.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.347 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-DIMHHZKH.js   | -                       | 16.78 kB | 
+chunk-GXPSGVDL.js   | day-planner-component   | 12.59 kB | 
+chunk-WLJDK4Z7.js   | -                       | 11.34 kB | 
+chunk-CISKI7R4.js   | homepage-component      |  8.60 kB | 
+chunk-JCWNUNBL.js   | day-displayer-component |  5.65 kB | 
+chunk-J47SJL52.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.342 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-ZQ2AODRG.js   | -                       | 16.78 kB | 
+chunk-6KDZN7KQ.js   | day-planner-component   | 12.59 kB | 
+chunk-AV7X4GAC.js   | -                       | 11.35 kB | 
+chunk-AUJBDPCS.js   | homepage-component      |  8.60 kB | 
+chunk-NKGTRPR2.js   | day-displayer-component |  5.65 kB | 
+chunk-TD7LA3GF.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.280 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-DIMHHZKH.js   | -                       | 16.78 kB | 
+chunk-GXPSGVDL.js   | day-planner-component   | 12.59 kB | 
+chunk-WLJDK4Z7.js   | -                       | 11.34 kB | 
+chunk-CISKI7R4.js   | homepage-component      |  8.60 kB | 
+chunk-JCWNUNBL.js   | day-displayer-component |  5.65 kB | 
+chunk-J47SJL52.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.313 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-VWGW2YCK.js   | -                       | 16.78 kB | 
+chunk-5NKCVIKI.js   | day-planner-component   | 12.59 kB | 
+chunk-3PMR67ZO.js   | -                       | 11.32 kB | 
+chunk-DWYPQDE4.js   | homepage-component      |  8.60 kB | 
+chunk-XMBGKTVI.js   | day-displayer-component |  5.65 kB | 
+chunk-3STS3ICC.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.278 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-M7JMJNNJ.js   | -                       | 16.78 kB | 
+chunk-YNRII6G4.js   | day-planner-component   | 12.59 kB | 
+chunk-6ZD4TH5L.js   | -                       | 11.80 kB | 
+chunk-C3Y54VAQ.js   | homepage-component      |  8.60 kB | 
+chunk-PG3DRQKB.js   | day-displayer-component |  5.65 kB | 
+chunk-GRCFXZFB.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.388 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-HEEZDX36.js   | -                       | 16.78 kB | 
+chunk-YO235APK.js   | day-planner-component   | 12.59 kB | 
+chunk-IEU5XWSE.js   | -                       | 11.80 kB | 
+chunk-O6NLNS2U.js   | homepage-component      |  8.60 kB | 
+chunk-TCXOXQFH.js   | day-displayer-component |  5.65 kB | 
+chunk-MCFH3CEJ.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.225 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-H3DJ455Y.js   | -                       | 16.78 kB | 
+chunk-N55N3HKX.js   | day-planner-component   | 12.59 kB | 
+chunk-53B45EBF.js   | -                       | 11.83 kB | 
+chunk-GI5NRRLR.js   | homepage-component      |  8.60 kB | 
+chunk-EEMP6RIY.js   | day-displayer-component |  5.65 kB | 
+chunk-QDGWZUUI.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.298 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-RNS7WBJ7.js   | -                       | 16.78 kB | 
+chunk-GIEZNRXL.js   | day-planner-component   | 12.59 kB | 
+chunk-IESF7E6W.js   | -                       | 12.08 kB | 
+chunk-JQ7QONXE.js   | homepage-component      |  8.60 kB | 
+chunk-A7OYPG24.js   | day-displayer-component |  5.65 kB | 
+chunk-MEWBGC4K.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.291 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.313 seconds]
+
+✘ [ERROR] TS1135: Argument expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:58:17:
+      58 │     })}).finally(return bundle)
+         ╵                  ~~~~~~
+
+
+✘ [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:58:30:
+      58 │     })}).finally(return bundle)
+         ╵                               ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-LQXK47FL.js   | -                       |  16.78 kB | 
+chunk-FBVO25QF.js   | day-planner-component   |  12.59 kB | 
+chunk-DGCKBAV3.js   | -                       |  12.12 kB | 
+chunk-PGWRNTR2.js   | homepage-component      |   8.60 kB | 
+chunk-BJB2N7SI.js   | day-displayer-component |   5.65 kB | 
+chunk-SJVKG2VN.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [0.380 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-WPUQCZKI.js   | -                       | 16.78 kB | 
+chunk-DAKTVOCA.js   | day-planner-component   | 12.59 kB | 
+chunk-TIZ7F75M.js   | -                       | 12.10 kB | 
+chunk-HLU3MZAW.js   | homepage-component      |  8.60 kB | 
+chunk-KNYMBHZO.js   | day-displayer-component |  5.65 kB | 
+chunk-UDAIMMRC.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.340 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-EIJNAOVO.js   | -                       | 16.78 kB | 
+chunk-BBLQPWFT.js   | day-planner-component   | 12.59 kB | 
+chunk-V4WF4GG2.js   | -                       | 12.18 kB | 
+chunk-JWDRWCQM.js   | homepage-component      |  8.60 kB | 
+chunk-AIEQQ5UD.js   | day-displayer-component |  5.65 kB | 
+chunk-JGNKFJXA.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.276 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-E3Z662D3.js   | -                       | 16.78 kB | 
+chunk-CIVGFPY2.js   | day-planner-component   | 12.59 kB | 
+chunk-BLEELC4B.js   | -                       | 12.29 kB | 
+chunk-KOQGPFOJ.js   | homepage-component      |  8.60 kB | 
+chunk-XH7UMFSU.js   | day-displayer-component |  5.65 kB | 
+chunk-77F656HU.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.523 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-V7GRG2GJ.js   | -                       | 16.78 kB | 
+chunk-TYIEGTWL.js   | day-planner-component   | 12.59 kB | 
+chunk-B4HAWTU5.js   | -                       | 12.54 kB | 
+chunk-VDNMFTPL.js   | homepage-component      |  8.60 kB | 
+chunk-M4BDCKXP.js   | day-displayer-component |  5.65 kB | 
+chunk-FCUB7T6Q.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.472 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-SN3HKQ6O.js   | -                       | 16.78 kB | 
+chunk-PCJNEU5E.js   | -                       | 12.69 kB | 
+chunk-YJRULFCW.js   | day-planner-component   | 12.59 kB | 
+chunk-EOISFNEU.js   | homepage-component      |  8.60 kB | 
+chunk-RM4FHSJT.js   | day-displayer-component |  5.65 kB | 
+chunk-4ADPALH2.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.319 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-YQ2ANDZF.js   | -                       | 16.78 kB | 
+chunk-NRLHONHI.js   | -                       | 12.69 kB | 
+chunk-EOJM54Z5.js   | day-planner-component   | 12.59 kB | 
+chunk-ULYI6ITB.js   | homepage-component      |  8.60 kB | 
+chunk-IZCXPFWH.js   | day-displayer-component |  5.65 kB | 
+chunk-JAA5QXYR.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.561 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.248 seconds]
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:34:95:
+      34 │ ...cribe((matrix: any) => this.optimizeRoutes(map, matrix.distances))
+         ╵                                                    ~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:52:95:
+      52 │ ...scribe((matrix: any) => this.optimizeRoutes(map, matrix.distances)
+         ╵                                                     ~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.172 seconds]
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:34:95:
+      34 │ ...cribe((matrix: any) => this.optimizeRoutes(map, matrix.distances))
+         ╵                                                    ~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2552: Cannot find name 'mmatrix'. Did you mean 'matrix'? [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:52:90:
+      52 │ ....subscribe((matrix: any) => this.optimizeRoutes(mmatrix.distances)
+         ╵                                                    ~~~~~~~
+
+  'matrix' is declared here.
+
+    src/app/shared/services/map.service.ts:52:54:
+      52 │ ...s.sigCoords()).subscribe((matrix: any) => this.optimizeRoutes(m...
+         ╵                              ~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.186 seconds]
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:34:95:
+      34 │ ...cribe((matrix: any) => this.optimizeRoutes(map, matrix.distances))
+         ╵                                                    ~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-M5PBMZAO.js   | -                       |  16.78 kB | 
+chunk-P534KEDB.js   | day-planner-component   |  12.59 kB | 
+chunk-577OC6O4.js   | -                       |  12.51 kB | 
+chunk-SPR3ZWM5.js   | homepage-component      |   8.60 kB | 
+chunk-47IA3GZ5.js   | day-displayer-component |   5.65 kB | 
+chunk-7IZAR77Y.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [0.265 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.441 seconds]
+
+✘ [ERROR] TS2552: Cannot find name 'map'. Did you mean 'Map'? [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:39:34:
+      39 │       return this.mapService.test(map, setupBundle.multipleOrders)
+         ╵                                   ~~~
+
+  'Map' is declared here.
+
+    node_modules/typescript/lib/lib.es2015.collection.d.ts:53:12:
+      53 │ declare var Map: MapConstructor;
+         ╵             ~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.307 seconds]
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:34:95:
+      34 │ ...cribe((matrix: any) => this.optimizeRoutes(map, matrix.distances))
+         ╵                                                    ~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:52:95:
+      52 │ ...scribe((matrix: any) => this.optimizeRoutes(map, matrix.distances)
+         ╵                                                     ~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2552: Cannot find name 'map'. Did you mean 'Map'? [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:39:34:
+      39 │       return this.mapService.test(map, setupBundle.multipleOrders)
+         ╵                                   ~~~
+
+  'Map' is declared here.
+
+    node_modules/typescript/lib/lib.es2015.collection.d.ts:53:12:
+      53 │ declare var Map: MapConstructor;
+         ╵             ~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.158 seconds]
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:34:95:
+      34 │ ...cribe((matrix: any) => this.optimizeRoutes(map, matrix.distances))
+         ╵                                                    ~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2552: Cannot find name 'map'. Did you mean 'Map'? [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:39:34:
+      39 │       return this.mapService.test(map, setupBundle.multipleOrders)
+         ╵                                   ~~~
+
+  'Map' is declared here.
+
+    node_modules/typescript/lib/lib.es2015.collection.d.ts:53:12:
+      53 │ declare var Map: MapConstructor;
+         ╵             ~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.165 seconds]
+
+✘ [ERROR] TS2552: Cannot find name 'map'. Did you mean 'Map'? [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:39:34:
+      39 │       return this.mapService.test(map, setupBundle.multipleOrders)
+         ╵                                   ~~~
+
+  'Map' is declared here.
+
+    node_modules/typescript/lib/lib.es2015.collection.d.ts:53:12:
+      53 │ declare var Map: MapConstructor;
+         ╵             ~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-M5PBMZAO.js   | -                       |  16.78 kB | 
+chunk-P534KEDB.js   | day-planner-component   |  12.59 kB | 
+chunk-577OC6O4.js   | -                       |  12.51 kB | 
+chunk-SPR3ZWM5.js   | homepage-component      |   8.60 kB | 
+chunk-47IA3GZ5.js   | day-displayer-component |   5.65 kB | 
+chunk-7IZAR77Y.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [0.430 seconds]
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-M5PBMZAO.js   | -                       |  16.78 kB | 
+chunk-P534KEDB.js   | day-planner-component   |  12.59 kB | 
+chunk-577OC6O4.js   | -                       |  12.51 kB | 
+chunk-SPR3ZWM5.js   | homepage-component      |   8.60 kB | 
+chunk-47IA3GZ5.js   | day-displayer-component |   5.65 kB | 
+chunk-7IZAR77Y.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [1.271 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.446 seconds]
+
+✘ [ERROR] TS7008: Member 'async' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:85:2:
+      85 │   async
+         ╵   ~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-UC72OVA6.js   | -                       |  16.78 kB | 
+chunk-PNYGIZFV.js   | day-planner-component   |  12.59 kB | 
+chunk-5JGLOT3T.js   | -                       |  12.51 kB | 
+chunk-DU2EYDQS.js   | homepage-component      |   8.60 kB | 
+chunk-DOHTABBE.js   | day-displayer-component |   5.65 kB | 
+chunk-53EI2DPU.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [0.248 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-M5PBMZAO.js   | -                       | 16.78 kB | 
+chunk-P534KEDB.js   | day-planner-component   | 12.59 kB | 
+chunk-577OC6O4.js   | -                       | 12.51 kB | 
+chunk-SPR3ZWM5.js   | homepage-component      |  8.60 kB | 
+chunk-47IA3GZ5.js   | day-displayer-component |  5.65 kB | 
+chunk-7IZAR77Y.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.537 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-S5I7ZJLP.js   | -                       | 16.78 kB | 
+chunk-HQOCX544.js   | day-planner-component   | 12.59 kB | 
+chunk-QKYZNYPG.js   | -                       | 12.53 kB | 
+chunk-G6T5H7RY.js   | homepage-component      |  8.60 kB | 
+chunk-OCUSIGQW.js   | day-displayer-component |  5.65 kB | 
+chunk-ZEBX345M.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.207 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-SUFP44RO.js   | -                       | 16.78 kB | 
+chunk-QQ7WHKW4.js   | day-planner-component   | 12.59 kB | 
+chunk-6ZHJ4VRT.js   | -                       | 12.55 kB | 
+chunk-HMW6RF6D.js   | homepage-component      |  8.60 kB | 
+chunk-MHGZ2GCI.js   | day-displayer-component |  5.65 kB | 
+chunk-LWN3544E.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.553 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.234 seconds]
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:32:83:
+      32 │ ... => await this.addressToCoords(map, delivery))).then((coords) => {
+         ╵                                        ~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:50:90:
+      50 │ ... => await this.addressToCoords(map, delivery))).then((coords) => {
+         ╵                                        ~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.254 seconds]
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:39:39:
+      39 │       return this.mapService.test(map, setupBundle.multipleOrders)
+         ╵                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-WNLT3WI6.js   | -                       |  16.78 kB | 
+chunk-NRX7OGKE.js   | day-planner-component   |  12.59 kB | 
+chunk-BZNTO55B.js   | -                       |  12.48 kB | 
+chunk-RIT7TFLM.js   | homepage-component      |   8.60 kB | 
+chunk-XFT7R7XU.js   | day-displayer-component |   5.65 kB | 
+chunk-YOAOEODE.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [0.369 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-MKH4SU4A.js   | -                       | 16.78 kB | 
+chunk-J5455G4Q.js   | day-planner-component   | 12.59 kB | 
+chunk-B44PSEE5.js   | -                       | 12.58 kB | 
+chunk-LYQ32B5Z.js   | homepage-component      |  8.60 kB | 
+chunk-YH6BK4DG.js   | day-displayer-component |  5.65 kB | 
+chunk-YSF7JZHU.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.217 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-RPP5SWTK.js   | -                       | 16.78 kB | 
+chunk-SLVZEA5N.js   | day-planner-component   | 12.59 kB | 
+chunk-YK2QBAQ5.js   | -                       | 12.58 kB | 
+chunk-LJPLEUA4.js   | homepage-component      |  8.60 kB | 
+chunk-CC4KLBPU.js   | day-displayer-component |  5.65 kB | 
+chunk-VFIJ36N2.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.284 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.235 seconds]
+
+✘ [ERROR] NG5002: Empty expressions are not allowed [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:7:84:
+      7 │ ...y" mat-dialog-close cdkFocusInitial (click)="">Automatique</button>
+        ╵                                                 ^
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:25:15:
+      25 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'inject'. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:30:24:
+      30 │   planificatorService = inject(PlanificatorService)
+         ╵                         ~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'PlanificatorService'. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:30:31:
+      30 │   planificatorService = inject(PlanificatorService)
+         ╵                                ~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.162 seconds]
+
+✘ [ERROR] NG5002: Empty expressions are not allowed [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:7:84:
+      7 │ ...y" mat-dialog-close cdkFocusInitial (click)="">Automatique</button>
+        ╵                                                 ^
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-RPP5SWTK.js   | -                       |  16.78 kB | 
+chunk-SLVZEA5N.js   | day-planner-component   |  12.59 kB | 
+chunk-YK2QBAQ5.js   | -                       |  12.58 kB | 
+chunk-NXQ2CJT4.js   | homepage-component      |   8.87 kB | 
+chunk-CC4KLBPU.js   | day-displayer-component |   5.65 kB | 
+chunk-VFIJ36N2.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [0.161 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-EQHRPETT.js   | homepage-component |  8.68 kB | 
+
+Application bundle generation complete. [0.148 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-43LIM2MK.js   | homepage-component |  8.87 kB | 
+
+Application bundle generation complete. [0.210 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-NYRE4NFP.js   | -                       | 16.78 kB | 
+chunk-YMCG2JMK.js   | -                       | 12.61 kB | 
+chunk-C74DA6IE.js   | day-planner-component   | 12.59 kB | 
+chunk-PYWIW56D.js   | homepage-component      |  8.87 kB | 
+chunk-3XJZUPYE.js   | day-displayer-component |  5.65 kB | 
+chunk-QBUTKJ7I.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.282 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-FKBXULG6.js   | -                       | 16.78 kB | 
+chunk-YO6DYGSK.js   | -                       | 12.62 kB | 
+chunk-EFGLB7CC.js   | day-planner-component   | 12.59 kB | 
+chunk-7WQ45ILU.js   | homepage-component      |  8.87 kB | 
+chunk-QF2WLZY7.js   | day-displayer-component |  5.65 kB | 
+chunk-63DDWSUO.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.290 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.281 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.228 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.151 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.132 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.200 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.256 seconds]
+
+✘ [ERROR] TS1135: Argument expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:54:12:
+      54 │     }).then(return bundle)
+         ╵             ~~~~~~
+
+
+✘ [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:54:25:
+      54 │     }).then(return bundle)
+         ╵                          ^
+
+
+✘ [ERROR] TS2345: Argument of type 'void | IOptimizedBundle' is not assignable to parameter of type 'IOptimizedBundle'.
+  Type 'void' is not assignable to type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.217 seconds]
+
+✘ [ERROR] TS1135: Argument expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:54:12:
+      54 │     }).then(return bundle)
+         ╵             ~~~~~~
+
+
+✘ [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:54:25:
+      54 │     }).then(return bundle)
+         ╵                          ^
+
+
+✘ [ERROR] TS2345: Argument of type 'void | IOptimizedBundle' is not assignable to parameter of type 'IOptimizedBundle'.
+  Type 'void' is not assignable to type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-EZALVS6Q.js   | -                       |  16.78 kB | 
+chunk-BRZYJZGZ.js   | -                       |  12.61 kB | 
+chunk-WUOKUVUM.js   | day-planner-component   |  12.59 kB | 
+chunk-46U2NPCP.js   | homepage-component      |   8.87 kB | 
+chunk-HR7XGRXC.js   | day-displayer-component |   5.65 kB | 
+chunk-SP5QSEPN.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [0.241 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-EYJBHBMX.js   | -                       | 16.78 kB | 
+chunk-TC7RZQUW.js   | -                       | 12.64 kB | 
+chunk-SEMY466J.js   | day-planner-component   | 12.59 kB | 
+chunk-2HEJE7AV.js   | homepage-component      |  8.87 kB | 
+chunk-WHR4AAAB.js   | day-displayer-component |  5.65 kB | 
+chunk-FBVX7RUV.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.196 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-KFJHOSGO.js   | -                       | 16.78 kB | 
+chunk-QSNMXAZU.js   | -                       | 12.64 kB | 
+chunk-OZNNRB23.js   | day-planner-component   | 12.59 kB | 
+chunk-NZP5OWRD.js   | homepage-component      |  8.87 kB | 
+chunk-AJFDVQXR.js   | day-displayer-component |  5.65 kB | 
+chunk-BDFFH6NG.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.220 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-EYJBHBMX.js   | -                       | 16.78 kB | 
+chunk-TC7RZQUW.js   | -                       | 12.64 kB | 
+chunk-SEMY466J.js   | day-planner-component   | 12.59 kB | 
+chunk-2HEJE7AV.js   | homepage-component      |  8.87 kB | 
+chunk-WHR4AAAB.js   | day-displayer-component |  5.65 kB | 
+chunk-FBVX7RUV.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.145 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-377CSDU6.js   | -                       | 16.78 kB | 
+chunk-Q3WW7W6H.js   | -                       | 12.64 kB | 
+chunk-GJSF23BX.js   | day-planner-component   | 12.59 kB | 
+chunk-RUFPKO6I.js   | homepage-component      |  8.87 kB | 
+chunk-SITY4GRU.js   | day-displayer-component |  5.65 kB | 
+chunk-GOXKYTVH.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.247 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-2ZVQYGR6.js   | -                       | 16.78 kB | 
+chunk-FTTBJUBG.js   | -                       | 12.65 kB | 
+chunk-H5BZXKZV.js   | day-planner-component   | 12.59 kB | 
+chunk-RMGLCGVO.js   | homepage-component      |  8.87 kB | 
+chunk-R4EIMA5I.js   | day-displayer-component |  5.65 kB | 
+chunk-MCJWQF5B.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.275 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-ZPCHPHQI.js   | -                       | 16.78 kB | 
+chunk-GUCJ2FDH.js   | -                       | 12.71 kB | 
+chunk-VFFM6U4K.js   | day-planner-component   | 12.59 kB | 
+chunk-5UYF2YOF.js   | homepage-component      |  8.87 kB | 
+chunk-MZ5HGZBS.js   | day-displayer-component |  5.65 kB | 
+chunk-RSZIQNN4.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.227 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-74PEFU3P.js   | -                       | 16.78 kB | 
+chunk-3FIVQQGY.js   | -                       | 12.71 kB | 
+chunk-D5XLCOCU.js   | day-planner-component   | 12.59 kB | 
+chunk-Y6CG5JN4.js   | homepage-component      |  8.87 kB | 
+chunk-XYYRP27L.js   | day-displayer-component |  5.65 kB | 
+chunk-CBBMIRFN.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.259 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-D2EZJTTH.js   | -                       | 16.78 kB | 
+chunk-G5BCHTBG.js   | -                       | 12.72 kB | 
+chunk-7UZPT6D4.js   | day-planner-component   | 12.59 kB | 
+chunk-IH4JFPHU.js   | homepage-component      |  8.87 kB | 
+chunk-7SRSQMK7.js   | day-displayer-component |  5.65 kB | 
+chunk-75TCNWP7.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.179 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-SL4CQ3W5.js   | -                       | 16.78 kB | 
+chunk-CSEIZRXY.js   | -                       | 12.73 kB | 
+chunk-KI7JS3UA.js   | day-planner-component   | 12.59 kB | 
+chunk-DG272WHY.js   | homepage-component      |  8.87 kB | 
+chunk-D3USQJ2J.js   | day-displayer-component |  5.65 kB | 
+chunk-T7DQAAWC.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.153 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-DQXTLTIY.js   | -                       | 16.78 kB | 
+chunk-WYCAHJKL.js   | -                       | 12.78 kB | 
+chunk-RJZPM7XZ.js   | day-planner-component   | 12.59 kB | 
+chunk-JU3VFTWU.js   | homepage-component      |  8.87 kB | 
+chunk-KQJBA36R.js   | day-displayer-component |  5.65 kB | 
+chunk-G4GK2FDP.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.289 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.252 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.166 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.125 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.162 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.213 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.135 seconds]
+
+✘ [ERROR] "await" can only be used inside an "async" function
+
+    src/app/shared/services/map.service.ts:42:22:
+      42 │         }).then(() => await firstValueFrom(this.requestMatrix(this...
+         ╵                       ~~~~~
+
+  Consider adding the "async" keyword here:
+
+    src/app/shared/services/map.service.ts:42:16:
+      42 │         }).then(() => await firstValueFrom(this.requestMatrix(this...
+         │                 ^
+         ╵                 async
+
+
+✘ [ERROR] TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:53:18:
+      53 │     }).then(() => await firstValueFrom(this.requestMatrix(this.sig...
+         ╵                   ~~~~~
+
+  Did you mean to mark this function as 'async'?
+
+    src/app/shared/services/map.service.ts:53:12:
+      53 │     }).then(() => await firstValueFrom(this.requestMatrix(this.sig...
+         ╵             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.149 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.170 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'IOptimizedBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:42:39:
+      42 │ ...dDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-XHVOIY5Q.js   | -                       |  16.78 kB | 
+chunk-D6XVJAFT.js   | -                       |  12.68 kB | 
+chunk-UGXL6NAZ.js   | day-planner-component   |  12.59 kB | 
+chunk-65LLA62I.js   | homepage-component      |   8.87 kB | 
+chunk-JA6Y4B7B.js   | day-displayer-component |   5.65 kB | 
+chunk-WVT6MVVN.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [0.199 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-XI6F6C4P.js   | -                       | 16.78 kB | 
+chunk-ULTRSDXX.js   | -                       | 12.59 kB | 
+chunk-HFP6BLV7.js   | day-planner-component   | 12.59 kB | 
+chunk-KB4IDRBS.js   | homepage-component      |  8.87 kB | 
+chunk-VJ2OGGIA.js   | day-displayer-component |  5.65 kB | 
+chunk-DC55YWE5.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.132 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-FCUQCWUE.js   | -                       | 16.78 kB | 
+chunk-TKXAS4X6.js   | day-planner-component   | 12.59 kB | 
+chunk-3UP5BKBF.js   | -                       | 12.54 kB | 
+chunk-BF6TLE2W.js   | homepage-component      |  8.87 kB | 
+chunk-JCQXO2JX.js   | day-displayer-component |  5.65 kB | 
+chunk-SOIF65SJ.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.155 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-QD35LX2L.js   | -                       | 16.78 kB | 
+chunk-T7QPZEHP.js   | -                       | 12.64 kB | 
+chunk-4MAFU2T3.js   | day-planner-component   | 12.59 kB | 
+chunk-UHWSX4A6.js   | homepage-component      |  8.87 kB | 
+chunk-UCPZKKTI.js   | day-displayer-component |  5.65 kB | 
+chunk-CQL5OHHJ.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.169 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.221 seconds]
+
+✘ [ERROR] TS2322: Type '{ deliveries: Delivery | undefined; deliverymen: string; truck: string; distanceToCover: number; }[][]' is not assignable to type 'DeliveryTour[]'.
+  Type '{ deliveries: Delivery | undefined; deliverymen: string; truck: string; distanceToCover: number; }[]' is missing the following properties from type 'DeliveryTour': deliveries, deliverymen, truck, distanceToCover [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:46:52:
+      46 │ ...ate: this.getTomorrowDate(), tours: bundle.tournees.map((tourne...
+         ╵                                 ~~~~~
+
+  The expected type comes from property 'tours' which is declared here on type 'Day'
+
+    src/app/core/models/day.models.ts:5:2:
+      5 │   tours: DeliveryTour[]
+        ╵   ~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.185 seconds]
+
+✘ [ERROR] TS2322: Type '{ deliveries: (Delivery | undefined)[]; truck: string; deliverymen: string; distanceToCover: number; }[]' is not assignable to type 'DeliveryTour[]'.
+  Type '{ deliveries: (Delivery | undefined)[]; truck: string; deliverymen: string; distanceToCover: number; }' is not assignable to type 'DeliveryTour'.
+    Types of property 'deliveries' are incompatible.
+      Type '(Delivery | undefined)[]' is not assignable to type 'Delivery[]'.
+        Type 'Delivery | undefined' is not assignable to type 'Delivery'.
+          Type 'undefined' is not assignable to type 'Delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:46:52:
+      46 │ ...ate: this.getTomorrowDate(), tours: bundle.tournees.map((tourne...
+         ╵                                 ~~~~~
+
+  The expected type comes from property 'tours' which is declared here on type 'Day'
+
+    src/app/core/models/day.models.ts:5:2:
+      5 │   tours: DeliveryTour[]
+        ╵   ~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.158 seconds]
+
+✘ [ERROR] TS2322: Type '{ deliveries: Delivery[]; truck: string; deliverymen: string; distanceToCover: number; }[]' is not assignable to type 'DeliveryTour[]'.
+  Type '{ deliveries: Delivery[]; truck: string; deliverymen: string; distanceToCover: number; }' is not assignable to type 'DeliveryTour'.
+    Types of property 'deliverymen' are incompatible.
+      Type 'string' is not assignable to type 'string[]'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:46:52:
+      46 │ ...ate: this.getTomorrowDate(), tours: bundle.tournees.map((tourne...
+         ╵                                 ~~~~~
+
+  The expected type comes from property 'tours' which is declared here on type 'Day'
+
+    src/app/core/models/day.models.ts:5:2:
+      5 │   tours: DeliveryTour[]
+        ╵   ~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.138 seconds]
+
+✘ [ERROR] TS2322: Type '{ deliveries: Delivery[]; truck: string; deliverymen: string; distanceToCover: number; }[]' is not assignable to type 'DeliveryTour[]'.
+  Type '{ deliveries: Delivery[]; truck: string; deliverymen: string; distanceToCover: number; }' is not assignable to type 'DeliveryTour'.
+    Types of property 'deliverymen' are incompatible.
+      Type 'string' is not assignable to type 'string[]'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:46:52:
+      46 │ ...ate: this.getTomorrowDate(), tours: bundle.tournees.map((tourne...
+         ╵                                 ~~~~~
+
+  The expected type comes from property 'tours' which is declared here on type 'Day'
+
+    src/app/core/models/day.models.ts:5:2:
+      5 │   tours: DeliveryTour[]
+        ╵   ~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-VE6NRF6D.js   | -                       |  16.78 kB | 
+chunk-4TIZINE7.js   | -                       |  12.83 kB | 
+chunk-MXYPZEW3.js   | day-planner-component   |  12.59 kB | 
+chunk-PB5ZIXQA.js   | homepage-component      |   8.87 kB | 
+chunk-DQ7E3ZWZ.js   | day-displayer-component |   5.65 kB | 
+chunk-ELGOWR6E.js   | day-preview-component   |   5.58 kB | 
+
+Application bundle generation complete. [0.180 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-LWBGTJUP.js   | -                       | 16.78 kB | 
+chunk-56DZVHUT.js   | -                       | 12.95 kB | 
+chunk-BNY6AH25.js   | day-planner-component   | 12.59 kB | 
+chunk-5I37PU3Y.js   | homepage-component      |  8.87 kB | 
+chunk-D3ALLOKR.js   | day-displayer-component |  5.65 kB | 
+chunk-VPVRHLQP.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.466 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-QTVMSL4T.js   | -                       | 16.78 kB | 
+chunk-6SLSTKXK.js   | -                       | 12.95 kB | 
+chunk-CTYEEUL2.js   | day-planner-component   | 12.59 kB | 
+chunk-LAQUHIQ5.js   | homepage-component      |  8.87 kB | 
+chunk-PDX5MELC.js   | day-displayer-component |  5.65 kB | 
+chunk-I6QOWHHW.js   | day-preview-component   |  5.58 kB | 
+
+Application bundle generation complete. [0.391 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-G5DFVCL7.js   | day-planner-component | 12.61 kB | 
+
+Application bundle generation complete. [0.322 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-INGT72MY.js   | day-displayer-component |  5.67 kB | 
+
+Application bundle generation complete. [0.621 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-ESZAOWDQ.js   | day-preview-component |  5.61 kB | 
+
+Application bundle generation complete. [0.210 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-DBL2XXGW.js   | day-preview-component |  6.65 kB | 
+
+Application bundle generation complete. [0.501 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-MJ55GXFT.js   | day-preview-component |  8.38 kB | 
+chunk-JSLGWBN2.js   | homepage-component    |  6.44 kB | 
+chunk-WYHH6JC5.js   | -                     |  2.46 kB | 
+
+Application bundle generation complete. [0.614 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-VH5AWFEO.js   | day-preview-component |  8.81 kB | 
+
+Application bundle generation complete. [0.445 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-RH224YI4.js   | day-preview-component |  8.81 kB | 
+chunk-WURMOS2W.js   | homepage-component    |  6.44 kB | 
+chunk-T4FKKZ4O.js   | -                     |  2.24 kB | 
+
+Application bundle generation complete. [0.360 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-3KR5ZWIU.js   | day-preview-component |  8.81 kB | 
+chunk-GRJUJDSD.js   | homepage-component    |  6.44 kB | 
+chunk-XAQYZOMT.js   | -                     |  2.38 kB | 
+
+Application bundle generation complete. [0.247 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-RKRIQ4BI.js   | day-preview-component |  8.81 kB | 
+chunk-MP7CAEOD.js   | homepage-component    |  6.44 kB | 
+chunk-Q3RYCEBK.js   | -                     |  2.35 kB | 
+
+Application bundle generation complete. [0.287 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-D7HGD6XJ.js   | homepage-component |  6.28 kB | 
+
+Application bundle generation complete. [0.228 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-PR2EA5QH.js   | day-preview-component |  8.81 kB | 
+chunk-3EYC3RM5.js   | homepage-component    |  6.28 kB | 
+chunk-CO4NDJTA.js   | -                     |  2.52 kB | 
+
+Application bundle generation complete. [0.159 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-5A6TVOHZ.js   | day-preview-component |  8.81 kB | 
+chunk-77L25IDX.js   | homepage-component    |  6.28 kB | 
+chunk-WDORIQUG.js   | -                     |  2.46 kB | 
+
+Application bundle generation complete. [0.190 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.139 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-EJSXPI7D.js   | day-preview-component |  8.81 kB | 
+chunk-HQMCT7L7.js   | homepage-component    |  6.28 kB | 
+chunk-5IXB4TGH.js   | -                     |  2.45 kB | 
+
+Application bundle generation complete. [0.189 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-XKIY763M.js   | day-preview-component |  8.81 kB | 
+chunk-KRWFDVQ5.js   | homepage-component    |  6.28 kB | 
+chunk-JTQGBSG3.js   | -                     |  2.45 kB | 
+
+Application bundle generation complete. [0.221 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-FTW3D75A.js   | day-preview-component |  8.81 kB | 
+chunk-J6Z4YYOZ.js   | homepage-component    |  6.28 kB | 
+chunk-5BGN3J5Q.js   | -                     |  2.45 kB | 
+
+Application bundle generation complete. [0.204 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-6ZZW3UP4.js   | day-preview-component |  8.81 kB | 
+chunk-ILI3FUBJ.js   | homepage-component    |  6.28 kB | 
+chunk-GHESVNGA.js   | -                     |  2.45 kB | 
+
+Application bundle generation complete. [0.150 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-FLEQ5CY2.js   | day-preview-component |  8.81 kB | 
+chunk-6TAEMGF6.js   | homepage-component    |  6.28 kB | 
+chunk-ZZ5QB7PX.js   | -                     |  2.45 kB | 
+
+Application bundle generation complete. [0.194 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.312 seconds]
+
+✘ [ERROR] NG4: Expected 3 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/views/day-preview/day-preview.component.html:33:27:
+      33 │           <button (click)="openDialog('0ms', '0ms')">Affichage</bu...
+         ╵                            ~~~~~~~~~~
+
+  Error occurs in the template of component DayPreviewComponent.
+
+    src/app/views/day-preview/day-preview.component.ts:28:15:
+      28 │   templateUrl: './day-preview.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.225 seconds]
+
+✘ [ERROR] NG4: Expected 3 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/views/day-preview/day-preview.component.html:33:27:
+      33 │           <button (click)="openDialog('0ms', '0ms')">Affichage</bu...
+         ╵                            ~~~~~~~~~~
+
+  Error occurs in the template of component DayPreviewComponent.
+
+    src/app/views/day-preview/day-preview.component.ts:28:15:
+      28 │   templateUrl: './day-preview.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.216 seconds]
+
+✘ [ERROR] NG4: Expected 3 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/views/day-preview/day-preview.component.html:33:27:
+      33 │           <button (click)="openDialog('0ms', '0ms')">Affichage</bu...
+         ╵                            ~~~~~~~~~~
+
+  Error occurs in the template of component DayPreviewComponent.
+
+    src/app/views/day-preview/day-preview.component.ts:28:15:
+      28 │   templateUrl: './day-preview.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.205 seconds]
+
+✘ [ERROR] NG4: Expected 3 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/views/day-preview/day-preview.component.html:33:27:
+      33 │           <button (click)="openDialog('0ms', '0ms')">Affichage</bu...
+         ╵                            ~~~~~~~~~~
+
+  Error occurs in the template of component DayPreviewComponent.
+
+    src/app/views/day-preview/day-preview.component.ts:28:15:
+      28 │   templateUrl: './day-preview.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.134 seconds]
+
+✘ [ERROR] NG4: Expected 3 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/views/day-preview/day-preview.component.html:33:27:
+      33 │           <button (click)="openDialog('0ms', '0ms')">Affichage</bu...
+         ╵                            ~~~~~~~~~~
+
+  Error occurs in the template of component DayPreviewComponent.
+
+    src/app/views/day-preview/day-preview.component.ts:28:15:
+      28 │   templateUrl: './day-preview.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.241 seconds]
+
+✘ [ERROR] NG4: Expected 3 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/views/day-preview/day-preview.component.html:33:27:
+      33 │           <button (click)="openDialog('0ms', '0ms')">Affichage</bu...
+         ╵                            ~~~~~~~~~~
+
+  Error occurs in the template of component DayPreviewComponent.
+
+    src/app/views/day-preview/day-preview.component.ts:28:15:
+      28 │   templateUrl: './day-preview.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.146 seconds]
+
+✘ [ERROR] NG4: Expected 3 arguments, but got 2. [plugin angular-compiler]
+
+    src/app/views/day-preview/day-preview.component.html:33:27:
+      33 │           <button (click)="openDialog('0ms', '0ms')">Affichage</bu...
+         ╵                            ~~~~~~~~~~
+
+  Error occurs in the template of component DayPreviewComponent.
+
+    src/app/views/day-preview/day-preview.component.ts:28:15:
+      28 │   templateUrl: './day-preview.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-QTVMSL4T.js   | -                       |  16.78 kB | 
+chunk-6SLSTKXK.js   | -                       |  12.95 kB | 
+chunk-G5DFVCL7.js   | day-planner-component   |  12.61 kB | 
+chunk-3YNMDHOB.js   | day-preview-component   |   9.14 kB | 
+chunk-LWESNPFR.js   | homepage-component      |   6.28 kB | 
+chunk-INGT72MY.js   | day-displayer-component |   5.67 kB | 
+chunk-QKBMFNQN.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.450 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-R3HTZSC3.js   | day-preview-component |  9.13 kB | 
+
+Application bundle generation complete. [0.495 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-A5MQI4D6.js   | day-preview-component |  9.19 kB | 
+
+Application bundle generation complete. [0.338 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-C7FZCZ75.js   | day-preview-component |  9.21 kB | 
+
+Application bundle generation complete. [0.188 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.12 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-DHAJECFS.js   | day-preview-component |  9.24 kB | 
+
+Application bundle generation complete. [0.532 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-ISTXQNDY.js   | homepage-component |  6.49 kB | 
+
+Application bundle generation complete. [1.170 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-DTNPOZII.js   | homepage-component |  6.50 kB | 
+
+Application bundle generation complete. [0.310 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-FYO6DBEL.js   | homepage-component |  6.58 kB | 
+
+Application bundle generation complete. [0.437 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-JEN4ZMGQ.js   | homepage-component |  6.68 kB | 
+
+Application bundle generation complete. [0.235 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-LQUBSTZC.js   | homepage-component |  6.68 kB | 
+
+Application bundle generation complete. [0.193 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-LGL2KWZZ.js   | homepage-component |  6.71 kB | 
+
+Application bundle generation complete. [0.402 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-UGDSSSW6.js   | homepage-component |  6.73 kB | 
+
+Application bundle generation complete. [0.269 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-YJOCRBIA.js   | homepage-component |  6.93 kB | 
+
+Application bundle generation complete. [0.318 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-YNCTBEDV.js   | homepage-component |  7.00 kB | 
+
+Application bundle generation complete. [0.179 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-MAO4H6XY.js   | -                       | 16.78 kB | 
+chunk-B45LHVIW.js   | -                       | 12.88 kB | 
+chunk-IRATGUYI.js   | day-planner-component   | 12.61 kB | 
+chunk-OQ7VBZZI.js   | day-preview-component   |  9.24 kB | 
+chunk-32GLZPAJ.js   | homepage-component      |  7.00 kB | 
+chunk-2L2FWAK7.js   | day-displayer-component |  5.67 kB | 
+chunk-ZUV76R76.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.424 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.372 seconds]
+
+✘ [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:34:75:
+      34 │ ....subscribe((matrix: any) => this.optimizeRoutes(matrix.distances))
+         ╵                                     ~~~~~~~~~~~~~~
+
+  An argument for 'toursCount' was not provided.
+
+    src/app/shared/services/map.service.ts:57:52:
+      57 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                 ~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:53:19:
+      53 │        return this.optimizeRoutes(matrix.distances)
+         ╵                    ~~~~~~~~~~~~~~
+
+  An argument for 'toursCount' was not provided.
+
+    src/app/shared/services/map.service.ts:57:52:
+      57 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                 ~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.481 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:7:88:
+      7 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:34:75:
+      34 │ ....subscribe((matrix: any) => this.optimizeRoutes(matrix.distances))
+         ╵                                     ~~~~~~~~~~~~~~
+
+  An argument for 'toursCount' was not provided.
+
+    src/app/shared/services/map.service.ts:57:52:
+      57 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                 ~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:53:19:
+      53 │        return this.optimizeRoutes(matrix.distances)
+         ╵                    ~~~~~~~~~~~~~~
+
+  An argument for 'toursCount' was not provided.
+
+    src/app/shared/services/map.service.ts:57:52:
+      57 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                 ~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.246 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:7:88:
+      7 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:34:75:
+      34 │ ....subscribe((matrix: any) => this.optimizeRoutes(matrix.distances))
+         ╵                                     ~~~~~~~~~~~~~~
+
+  An argument for 'toursCount' was not provided.
+
+    src/app/shared/services/map.service.ts:57:52:
+      57 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                 ~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:53:19:
+      53 │        return this.optimizeRoutes(matrix.distances)
+         ╵                    ~~~~~~~~~~~~~~
+
+  An argument for 'toursCount' was not provided.
+
+    src/app/shared/services/map.service.ts:57:52:
+      57 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                 ~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.115 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:7:88:
+      7 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:34:75:
+      34 │ ....subscribe((matrix: any) => this.optimizeRoutes(matrix.distances))
+         ╵                                     ~~~~~~~~~~~~~~
+
+  An argument for 'toursCount' was not provided.
+
+    src/app/shared/services/map.service.ts:57:52:
+      57 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                 ~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.184 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:7:88:
+      7 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:34:75:
+      34 │ ....subscribe((matrix: any) => this.optimizeRoutes(matrix.distances))
+         ╵                                     ~~~~~~~~~~~~~~
+
+  An argument for 'toursCount' was not provided.
+
+    src/app/shared/services/map.service.ts:57:52:
+      57 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                 ~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.412 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:7:88:
+      7 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.266 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:7:88:
+      7 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.456 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:7:88:
+      7 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.214 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:8:90:
+      8 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:16:90:
+      16 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.186 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:8:90:
+      8 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:16:90:
+      16 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.202 seconds]
+
+✘ [ERROR] NG5002: Opening tag "mat-" not terminated. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:13:4:
+      13 │     <mat-
+         ╵     ~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.150 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:8:90:
+      8 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:17:90:
+      17 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.254 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:8:90:
+      8 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:17:90:
+      17 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.189 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:8:90:
+      8 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:17:90:
+      17 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:26:15:
+      26 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.622 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:8:90:
+      8 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:28:15:
+      28 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:17:90:
+      17 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:28:15:
+      28 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.208 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:8:90:
+      8 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:32:15:
+      32 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:19:90:
+      19 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:32:15:
+      32 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.158 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:8:90:
+      8 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:32:15:
+      32 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:19:90:
+      19 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:32:15:
+      32 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.174 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:8:90:
+      8 │ ...="planificatorService.buildDayAutomatically()" cdkFocusInitial>A...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:32:15:
+      32 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:19:90:
+      19 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:32:15:
+      32 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.137 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:19:90:
+      19 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:32:15:
+      32 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.239 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:19:90:
+      19 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:32:15:
+      32 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.169 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:19:90:
+      19 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:32:15:
+      32 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.431 seconds]
+
+✘ [ERROR] NG5002: Unsupported expression in a two-way binding [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:14:20:
+      14 │     <input matInput [(ngModel)]="toursCountSig()">
+         ╵                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:34:15:
+      34 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:19:90:
+      19 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:34:15:
+      34 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.245 seconds]
+
+✘ [ERROR] NG4: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:19:90:
+      19 │ ..."planificatorService.buildDayAutomatically()" cdkFocusInitial>V...
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:34:15:
+      34 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-DHN7UGOQ.js   | -                       |  16.78 kB | 
+chunk-HOHZV3MI.js   | day-planner-component   |  12.61 kB | 
+chunk-GDYZVCIE.js   | -                       |  12.22 kB | 
+chunk-TOBT2APG.js   | homepage-component      |  10.17 kB | 
+chunk-OJSV3TKK.js   | day-preview-component   |   9.24 kB | 
+chunk-JHEPNZXL.js   | day-displayer-component |   5.67 kB | 
+chunk-RDNTMA3K.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.195 seconds]
+
+Page reload sent to client(s).
+6:26:03 AM [vite] ✨ new dependencies optimized: @angular/material/input, @angular/forms
+6:26:03 AM [vite] ✨ optimized dependencies changed. reloading
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-2NLPJZ2C.js   | homepage-component | 10.25 kB | 
+
+Application bundle generation complete. [0.249 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-QVDJ4MEN.js   | homepage-component | 10.23 kB | 
+
+Application bundle generation complete. [0.181 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-UZUBBUAP.js   | homepage-component | 10.23 kB | 
+
+Application bundle generation complete. [0.195 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.192 seconds]
+
+✘ [ERROR] NG8001: 'remove' is not a known element:
+1. If 'remove' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. To allow any element add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.html:15:24:
+      15 │     <mat-icon matSuffix><remove></remove></mat-icon>
+         ╵                         ~~~~~~~~
+
+  Error occurs in the template of component ChoiceDialogComponent.
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:34:15:
+      34 │   templateUrl: './choice-dialog.component.html',
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-DHN7UGOQ.js   | -                       |  16.78 kB | 
+chunk-HOHZV3MI.js   | day-planner-component   |  12.61 kB | 
+chunk-GDYZVCIE.js   | -                       |  12.22 kB | 
+chunk-QVDJ4MEN.js   | homepage-component      |  10.23 kB | 
+chunk-OJSV3TKK.js   | day-preview-component   |   9.24 kB | 
+chunk-JHEPNZXL.js   | day-displayer-component |   5.67 kB | 
+chunk-RDNTMA3K.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.226 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-UZUBBUAP.js   | homepage-component | 10.23 kB | 
+
+Application bundle generation complete. [0.230 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-4GAHC5SV.js   | homepage-component | 10.23 kB | 
+
+Application bundle generation complete. [0.249 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-7DHDGXQL.js   | homepage-component | 10.28 kB | 
+
+Application bundle generation complete. [0.194 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-PCOQPC32.js   | homepage-component | 10.31 kB | 
+
+Application bundle generation complete. [0.334 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-Y7BPGI6W.js   | homepage-component | 10.33 kB | 
+
+Application bundle generation complete. [0.224 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-SRKPPYS6.js   | homepage-component | 10.33 kB | 
+
+Application bundle generation complete. [0.194 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-C7B6HQRZ.js   | homepage-component | 10.33 kB | 
+
+Application bundle generation complete. [0.187 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-3JDTRWGF.js   | homepage-component | 10.33 kB | 
+
+Application bundle generation complete. [0.195 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-BG5HAX7J.js   | homepage-component | 10.35 kB | 
+
+Application bundle generation complete. [0.153 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.253 seconds]
+
+✘ [ERROR] TS7008: Member 'toursSignal' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.ts:54:2:
+      54 │   toursSignal
+         ╵   ~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-DHN7UGOQ.js   | -                       |  16.78 kB | 
+chunk-HOHZV3MI.js   | day-planner-component   |  12.61 kB | 
+chunk-GDYZVCIE.js   | -                       |  12.22 kB | 
+chunk-Y6FJS2X7.js   | homepage-component      |  10.56 kB | 
+chunk-OJSV3TKK.js   | day-preview-component   |   9.24 kB | 
+chunk-JHEPNZXL.js   | day-displayer-component |   5.67 kB | 
+chunk-RDNTMA3K.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.406 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-3YO4AEOX.js   | homepage-component | 11.22 kB | 
+
+Application bundle generation complete. [0.162 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-MS7KCG2B.js   | homepage-component | 11.21 kB | 
+
+Application bundle generation complete. [0.376 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-OKFT2DQA.js   | homepage-component | 11.26 kB | 
+
+Application bundle generation complete. [0.216 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-MS7KCG2B.js   | homepage-component | 11.21 kB | 
+
+Application bundle generation complete. [0.308 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-6UJL4KHR.js   | homepage-component | 11.26 kB | 
+
+Application bundle generation complete. [0.346 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-ZFZPCP34.js   | homepage-component | 11.24 kB | 
+
+Application bundle generation complete. [0.225 seconds]
+
+▲ [WARNING] Expected "{" but found end of file [plugin angular-compiler] [css-syntax-error]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.css:7:0:
+      7 │ 
+        │ ^
+        ╵ {
+
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-YLKHIB3X.js   | homepage-component | 11.24 kB | 
+
+Application bundle generation complete. [0.166 seconds]
+
+▲ [WARNING] Expected "{" but found end of file [plugin angular-compiler] [css-syntax-error]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.css:7:0:
+      7 │ 
+        │ ^
+        ╵ {
+
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-LV6HB6WP.js   | homepage-component | 11.28 kB | 
+
+Application bundle generation complete. [0.213 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-MS7KCG2B.js   | homepage-component | 11.21 kB | 
+
+Application bundle generation complete. [0.138 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-ZXFM5XF3.js   | homepage-component | 11.28 kB | 
+
+Application bundle generation complete. [0.239 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-EOPPJAPF.js   | homepage-component | 11.28 kB | 
+
+Application bundle generation complete. [0.235 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-A4GL6QW7.js   | homepage-component | 11.31 kB | 
+
+Application bundle generation complete. [0.245 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-XNCDCPTY.js   | homepage-component | 11.36 kB | 
+
+Application bundle generation complete. [0.211 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-LPVB3DJV.js   | homepage-component | 11.41 kB | 
+
+Application bundle generation complete. [0.295 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-OKTJTJXX.js   | homepage-component | 11.38 kB | 
+
+Application bundle generation complete. [0.242 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-SWBYG7JO.js   | homepage-component | 11.45 kB | 
+
+Application bundle generation complete. [0.463 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-GN6ZG3OJ.js   | homepage-component | 11.43 kB | 
+
+Application bundle generation complete. [0.205 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-OKTJTJXX.js   | homepage-component | 11.38 kB | 
+
+Application bundle generation complete. [0.183 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-2GORPZ2J.js   | homepage-component | 11.36 kB | 
+
+Application bundle generation complete. [0.285 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-XKDQS2OZ.js   | homepage-component | 11.43 kB | 
+
+Application bundle generation complete. [0.260 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-SUSSB7OV.js   | homepage-component | 11.43 kB | 
+
+Application bundle generation complete. [0.215 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-L6IY7BPY.js   | homepage-component | 11.42 kB | 
+
+Application bundle generation complete. [0.194 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-3JJVNT47.js   | homepage-component | 11.45 kB | 
+
+Application bundle generation complete. [0.166 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-AH7RAPDD.js   | homepage-component | 11.47 kB | 
+
+Application bundle generation complete. [0.179 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-2DJSXXGE.js   | homepage-component | 11.48 kB | 
+
+Application bundle generation complete. [0.212 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-Z6TD4SHM.js   | homepage-component | 11.47 kB | 
+
+Application bundle generation complete. [0.177 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-UWQDMDHG.js   | homepage-component | 11.47 kB | 
+
+Application bundle generation complete. [0.189 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-O5RJYXDW.js   | homepage-component | 11.47 kB | 
+
+Application bundle generation complete. [0.250 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-RO5TNO4G.js   | homepage-component | 11.45 kB | 
+
+Application bundle generation complete. [0.144 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-EEVHQR23.js   | homepage-component | 11.48 kB | 
+
+Application bundle generation complete. [0.218 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-AH7RAPDD.js   | homepage-component | 11.47 kB | 
+
+Application bundle generation complete. [0.351 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-ATKFICHR.js   | homepage-component | 11.48 kB | 
+
+Application bundle generation complete. [0.151 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-NODTINQL.js   | homepage-component | 11.48 kB | 
+
+Application bundle generation complete. [0.187 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-S5D6AZGA.js   | homepage-component | 11.47 kB | 
+
+Application bundle generation complete. [0.211 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-RDZLZ4FW.js   | homepage-component | 11.48 kB | 
+
+Application bundle generation complete. [0.172 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-PFWQUT3J.js   | homepage-component | 11.40 kB | 
+
+Application bundle generation complete. [0.167 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-2GORPZ2J.js   | homepage-component | 11.36 kB | 
+
+Application bundle generation complete. [0.173 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-53HXHTE7.js   | homepage-component | 11.38 kB | 
+
+Application bundle generation complete. [0.272 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-R3BXJ7XX.js   | homepage-component | 11.48 kB | 
+
+Application bundle generation complete. [0.478 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-WWHTAQIF.js   | homepage-component | 11.46 kB | 
+
+Application bundle generation complete. [0.258 seconds]
+
+▲ [WARNING] Expected ":" [plugin angular-compiler] [css-syntax-error]
+
+    src/app/shared/components/choice-dialog/choice-dialog.component.css:6:7:
+      6 │   width 30px!important;
+        │        ^
+        ╵        :
+
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-MWUQZPPB.js   | homepage-component | 11.46 kB | 
+
+Application bundle generation complete. [0.123 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-R3GDJWYP.js   | homepage-component | 11.43 kB | 
+
+Application bundle generation complete. [0.275 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-76TWBMDO.js   | homepage-component | 11.45 kB | 
+
+Application bundle generation complete. [0.231 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-U6VTL77S.js   | homepage-component | 11.43 kB | 
+
+Application bundle generation complete. [0.340 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-NC2KIR6I.js   | homepage-component | 11.45 kB | 
+
+Application bundle generation complete. [0.294 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-4UIU4HLH.js   | homepage-component | 11.47 kB | 
+
+Application bundle generation complete. [0.302 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-HKXXDVWP.js   | homepage-component | 11.48 kB | 
+
+Application bundle generation complete. [0.171 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-GO3IZCHX.js   | homepage-component | 11.51 kB | 
+
+Application bundle generation complete. [0.236 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-HKXXDVWP.js   | homepage-component | 11.48 kB | 
+
+Application bundle generation complete. [0.209 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-2RAEUD6S.js   | homepage-component | 11.46 kB | 
+
+Application bundle generation complete. [0.252 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-Y3DOQRAX.js   | homepage-component | 11.47 kB | 
+
+Application bundle generation complete. [0.266 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-EN5K2KJU.js   | homepage-component | 11.48 kB | 
+
+Application bundle generation complete. [0.184 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-TZN7KBPX.js   | homepage-component | 11.36 kB | 
+
+Application bundle generation complete. [0.185 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-EN5K2KJU.js   | homepage-component | 11.48 kB | 
+
+Application bundle generation complete. [0.380 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-TZN7KBPX.js   | homepage-component | 11.36 kB | 
+
+Application bundle generation complete. [0.230 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.12 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-O75L52WZ.js   | homepage-component | 11.36 kB | 
+
+Application bundle generation complete. [0.287 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-DHN7UGOQ.js   | -                       |  16.78 kB | 
+chunk-HOHZV3MI.js   | day-planner-component   |  12.61 kB | 
+chunk-GDYZVCIE.js   | -                       |  12.22 kB | 
+chunk-O75L52WZ.js   | homepage-component      |  11.36 kB | 
+chunk-OJSV3TKK.js   | day-preview-component   |   9.24 kB | 
+chunk-JHEPNZXL.js   | day-displayer-component |   5.67 kB | 
+chunk-RDNTMA3K.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [1.263 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-V5HXKHSM.js   | -                       | 16.78 kB | 
+chunk-HTJBCJLD.js   | day-planner-component   | 12.61 kB | 
+chunk-QMTIJD4P.js   | -                       | 12.22 kB | 
+chunk-ZKQECMEY.js   | homepage-component      | 11.36 kB | 
+chunk-CQTG73UK.js   | day-preview-component   |  9.24 kB | 
+chunk-IQFTDI3R.js   | day-displayer-component |  5.67 kB | 
+chunk-UVHJ3HMC.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.495 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-DHN7UGOQ.js   | -                       | 16.78 kB | 
+chunk-HOHZV3MI.js   | day-planner-component   | 12.61 kB | 
+chunk-GDYZVCIE.js   | -                       | 12.22 kB | 
+chunk-O75L52WZ.js   | homepage-component      | 11.36 kB | 
+chunk-OJSV3TKK.js   | day-preview-component   |  9.24 kB | 
+chunk-JHEPNZXL.js   | day-displayer-component |  5.67 kB | 
+chunk-RDNTMA3K.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.165 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-ZY2SFCAB.js   | -                       | 16.78 kB | 
+chunk-NHP42DHA.js   | day-planner-component   | 12.61 kB | 
+chunk-QBEGKDGH.js   | -                       | 12.22 kB | 
+chunk-4JHLMNV3.js   | homepage-component      | 11.36 kB | 
+chunk-ASWQZKUD.js   | day-preview-component   |  9.24 kB | 
+chunk-VEQQOT7W.js   | day-displayer-component |  5.67 kB | 
+chunk-DIXVADLN.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.161 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-DHN7UGOQ.js   | -                       | 16.78 kB | 
+chunk-HOHZV3MI.js   | day-planner-component   | 12.61 kB | 
+chunk-GDYZVCIE.js   | -                       | 12.22 kB | 
+chunk-O75L52WZ.js   | homepage-component      | 11.36 kB | 
+chunk-OJSV3TKK.js   | day-preview-component   |  9.24 kB | 
+chunk-JHEPNZXL.js   | day-displayer-component |  5.67 kB | 
+chunk-RDNTMA3K.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.123 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-DHN7UGOQ.js   | -                       |  16.78 kB | 
+chunk-HOHZV3MI.js   | day-planner-component   |  12.61 kB | 
+chunk-GDYZVCIE.js   | -                       |  12.22 kB | 
+chunk-O75L52WZ.js   | homepage-component      |  11.36 kB | 
+chunk-OJSV3TKK.js   | day-preview-component   |   9.24 kB | 
+chunk-JHEPNZXL.js   | day-displayer-component |   5.67 kB | 
+chunk-RDNTMA3K.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [1.287 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-EHU6SURS.js   | -                       | 16.78 kB | 
+chunk-XFLRCL35.js   | day-planner-component   | 12.61 kB | 
+chunk-P5RH3UR5.js   | -                       | 12.22 kB | 
+chunk-Z25OHVUL.js   | homepage-component      | 11.36 kB | 
+chunk-54LMUPH6.js   | day-preview-component   |  9.24 kB | 
+chunk-E5PCZZZA.js   | day-displayer-component |  5.67 kB | 
+chunk-XSYGGIJL.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.255 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-EHU6SURS.js   | -                       |  16.78 kB | 
+chunk-XFLRCL35.js   | day-planner-component   |  12.61 kB | 
+chunk-P5RH3UR5.js   | -                       |  12.22 kB | 
+chunk-Z25OHVUL.js   | homepage-component      |  11.36 kB | 
+chunk-54LMUPH6.js   | day-preview-component   |   9.24 kB | 
+chunk-E5PCZZZA.js   | day-displayer-component |   5.67 kB | 
+chunk-XSYGGIJL.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [1.301 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.618 seconds]
+
+✘ [ERROR] TS2322: Type 'any[]' is not assignable to type 'string'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:58:8:
+      58 │         delivery.coordinates = [lat, lon]
+         ╵         ~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type 'string' is not assignable to parameter of type 'LatLngExpression'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:28:
+      94 │     const marker = L.marker(delivery.coordinates!)
+         ╵                             ~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.420 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'string | LatLngTuple' is not assignable to parameter of type 'LatLngExpression'.
+  Type 'string' is not assignable to type 'LatLngExpression'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:28:
+      94 │     const marker = L.marker(delivery.coordinates!)
+         ╵                             ~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.367 seconds]
+
+✘ [ERROR] TS2322: Type 'any[]' is not assignable to type 'string'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:58:8:
+      58 │         delivery.coordinates = [lat, lon]
+         ╵         ~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type 'string' is not assignable to parameter of type 'LatLngExpression'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:28:
+      94 │     const marker = L.marker(delivery.coordinates!)
+         ╵                             ~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-EHU6SURS.js   | -                       |  16.78 kB | 
+chunk-XFLRCL35.js   | day-planner-component   |  12.61 kB | 
+chunk-P5RH3UR5.js   | -                       |  12.22 kB | 
+chunk-Z25OHVUL.js   | homepage-component      |  11.36 kB | 
+chunk-54LMUPH6.js   | day-preview-component   |   9.24 kB | 
+chunk-E5PCZZZA.js   | day-displayer-component |   5.67 kB | 
+chunk-XSYGGIJL.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.298 seconds]
+

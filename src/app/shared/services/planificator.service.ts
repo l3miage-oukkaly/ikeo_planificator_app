@@ -7,6 +7,10 @@ import {SetupBundle} from "../../core/models/setup-bundle.models";
 import {Subject} from "rxjs";
 import {DatePipe} from "@angular/common";
 import {DeliveryTour} from "../../core/models/delivery-tour.models";
+import {MapService} from "./map.service";
+import {IOptimizedBundle} from "../../core/models/optimized-bundle.models";
+import * as L from 'leaflet'
+import {Router} from "@angular/router";
 
 @Injectable({
   providedIn: 'root'
@@ -14,6 +18,8 @@ import {DeliveryTour} from "../../core/models/delivery-tour.models";
 export class PlanificatorService {
   private planificatorProtocols: PlanificatorProtocolsImplementation = new PlanificatorProtocolsImplementation()
   private datePipe = inject(DatePipe)
+  private mapService = inject(MapService)
+  private router = inject(Router)
   currentDate = (new Date)
   private _sigPlanifiedDay = signal<Day>({date: this.getTomorrowDate(), tours: []})
   sigPlanifiedDay = computed(() => this._sigPlanifiedDay())
@@ -27,6 +33,25 @@ export class PlanificatorService {
     // Reset enlevable lorsqu'il y aura cohérence entre les données demandées & reçues
     this.resetValues()
     this._sigSetupBundle.set(await this.planificatorProtocols.getSetupBundle())
+  }
+
+  async buildDayAutomatically(toursCount: number) {
+    this.planificatorProtocols.getSetupBundle().then((setupBundle) => {
+      this._sigSetupBundle.set(setupBundle)
+      return this.mapService.test(setupBundle.multipleOrders, toursCount)
+    }).then((optimizedBundle) => {
+      console.log(optimizedBundle)
+      this.buildDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
+  }
+
+  buildDayFromOptimizedBundle(bundle: IOptimizedBundle, setupBundle: SetupBundle) {
+    const day: Day = {date: this.getTomorrowDate(), tours: bundle.tournees.map((tournee, index) => {
+       return {deliveries: (tournee.map((delivery) => {return setupBundle.multipleOrders[delivery]})), truck: setupBundle.trucks[index],
+       deliverymen: [setupBundle.deliverymen[index]], distanceToCover: 0}
+      })}
+    console.log(day)
+    this._sigPlanifiedDay.set(day)
+    this.router.navigate(['/day-previewer'])
   }
 
   async getDay(date: string) {
@@ -51,13 +76,13 @@ export class PlanificatorService {
     const updateArray = this._sigPlanifiedDay().tours
     if (this._sigPlanifiedDay().tours.length === 0) {
       updateArray.push({
-        deliveryMen: [], truck: '', distanceToCover: 0,
+        deliverymen: [], truck: '', distanceToCover: 0,
         deliveries: this._sigSetupBundle().multipleOrders.map((delivery) => {
           return { orders: delivery.orders as unknown as string[], address: delivery.address, distanceToCover: 0 }
         })
       })
     } else {
-      updateArray.push({ deliveryMen: [], truck: '', distanceToCover: 0, deliveries: [] })
+      updateArray.push({ deliverymen: [], truck: '', distanceToCover: 0, deliveries: [] })
     }
     this._sigPlanifiedDay.update((day) => {return {date: day.date, tours: updateArray}})
   }
@@ -78,7 +103,7 @@ export class PlanificatorService {
   }
 
   removeAllDeliveryMen(tourIndex: number) {
-    this._sigPlanifiedDay().tours[tourIndex].deliveryMen.map((deliveryMan) => {
+    this._sigPlanifiedDay().tours[tourIndex].deliverymen.map((deliveryMan) => {
       this._sigSetupBundle().deliverymen.push(deliveryMan)
     })
   }
@@ -122,15 +147,15 @@ export class PlanificatorService {
 
   addDeliveryMan(delIndex: number, tourIndex: number) {
     const tours = this._sigPlanifiedDay().tours
-    tours[tourIndex].deliveryMen.push(this._sigSetupBundle().deliverymen.at(delIndex)!)
+    tours[tourIndex].deliverymen.push(this._sigSetupBundle().deliverymen.at(delIndex)!)
     this._sigPlanifiedDay.set({ date: this._sigPlanifiedDay().date, tours })
     this._sigSetupBundle().deliverymen.splice(delIndex, 1)
   }
 
   removeDeliveryMan(index: number, tourIndex: number) {
-    this._sigSetupBundle().deliverymen.push(this._sigPlanifiedDay().tours[tourIndex].deliveryMen.at(index)!)
+    this._sigSetupBundle().deliverymen.push(this._sigPlanifiedDay().tours[tourIndex].deliverymen.at(index)!)
     const tours = this._sigPlanifiedDay().tours
-    tours[tourIndex].deliveryMen.splice(index, 1)
+    tours[tourIndex].deliverymen.splice(index, 1)
     this._sigPlanifiedDay.set({ date: this._sigPlanifiedDay().date, tours })
   }
 }

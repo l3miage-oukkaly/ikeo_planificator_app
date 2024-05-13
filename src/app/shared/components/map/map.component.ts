@@ -1,7 +1,8 @@
-import {AfterViewInit, ChangeDetectionStrategy, Component, inject, OnInit} from '@angular/core';
+import {AfterViewInit, ChangeDetectionStrategy, Component, inject, Input, OnInit} from '@angular/core';
 import * as L from 'leaflet';
 import {MapService} from "../../services/map.service";
 import {Delivery} from "../../../core/models/delivery.models";
+import {PlanificatorService} from "../../services/planificator.service";
 
 const iconRetinaUrl = 'assets/marker-icon-2x.png';
 const iconUrl = 'assets/marker-icon.png';
@@ -27,10 +28,10 @@ L.Marker.prototype.options.icon = iconDefault;
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MapComponent implements AfterViewInit {
+  planificatorService = inject(PlanificatorService)
   mapService = inject(MapService)
+  @Input({required: true}) tourIndex!: number
   private map!: L.Map
-  testDeliveries: Delivery[] = [{orders:[], address:"10 rue des oiseaux"}, {orders:[], address:"76 rue des fleurs"},
-    {orders:[], address:"11 avenue du bois"}, {orders:[], address:"12 rue des roses"},]
 
   constructor() {}
 
@@ -40,8 +41,8 @@ export class MapComponent implements AfterViewInit {
 
   initMap() {
     this.map = L.map('map', {
-      center: [ 46.71109, 1.7191036 ],
-      zoom: 4
+      center: [ 45.16667, 5.71667 ],
+      zoom: 12
     })
     const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
@@ -49,7 +50,7 @@ export class MapComponent implements AfterViewInit {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     });
     tiles.addTo(this.map);
-    this.mapService.mapLayersInit(this.map, this.testDeliveries)
+    this.mapService.initAllMarkers(this.map, this.planificatorService.sigPlanifiedDay().tours[this.tourIndex].deliveries)
   }
 
 

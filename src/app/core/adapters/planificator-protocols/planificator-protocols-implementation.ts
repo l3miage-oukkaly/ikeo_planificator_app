@@ -10,14 +10,14 @@ export class PlanificatorProtocolsImplementation extends PlanificatorProtocols {
   private http = inject(HttpClient)
 
   async getSetupBundle(): Promise<SetupBundle> {
-    return firstValueFrom(this.http.get<SetupBundle>("http://localhost:8080/api/v2.0/planner/bundle"))
+    return firstValueFrom(this.http.get<SetupBundle>("http://localhost:8080/api/v3.0/planner/bundle"))
   }
 
   async getDay(date:string): Promise<Day> {
-    return firstValueFrom(this.http.get<Day>("http://localhost:8080/api/v2.0/planner/day?date="+date))
+    return firstValueFrom(this.http.get<Day>("http://localhost:8080/api/v3.0/planner/day?date="+date))
   }
 
   async sendDay(day: Day) {
-    return firstValueFrom(this.http.post("http://localhost:8080/api/v2.0/planner/day/plan", day))
+    return firstValueFrom(this.http.post("http://localhost:8080/api/v3.0/planner/day/plan", day))
   }
 }
