@@ -4,13 +4,24 @@ import {
 } from "../../core/adapters/planificator-protocols/planificator-protocols-implementation";
 import {Day} from "../../core/models/day.models";
 import {SetupBundle} from "../../core/models/setup-bundle.models";
-import {Subject} from "rxjs";
+import {concat, map, Observable, range, Subject, tap, timer, zip} from "rxjs";
 import {DatePipe} from "@angular/common";
 import {DeliveryTour} from "../../core/models/delivery-tour.models";
 import {MapService} from "./map.service";
 import {IOptimizedBundle} from "../../core/models/optimized-bundle.models";
 import * as L from 'leaflet'
 import {Router} from "@angular/router";
+
+export function maxFrequency<T>(nb: number, ms: number): (input: Observable<T>) => Observable<T> {
+  return inputObs => {
+    const newToken = new Subject<void>();
+    const obsTokens = concat(range(1, nb), newToken )
+    return zip(obsTokens, inputObs).pipe(
+      tap(() => timer(ms).subscribe( () => newToken.next()) ),
+      map( ([_, value]) => value )
+    )
+  }
+}
 
 @Injectable({
   providedIn: 'root'
@@ -49,6 +60,7 @@ export class PlanificatorService {
        return {deliveries: (tournee.map((delivery) => {return setupBundle.multipleOrders[delivery]})), truck: setupBundle.trucks[index],
        deliverymen: [setupBundle.deliverymen[index]], distanceToCover: 0}
       })}
+    day.tours.map((tour) => tour.deliveries.map((delivery) => {delivery.distanceToCover = 0}))
     console.log(day)
     this._sigPlanifiedDay.set(day)
     this.router.navigate(['/day-previewer'])

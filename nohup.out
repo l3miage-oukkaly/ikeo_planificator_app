@@ -30980,3 +30980,4343 @@ chunk-XSYGGIJL.js   | -                       |   2.51 kB |
 
 Application bundle generation complete. [0.298 seconds]
 
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Application bundle generation failed. [1.268 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'string | LatLngTuple' is not assignable to parameter of type 'LatLngExpression'.
+  Type 'string' is not assignable to type 'LatLngExpression'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:28:
+      94 │     const marker = L.marker(delivery.coordinates!)
+         ╵                             ~~~~~~~~~~~~~~~~~~~~~
+
+
+Watch mode enabled. Watching for file changes...
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.243 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'string | LatLngTuple' is not assignable to parameter of type 'LatLngExpression'.
+  Type 'string' is not assignable to type 'LatLngExpression'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:28:
+      94 │     const marker = L.marker(delivery.coordinates!)
+         ╵                             ~~~~~~~~~~~~~~~~~~~~~
+
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Application bundle generation failed. [1.228 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'string | LatLngTuple' is not assignable to parameter of type 'LatLngExpression'.
+  Type 'string' is not assignable to type 'LatLngExpression'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:28:
+      94 │     const marker = L.marker(delivery.coordinates!)
+         ╵                             ~~~~~~~~~~~~~~~~~~~~~
+
+
+Watch mode enabled. Watching for file changes...
+- Changes detected. Rebuilding...
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.204 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'string | LatLngTuple' is not assignable to parameter of type 'LatLngExpression'.
+  Type 'string' is not assignable to type 'LatLngExpression'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:28:
+      94 │     const marker = L.marker(delivery.coordinates!)
+         ╵                             ~~~~~~~~~~~~~~~~~~~~~
+
+
+Application bundle generation failed. [0.323 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'string | LatLngTuple' is not assignable to parameter of type 'LatLngExpression'.
+  Type 'string' is not assignable to type 'LatLngExpression'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:28:
+      94 │     const marker = L.marker(delivery.coordinates!)
+         ╵                             ~~~~~~~~~~~~~~~~~~~~~
+
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Application bundle generation failed. [1.258 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'string | LatLngTuple' is not assignable to parameter of type 'LatLngExpression'.
+  Type 'string' is not assignable to type 'LatLngExpression'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:28:
+      94 │     const marker = L.marker(delivery.coordinates!)
+         ╵                             ~~~~~~~~~~~~~~~~~~~~~
+
+
+Watch mode enabled. Watching for file changes...
+- Changes detected. Rebuilding...
+
+- Changes detected. Rebuilding...
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-6GHNOV7J.js   | -                       |  16.78 kB | 
+chunk-JWTY6KWY.js   | day-planner-component   |  12.61 kB | 
+chunk-JP3FO7OF.js   | -                       |  12.35 kB | 
+chunk-KDJOSAW5.js   | homepage-component      |  11.36 kB | 
+chunk-63PSOPWQ.js   | day-preview-component   |   9.24 kB | 
+chunk-7ULM4SIU.js   | day-displayer-component |   5.67 kB | 
+chunk-CDDZAYS4.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.661 seconds]
+
+  ➜  Local:   http://localhost:4303/
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-6GHNOV7J.js   | -                       |  16.78 kB | 
+chunk-JWTY6KWY.js   | day-planner-component   |  12.61 kB | 
+chunk-JP3FO7OF.js   | -                       |  12.35 kB | 
+chunk-KDJOSAW5.js   | homepage-component      |  11.36 kB | 
+chunk-63PSOPWQ.js   | day-preview-component   |   9.24 kB | 
+chunk-7ULM4SIU.js   | day-displayer-component |   5.67 kB | 
+chunk-CDDZAYS4.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.694 seconds]
+
+An unhandled exception occurred: Port 4303 is already in use
+See "/private/var/folders/fr/87m4bmpx4bb84lglv6p44z400000gn/T/ng-EMrEc4/angular-errors.log" for further details.
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-6GHNOV7J.js   | -                       |  16.78 kB | 
+chunk-JWTY6KWY.js   | day-planner-component   |  12.61 kB | 
+chunk-JP3FO7OF.js   | -                       |  12.35 kB | 
+chunk-KDJOSAW5.js   | homepage-component      |  11.36 kB | 
+chunk-63PSOPWQ.js   | day-preview-component   |   9.24 kB | 
+chunk-7ULM4SIU.js   | day-displayer-component |   5.67 kB | 
+chunk-CDDZAYS4.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.813 seconds]
+
+An unhandled exception occurred: Port 4303 is already in use
+See "/private/var/folders/fr/87m4bmpx4bb84lglv6p44z400000gn/T/ng-JBEyuS/angular-errors.log" for further details.
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-6GHNOV7J.js   | -                       |  16.78 kB | 
+chunk-JWTY6KWY.js   | day-planner-component   |  12.61 kB | 
+chunk-JP3FO7OF.js   | -                       |  12.35 kB | 
+chunk-KDJOSAW5.js   | homepage-component      |  11.36 kB | 
+chunk-63PSOPWQ.js   | day-preview-component   |   9.24 kB | 
+chunk-7ULM4SIU.js   | day-displayer-component |   5.67 kB | 
+chunk-CDDZAYS4.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [1.297 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.704 seconds]
+
+✘ [ERROR] TS2322: Type 'string | undefined' is not assignable to type 'LatLngTuple | undefined'.
+  Type 'string' is not assignable to type '[number, number, (number | undefined)?]'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:52:63:
+      52 │ ...es.map((delivery) => {delivery.coordinates = delivery.coordinat...
+         ╵                          ~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-3OC2MNGF.js   | -                       |  16.78 kB | 
+chunk-S3ELPGXS.js   | day-planner-component   |  12.61 kB | 
+chunk-ALLIMZH6.js   | -                       |  12.32 kB | 
+chunk-3OCB27BZ.js   | homepage-component      |  11.36 kB | 
+chunk-IMRYPJW2.js   | day-preview-component   |   9.24 kB | 
+chunk-IMKV3XIH.js   | day-displayer-component |   5.67 kB | 
+chunk-5URRHIET.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.556 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-3OC2MNGF.js   | -                       |  16.78 kB | 
+chunk-S3ELPGXS.js   | day-planner-component   |  12.61 kB | 
+chunk-ALLIMZH6.js   | -                       |  12.32 kB | 
+chunk-3OCB27BZ.js   | homepage-component      |  11.36 kB | 
+chunk-IMRYPJW2.js   | day-preview-component   |   9.24 kB | 
+chunk-IMKV3XIH.js   | day-displayer-component |   5.67 kB | 
+chunk-5URRHIET.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [1.300 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-UACDPBVY.js   | -                       | 16.78 kB | 
+chunk-5YTARXIU.js   | day-planner-component   | 12.61 kB | 
+chunk-QGIOQGDM.js   | -                       | 12.32 kB | 
+chunk-NAFVFZIG.js   | homepage-component      | 11.36 kB | 
+chunk-KHJCT7ZL.js   | day-preview-component   |  9.24 kB | 
+chunk-AIBIJNYI.js   | day-displayer-component |  5.67 kB | 
+chunk-LMSMY25M.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.430 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.173 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-LKDXVN2R.js   | -                       | 16.78 kB | 
+chunk-VBJBHAMV.js   | day-planner-component   | 12.61 kB | 
+chunk-N2AB6NOA.js   | -                       | 12.33 kB | 
+chunk-AXGVN4W6.js   | homepage-component      | 11.36 kB | 
+chunk-FWQTH3TR.js   | day-preview-component   |  9.24 kB | 
+chunk-DP66JKV5.js   | day-displayer-component |  5.67 kB | 
+chunk-6L7MYDVZ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.327 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-6DQU773U.js   | -                       | 16.78 kB | 
+chunk-UDMD27DT.js   | day-planner-component   | 12.61 kB | 
+chunk-CMBZY5TB.js   | -                       | 12.40 kB | 
+chunk-7MRUDV5Q.js   | homepage-component      | 11.36 kB | 
+chunk-NA4MEBO6.js   | day-preview-component   |  9.24 kB | 
+chunk-SBQWMH6D.js   | day-displayer-component |  5.67 kB | 
+chunk-DFMA26HX.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.704 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-NNJH5BF7.js   | -                       | 16.78 kB | 
+chunk-LCKFUDV4.js   | day-planner-component   | 12.61 kB | 
+chunk-R7VA74S7.js   | -                       | 12.40 kB | 
+chunk-3PDDWLYK.js   | homepage-component      | 11.36 kB | 
+chunk-SCEAZZXJ.js   | day-preview-component   |  9.24 kB | 
+chunk-6G52XBYL.js   | day-displayer-component |  5.67 kB | 
+chunk-IBOWDCHH.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.365 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-H3QB4QOY.js   | -                       | 13.19 kB | 
+main.js             | main                    | 11.17 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-TMGY74L2.js   | -                       | 16.78 kB | 
+chunk-VGDIHSJR.js   | day-planner-component   | 12.57 kB | 
+chunk-37NX7OIU.js   | homepage-component      | 11.32 kB | 
+chunk-4U6CVW7E.js   | day-preview-component   |  9.21 kB | 
+chunk-H3M264GK.js   | day-displayer-component |  5.63 kB | 
+chunk-2UDTCLIX.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.378 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.21 kB | 
+
+Application bundle generation complete. [0.508 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.27 kB | 
+
+Application bundle generation complete. [0.360 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.683 seconds]
+
+✘ [ERROR] TS2322: Type 'unknown[]' is not assignable to type 'LatLngTuple[]'.
+  Type 'unknown' is not assignable to type 'LatLngTuple'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:38:35:
+      38 │       this._sigCoords.update(() => coords)
+         ╵                                    ~~~~~~
+
+  The expected type comes from the return type of this signature.
+
+    node_modules/@angular/core/index.d.ts:11646:21:
+      11646 │     update(updateFn: (value: T) => T): void;
+            ╵                      ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 1-2 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:63:17:
+      63 │     return await firstValueFrom()
+         ╵                  ~~~~~~~~~~~~~~
+
+  An argument for 'source' was not provided.
+
+    node_modules/rxjs/dist/types/internal/firstValueFrom.d.ts:6:42:
+      6 │ ...lare function firstValueFrom<T>(source: Observable<T>): Promise<T>;
+        ╵                                    ~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-HEVJ32HD.js   | -                       |  13.21 kB | 
+main.js             | main                    |  11.27 kB | 
+
+                    | Initial total           | 216.06 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-E2OLVHEY.js   | -                       |  16.78 kB | 
+chunk-D2STNVDP.js   | day-planner-component   |  12.57 kB | 
+chunk-HQI74JT3.js   | homepage-component      |  11.32 kB | 
+chunk-2DMT3F4X.js   | day-preview-component   |   9.21 kB | 
+chunk-ROUXQRHB.js   | day-displayer-component |   5.63 kB | 
+chunk-VWWXYTLC.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.659 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-PNZMFUXX.js   | -                       |  16.78 kB | 
+chunk-JVCZNED4.js   | -                       |  12.70 kB | 
+chunk-LIMF7WE3.js   | day-planner-component   |  12.61 kB | 
+chunk-M2FDC6DI.js   | homepage-component      |  11.36 kB | 
+chunk-IC3VMHPW.js   | day-preview-component   |   9.24 kB | 
+chunk-66MTDLOD.js   | day-displayer-component |   5.67 kB | 
+chunk-36NNTDRT.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.310 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-PNZMFUXX.js   | -                       |  16.78 kB | 
+chunk-JVCZNED4.js   | -                       |  12.70 kB | 
+chunk-LIMF7WE3.js   | day-planner-component   |  12.61 kB | 
+chunk-M2FDC6DI.js   | homepage-component      |  11.36 kB | 
+chunk-IC3VMHPW.js   | day-preview-component   |   9.24 kB | 
+chunk-66MTDLOD.js   | day-displayer-component |   5.67 kB | 
+chunk-36NNTDRT.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [1.288 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-KZWMWEWY.js   | -                       | 16.78 kB | 
+chunk-NZ6JHYQ5.js   | day-planner-component   | 12.61 kB | 
+chunk-H3GEQ5OF.js   | -                       | 12.40 kB | 
+chunk-SNMHHFCM.js   | homepage-component      | 11.36 kB | 
+chunk-NWRVCYJA.js   | day-preview-component   |  9.24 kB | 
+chunk-DF4YVVEV.js   | day-displayer-component |  5.67 kB | 
+chunk-NWNWIGKP.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.480 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-KN6JJ2IX.js   | -                       | 16.78 kB | 
+chunk-ETPNYNYJ.js   | day-planner-component   | 12.61 kB | 
+chunk-3UIE2HC7.js   | -                       | 12.40 kB | 
+chunk-7DT76GCR.js   | homepage-component      | 11.36 kB | 
+chunk-QXLNEOUN.js   | day-preview-component   |  9.24 kB | 
+chunk-RKYCO226.js   | day-displayer-component |  5.67 kB | 
+chunk-XES6NG6G.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [1.042 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.464 seconds]
+
+✘ [ERROR] TS2322: Type '(inputObs: Promise<T>) => Observable<T>' is not assignable to type '(input: Promise<T>) => Promise<T>'.
+  Type 'Observable<T>' is missing the following properties from type 'Promise<T>': then, catch, finally, [Symbol.toStringTag] [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:16:2:
+      16 │   return inputObs => {
+         ╵   ~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-KN6JJ2IX.js   | -                       |  16.78 kB | 
+chunk-ETPNYNYJ.js   | day-planner-component   |  12.61 kB | 
+chunk-3UIE2HC7.js   | -                       |  12.40 kB | 
+chunk-7DT76GCR.js   | homepage-component      |  11.36 kB | 
+chunk-QXLNEOUN.js   | day-preview-component   |   9.24 kB | 
+chunk-RKYCO226.js   | day-displayer-component |   5.67 kB | 
+chunk-XES6NG6G.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.427 seconds]
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.373 seconds]
+
+✘ [ERROR] TS1110: Type expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:37:128:
+      37 │ ...cy(10, 1000)(this.addressToCoords(delivery)))).then((coords:) => {
+         ╵                                                                ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.201 seconds]
+
+✘ [ERROR] TS2322: Type 'Observable<unknown>[]' is not assignable to type 'LatLngTuple[]'.
+  Type 'Observable<unknown>' is not assignable to type 'LatLngTuple'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:38:35:
+      38 │       this._sigCoords.update(() => coords)
+         ╵                                    ~~~~~~
+
+  The expected type comes from the return type of this signature.
+
+    node_modules/@angular/core/index.d.ts:11646:21:
+      11646 │     update(updateFn: (value: T) => T): void;
+            ╵                      ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.331 seconds]
+
+✘ [ERROR] TS2322: Type 'Observable<LatLngTuple>[]' is not assignable to type 'LatLngTuple[]'.
+  Type 'Observable<LatLngTuple>' is not assignable to type 'LatLngTuple'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:38:35:
+      38 │       this._sigCoords.update(() => coords)
+         ╵                                    ~~~~~~
+
+  The expected type comes from the return type of this signature.
+
+    node_modules/@angular/core/index.d.ts:11646:21:
+      11646 │     update(updateFn: (value: T) => T): void;
+            ╵                      ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.398 seconds]
+
+✘ [ERROR] TS2339: Property 'initAllMarkers' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/components/map/map.component.ts:53:20:
+      53 │     this.mapService.initAllMarkers(this.map, this.planificatorServ...
+         ╵                     ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2322: Type '(string | LatLngTuple | Observable<Object>)[]' is not assignable to type 'LatLngTuple[]'.
+  Type 'string | LatLngTuple | Observable<Object>' is not assignable to type 'LatLngTuple'.
+    Type 'string' is not assignable to type '[number, number, (number | undefined)?]'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:38:35:
+      38 │       this._sigCoords.update(() => coords)
+         ╵                                    ~~~~~~
+
+  The expected type comes from the return type of this signature.
+
+    node_modules/@angular/core/index.d.ts:11646:21:
+      11646 │     update(updateFn: (value: T) => T): void;
+            ╵                      ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'requestMatrix' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:40:38:
+      40 │ ...) => firstValueFrom(this.requestMatrix(this.sigCoords())) .then...
+         ╵                             ~~~~~~~~~~~~~
+
+
+✘ [ERROR] Unexpected "]"
+
+    src/app/shared/services/map.service.ts:49:42:
+      49 │         requestRoutes(coords, LatLngTuple[]);
+         ╵                                           ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'requestRoutes'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:2:
+      64 │   requestRoutes(coords: LatLngTuple[]) {
+         ╵   ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:16:
+      64 │   requestRoutes(coords: LatLngTuple[]) {
+         ╵                 ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:22:
+      64 │   requestRoutes(coords: LatLngTuple[]) {
+         ╵                       ^
+
+
+✘ [ERROR] TS2693: 'LatLngTuple' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:24:
+      64 │   requestRoutes(coords: LatLngTuple[]) {
+         ╵                         ~~~~~~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:36:
+      64 │   requestRoutes(coords: LatLngTuple[]) {
+         ╵                                     ^
+
+
+✘ [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:39:
+      64 │   requestRoutes(coords: LatLngTuple[]) {
+         ╵                                        ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:65:111:
+      65 │ ...ce.org/v2/directions/driving-car/geojson", {'coordinates':coords},
+         ╵                                                              ~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'requestMatrix'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:72:2:
+      72 │   requestMatrix(coords: LatLngTuple[]) {
+         ╵   ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:72:16:
+      72 │   requestMatrix(coords: LatLngTuple[]) {
+         ╵                 ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:72:22:
+      72 │   requestMatrix(coords: LatLngTuple[]) {
+         ╵                       ^
+
+
+✘ [ERROR] TS2693: 'LatLngTuple' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:72:24:
+      72 │   requestMatrix(coords: LatLngTuple[]) {
+         ╵                         ~~~~~~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:72:36:
+      72 │   requestMatrix(coords: LatLngTuple[]) {
+         ╵                                     ^
+
+
+✘ [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:72:39:
+      72 │   requestMatrix(coords: LatLngTuple[]) {
+         ╵                                        ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:73:97:
+      73 │ ...x/driving-car", {'locations':coords, 'metrics':['distance'], 'u...
+         ╵                                 ~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'initRoutesLayer'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:80:2:
+      80 │   initRoutesLayer(map: L.Map) {
+         ╵   ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2552: Cannot find name 'map'. Did you mean 'Map'? [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:80:18:
+      80 │   initRoutesLayer(map: L.Map) {
+         ╵                   ~~~
+
+  'Map' is declared here.
+
+    node_modules/typescript/lib/lib.es2015.collection.d.ts:53:12:
+      53 │ declare var Map: MapConstructor;
+         ╵             ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:80:21:
+      80 │   initRoutesLayer(map: L.Map) {
+         ╵                      ^
+
+
+✘ [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:80:30:
+      80 │   initRoutesLayer(map: L.Map) {
+         ╵                               ^
+
+
+✘ [ERROR] TS2552: Cannot find name 'map'. Did you mean 'Map'? [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:90:4:
+      90 │     map.addLayer(routesLayer);
+         ╵     ~~~
+
+  'Map' is declared here.
+
+    node_modules/typescript/lib/lib.es2015.collection.d.ts:53:12:
+      53 │ declare var Map: MapConstructor;
+         ╵             ~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'initMarker'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:93:2:
+      93 │   initMarker(map: L.Map, delivery: Delivery) {
+         ╵   ~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:93:13:
+      93 │   initMarker(map: L.Map, delivery: Delivery) {
+         ╵              ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:93:16:
+      93 │   initMarker(map: L.Map, delivery: Delivery) {
+         ╵                 ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:93:33:
+      93 │   initMarker(map: L.Map, delivery: Delivery) {
+         ╵                                  ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:93:35:
+      93 │   initMarker(map: L.Map, delivery: Delivery) {
+         ╵                                    ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:93:45:
+      93 │   initMarker(map: L.Map, delivery: Delivery) {
+         ╵                                              ^
+
+
+✘ [ERROR] TS2339: Property 'makePopup' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:95:26:
+      95 │     marker.bindPopup(this.makePopup(delivery))
+         ╵                           ~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:96:17:
+      96 │     marker.addTo(map)
+         ╵                  ~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'initAllMarkers'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:99:2:
+      99 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+         ╵   ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:99:17:
+      99 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+         ╵                  ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:99:20:
+      99 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+         ╵                     ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'deliveries'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:99:29:
+      99 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+         ╵                              ~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:99:39:
+      99 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+         ╵                                        ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:99:41:
+      99 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+         ╵                                          ~~~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:99:50:
+      99 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+         ╵                                                   ^
+
+
+✘ [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:99:53:
+      99 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+         ╵                                                      ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'deliveries'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:100:4:
+      100 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵     ~~~~~~~~~~
+
+
+✘ [ERROR] TS7006: Parameter 'delivery' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:100:20:
+      100 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵                     ~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'initMarker' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:100:38:
+      100 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵                                       ~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:100:49:
+      100 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵                                                  ~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'makePopup'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:2:
+      103 │   makePopup(delivery: Delivery): string {
+          ╵   ~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:20:
+      103 │   makePopup(delivery: Delivery): string {
+          ╵                     ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:22:
+      103 │   makePopup(delivery: Delivery): string {
+          ╵                       ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:31:
+      103 │   makePopup(delivery: Delivery): string {
+          ╵                                ^
+
+
+✘ [ERROR] TS1434: Unexpected keyword or identifier. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:33:
+      103 │   makePopup(delivery: Delivery): string {
+          ╵                                  ~~~~~~
+
+
+✘ [ERROR] TS2693: 'string' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:33:
+      103 │   makePopup(delivery: Delivery): string {
+          ╵                                  ~~~~~~
+
+
+✘ [ERROR] TS1005: '}' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:109:0:
+      109 │ 
+          ╵ ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.12 kB | 
+chunk-AVQVENQ2.js   | -                       | 614 bytes | 
+
+                    | Initial total           | 203.30 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-WHVD2C7D.js   | -                       |  16.78 kB | 
+chunk-TP6YTY5D.js   | day-planner-component   |  12.61 kB | 
+chunk-4QBGEFNR.js   | -                       |  12.40 kB | 
+chunk-SXFHBFDB.js   | homepage-component      |  11.36 kB | 
+chunk-JBMTLFVO.js   | day-preview-component   |   9.24 kB | 
+chunk-T3RVHLB3.js   | day-displayer-component |   5.67 kB | 
+chunk-ZQUKN6FU.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.399 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.12 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-NNJH5BF7.js   | -                       | 16.78 kB | 
+chunk-LCKFUDV4.js   | day-planner-component   | 12.61 kB | 
+chunk-R7VA74S7.js   | -                       | 12.40 kB | 
+chunk-3PDDWLYK.js   | homepage-component      | 11.36 kB | 
+chunk-SCEAZZXJ.js   | day-preview-component   |  9.24 kB | 
+chunk-6G52XBYL.js   | day-displayer-component |  5.67 kB | 
+chunk-IBOWDCHH.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.452 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-H3QB4QOY.js   | -                       | 13.19 kB | 
+main.js             | main                    | 11.27 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-TMGY74L2.js   | -                       | 16.78 kB | 
+chunk-VGDIHSJR.js   | day-planner-component   | 12.57 kB | 
+chunk-37NX7OIU.js   | homepage-component      | 11.32 kB | 
+chunk-4U6CVW7E.js   | day-preview-component   |  9.21 kB | 
+chunk-H3M264GK.js   | day-displayer-component |  5.63 kB | 
+chunk-2UDTCLIX.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.295 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-HCQBMQ67.js   | -                       | 13.62 kB | 
+main.js             | main                    | 11.27 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-KRQ57CN2.js   | -                       | 16.78 kB | 
+chunk-WTVFRF34.js   | day-planner-component   | 12.57 kB | 
+chunk-IITDNI34.js   | homepage-component      | 11.32 kB | 
+chunk-MTYK2AVW.js   | day-preview-component   |  9.21 kB | 
+chunk-WVYH5VZW.js   | day-displayer-component |  5.63 kB | 
+chunk-TNJAS2L2.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.617 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-5LL57XU2.js   | -                       | 13.71 kB | 
+main.js             | main                    | 11.27 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-IW5S5VXT.js   | -                       | 16.78 kB | 
+chunk-BHFIMDGT.js   | day-planner-component   | 12.57 kB | 
+chunk-6PLB7DTP.js   | homepage-component      | 11.32 kB | 
+chunk-5OJCLTD5.js   | day-preview-component   |  9.21 kB | 
+chunk-ALPOWASL.js   | day-displayer-component |  5.63 kB | 
+chunk-GBJHMTHN.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.354 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-LYMAIR6M.js   | -                       | 13.61 kB | 
+main.js             | main                    | 11.27 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-AP63DAJK.js   | -                       | 16.78 kB | 
+chunk-EQINA334.js   | day-planner-component   | 12.57 kB | 
+chunk-CLXN36I5.js   | homepage-component      | 11.32 kB | 
+chunk-ET4Q5PEU.js   | day-preview-component   |  9.21 kB | 
+chunk-4LHM4QLF.js   | day-displayer-component |  5.63 kB | 
+chunk-HOI3FJ6W.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.377 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-MYGMPFTY.js   | -                       | 13.69 kB | 
+main.js             | main                    | 11.27 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-ZN4D5B35.js   | -                       | 16.78 kB | 
+chunk-EBME6RKK.js   | day-planner-component   | 12.57 kB | 
+chunk-DQ7NLRBU.js   | homepage-component      | 11.32 kB | 
+chunk-EYYW4XOW.js   | day-preview-component   |  9.21 kB | 
+chunk-WZJK6TRV.js   | day-displayer-component |  5.63 kB | 
+chunk-HCM6VPAZ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.511 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.27 kB | 
+chunk-6DLQCO2F.js   | -                       |  5.56 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-RXK4NF6S.js   | -                       | 16.78 kB | 
+chunk-COBLLBRB.js   | day-planner-component   | 12.61 kB | 
+chunk-4MA5IAQT.js   | homepage-component      | 11.36 kB | 
+chunk-33JEA7EM.js   | day-preview-component   |  9.25 kB | 
+chunk-QOTELR36.js   | -                       |  7.83 kB | 
+chunk-UZCGBMMV.js   | day-displayer-component |  5.67 kB | 
+chunk-GEP2TWVI.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.520 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.32 kB | 
+
+Application bundle generation complete. [0.202 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.33 kB | 
+
+Application bundle generation complete. [0.224 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.33 kB | 
+chunk-2E4V3X7Q.js   | -                       |  5.22 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-5PSUIVMZ.js   | -                       | 16.78 kB | 
+chunk-KAC4NPPY.js   | day-planner-component   | 12.61 kB | 
+chunk-HRC6MYDK.js   | homepage-component      | 11.36 kB | 
+chunk-IBM4TIRD.js   | day-preview-component   |  9.25 kB | 
+chunk-NZXY3C4J.js   | -                       |  7.83 kB | 
+chunk-UE36WAUS.js   | day-displayer-component |  5.67 kB | 
+chunk-RRB6S6BG.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.706 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.37 kB | 
+
+Application bundle generation complete. [0.304 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.33 kB | 
+
+Application bundle generation complete. [0.169 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.33 kB | 
+chunk-QZYFYB6J.js   | -                       |  5.44 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-4OGVL6CS.js   | -                       | 16.78 kB | 
+chunk-TFGZLS4K.js   | day-planner-component   | 12.61 kB | 
+chunk-NYWHHB5V.js   | homepage-component      | 11.36 kB | 
+chunk-CK77AJST.js   | day-preview-component   |  9.25 kB | 
+chunk-ZIHBBRJ6.js   | -                       |  7.83 kB | 
+chunk-6SR526ZO.js   | day-displayer-component |  5.67 kB | 
+chunk-CTMC7V64.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.593 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.33 kB | 
+chunk-LJ22RRLD.js   | -                       |  5.45 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-BYWMV4CN.js   | -                       | 16.78 kB | 
+chunk-LBY2W4BG.js   | day-planner-component   | 12.61 kB | 
+chunk-7IN5TNLJ.js   | homepage-component      | 11.36 kB | 
+chunk-5MZY6GZ6.js   | day-preview-component   |  9.25 kB | 
+chunk-LTTIHCPU.js   | -                       |  7.83 kB | 
+chunk-LS354O7P.js   | day-displayer-component |  5.67 kB | 
+chunk-A27IO6X6.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.307 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.32 kB | 
+
+Application bundle generation complete. [0.391 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.334 seconds]
+
+✘ [ERROR] TS2339: Property 'delivery' does not exist on type 'AppComponent'. [plugin angular-compiler]
+
+    src/app/app.component.ts:27:45:
+      27 │     this.mapService.testAddressToCoords(this.delivery)
+         ╵                                              ~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.212 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:27:40:
+      27 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.545 seconds]
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:47:4:
+      47 │     const obs = (this.http.get("https://api-adresse.data.gouv.fr/s...
+         ╵     ~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:47:96:
+      47 │ ....fr/search/?q="+encodeURIComponent(delivery.address!)+"&limit=1"))
+         ╵                                       ~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:52:8:
+      52 │         delivery.coordinates = [lat, lon]
+         ╵         ~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-52UHERTD.js   | -                       |  13.38 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 216.49 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-Y7K5BBHT.js   | -                       |  16.78 kB | 
+chunk-TBABQJE6.js   | day-planner-component   |  12.57 kB | 
+chunk-6W3M76CV.js   | homepage-component      |  11.32 kB | 
+chunk-VCLDCB4I.js   | day-preview-component   |   9.21 kB | 
+chunk-U5RIZX3C.js   | day-displayer-component |   5.63 kB | 
+chunk-RNCVFNQ2.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.400 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-MMOCD2FH.js   | -                       | 13.38 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-HVODTTCO.js   | -                       | 16.78 kB | 
+chunk-VAFFSAFZ.js   | day-planner-component   | 12.57 kB | 
+chunk-CRTZ6565.js   | homepage-component      | 11.32 kB | 
+chunk-IYQA2NG4.js   | day-preview-component   |  9.21 kB | 
+chunk-BMBOHBVN.js   | day-displayer-component |  5.63 kB | 
+chunk-5UQTO3TG.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.318 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.54 kB | 
+
+Application bundle generation complete. [0.407 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.53 kB | 
+
+Application bundle generation complete. [0.347 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.53 kB | 
+chunk-WYJRWX62.js   | -                       |  5.24 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-PR437EPC.js   | -                       | 16.78 kB | 
+chunk-AJDZFFYY.js   | day-planner-component   | 12.61 kB | 
+chunk-QBEWUXJ6.js   | homepage-component      | 11.36 kB | 
+chunk-HT2LMPX2.js   | day-preview-component   |  9.25 kB | 
+chunk-5VCELBJL.js   | -                       |  7.83 kB | 
+chunk-EJZIMW62.js   | day-displayer-component |  5.67 kB | 
+chunk-TPI46ZYA.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.560 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.53 kB | 
+chunk-YEMGJ32C.js   | -                       |  5.19 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-3MXHECA7.js   | -                       | 16.78 kB | 
+chunk-SM2P46L7.js   | day-planner-component   | 12.61 kB | 
+chunk-HVZJEGBP.js   | homepage-component      | 11.36 kB | 
+chunk-QRXRL5O6.js   | day-preview-component   |  9.25 kB | 
+chunk-TIQLSTOM.js   | -                       |  7.83 kB | 
+chunk-T6NOKPFK.js   | day-displayer-component |  5.67 kB | 
+chunk-5E2NIITH.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.475 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-SJPU3KPG.js   | -                       | 13.33 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-QQMQCHXK.js   | -                       | 16.78 kB | 
+chunk-Z4A7MILW.js   | day-planner-component   | 12.57 kB | 
+chunk-D2IEA3LO.js   | homepage-component      | 11.32 kB | 
+chunk-PJSWBU54.js   | day-preview-component   |  9.21 kB | 
+chunk-5U5HZQ27.js   | day-displayer-component |  5.63 kB | 
+chunk-NOMFQQYF.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.333 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.358 seconds]
+
+✘ [ERROR] Expected identifier but found ";"
+
+    src/app/shared/services/map.service.ts:34:8:
+      34 │         ;
+         ╵         ^
+
+
+✘ [ERROR] TS1003: Identifier expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:48:2:
+      48 │   }
+         ╵   ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-547WFTLW.js   | -                       |  13.40 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 216.51 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-WQCOE6GR.js   | -                       |  16.78 kB | 
+chunk-YXIGQIUQ.js   | day-planner-component   |  12.57 kB | 
+chunk-TCJCS3AH.js   | homepage-component      |  11.32 kB | 
+chunk-ME6Q7TUF.js   | day-preview-component   |   9.21 kB | 
+chunk-2MNBM2GH.js   | day-displayer-component |   5.63 kB | 
+chunk-ATSGZSP3.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.486 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-3QT5HEPX.js   | -                       | 13.41 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-5SFULDAY.js   | -                       | 16.78 kB | 
+chunk-HVZRPHUU.js   | day-planner-component   | 12.57 kB | 
+chunk-TNZX3W5P.js   | homepage-component      | 11.32 kB | 
+chunk-NJ3CIS3X.js   | day-preview-component   |  9.21 kB | 
+chunk-72PYXOE2.js   | day-displayer-component |  5.63 kB | 
+chunk-FQNNAYBM.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.343 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-7AUY7REV.js   | -                       | 13.42 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-IY52UVMA.js   | -                       | 16.78 kB | 
+chunk-KWG4J5KH.js   | day-planner-component   | 12.57 kB | 
+chunk-TN5TGQSU.js   | homepage-component      | 11.32 kB | 
+chunk-RRNDITCJ.js   | day-preview-component   |  9.21 kB | 
+chunk-LSBRVTC3.js   | day-displayer-component |  5.63 kB | 
+chunk-IDK37WKF.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.628 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.54 kB | 
+
+Application bundle generation complete. [0.291 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.53 kB | 
+
+Application bundle generation complete. [0.257 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-WLGEO6NB.js   | -                       | 13.41 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-QJC4ZVKQ.js   | -                       | 16.78 kB | 
+chunk-AFAO7KUR.js   | day-planner-component   | 12.57 kB | 
+chunk-MBFEYROG.js   | homepage-component      | 11.32 kB | 
+chunk-SP2XMS67.js   | day-preview-component   |  9.21 kB | 
+chunk-7WYEZ3HG.js   | day-displayer-component |  5.63 kB | 
+chunk-T2JRA6GR.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.576 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.53 kB | 
+chunk-U4XDPVQD.js   | -                       |  5.10 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-L7XSIZSY.js   | -                       | 16.78 kB | 
+chunk-YMLBLCVY.js   | day-planner-component   | 12.61 kB | 
+chunk-MOF7ZJHA.js   | homepage-component      | 11.36 kB | 
+chunk-QM2CUOVE.js   | day-preview-component   |  9.25 kB | 
+chunk-N7GVLA52.js   | -                       |  7.83 kB | 
+chunk-QH6KWCAF.js   | day-displayer-component |  5.67 kB | 
+chunk-6HZ64DXW.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.406 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.227 seconds]
+
+✘ [ERROR] TS2554: Expected 1-2 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:46:4:
+      46 │     from()
+         ╵     ~~~~
+
+  An argument for 'input' was not provided.
+
+    node_modules/rxjs/dist/types/internal/observable/from.d.ts:3:61:
+      3 │ ...tends ObservableInput<any>>(input: O): Observable<ObservedValueO...
+        ╵                                ~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+main.js             | main                    |  11.53 kB | 
+chunk-TZR53KKX.js   | -                       |   5.10 kB | 
+
+                    | Initial total           | 208.20 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-MXWSECBC.js   | -                       |  16.78 kB | 
+chunk-SFIYPRD4.js   | day-planner-component   |  12.61 kB | 
+chunk-JNXEMMCC.js   | homepage-component      |  11.36 kB | 
+chunk-QYIHMDIK.js   | day-preview-component   |   9.25 kB | 
+chunk-3S2UDKTQ.js   | -                       |   7.83 kB | 
+chunk-XDTSNF4A.js   | day-displayer-component |   5.67 kB | 
+chunk-H2TELBIM.js   | -                       |   2.55 kB | 
+
+Application bundle generation complete. [0.265 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.53 kB | 
+chunk-RGFRXVU4.js   | -                       |  5.10 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-MIJXRIJ2.js   | -                       | 16.78 kB | 
+chunk-CULELBIJ.js   | day-planner-component   | 12.61 kB | 
+chunk-DACTGBOT.js   | homepage-component      | 11.36 kB | 
+chunk-2EZ7QBJZ.js   | day-preview-component   |  9.25 kB | 
+chunk-XA7XAG6R.js   | -                       |  7.83 kB | 
+chunk-K6ZDJQDJ.js   | day-displayer-component |  5.67 kB | 
+chunk-MRJ7C7FY.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.335 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.485 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.599 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.288 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.464 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.234 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] "let" is a reserved word and cannot be used in strict mode
+
+    src/app/shared/services/map.service.ts:42:8:
+      42 │         let;
+         ╵         ~~~
+
+  All code inside a class is implicitly in strict mode
+
+    src/app/shared/services/map.service.ts:7:7:
+      7 │ export class MapService {
+        ╵        ~~~~~
+
+
+✘ [ERROR] TS1213: Identifier expected. 'let' is a reserved word in strict mode. Class definitions are automatically in strict mode. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:4:
+      56 │     let
+         ╵     ~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'let'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:4:
+      56 │     let
+         ╵     ~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.252 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:15:
+      56 │     let testObs[]
+         ╵                ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.183 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:15:
+      56 │     let testObs[] = []
+         ╵                ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.197 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1110: Type expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:17:
+      56 │     let testObs: = []
+         ╵                  ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.178 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.244 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.276 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 1-2 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:4:
+      57 │     from()
+         ╵     ~~~~
+
+  An argument for 'input' was not provided.
+
+    node_modules/rxjs/dist/types/internal/observable/from.d.ts:3:61:
+      3 │ ...tends ObservableInput<any>>(input: O): Observable<ObservedValueO...
+        ╵                                ~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.156 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7034: Variable 'testObs' implicitly has type 'any[]' in some locations where its type cannot be determined. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:8:
+      56 │     let testObs = []
+         ╵         ~~~~~~~
+
+
+✘ [ERROR] TS7005: Variable 'testObs' implicitly has an 'any[]' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:9:
+      57 │     from(testObs)
+         ╵          ~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.128 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7034: Variable 'testObs' implicitly has type 'any[]' in some locations where its type cannot be determined. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:8:
+      56 │     let testObs = []
+         ╵         ~~~~~~~
+
+
+✘ [ERROR] TS7005: Variable 'testObs' implicitly has an 'any[]' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:9:
+      57 │     from(testObs).pipe()
+         ╵          ~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.220 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7034: Variable 'testObs' implicitly has type 'any[]' in some locations where its type cannot be determined. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:8:
+      56 │     let testObs = []
+         ╵         ~~~~~~~
+
+
+✘ [ERROR] TS7005: Variable 'testObs' implicitly has an 'any[]' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:9:
+      57 │     from(testObs).pipe(mergeMap)
+         ╵          ~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type '{ <T, O extends ObservableInput<any>>(project: (value: T, index: number) => O, concurrent?: number | undefined): OperatorFunction<T, ObservedValueOf<O>>; <T, O extends ObservableInput<...>>(project: (value: T, index: number) => O, resultSelector: undefined, concurrent?: number | undefined): OperatorFunction<...>; <T...' is not assignable to parameter of type 'OperatorFunction<any, unknown>'.
+  Types of parameters 'project' and 'source' are incompatible.
+    Type 'Observable<any>' is not assignable to type '(value: any, index: number) => any'.
+      Type 'Observable<any>' provides no match for the signature '(value: any, index: number): any'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:23:
+      57 │     from(testObs).pipe(mergeMap)
+         ╵                        ~~~~~~~~
+
+  Did you mean to call this expression?
+
+    src/app/shared/services/map.service.ts:57:23:
+      57 │     from(testObs).pipe(mergeMap)
+         ╵                        ~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.162 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7034: Variable 'testObs' implicitly has type 'any[]' in some locations where its type cannot be determined. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:8:
+      56 │     let testObs = []
+         ╵         ~~~~~~~
+
+
+✘ [ERROR] TS7005: Variable 'testObs' implicitly has an 'any[]' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:9:
+      57 │     from(testObs).pipe(mergeMap())
+         ╵          ~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 1-3 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:23:
+      57 │     from(testObs).pipe(mergeMap())
+         ╵                        ~~~~~~~~
+
+  An argument for 'project' was not provided.
+
+    node_modules/rxjs/dist/types/internal/operators/mergeMap.d.ts:2:68:
+      2 │ ...eInput<any>>(project: (value: T, index: number) => O, concurrent...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.206 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7034: Variable 'testObs' implicitly has type 'any[]' in some locations where its type cannot be determined. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:8:
+      56 │     let testObs = []
+         ╵         ~~~~~~~
+
+
+✘ [ERROR] TS7005: Variable 'testObs' implicitly has an 'any[]' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:9:
+      57 │     from(testObs).pipe(mergeMap(this.testAddressToCoords()))
+         ╵          ~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+  Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:32:
+      57 │     from(testObs).pipe(mergeMap(this.testAddressToCoords()))
+         ╵                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:37:
+      57 │     from(testObs).pipe(mergeMap(this.testAddressToCoords()))
+         ╵                                      ~~~~~~~~~~~~~~~~~~~
+
+  An argument for 'delivery' was not provided.
+
+    src/app/shared/services/map.service.ts:45:22:
+      45 │   testAddressToCoords(delivery: Delivery) {
+         ╵                       ~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.190 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7034: Variable 'testObs' implicitly has type 'any[]' in some locations where its type cannot be determined. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:8:
+      56 │     let testObs = []
+         ╵         ~~~~~~~
+
+
+✘ [ERROR] TS7005: Variable 'testObs' implicitly has an 'any[]' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:9:
+      57 │     from(testObs).pipe(mergeMap(this.testAddressToCoords(deliverie...
+         ╵          ~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+  Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:32:
+      57 │ ...m(testObs).pipe(mergeMap(this.testAddressToCoords(deliveries[0])))
+         ╵                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.228 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7034: Variable 'testObs' implicitly has type 'any[]' in some locations where its type cannot be determined. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:8:
+      56 │     let testObs = []
+         ╵         ~~~~~~~
+
+
+✘ [ERROR] TS7005: Variable 'testObs' implicitly has an 'any[]' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:9:
+      57 │     from(testObs).pipe(mergeMap(this.testAddressToCoords(deliverie...
+         ╵          ~~~~~~~
+
+
+✘ [ERROR] TS2769: No overload matches this call.
+  Overload 1 of 3, '(project: (value: any, index: number) => ObservableInput<any>, concurrent?: number | undefined): OperatorFunction<any, any>', gave the following error.
+    Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+      Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'.
+  Overload 2 of 3, '(project: (value: any, index: number) => ObservableInput<any>, resultSelector: undefined, concurrent?: number | undefined): OperatorFunction<any, any>', gave the following error.
+    Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+      Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'.
+  Overload 3 of 3, '(project: (value: any, index: number) => ObservableInput<any>, resultSelector: (outerValue: any, innerValue: any, outerIndex: number, innerIndex: number) => unknown, concurrent?: number | undefined): OperatorFunction<...>', gave the following error.
+    Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+      Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:32:
+      57 │ ...estObs).pipe(mergeMap(this.testAddressToCoords(deliveries[0]), 1))
+         ╵                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.190 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7034: Variable 'testObs' implicitly has type 'any[]' in some locations where its type cannot be determined. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:8:
+      56 │     let testObs = []
+         ╵         ~~~~~~~
+
+
+✘ [ERROR] TS7005: Variable 'testObs' implicitly has an 'any[]' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:9:
+      57 │     from(testObs).pipe(mergeMap(this.testAddressToCoords(deliverie...
+         ╵          ~~~~~~~
+
+
+✘ [ERROR] TS2769: No overload matches this call.
+  Overload 1 of 3, '(project: (value: any, index: number) => ObservableInput<any>, concurrent?: number | undefined): OperatorFunction<any, any>', gave the following error.
+    Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+      Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'.
+  Overload 2 of 3, '(project: (value: any, index: number) => ObservableInput<any>, resultSelector: undefined, concurrent?: number | undefined): OperatorFunction<any, any>', gave the following error.
+    Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+      Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'.
+  Overload 3 of 3, '(project: (value: any, index: number) => ObservableInput<any>, resultSelector: (outerValue: any, innerValue: any, outerIndex: number, innerIndex: number) => unknown, concurrent?: number | undefined): OperatorFunction<...>', gave the following error.
+    Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+      Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:32:
+      57 │ ...pe(mergeMap(this.testAddressToCoords(deliveries[0]), 1)).subscr...
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.204 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7034: Variable 'testObs' implicitly has type 'any[]' in some locations where its type cannot be determined. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:8:
+      56 │     let testObs = []
+         ╵         ~~~~~~~
+
+
+✘ [ERROR] TS7005: Variable 'testObs' implicitly has an 'any[]' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:9:
+      57 │     from(testObs).pipe(mergeMap(this.testAddressToCoords(deliverie...
+         ╵          ~~~~~~~
+
+
+✘ [ERROR] TS2769: No overload matches this call.
+  Overload 1 of 3, '(project: (value: any, index: number) => ObservableInput<any>, concurrent?: number | undefined): OperatorFunction<any, any>', gave the following error.
+    Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+      Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'.
+  Overload 2 of 3, '(project: (value: any, index: number) => ObservableInput<any>, resultSelector: undefined, concurrent?: number | undefined): OperatorFunction<any, any>', gave the following error.
+    Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+      Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'.
+  Overload 3 of 3, '(project: (value: any, index: number) => ObservableInput<any>, resultSelector: (outerValue: any, innerValue: any, outerIndex: number, innerIndex: number) => unknown, concurrent?: number | undefined): OperatorFunction<...>', gave the following error.
+    Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+      Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:32:
+      57 │ ...pe(mergeMap(this.testAddressToCoords(deliveries[0]) => , 1)).su...
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:72:
+      57 │ ...geMap(this.testAddressToCoords(deliveries[0]) => , 1)).subscribe()
+         ╵                                                  ~~
+
+
+✘ [ERROR] TS1135: Argument expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:75:
+      57 │ ...geMap(this.testAddressToCoords(deliveries[0]) => , 1)).subscribe()
+         ╵                                                     ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.206 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7034: Variable 'testObs' implicitly has type 'any[]' in some locations where its type cannot be determined. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:8:
+      56 │     let testObs = []
+         ╵         ~~~~~~~
+
+
+✘ [ERROR] TS7005: Variable 'testObs' implicitly has an 'any[]' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:9:
+      57 │     from(testObs).pipe(mergeMap(this.testAddressToCoords(deliverie...
+         ╵          ~~~~~~~
+
+
+✘ [ERROR] TS2769: No overload matches this call.
+  Overload 1 of 3, '(project: (value: any, index: number) => ObservableInput<any>, resultSelector: undefined, concurrent?: number | undefined): OperatorFunction<any, any>', gave the following error.
+    Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+      Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'.
+  Overload 2 of 3, '(project: (value: any, index: number) => ObservableInput<any>, resultSelector: (outerValue: any, innerValue: any, outerIndex: number, innerIndex: number) => unknown, concurrent?: number | undefined): OperatorFunction<...>', gave the following error.
+    Argument of type 'Observable<Object>' is not assignable to parameter of type '(value: any, index: number) => ObservableInput<any>'.
+      Type 'Observable<Object>' provides no match for the signature '(value: any, index: number): ObservableInput<any>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:32:
+      57 │ ...pe(mergeMap(this.testAddressToCoords(deliveries[0]) => this.tes...
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:72:
+      57 │ ...AddressToCoords(deliveries[0]) => this.testAddressToCoords(deli...
+         ╵                                   ~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.329 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.194 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type 'Observable<Object>' is not assignable to parameter of type 'OperatorFunction<unknown, unknown>'.
+  Type 'Observable<Object>' provides no match for the signature '(source: Observable<unknown>): Observable<unknown>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:56:49:
+      56 │ ...0)(from(deliveries)).pipe(this.testAddressToCoords(deliveries[0]))
+         ╵                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.246 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'Delivery'.
+  Type 'Delivery[]' is missing the following properties from type 'Delivery': address, orders [plugin angular-compiler]
+
+    src/app/app.component.ts:28:40:
+      28 │     this.mapService.testAddressToCoords(this.deliveries)
+         ╵                                         ~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-COSPSU5D.js   | -                       |  13.67 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 216.78 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-VQB6EX4S.js   | -                       |  16.78 kB | 
+chunk-SC5MQPCD.js   | day-planner-component   |  12.57 kB | 
+chunk-B4SGFG2M.js   | homepage-component      |  11.32 kB | 
+chunk-TO5UJ6YA.js   | day-preview-component   |   9.21 kB | 
+chunk-UFNXJQPX.js   | day-displayer-component |   5.63 kB | 
+chunk-D3KURQQQ.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.318 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-VEXNMLTT.js   | -                       | 13.67 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-PIDTAHSS.js   | -                       | 16.78 kB | 
+chunk-6RM323DJ.js   | day-planner-component   | 12.57 kB | 
+chunk-NXRJZCGA.js   | homepage-component      | 11.32 kB | 
+chunk-YHZ5BQLK.js   | day-preview-component   |  9.21 kB | 
+chunk-R75UL3T6.js   | day-displayer-component |  5.63 kB | 
+chunk-4LJN4O6L.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.374 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.283 seconds]
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:2:
+      57 │   }
+         ╵   ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-KM6PIJB2.js   | -                       |  13.68 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 216.79 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-YMA5WUTJ.js   | -                       |  16.78 kB | 
+chunk-EYZYJ3TG.js   | day-planner-component   |  12.57 kB | 
+chunk-LNFTWNLL.js   | homepage-component      |  11.32 kB | 
+chunk-PGQEOHK2.js   | day-preview-component   |   9.21 kB | 
+chunk-DDFF5P5L.js   | day-displayer-component |   5.63 kB | 
+chunk-VNOYKMLO.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.380 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-LIXTIRNC.js   | -                       | 13.81 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-HATANKTZ.js   | -                       | 16.78 kB | 
+chunk-MTZT5T4J.js   | day-planner-component   | 12.57 kB | 
+chunk-NSW7DUFS.js   | homepage-component      | 11.32 kB | 
+chunk-XAXGC36C.js   | day-preview-component   |  9.21 kB | 
+chunk-ZC24BVD7.js   | day-displayer-component |  5.63 kB | 
+chunk-HMDMSFAA.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.330 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-NNY6TQRI.js   | -                       | 13.79 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-OMSVLQOI.js   | -                       | 16.78 kB | 
+chunk-4YQVOLNE.js   | day-planner-component   | 12.57 kB | 
+chunk-SACLCUZN.js   | homepage-component      | 11.32 kB | 
+chunk-IKI67RNZ.js   | day-preview-component   |  9.21 kB | 
+chunk-T5QMS3TA.js   | day-displayer-component |  5.63 kB | 
+chunk-FXXYUULS.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.328 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-35LHDCZH.js   | -                       | 13.78 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-GTTTDVKC.js   | -                       | 16.78 kB | 
+chunk-LNSKXFAY.js   | day-planner-component   | 12.57 kB | 
+chunk-U5WPOHC5.js   | homepage-component      | 11.32 kB | 
+chunk-VFA7QVLJ.js   | day-preview-component   |  9.21 kB | 
+chunk-EF5OBZ7W.js   | day-displayer-component |  5.63 kB | 
+chunk-XNM55PZ4.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.222 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-2WUZ23VN.js   | -                       | 13.82 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-EHCKNGS3.js   | -                       | 16.78 kB | 
+chunk-CU64ILHO.js   | day-planner-component   | 12.57 kB | 
+chunk-K4OWK3A4.js   | homepage-component      | 11.32 kB | 
+chunk-6FEZGCSB.js   | day-preview-component   |  9.21 kB | 
+chunk-JYJCILHS.js   | day-displayer-component |  5.63 kB | 
+chunk-NC65YRXH.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.351 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-35LHDCZH.js   | -                       | 13.78 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-GTTTDVKC.js   | -                       | 16.78 kB | 
+chunk-LNSKXFAY.js   | day-planner-component   | 12.57 kB | 
+chunk-U5WPOHC5.js   | homepage-component      | 11.32 kB | 
+chunk-VFA7QVLJ.js   | day-preview-component   |  9.21 kB | 
+chunk-EF5OBZ7W.js   | day-displayer-component |  5.63 kB | 
+chunk-XNM55PZ4.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.277 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-HY3ISGMP.js   | -                       | 13.78 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-CR4GRIV7.js   | -                       | 16.78 kB | 
+chunk-GIMZYUEM.js   | day-planner-component   | 12.57 kB | 
+chunk-OV5PHVHC.js   | homepage-component      | 11.32 kB | 
+chunk-AWJXR6OV.js   | day-preview-component   |  9.21 kB | 
+chunk-OOY3PVW5.js   | day-displayer-component |  5.63 kB | 
+chunk-CSQUBX4I.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.377 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-E7ONU7BK.js   | -                       | 13.81 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-CBTW7UWS.js   | -                       | 16.78 kB | 
+chunk-IXRMPTCQ.js   | day-planner-component   | 12.57 kB | 
+chunk-R6XOWWOT.js   | homepage-component      | 11.32 kB | 
+chunk-GTM6CKMN.js   | day-preview-component   |  9.21 kB | 
+chunk-CWQERBYP.js   | day-displayer-component |  5.63 kB | 
+chunk-KI3YLSHT.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.658 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.438 seconds]
+
+✘ [ERROR] TS2554: Expected 1-2 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:4:
+      62 │     switchMap()
+         ╵     ~~~~~~~~~
+
+  An argument for 'project' was not provided.
+
+    node_modules/rxjs/dist/types/internal/operators/switchMap.d.ts:2:69:
+      2 │ ...eInput<any>>(project: (value: T, index: number) => O): OperatorF...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.233 seconds]
+
+✘ [ERROR] TS2769: No overload matches this call.
+  Overload 1 of 3, '(project: (value: unknown, index: number) => ObservableInput<any>, resultSelector: undefined): OperatorFunction<unknown, any>', gave the following error.
+    Argument of type 'Observable<unknown>' is not assignable to parameter of type '(value: unknown, index: number) => ObservableInput<any>'.
+      Type 'Observable<unknown>' provides no match for the signature '(value: unknown, index: number): ObservableInput<any>'.
+  Overload 2 of 3, '(project: (value: unknown, index: number) => ObservableInput<any>, resultSelector: (outerValue: unknown, innerValue: any, outerIndex: number, innerIndex: number) => unknown): OperatorFunction<...>', gave the following error.
+    Argument of type 'Observable<unknown>' is not assignable to parameter of type '(value: unknown, index: number) => ObservableInput<any>'.
+      Type 'Observable<unknown>' provides no match for the signature '(value: unknown, index: number): ObservableInput<any>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:15:
+      62 │     switchMap((maxFrequency(2, 1000)(from(deliveries))) => {)
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:56:
+      62 │     switchMap((maxFrequency(2, 1000)(from(deliveries))) => {)
+         ╵                                                         ~~
+
+
+✘ [ERROR] TS1136: Property assignment expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:60:
+      62 │     switchMap((maxFrequency(2, 1000)(from(deliveries))) => {)
+         ╵                                                             ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.349 seconds]
+
+✘ [ERROR] TS2769: No overload matches this call.
+  Overload 1 of 3, '(project: (value: unknown, index: number) => ObservableInput<any>, resultSelector: undefined): OperatorFunction<unknown, any>', gave the following error.
+    Argument of type 'Observable<unknown>' is not assignable to parameter of type '(value: unknown, index: number) => ObservableInput<any>'.
+      Type 'Observable<unknown>' provides no match for the signature '(value: unknown, index: number): ObservableInput<any>'.
+  Overload 2 of 3, '(project: (value: unknown, index: number) => ObservableInput<any>, resultSelector: (outerValue: unknown, innerValue: any, outerIndex: number, innerIndex: number) => unknown): OperatorFunction<...>', gave the following error.
+    Argument of type 'Observable<unknown>' is not assignable to parameter of type '(value: unknown, index: number) => ObservableInput<any>'.
+      Type 'Observable<unknown>' provides no match for the signature '(value: unknown, index: number): ObservableInput<any>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:15:
+      62 │     switchMap((maxFrequency(2, 1000)(from(deliveries)) => this.htt...
+         ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ')' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:55:
+      62 │ ...ncy(2, 1000)(from(deliveries)) => this.http.get("https://api-ad...
+         ╵                                   ~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:137:
+      62 │ ...v.fr/search/?q="+encodeURIComponent(delivery.address!)+"&limit=1")
+         ╵                                        ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:63:2:
+      63 │   }
+         ╵   ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-35LHDCZH.js   | -                       |  13.78 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 216.89 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-GTTTDVKC.js   | -                       |  16.78 kB | 
+chunk-LNSKXFAY.js   | day-planner-component   |  12.57 kB | 
+chunk-U5WPOHC5.js   | homepage-component      |  11.32 kB | 
+chunk-VFA7QVLJ.js   | day-preview-component   |   9.21 kB | 
+chunk-EF5OBZ7W.js   | day-displayer-component |   5.63 kB | 
+chunk-XNM55PZ4.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.691 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-6EXZ5MR4.js   | -                       | 13.78 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-WRJUHLCQ.js   | -                       | 16.78 kB | 
+chunk-T7WTQ56U.js   | day-planner-component   | 12.57 kB | 
+chunk-OYL54KX2.js   | homepage-component      | 11.32 kB | 
+chunk-AQDS444R.js   | day-preview-component   |  9.21 kB | 
+chunk-H5JGOKG5.js   | day-displayer-component |  5.63 kB | 
+chunk-MOXYJVAM.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.189 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-VENPE5SW.js   | -                       | 13.81 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-VJCPV6P6.js   | -                       | 16.78 kB | 
+chunk-GCPE2CN7.js   | day-planner-component   | 12.57 kB | 
+chunk-BLYM7T65.js   | homepage-component      | 11.32 kB | 
+chunk-ELM4F64N.js   | day-preview-component   |  9.21 kB | 
+chunk-2QH2RYYV.js   | day-displayer-component |  5.63 kB | 
+chunk-SML56RGY.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.513 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-2TUI4VEN.js   | -                       | 13.78 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-RL7CQHTF.js   | -                       | 16.78 kB | 
+chunk-A2C65FL5.js   | day-planner-component   | 12.57 kB | 
+chunk-27AZ4A5N.js   | homepage-component      | 11.32 kB | 
+chunk-KGMJXBQF.js   | day-preview-component   |  9.21 kB | 
+chunk-55446IHQ.js   | day-displayer-component |  5.63 kB | 
+chunk-QPY4ORJT.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.230 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-OBK6F36H.js   | -                       | 13.84 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-IZXKXP57.js   | -                       | 16.78 kB | 
+chunk-N22HNNID.js   | day-planner-component   | 12.57 kB | 
+chunk-D6LE7VKJ.js   | homepage-component      | 11.32 kB | 
+chunk-PEPC7W7S.js   | day-preview-component   |  9.21 kB | 
+chunk-KVCUT6CA.js   | day-displayer-component |  5.63 kB | 
+chunk-NZ4ZRG4B.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.507 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-RY4AVDAH.js   | -                       | 13.56 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-EAP4NSQJ.js   | -                       | 16.78 kB | 
+chunk-IJLLOFBE.js   | day-planner-component   | 12.57 kB | 
+chunk-ZPKZ3UCP.js   | homepage-component      | 11.32 kB | 
+chunk-S7FWHIJG.js   | day-preview-component   |  9.21 kB | 
+chunk-6WBF476W.js   | day-displayer-component |  5.63 kB | 
+chunk-W2WAAZ2H.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.667 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.402 seconds]
+
+✘ [ERROR] TS18046: 'delivery' is of type 'unknown'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:12:
+      57 │             delivery.coordinates = [lat, lon]
+         ╵             ~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-Q43YT2MC.js   | -                       |  13.89 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.00 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-ONNH3FRC.js   | -                       |  16.78 kB | 
+chunk-XQL5AAVI.js   | day-planner-component   |  12.57 kB | 
+chunk-7TIMU74V.js   | homepage-component      |  11.32 kB | 
+chunk-HMCUZ23B.js   | day-preview-component   |   9.21 kB | 
+chunk-6F3E2BSS.js   | day-displayer-component |   5.63 kB | 
+chunk-ZKJY277M.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.531 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-SJ7GVHLN.js   | -                       | 13.82 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-6MOXTWRY.js   | -                       | 16.78 kB | 
+chunk-FA56HLWI.js   | day-planner-component   | 12.57 kB | 
+chunk-OUUTZRO6.js   | homepage-component      | 11.32 kB | 
+chunk-Z3MI2EOB.js   | day-preview-component   |  9.21 kB | 
+chunk-PAHDE472.js   | day-displayer-component |  5.63 kB | 
+chunk-EWFSJCCV.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.219 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-VCKU2DAP.js   | -                       | 13.88 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-XUBFNFSQ.js   | -                       | 16.78 kB | 
+chunk-OHEDMHQ4.js   | day-planner-component   | 12.57 kB | 
+chunk-BIC3ZNH5.js   | homepage-component      | 11.32 kB | 
+chunk-OHPKHP5W.js   | day-preview-component   |  9.21 kB | 
+chunk-O4B4JT5W.js   | day-displayer-component |  5.63 kB | 
+chunk-DVVTWKWG.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.396 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-JZNHGKSU.js   | -                       | 13.92 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-373TSSYA.js   | -                       | 16.78 kB | 
+chunk-7UBEFLP2.js   | day-planner-component   | 12.57 kB | 
+chunk-TKG2PFE7.js   | homepage-component      | 11.32 kB | 
+chunk-HX6UBLXH.js   | day-preview-component   |  9.21 kB | 
+chunk-SH25PAMF.js   | day-displayer-component |  5.63 kB | 
+chunk-2WL3U46T.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.710 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-VCKU2DAP.js   | -                       | 13.88 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-XUBFNFSQ.js   | -                       | 16.78 kB | 
+chunk-OHEDMHQ4.js   | day-planner-component   | 12.57 kB | 
+chunk-BIC3ZNH5.js   | homepage-component      | 11.32 kB | 
+chunk-OHPKHP5W.js   | day-preview-component   |  9.21 kB | 
+chunk-O4B4JT5W.js   | day-displayer-component |  5.63 kB | 
+chunk-DVVTWKWG.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.161 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.644 seconds]
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:10:
+      62 │           }
+         ╵           ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-Q2HRLVRC.js   | -                       |  13.95 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.06 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-GDPG5ZC4.js   | -                       |  16.78 kB | 
+chunk-XJXMD44H.js   | day-planner-component   |  12.57 kB | 
+chunk-BQSSBZZ4.js   | homepage-component      |  11.32 kB | 
+chunk-PVM5EISB.js   | day-preview-component   |   9.21 kB | 
+chunk-ALDY4K7T.js   | day-displayer-component |   5.63 kB | 
+chunk-CSB7MA3Y.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.254 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-GY6MLC3K.js   | -                       | 13.89 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-ILOEHFYR.js   | -                       | 16.78 kB | 
+chunk-6AVGOTRE.js   | day-planner-component   | 12.57 kB | 
+chunk-KLKRGPNG.js   | homepage-component      | 11.32 kB | 
+chunk-MLHVKK6X.js   | day-preview-component   |  9.21 kB | 
+chunk-Y63PGW7D.js   | day-displayer-component |  5.63 kB | 
+chunk-M2FCNXMS.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.288 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-FKXVBSK5.js   | -                       | 13.92 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-F7KBUKZ6.js   | -                       | 16.78 kB | 
+chunk-SVNU5RQO.js   | day-planner-component   | 12.57 kB | 
+chunk-R4QY3DLF.js   | homepage-component      | 11.32 kB | 
+chunk-SLWKSNOK.js   | day-preview-component   |  9.21 kB | 
+chunk-AFUJ2RNW.js   | day-displayer-component |  5.63 kB | 
+chunk-XIJBA7VU.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.212 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-GY6MLC3K.js   | -                       | 13.89 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-ILOEHFYR.js   | -                       | 16.78 kB | 
+chunk-6AVGOTRE.js   | day-planner-component   | 12.57 kB | 
+chunk-KLKRGPNG.js   | homepage-component      | 11.32 kB | 
+chunk-MLHVKK6X.js   | day-preview-component   |  9.21 kB | 
+chunk-Y63PGW7D.js   | day-displayer-component |  5.63 kB | 
+chunk-M2FCNXMS.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.167 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-TI2CIUQY.js   | -                       | 13.91 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-VSP22BTP.js   | -                       | 16.78 kB | 
+chunk-Z56I3YDQ.js   | day-planner-component   | 12.57 kB | 
+chunk-OJY252BG.js   | homepage-component      | 11.32 kB | 
+chunk-HOAQ5AAT.js   | day-preview-component   |  9.21 kB | 
+chunk-ISH4DUUN.js   | day-displayer-component |  5.63 kB | 
+chunk-JVVIGKCU.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.304 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.243 seconds]
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'complete'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:11:
+      62 │       tap({complete})
+         ╵            ~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-7RDKXK3Z.js   | -                       |  13.95 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.06 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-TSZ4C7QM.js   | -                       |  16.78 kB | 
+chunk-OLQ5YZLQ.js   | day-planner-component   |  12.57 kB | 
+chunk-IWWAK55Q.js   | homepage-component      |  11.32 kB | 
+chunk-K5BHPIPQ.js   | day-preview-component   |   9.21 kB | 
+chunk-RCCMZGBB.js   | day-displayer-component |   5.63 kB | 
+chunk-HJWFZU26.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.551 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-FKZTB4XA.js   | -                       | 13.89 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-STD6U2BM.js   | -                       | 16.78 kB | 
+chunk-JCH3SU4T.js   | day-planner-component   | 12.57 kB | 
+chunk-SEPQX6JM.js   | homepage-component      | 11.32 kB | 
+chunk-SR4HQL5B.js   | day-preview-component   |  9.21 kB | 
+chunk-IIACQHJ3.js   | day-displayer-component |  5.63 kB | 
+chunk-S6EWICS5.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.379 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-ZKNJUXNO.js   | -                       | 13.92 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-E77PYHKJ.js   | -                       | 16.78 kB | 
+chunk-63BW6BRB.js   | day-planner-component   | 12.57 kB | 
+chunk-FZU6KIZN.js   | homepage-component      | 11.32 kB | 
+chunk-OYULG6LZ.js   | day-preview-component   |  9.21 kB | 
+chunk-C6JYWDCN.js   | day-displayer-component |  5.63 kB | 
+chunk-FQBBAKGH.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.551 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.239 seconds]
+
+✘ [ERROR] TS2554: Expected 1-2 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:66:4:
+      66 │     concatMap()
+         ╵     ~~~~~~~~~
+
+  An argument for 'project' was not provided.
+
+    node_modules/rxjs/dist/types/internal/operators/concatMap.d.ts:2:69:
+      2 │ ...eInput<any>>(project: (value: T, index: number) => O): OperatorF...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-IN7GYB6N.js   | -                       |  13.93 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.04 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-OTITRON4.js   | -                       |  16.78 kB | 
+chunk-25PJJDNF.js   | day-planner-component   |  12.57 kB | 
+chunk-ACPIGPKV.js   | homepage-component      |  11.32 kB | 
+chunk-2M34KBS4.js   | day-preview-component   |   9.21 kB | 
+chunk-ASSSZLLU.js   | day-displayer-component |   5.63 kB | 
+chunk-P6B35ALF.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.429 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-YBHWCC2L.js   | -                       | 13.94 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-G5E7DJFE.js   | -                       | 16.78 kB | 
+chunk-UUI527FL.js   | day-planner-component   | 12.57 kB | 
+chunk-5ZOKC7SS.js   | homepage-component      | 11.32 kB | 
+chunk-5D5FY3Y6.js   | day-preview-component   |  9.21 kB | 
+chunk-VYQUM42R.js   | day-displayer-component |  5.63 kB | 
+chunk-UEGBPYTE.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.209 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-AK2MBYPM.js   | -                       | 13.95 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-O5YFBCNO.js   | -                       | 16.78 kB | 
+chunk-72XKNBHE.js   | day-planner-component   | 12.57 kB | 
+chunk-ZYGXR4JO.js   | homepage-component      | 11.32 kB | 
+chunk-5JM5MT3H.js   | day-preview-component   |  9.21 kB | 
+chunk-CZP54GQJ.js   | day-displayer-component |  5.63 kB | 
+chunk-QTQAVRUT.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.275 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.252 seconds]
+
+✘ [ERROR] TS2345: Argument of type '{ <T, O extends ObservableInput<any>>(project: (value: T, index: number) => O): OperatorFunction<T, ObservedValueOf<O>>; <T, O extends ObservableInput<...>>(project: (value: T, index: number) => O, resultSelector: undefined): OperatorFunction<...>; <T, R, O extends ObservableInput<...>>(project: (value: T, index: nu...' is not assignable to parameter of type 'OperatorFunction<Delivery[], unknown>'.
+  Types of parameters 'project' and 'source' are incompatible.
+    Type 'Observable<Delivery[]>' is not assignable to type '(value: any, index: number) => any'.
+      Type 'Observable<Delivery[]>' provides no match for the signature '(value: any, index: number): any'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:66:24:
+      66 │     of(deliveries).pipe(concatMap)
+         ╵                         ~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.282 seconds]
+
+✘ [ERROR] TS2554: Expected 1-2 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:66:24:
+      66 │     of(deliveries).pipe(concatMap())
+         ╵                         ~~~~~~~~~
+
+  An argument for 'project' was not provided.
+
+    node_modules/rxjs/dist/types/internal/operators/concatMap.d.ts:2:69:
+      2 │ ...eInput<any>>(project: (value: T, index: number) => O): OperatorF...
+        ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.198 seconds]
+
+✘ [ERROR] Unexpected ")"
+
+    src/app/shared/services/map.service.ts:52:52:
+      52 │         of(deliveries).pipe(concatMap((delivery) => ));
+         ╵                                                     ^
+
+
+✘ [ERROR] TS1109: Expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:66:48:
+      66 │     of(deliveries).pipe(concatMap((delivery) => ))
+         ╵                                                 ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-WVMGF5RM.js   | -                       |  14.00 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.11 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-MF3NPLZZ.js   | -                       |  16.78 kB | 
+chunk-ZZLVZHRZ.js   | day-planner-component   |  12.57 kB | 
+chunk-AS5UF72N.js   | homepage-component      |  11.32 kB | 
+chunk-IS72PEBQ.js   | day-preview-component   |   9.21 kB | 
+chunk-7SZ3GIOG.js   | day-displayer-component |   5.63 kB | 
+chunk-BKSYRT2M.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.443 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-YCI2CJXW.js   | -                       | 14.00 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-3SJZIL6W.js   | -                       | 16.78 kB | 
+chunk-OMHP4674.js   | day-planner-component   | 12.57 kB | 
+chunk-6S3B3VFI.js   | homepage-component      | 11.32 kB | 
+chunk-ELKSHUGG.js   | day-preview-component   |  9.21 kB | 
+chunk-POGET6Q6.js   | day-displayer-component |  5.63 kB | 
+chunk-M23NCPCZ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.151 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-JPTSLC3X.js   | -                       | 14.01 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-WA7HRZIG.js   | -                       | 16.78 kB | 
+chunk-VLXRBLMA.js   | day-planner-component   | 12.57 kB | 
+chunk-KGMNSSWX.js   | homepage-component      | 11.32 kB | 
+chunk-ATLBF76F.js   | day-preview-component   |  9.21 kB | 
+chunk-GE6XDI5X.js   | day-displayer-component |  5.63 kB | 
+chunk-LM6XI23G.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.163 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-VTMHDZIF.js   | -                       | 14.01 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-CQVEU7UG.js   | -                       | 16.78 kB | 
+chunk-EBS5NJO5.js   | day-planner-component   | 12.57 kB | 
+chunk-UYBSJQS5.js   | homepage-component      | 11.32 kB | 
+chunk-DB2475GR.js   | day-preview-component   |  9.21 kB | 
+chunk-2XFN5YJA.js   | day-displayer-component |  5.63 kB | 
+chunk-CIYPXTUK.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.311 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.403 seconds]
+
+✘ [ERROR] TS2304: Cannot find name 'take'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:67:6:
+      67 │       take
+         ╵       ~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-VTMHDZIF.js   | -                       |  14.01 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.12 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-CQVEU7UG.js   | -                       |  16.78 kB | 
+chunk-EBS5NJO5.js   | day-planner-component   |  12.57 kB | 
+chunk-UYBSJQS5.js   | homepage-component      |  11.32 kB | 
+chunk-DB2475GR.js   | day-preview-component   |   9.21 kB | 
+chunk-2XFN5YJA.js   | day-displayer-component |   5.63 kB | 
+chunk-CIYPXTUK.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.181 seconds]
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.322 seconds]
+
+✘ [ERROR] TS2345: Argument of type '{ <T>(observerOrNext?: Partial<TapObserver<T>> | ((value: T) => void) | undefined): MonoTypeOperatorFunction<T>; <T>(next?: ((value: T) => void) | ... 1 more ... | undefined, error?: ((error: any) => void) | ... 1 more ... | undefined, complete?: (() => void) | ... 1 more ... | undefined): MonoTypeOperatorFunction<....' is not assignable to parameter of type 'OperatorFunction<number, unknown>'.
+  Type 'MonoTypeOperatorFunction<any>' is not assignable to type 'Observable<unknown>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:67:6:
+      67 │       tap{}
+         ╵       ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:67:9:
+      67 │       tap{}
+         ╵          ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.293 seconds]
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'complete'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:67:11:
+      67 │       tap({complete})
+         ╵            ~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-NV2JZE7F.js   | -                       |  14.07 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.17 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-CBMLLM6X.js   | -                       |  16.78 kB | 
+chunk-QPG3FN43.js   | day-planner-component   |  12.57 kB | 
+chunk-36RY5NNR.js   | homepage-component      |  11.32 kB | 
+chunk-2VAE6UYG.js   | day-preview-component   |   9.21 kB | 
+chunk-ZZPG3XS7.js   | day-displayer-component |   5.63 kB | 
+chunk-2YJVLARS.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.291 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-UZNHSA6R.js   | -                       | 14.07 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-3IYEPQ77.js   | -                       | 16.78 kB | 
+chunk-EOWZQMSA.js   | day-planner-component   | 12.57 kB | 
+chunk-E6QCVWHR.js   | homepage-component      | 11.32 kB | 
+chunk-4EV2VISG.js   | day-preview-component   |  9.21 kB | 
+chunk-ZYWNBSXA.js   | day-displayer-component |  5.63 kB | 
+chunk-F7A5IJ6K.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.166 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-FPB6KFV4.js   | -                       | 14.08 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-37TNYM4N.js   | -                       | 16.78 kB | 
+chunk-X3WZDTGS.js   | day-planner-component   | 12.57 kB | 
+chunk-QVEQ4RY2.js   | homepage-component      | 11.32 kB | 
+chunk-4V3D2KB4.js   | day-preview-component   |  9.21 kB | 
+chunk-376QCZFE.js   | day-displayer-component |  5.63 kB | 
+chunk-KLQRHRD3.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.189 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-IG4F5ZE3.js   | -                       | 14.11 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-STOLSQOF.js   | -                       | 16.78 kB | 
+chunk-OSHS2H2P.js   | day-planner-component   | 12.57 kB | 
+chunk-LDG2XH3V.js   | homepage-component      | 11.32 kB | 
+chunk-DQP6WQCK.js   | day-preview-component   |  9.21 kB | 
+chunk-GVH3BY2K.js   | day-displayer-component |  5.63 kB | 
+chunk-ZJB7I2W4.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.359 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-T2JL7QIG.js   | -                       | 14.11 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-CMPAX5JP.js   | -                       | 16.78 kB | 
+chunk-FMBHUWPN.js   | day-planner-component   | 12.57 kB | 
+chunk-IMHCKQJO.js   | homepage-component      | 11.32 kB | 
+chunk-6DKUACV6.js   | day-preview-component   |  9.21 kB | 
+chunk-X4W7JIOE.js   | day-displayer-component |  5.63 kB | 
+chunk-WOWKM725.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.135 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-IG4F5ZE3.js   | -                       | 14.11 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-STOLSQOF.js   | -                       | 16.78 kB | 
+chunk-OSHS2H2P.js   | day-planner-component   | 12.57 kB | 
+chunk-LDG2XH3V.js   | homepage-component      | 11.32 kB | 
+chunk-DQP6WQCK.js   | day-preview-component   |  9.21 kB | 
+chunk-GVH3BY2K.js   | day-displayer-component |  5.63 kB | 
+chunk-ZJB7I2W4.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.197 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.51 kB | 
+
+Application bundle generation complete. [0.491 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.461 seconds]
+
+✘ [ERROR] TS2339: Property 'testBis' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/app.component.ts:28:20:
+      28 │     this.mapService.testBis(this.deliveries)
+         ╵                     ~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-6EXUZQKL.js   | -                       |  13.89 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.00 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-ZPIYU42O.js   | -                       |  16.78 kB | 
+chunk-RZ52VRAK.js   | day-planner-component   |  12.57 kB | 
+chunk-Y5PESFQV.js   | homepage-component      |  11.32 kB | 
+chunk-FRGDP3HO.js   | day-preview-component   |   9.21 kB | 
+chunk-DUXVJHQM.js   | day-displayer-component |   5.63 kB | 
+chunk-S76E5JP5.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.536 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-QAWPKXKR.js   | -                       | 13.82 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-MRUPUDOE.js   | -                       | 16.78 kB | 
+chunk-Z6NLKUQF.js   | day-planner-component   | 12.57 kB | 
+chunk-2JMSHGPY.js   | homepage-component      | 11.32 kB | 
+chunk-EPCQHCGL.js   | day-preview-component   |  9.21 kB | 
+chunk-3DC3QAC3.js   | day-displayer-component |  5.63 kB | 
+chunk-GLYZCYKQ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.412 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.288 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Observable<number>' is not assignable to parameter of type 'OperatorFunction<unknown, unknown>'.
+  Type 'Observable<number>' provides no match for the signature '(source: Observable<unknown>): Observable<unknown>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:13:
+      62 │     obs.pipe(interval(4000))
+         ╵              ~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-7X7M6XQQ.js   | -                       |  13.88 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 216.99 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-CD3QLBOA.js   | -                       |  16.78 kB | 
+chunk-ZOMFHDBT.js   | day-planner-component   |  12.57 kB | 
+chunk-WWVA7777.js   | homepage-component      |  11.32 kB | 
+chunk-WWW37UIQ.js   | day-preview-component   |   9.21 kB | 
+chunk-TBS5HRZJ.js   | day-displayer-component |   5.63 kB | 
+chunk-TF4VHLU5.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.306 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.224 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Observable<number>' is not assignable to parameter of type 'OperatorFunction<unknown, unknown>'.
+  Type 'Observable<number>' provides no match for the signature '(source: Observable<unknown>): Observable<unknown>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:13:
+      62 │     obs.pipe(interval(4000).pipe())
+         ╵              ~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.283 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Observable<unknown>' is not assignable to parameter of type 'OperatorFunction<unknown, unknown>'.
+  Type 'Observable<unknown>' provides no match for the signature '(source: Observable<unknown>): Observable<unknown>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:13:
+      62 │     obs.pipe(interval(4000).pipe(console.log(this.sigCoords())))
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type 'void' is not assignable to parameter of type 'OperatorFunction<number, unknown>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:33:
+      62 │     obs.pipe(interval(4000).pipe(console.log(this.sigCoords())))
+         ╵                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.215 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'Observable<number>' is not assignable to parameter of type 'OperatorFunction<unknown, unknown>'.
+  Type 'Observable<number>' provides no match for the signature '(source: Observable<unknown>): Observable<unknown>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:62:13:
+      62 │     obs.pipe(interval(4000)).subscribe(() => {})
+         ╵              ~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-6CF3F4AC.js   | -                       |  13.91 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.02 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-LO7KA3UL.js   | -                       |  16.78 kB | 
+chunk-2X5FTORF.js   | day-planner-component   |  12.57 kB | 
+chunk-RLYJ3URU.js   | homepage-component      |  11.32 kB | 
+chunk-HADDIV46.js   | day-preview-component   |   9.21 kB | 
+chunk-JJTJ2PAH.js   | day-displayer-component |   5.63 kB | 
+chunk-NRJMYRWQ.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.416 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-RMLMELAG.js   | -                       | 13.93 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-T74VXPIE.js   | -                       | 16.78 kB | 
+chunk-6QJHHYBZ.js   | day-planner-component   | 12.57 kB | 
+chunk-TDN2N5N7.js   | homepage-component      | 11.32 kB | 
+chunk-HDKRUZJ5.js   | day-preview-component   |  9.21 kB | 
+chunk-PV6FDEE3.js   | day-displayer-component |  5.63 kB | 
+chunk-IVPJMQVF.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.299 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-33NOBPUG.js   | -                       | 13.84 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-AYBFWC6W.js   | -                       | 16.78 kB | 
+chunk-LTJALW7Q.js   | day-planner-component   | 12.57 kB | 
+chunk-BTC46WHE.js   | homepage-component      | 11.32 kB | 
+chunk-2GXYOENZ.js   | day-preview-component   |  9.21 kB | 
+chunk-NPBWLU2P.js   | day-displayer-component |  5.63 kB | 
+chunk-OBS2ZTV3.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.397 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-4FOTVBDH.js   | -                       | 13.96 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-GO6L2AKI.js   | -                       | 16.78 kB | 
+chunk-TYSIA2B7.js   | day-planner-component   | 12.57 kB | 
+chunk-SI6OQ6PG.js   | homepage-component      | 11.32 kB | 
+chunk-G7KRYC3X.js   | day-preview-component   |  9.21 kB | 
+chunk-GVZJLYYG.js   | day-displayer-component |  5.63 kB | 
+chunk-SYDTZ2SX.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.293 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-2MMUCQMP.js   | -                       | 13.88 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-JXP53OV3.js   | -                       | 16.78 kB | 
+chunk-6GZEKANO.js   | day-planner-component   | 12.57 kB | 
+chunk-FYXGU4EB.js   | homepage-component      | 11.32 kB | 
+chunk-Q4PWLQYC.js   | day-preview-component   |  9.21 kB | 
+chunk-THIL4SR2.js   | day-displayer-component |  5.63 kB | 
+chunk-B2MEFZ7H.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.453 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-CEM65F7T.js   | -                       | 13.88 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-NS2EFVTP.js   | -                       | 16.78 kB | 
+chunk-WIVYVY3R.js   | day-planner-component   | 12.57 kB | 
+chunk-R2ZB7E3K.js   | homepage-component      | 11.32 kB | 
+chunk-UHADPVWO.js   | day-preview-component   |  9.21 kB | 
+chunk-T7A2ABSA.js   | day-displayer-component |  5.63 kB | 
+chunk-NOYACIW4.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.268 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-KRRJVCKS.js   | -                       | 13.87 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-G6VVNFX4.js   | -                       | 16.78 kB | 
+chunk-2AORB7MU.js   | day-planner-component   | 12.57 kB | 
+chunk-CF4T3MSK.js   | homepage-component      | 11.32 kB | 
+chunk-RDO57POL.js   | day-preview-component   |  9.21 kB | 
+chunk-JYYV2FT2.js   | day-displayer-component |  5.63 kB | 
+chunk-D3NKYOKJ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.287 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-UEFXY7LS.js   | -                       | 13.87 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-XSNF5HLS.js   | -                       | 16.78 kB | 
+chunk-Y5IKE267.js   | day-planner-component   | 12.57 kB | 
+chunk-POMXWV6L.js   | homepage-component      | 11.32 kB | 
+chunk-NI4RURSB.js   | day-preview-component   |  9.21 kB | 
+chunk-M4NQRMKR.js   | day-displayer-component |  5.63 kB | 
+chunk-34VGS4XH.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.294 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-QHDZDOB5.js   | -                       | 13.88 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-6X2GH27E.js   | -                       | 16.78 kB | 
+chunk-LA3CTPX3.js   | day-planner-component   | 12.57 kB | 
+chunk-QEWB7SGC.js   | homepage-component      | 11.32 kB | 
+chunk-LYGPYI2Z.js   | day-preview-component   |  9.21 kB | 
+chunk-4IYCEJEU.js   | day-displayer-component |  5.63 kB | 
+chunk-ATUGRDQS.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.241 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.266 seconds]
+
+✘ [ERROR] TS2345: Argument of type '{ <T>(predicate: BooleanConstructor, inclusive: true): MonoTypeOperatorFunction<T>; <T>(predicate: BooleanConstructor, inclusive: false): OperatorFunction<...>; <T>(predicate: BooleanConstructor): OperatorFunction<...>; <T, S extends T>(predicate: (value: T, index: number) => value is S): OperatorFunction<...>; <T, ...' is not assignable to parameter of type 'OperatorFunction<unknown, unknown>'.
+  Target signature provides too few arguments. Expected 2 or more, but got 1. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:13:
+      51 │     obs.pipe(takeWhile) .subscribe((delivery) => {
+         ╵              ~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.331 seconds]
+
+✘ [ERROR] TS2769: No overload matches this call.
+  Overload 1 of 6, '(predicate: BooleanConstructor): OperatorFunction<unknown, unknown>', gave the following error.
+    Argument of type 'boolean' is not assignable to parameter of type 'BooleanConstructor'.
+  Overload 2 of 6, '(predicate: (value: unknown, index: number) => value is unknown): OperatorFunction<unknown, unknown>', gave the following error.
+    Argument of type 'boolean' is not assignable to parameter of type '(value: unknown, index: number) => value is unknown'.
+  Overload 3 of 6, '(predicate: (value: unknown, index: number) => boolean, inclusive?: boolean | undefined): MonoTypeOperatorFunction<unknown>', gave the following error.
+    Argument of type 'boolean' is not assignable to parameter of type '(value: unknown, index: number) => boolean'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:23:
+      51 │     obs.pipe(takeWhile(deliveries.length != 0)) .subscribe((delive...
+         ╵                        ~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.216 seconds]
+
+✘ [ERROR] TS2554: Expected 1-2 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:13:
+      51 │     obs.pipe(takeWhile()) .subscribe((delivery) => {
+         ╵              ~~~~~~~~~
+
+  An argument for 'predicate' was not provided.
+
+    node_modules/rxjs/dist/types/internal/operators/takeWhile.d.ts:4:37:
+      4 │ ...tion takeWhile<T>(predicate: BooleanConstructor): OperatorFuncti...
+        ╵                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.151 seconds]
+
+✘ [ERROR] Unexpected ")"
+
+    src/app/shared/services/map.service.ts:38:36:
+      38 │         obs.pipe(takeWhile(value => )).subscribe((delivery) => {
+         ╵                                     ^
+
+
+✘ [ERROR] TS1109: Expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:32:
+      51 │     obs.pipe(takeWhile(value => )) .subscribe((delivery) => {
+         ╵                                 ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.176 seconds]
+
+✘ [ERROR] Unexpected ")"
+
+    src/app/shared/services/map.service.ts:38:41:
+      38 │         obs.pipe(takeWhile(deliveries => )).subscribe((delivery) => {
+         ╵                                          ^
+
+
+✘ [ERROR] TS1109: Expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:37:
+      51 │     obs.pipe(takeWhile(deliveries => )) .subscribe((delivery) => {
+         ╵                                      ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-64SYYFVD.js   | -                       |  13.93 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.04 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-62ZJY63L.js   | -                       |  16.78 kB | 
+chunk-PSQ2FKBC.js   | day-planner-component   |  12.57 kB | 
+chunk-D4SNX4KT.js   | homepage-component      |  11.32 kB | 
+chunk-2OAR3666.js   | day-preview-component   |   9.21 kB | 
+chunk-JHPT7RQ3.js   | day-displayer-component |   5.63 kB | 
+chunk-KAL3ZH7S.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.311 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-EC3XNISA.js   | -                       | 13.96 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-WXIBQPE6.js   | -                       | 16.78 kB | 
+chunk-T2TH57FA.js   | day-planner-component   | 12.57 kB | 
+chunk-3D26RQZE.js   | homepage-component      | 11.32 kB | 
+chunk-3637QZG6.js   | day-preview-component   |  9.21 kB | 
+chunk-3O6B7IAH.js   | day-displayer-component |  5.63 kB | 
+chunk-ZKYGKMQU.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.336 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-5AEO7Q6M.js   | -                       | 14.03 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-PWL76RHK.js   | -                       | 16.78 kB | 
+chunk-JXNKDYRS.js   | day-planner-component   | 12.57 kB | 
+chunk-37HXSQD3.js   | homepage-component      | 11.32 kB | 
+chunk-F34GL5UC.js   | day-preview-component   |  9.21 kB | 
+chunk-SJGKZA6P.js   | day-displayer-component |  5.63 kB | 
+chunk-JFAATG6U.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.593 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-64SYYFVD.js   | -                       | 13.93 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-62ZJY63L.js   | -                       | 16.78 kB | 
+chunk-PSQ2FKBC.js   | day-planner-component   | 12.57 kB | 
+chunk-D4SNX4KT.js   | homepage-component      | 11.32 kB | 
+chunk-2OAR3666.js   | day-preview-component   |  9.21 kB | 
+chunk-JHPT7RQ3.js   | day-displayer-component |  5.63 kB | 
+chunk-KAL3ZH7S.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.276 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.423 seconds]
+
+✘ [ERROR] TS2353: Object literal may only specify known properties, and 'next' does not exist in type '(value: Object) => void'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:52:75:
+      52 │ ...s(delivery as unknown as Delivery).subscribe({next: (res:any) => {
+         ╵                                                  ~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-64SYYFVD.js   | -                       |  13.93 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.04 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-62ZJY63L.js   | -                       |  16.78 kB | 
+chunk-PSQ2FKBC.js   | day-planner-component   |  12.57 kB | 
+chunk-D4SNX4KT.js   | homepage-component      |  11.32 kB | 
+chunk-2OAR3666.js   | day-preview-component   |   9.21 kB | 
+chunk-JHPT7RQ3.js   | day-displayer-component |   5.63 kB | 
+chunk-KAL3ZH7S.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.353 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-DYLEPUAP.js   | -                       | 14.00 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-JP46ZTTP.js   | -                       | 16.78 kB | 
+chunk-HIVSDRTS.js   | day-planner-component   | 12.57 kB | 
+chunk-UVU5VHCE.js   | homepage-component      | 11.32 kB | 
+chunk-FIM3VUJY.js   | day-preview-component   |  9.21 kB | 
+chunk-XSXFOOG3.js   | day-displayer-component |  5.63 kB | 
+chunk-OYTDOS5E.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.304 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-WFORCM4X.js   | -                       | 14.00 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-SUXQRUZN.js   | -                       | 16.78 kB | 
+chunk-DNZA6AJL.js   | day-planner-component   | 12.57 kB | 
+chunk-5SXCA2PW.js   | homepage-component      | 11.32 kB | 
+chunk-CBRAOB23.js   | day-preview-component   |  9.21 kB | 
+chunk-3UXD6UTC.js   | day-displayer-component |  5.63 kB | 
+chunk-D7VXLWCE.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.605 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-FTJGPKGC.js   | -                       | 13.94 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-MCZMZGNG.js   | -                       | 16.78 kB | 
+chunk-6UGFLB2F.js   | day-planner-component   | 12.57 kB | 
+chunk-YHIHDMRF.js   | homepage-component      | 11.32 kB | 
+chunk-DUPD7MUW.js   | day-preview-component   |  9.21 kB | 
+chunk-QYTM3XQL.js   | day-displayer-component |  5.63 kB | 
+chunk-FQGPR5OR.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.410 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.137 seconds]
+
+✘ [ERROR] TS2345: Argument of type '{ <T>(observerOrNext?: Partial<TapObserver<T>> | ((value: T) => void) | undefined): MonoTypeOperatorFunction<T>; <T>(next?: ((value: T) => void) | ... 1 more ... | undefined, error?: ((error: any) => void) | ... 1 more ... | undefined, complete?: (() => void) | ... 1 more ... | undefined): MonoTypeOperatorFunction<....' is not assignable to parameter of type 'OperatorFunction<unknown, unknown>'.
+  Type 'MonoTypeOperatorFunction<any>' is not assignable to type 'Observable<unknown>'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:60:
+      51 │ ...veries => deliveries != 0)).pipe(tap{}) .subscribe((delivery) => {
+         ╵                                     ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:63:
+      51 │ ...veries => deliveries != 0)).pipe(tap{}) .subscribe((delivery) => {
+         ╵                                        ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.292 seconds]
+
+✘ [ERROR] Unexpected "}"
+
+    src/app/shared/services/map.service.ts:38:87:
+      38 │ ...s != 0)).pipe(tap({ complete: () =>  })).subscribe((delivery) => {
+         ╵                                         ^
+
+
+✘ [ERROR] TS1109: Expression expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:81:
+      51 │ ...es != 0)).pipe(tap({complete: () => })) .subscribe((delivery) => {
+         ╵                                        ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-XJAZIEDJ.js   | -                       |  14.00 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.11 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-HYISPEBZ.js   | -                       |  16.78 kB | 
+chunk-YSUFM34R.js   | day-planner-component   |  12.57 kB | 
+chunk-TOHQB5MO.js   | homepage-component      |  11.32 kB | 
+chunk-NRY3XXQX.js   | day-preview-component   |   9.21 kB | 
+chunk-TOIUULH5.js   | day-displayer-component |   5.63 kB | 
+chunk-TH6LCZX4.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.313 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-TQFHD3YE.js   | -                       | 14.18 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-TGIYR2WX.js   | -                       | 16.78 kB | 
+chunk-U2JQ7UBI.js   | day-planner-component   | 12.57 kB | 
+chunk-IVFLQBEQ.js   | homepage-component      | 11.32 kB | 
+chunk-E4OL7GIX.js   | day-preview-component   |  9.21 kB | 
+chunk-N77UC2DK.js   | day-displayer-component |  5.63 kB | 
+chunk-CVWHCSJZ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.633 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.521 seconds]
+
+✘ [ERROR] TS2311: Cannot find name 'await'. Did you mean to write this in an async function? [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:93:
+      57 │ ...({complete: () => console.log(await )})).subscribe((delivery) => {
+         ╵                                  ~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.540 seconds]
+
+✘ [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/app.component.ts:28:20:
+      28 │     this.mapService.testAllAdressesToCoords(this.deliveries)
+         ╵                     ~~~~~~~~~~~~~~~~~~~~~~~
+
+  An argument for 'toursCount' was not provided.
+
+    src/app/shared/services/map.service.ts:55:50:
+      55 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                                 ~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-6CEIEFEK.js   | -                       |  14.27 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.38 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-KPYVEZJY.js   | -                       |  16.78 kB | 
+chunk-XAJOTQIZ.js   | day-planner-component   |  12.57 kB | 
+chunk-JFCNKUNH.js   | homepage-component      |  11.32 kB | 
+chunk-XTZOE33B.js   | day-preview-component   |   9.21 kB | 
+chunk-UKFL3RPA.js   | day-displayer-component |   5.63 kB | 
+chunk-2KBQ45EY.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.258 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-JWZRDM66.js   | -                       | 14.27 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-W4ELJ4R5.js   | -                       | 16.78 kB | 
+chunk-ZGJ56RDU.js   | day-planner-component   | 12.57 kB | 
+chunk-X3DKCXV2.js   | homepage-component      | 11.32 kB | 
+chunk-7Q2GZ67W.js   | day-preview-component   |  9.21 kB | 
+chunk-U4F2DMYL.js   | day-displayer-component |  5.63 kB | 
+chunk-PU4L77UF.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.322 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.160 seconds]
+
+✘ [ERROR] "await" can only be used inside an "async" function
+
+    src/app/shared/services/map.service.ts:38:19:
+      38 │             return await this.optimizeRoutes(matrix.distances, tou...
+         ╵                    ~~~~~
+
+  Consider adding the "async" keyword here:
+
+    src/app/shared/services/map.service.ts:37:79:
+      37 │ ...ValueFrom(this.requestMatrix(this.sigCoords())).then((matrix) => {
+         │                                                         ^
+         ╵                                                         async
+
+
+✘ [ERROR] TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:13:
+      51 │       return await this.optimizeRoutes(matrix.distances, toursCount)
+         ╵              ~~~~~
+
+  Did you mean to mark this function as 'async'?
+
+    src/app/shared/services/map.service.ts:50:75:
+      50 │ ...From(this.requestMatrix(this.sigCoords())).then((matrix: any) => {
+         ╵                                                    ~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-JWZRDM66.js   | -                       |  14.27 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.38 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-W4ELJ4R5.js   | -                       |  16.78 kB | 
+chunk-ZGJ56RDU.js   | day-planner-component   |  12.57 kB | 
+chunk-X3DKCXV2.js   | homepage-component      |  11.32 kB | 
+chunk-7Q2GZ67W.js   | day-preview-component   |   9.21 kB | 
+chunk-U4F2DMYL.js   | day-displayer-component |   5.63 kB | 
+chunk-PU4L77UF.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.263 seconds]
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-LL7ZPAE6.js   | -                       | 14.33 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-G6PPEWTH.js   | -                       | 16.78 kB | 
+chunk-UCUZ3I2V.js   | day-planner-component   | 12.57 kB | 
+chunk-KSSJF5CR.js   | homepage-component      | 11.32 kB | 
+chunk-5FTPT6OO.js   | day-preview-component   |  9.21 kB | 
+chunk-4Y2HZTQE.js   | day-displayer-component |  5.63 kB | 
+chunk-3UFBMCBJ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.456 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-JWZRDM66.js   | -                       | 14.27 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-W4ELJ4R5.js   | -                       | 16.78 kB | 
+chunk-ZGJ56RDU.js   | day-planner-component   | 12.57 kB | 
+chunk-X3DKCXV2.js   | homepage-component      | 11.32 kB | 
+chunk-7Q2GZ67W.js   | day-preview-component   |  9.21 kB | 
+chunk-U4F2DMYL.js   | day-displayer-component |  5.63 kB | 
+chunk-PU4L77UF.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.179 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-5UJYQP34.js   | -                       | 14.26 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-3OBRBHII.js   | -                       | 16.78 kB | 
+chunk-ZPYAMQ6W.js   | day-planner-component   | 12.57 kB | 
+chunk-UCWG6BYW.js   | homepage-component      | 11.32 kB | 
+chunk-G3IFDPFF.js   | day-preview-component   |  9.21 kB | 
+chunk-7SD4RIMC.js   | day-displayer-component |  5.63 kB | 
+chunk-ATRQOKHQ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.286 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-EK3WAGLI.js   | -                       | 14.29 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-AXF3C4ZE.js   | -                       | 16.78 kB | 
+chunk-37QGSC3H.js   | day-planner-component   | 12.57 kB | 
+chunk-Q2HPBQZR.js   | homepage-component      | 11.32 kB | 
+chunk-5H2CC5SI.js   | day-preview-component   |  9.21 kB | 
+chunk-KSBQZMZI.js   | day-displayer-component |  5.63 kB | 
+chunk-VOBQZ3A2.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.491 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-PWPDDIU5.js   | -                       | 14.29 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-3IRZKNCL.js   | -                       | 16.78 kB | 
+chunk-H5LITTVQ.js   | day-planner-component   | 12.57 kB | 
+chunk-UCCDSQUQ.js   | homepage-component      | 11.32 kB | 
+chunk-WQ3PSEJ2.js   | day-preview-component   |  9.21 kB | 
+chunk-3JV4GG4A.js   | day-displayer-component |  5.63 kB | 
+chunk-B5DDBZ7U.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.222 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.278 seconds]
+
+✘ [ERROR] TS18046: 'deliveries' is of type 'unknown'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:37:
+      57 │ ...pe(takeWhile(deliveries => deliveries.length != 0)).pipe(tap({c...
+         ╵                               ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.446 seconds]
+
+✘ [ERROR] TS18046: 'deliveries' is of type 'unknown'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:39:
+      57 │ ...(takeWhile((deliveries) => deliveries.length != 0)).pipe(tap({c...
+         ╵                               ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.354 seconds]
+
+✘ [ERROR] TS2345: Argument of type 'MonoTypeOperatorFunction<Delivery[]>' is not assignable to parameter of type 'OperatorFunction<unknown, Delivery[]>'.
+  Types of parameters 'source' and 'source' are incompatible.
+    Type 'Observable<unknown>' is not assignable to type 'Observable<Delivery[]>'.
+      Type 'unknown' is not assignable to type 'Delivery[]'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:57:13:
+      57 │     obs.pipe(takeWhile<Delivery[]>((deliveries) => deliveries.leng...
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-I4M7PSC3.js   | -                       |  14.30 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.41 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-XQO537BF.js   | -                       |  16.78 kB | 
+chunk-HR7UOUG6.js   | day-planner-component   |  12.57 kB | 
+chunk-GVXOBITD.js   | homepage-component      |  11.32 kB | 
+chunk-YVQVM2QI.js   | day-preview-component   |   9.21 kB | 
+chunk-2XTQJTQZ.js   | day-displayer-component |   5.63 kB | 
+chunk-X43ATDKZ.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.817 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-6HGTHJXZ.js   | -                       | 14.30 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-BVJUA37K.js   | -                       | 16.78 kB | 
+chunk-4NZO3EMV.js   | day-planner-component   | 12.57 kB | 
+chunk-HBYFPYFN.js   | homepage-component      | 11.32 kB | 
+chunk-ZTWCASPZ.js   | day-preview-component   |  9.21 kB | 
+chunk-OOFZD5WI.js   | day-displayer-component |  5.63 kB | 
+chunk-4KK5KUG2.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.268 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-I4M7PSC3.js   | -                       | 14.30 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-XQO537BF.js   | -                       | 16.78 kB | 
+chunk-HR7UOUG6.js   | day-planner-component   | 12.57 kB | 
+chunk-GVXOBITD.js   | homepage-component      | 11.32 kB | 
+chunk-YVQVM2QI.js   | day-preview-component   |  9.21 kB | 
+chunk-2XTQJTQZ.js   | day-displayer-component |  5.63 kB | 
+chunk-X43ATDKZ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.163 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-NQHLH6LI.js   | -                       | 14.29 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-QRCGLPAA.js   | -                       | 16.78 kB | 
+chunk-T4MBCHCH.js   | day-planner-component   | 12.57 kB | 
+chunk-DHZPTWAM.js   | homepage-component      | 11.32 kB | 
+chunk-O2YHGZD7.js   | day-preview-component   |  9.21 kB | 
+chunk-H4HWL6YF.js   | day-displayer-component |  5.63 kB | 
+chunk-BOWUY54S.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.364 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-XR5FJ4AF.js   | -                       | 14.29 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-JCIKFESG.js   | -                       | 16.78 kB | 
+chunk-DLO6LMKP.js   | day-planner-component   | 12.57 kB | 
+chunk-FRQAIP2I.js   | homepage-component      | 11.32 kB | 
+chunk-PKSJ5V54.js   | day-preview-component   |  9.21 kB | 
+chunk-NNQA6BNX.js   | day-displayer-component |  5.63 kB | 
+chunk-CIRTLY36.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.344 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-NM4B3LZU.js   | -                       | 14.29 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-WPLFUF3C.js   | -                       | 16.78 kB | 
+chunk-J6DMVUMU.js   | day-planner-component   | 12.57 kB | 
+chunk-DVE3YGUC.js   | homepage-component      | 11.32 kB | 
+chunk-5N5J5PHH.js   | day-preview-component   |  9.21 kB | 
+chunk-ZPNHPFYM.js   | day-displayer-component |  5.63 kB | 
+chunk-EXPJ5NLQ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.299 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.393 seconds]
+
+✘ [ERROR] TS2339: Property 'length' does not exist on type 'Object'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:70:106:
+      70 │ ...e((deliveries) => deliveries.length != 0)).pipe(tap({complete: ...
+         ╵                                 ~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.271 seconds]
+
+✘ [ERROR] TS2304: Cannot find name 'take'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:69:13:
+      69 │     obs.pipe(take(() => deliveries.length != 0)).pipe(tap({complet...
+         ╵              ~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-SR3DOOGB.js   | -                       |  14.27 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.38 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-XNVN2IJD.js   | -                       |  16.78 kB | 
+chunk-VQANT43C.js   | day-planner-component   |  12.57 kB | 
+chunk-KTDBF5AN.js   | homepage-component      |  11.32 kB | 
+chunk-72TXVW6P.js   | day-preview-component   |   9.21 kB | 
+chunk-VQGII4BC.js   | day-displayer-component |   5.63 kB | 
+chunk-GND4KA6J.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.317 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-YOF5HQLE.js   | -                       | 14.29 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-5GSJW2ED.js   | -                       | 16.78 kB | 
+chunk-YBZXJMZO.js   | day-planner-component   | 12.57 kB | 
+chunk-DPBJF4R7.js   | homepage-component      | 11.32 kB | 
+chunk-SK6UGU35.js   | day-preview-component   |  9.21 kB | 
+chunk-27W7WCOB.js   | day-displayer-component |  5.63 kB | 
+chunk-AQHN7BVJ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.469 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.237 seconds]
+
+✘ [ERROR] TS2552: Cannot find name 'check$2'. Did you mean 'check'? [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:70:18:
+      70 │     obs.pipe(take(check$2)).pipe(tap({complete: () => console.log(...
+         ╵                   ~~~~~~~
+
+  'check' is declared here.
+
+    src/app/shared/services/map.service.ts:68:10:
+      68 │     const check = deliveries.length
+         ╵           ~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-LQDMFSUC.js   | -                       |  14.29 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.41 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-7GVTMPKV.js   | -                       |  16.78 kB | 
+chunk-GN7AGEQC.js   | day-planner-component   |  12.57 kB | 
+chunk-OOTC3EEJ.js   | homepage-component      |  11.32 kB | 
+chunk-AS6HA37K.js   | day-preview-component   |   9.21 kB | 
+chunk-5D7TWCRG.js   | day-displayer-component |   5.63 kB | 
+chunk-YM4QCACC.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [0.307 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-YOF5HQLE.js   | -                       | 14.29 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-5GSJW2ED.js   | -                       | 16.78 kB | 
+chunk-YBZXJMZO.js   | day-planner-component   | 12.57 kB | 
+chunk-DPBJF4R7.js   | homepage-component      | 11.32 kB | 
+chunk-SK6UGU35.js   | day-preview-component   |  9.21 kB | 
+chunk-27W7WCOB.js   | day-displayer-component |  5.63 kB | 
+chunk-AQHN7BVJ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.218 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-I4M7PSC3.js   | -                       | 14.30 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-XQO537BF.js   | -                       | 16.78 kB | 
+chunk-HR7UOUG6.js   | day-planner-component   | 12.57 kB | 
+chunk-GVXOBITD.js   | homepage-component      | 11.32 kB | 
+chunk-YVQVM2QI.js   | day-preview-component   |  9.21 kB | 
+chunk-2XTQJTQZ.js   | day-displayer-component |  5.63 kB | 
+chunk-X43ATDKZ.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.465 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-XR5FJ4AF.js   | -                       | 14.29 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-JCIKFESG.js   | -                       | 16.78 kB | 
+chunk-DLO6LMKP.js   | day-planner-component   | 12.57 kB | 
+chunk-FRQAIP2I.js   | homepage-component      | 11.32 kB | 
+chunk-PKSJ5V54.js   | day-preview-component   |  9.21 kB | 
+chunk-NNQA6BNX.js   | day-displayer-component |  5.63 kB | 
+chunk-CIRTLY36.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.140 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-3AXAL2SV.js   | -                       | 14.28 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-DNMOVPSK.js   | -                       | 16.78 kB | 
+chunk-TJOBJX2Y.js   | day-planner-component   | 12.57 kB | 
+chunk-N4OK52AX.js   | homepage-component      | 11.32 kB | 
+chunk-AHK6FY6K.js   | day-preview-component   |  9.21 kB | 
+chunk-2UP5MXTB.js   | day-displayer-component |  5.63 kB | 
+chunk-TN3TEGGV.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.418 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-RFFTXS32.js   | -                       | 14.29 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-T6KUJVPR.js   | -                       | 16.78 kB | 
+chunk-5XXWFOEI.js   | day-planner-component   | 12.57 kB | 
+chunk-6DUWWRLE.js   | homepage-component      | 11.32 kB | 
+chunk-P4SATDK2.js   | day-preview-component   |  9.21 kB | 
+chunk-6OHDHI5L.js   | day-displayer-component |  5.63 kB | 
+chunk-UOW2ZWWA.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.395 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-DRXMPX4G.js   | -                       | 14.24 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-VXQB22NT.js   | -                       | 16.78 kB | 
+chunk-AOKBEX6R.js   | day-planner-component   | 12.57 kB | 
+chunk-UQRJZ2WD.js   | homepage-component      | 11.32 kB | 
+chunk-KCHX7WTK.js   | day-preview-component   |  9.21 kB | 
+chunk-2MM5USZL.js   | day-displayer-component |  5.63 kB | 
+chunk-7SN644OU.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.299 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-6BPN7AIR.js   | -                       | 14.31 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-P4R35YTU.js   | -                       | 16.78 kB | 
+chunk-UDKBKEVU.js   | day-planner-component   | 12.57 kB | 
+chunk-JYTM7Y45.js   | homepage-component      | 11.32 kB | 
+chunk-BOOIHCZ6.js   | day-preview-component   |  9.21 kB | 
+chunk-EIA654RS.js   | day-displayer-component |  5.63 kB | 
+chunk-BGVMXPYY.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.459 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-6BPN7AIR.js   | -                       |  14.31 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 217.42 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-P4R35YTU.js   | -                       |  16.78 kB | 
+chunk-UDKBKEVU.js   | day-planner-component   |  12.57 kB | 
+chunk-JYTM7Y45.js   | homepage-component      |  11.32 kB | 
+chunk-BOOIHCZ6.js   | day-preview-component   |   9.21 kB | 
+chunk-EIA654RS.js   | day-displayer-component |   5.63 kB | 
+chunk-BGVMXPYY.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [1.291 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/

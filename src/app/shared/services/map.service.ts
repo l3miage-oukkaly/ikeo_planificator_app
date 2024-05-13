@@ -3,9 +3,22 @@ import {HttpClient} from "@angular/common/http";
 import * as L from 'leaflet';
 import {Delivery} from "../../core/models/delivery.models";
 import {LatLngTuple} from "leaflet";
-import {first, firstValueFrom} from "rxjs";
+import {
+  concatMap,
+  first,
+  firstValueFrom,
+  from,
+  interval,
+  mergeMap,
+  Observable,
+  of,
+  switchMap,
+  takeWhile,
+  tap
+} from "rxjs";
 import {environment} from "../../../environments/environment";
 import {IOptimizedBundle} from "../../core/models/optimized-bundle.models";
+import {maxFrequency} from "./planificator.service";
 
 @Injectable({
   providedIn: 'root'
@@ -36,10 +49,40 @@ export class MapService {
     return Promise.all(deliveries.map(async (delivery) => await this.addressToCoords(delivery))).then((coords) => {
       this._sigCoords.update(() => coords)
       console.log(this.sigCoords())
-    }).then(() => firstValueFrom(this.requestMatrix(this.sigCoords())) .then((matrix: any) => {
+    }).then(() => firstValueFrom(this.requestMatrix(this.sigCoords())).then((matrix: any) => {
        return this.optimizeRoutes(matrix.distances, toursCount)
     }))
   }
+
+  testAddressToCoords(delivery: Delivery) {
+    return this.http.get("https://api-adresse.data.gouv.fr/search/?q="+encodeURIComponent(delivery.address!)+"&limit=1")
+  }
+
+  async testTest(toursCount: number) {
+    return await firstValueFrom(this.requestMatrix(this.sigCoords())).then((matrix: any) => {
+      return this.optimizeRoutes(matrix.distances, toursCount)
+    })
+  }
+
+  testAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+    const obs = (maxFrequency(2, 1000)(from(deliveries))) as Observable<Delivery[]>
+    obs.subscribe((delivery) => {
+      this.testAddressToCoords(delivery as unknown as Delivery).subscribe({next: (res:any) => {
+          for (const c of res.features) {
+            const del = delivery as unknown as Delivery
+            const lat = c.geometry.coordinates[1]
+            const lon = c.geometry.coordinates[0]
+            del.coordinates = [lat, lon]
+            this._sigCoords.update((coords) => [...coords, [lon, lat]] as LatLngTuple[])
+            deliveries.splice(0, 1)
+            if (deliveries.length === 0) {
+              this.testTest(toursCount).then((optimizedBundle) => {console.log(optimizedBundle)})
+            }
+          }
+        }})
+    })
+  }
+
 
   async optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
     const body = {

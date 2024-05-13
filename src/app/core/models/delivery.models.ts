@@ -1,4 +1,4 @@
-// For the moment, Order = string so orders = string[].
+// For the moment, Order = string so orders = string[]
 // When implementing RO, change it to Order[]
 
 import {LatLngTuple} from "leaflet";
