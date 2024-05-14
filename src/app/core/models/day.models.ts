@@ -1,6 +1,6 @@
 import {DeliveryTour} from "./delivery-tour.models";
 
 export interface Day {
-  date: Readonly<string>,
+  date: string
   tours: DeliveryTour[]
 }

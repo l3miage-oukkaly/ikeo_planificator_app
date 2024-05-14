@@ -11,3 +11,5 @@
   }
   <a [routerLink]="['/day-displayer']"><button [disabled]="disabledSig()" style="margin-left: 2em">Visualiser J+1</button></a>
 </div>
+<button (click)="planificatorService.changeDayStates('2024-05-15')">Test change</button>
+<button (click)="planificatorService.sendTodayDay(planificatorService.sigPlanifiedDay())">Plan today</button>

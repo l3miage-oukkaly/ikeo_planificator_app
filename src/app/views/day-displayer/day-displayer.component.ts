@@ -10,7 +10,7 @@ import { MatFabButton, MatMiniFabButton } from "@angular/material/button";
 import { MatIcon } from "@angular/material/icon";
 import { Day } from "../../core/models/day.models";
 import { PlanificatorService } from "../../shared/services/planificator.service";
-import { NgClass } from "@angular/common";
+import {JsonPipe, NgClass} from "@angular/common";
 
 @Component({
   selector: 'app-day-displayer',
@@ -29,7 +29,8 @@ import { NgClass } from "@angular/common";
     MatFabButton,
     MatIcon,
     MatMiniFabButton,
-    NgClass
+    NgClass,
+    JsonPipe
   ],
   templateUrl: './day-displayer.component.html',
   styleUrl: './day-displayer.component.css',

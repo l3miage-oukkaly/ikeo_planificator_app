@@ -11,6 +11,7 @@ import {MapService} from "./map.service";
 import {IOptimizedBundle} from "../../core/models/optimized-bundle.models";
 import * as L from 'leaflet'
 import {Router} from "@angular/router";
+import {DayPreviewComponent} from "../../views/day-preview/day-preview.component";
 
 export function maxFrequency<T>(nb: number, ms: number): (input: Observable<T>) => Observable<T> {
   return inputObs => {
@@ -40,6 +41,23 @@ export class PlanificatorService {
 
   constructor() {}
 
+  getDayID(date: string): string{
+      let currentDate = new Date(date);
+      let dateSent = new Date(date.substring(0, 4)+"-01-01");
+
+      const diff = Math.floor((Date.UTC(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate()) - Date.UTC(dateSent.getFullYear(), dateSent.getMonth(), dateSent.getDate()) ) /(1000 * 60 * 60 * 24));
+      if (diff.toString().length == 1) {
+        return "J00"+(diff + 1)+"G"
+      } else if (diff.toString().length == 2) {
+        return "J0"+(diff + 1)+"G"
+      }
+      return "J"+(diff + 1)+"G"
+  }
+
+  changeDayStates(date: string) {
+      this.planificatorProtocols.changeDayState('PLANNED', this.getDayID(date))
+  }
+
   async getSetupBundle() {
     // Reset enlevable lorsqu'il y aura cohérence entre les données demandées & reçues
     this.resetValues()
@@ -67,11 +85,26 @@ export class PlanificatorService {
   }
 
   async getDay(date: string) {
+    this.resetValues()
     this._sigPlanifiedDay.set(await this.planificatorProtocols.getDay(date))
   }
 
-  async sendDay(date: string, day: Day) {
+  async sendDayOrUpdate(day: Day) {
+    this._sigPlanifiedDay().tours.map((tour) => delete tour.coordinates)
+    await this.sendDay(day).then(() => console.log("Day created"), (error) => {
+      if (error.status === 406) {
+        this.planificatorProtocols.updateDay(day, this.getDayID(day.date))
+      }})
+  }
+
+  async sendDay(day: Day) {
     return await this.planificatorProtocols.sendDay(day).then(() => this.resetValues())
+  }
+
+  async sendTodayDay(day: Day) {
+    this._sigPlanifiedDay().date = this.datePipe.transform(this.currentDate, 'yyyy-MM-dd')!
+    console.log(this._sigPlanifiedDay())
+    return await this.sendDayOrUpdate(day)
   }
 
   getTomorrowDate(): string {

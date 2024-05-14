@@ -25,6 +25,10 @@ export class HomepageComponent implements OnInit {
   dialog = inject(MatDialog)
   disabledSig = signal<boolean>(false)
 
+  constructor() {
+    console.log(this.planificatorService.getDayID("2024-01-01"))
+  }
+
   openDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
     this.dialog.open(ChoiceDialogComponent, {
       width: '500px',

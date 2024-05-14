@@ -4,8 +4,8 @@
 import {LatLngTuple} from "leaflet";
 
 export interface Delivery {
-  address: string
   orders: string[],
   distanceToCover?: number,
-  coordinates?: LatLngTuple
+  coordinates?: [number, number]
+  address?: string
 }
