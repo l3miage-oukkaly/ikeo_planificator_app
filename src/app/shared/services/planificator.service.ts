@@ -64,6 +64,20 @@ export class PlanificatorService {
     this._sigSetupBundle.set(await this.planificatorProtocols.getSetupBundle())
   }
 
+  buildDayAutomaticallyTemp(toursCount: number) {
+    this.planificatorProtocols.getSetupBundle().then((setupBundle) => {
+      this._sigSetupBundle.set(setupBundle)
+      return this.mapService.testTemp(setupBundle.multipleOrders, toursCount)
+    }).then(() => {
+      const day: Day = {date: this.getTomorrowDate(), tours: [{deliveries: this.sigSetupBundle().multipleOrders, truck: this.sigSetupBundle().trucks[0],
+            deliverymen: [this.sigSetupBundle().deliverymen[0]], distanceToCover: 0}]
+        }
+      day.tours.map((tour) => tour.deliveries.map((delivery) => {delivery.distanceToCover = 0}))
+      this._sigPlanifiedDay.set(day)
+      this.router.navigate(['/day-previewer'])
+    })
+  }
+
   async buildDayAutomatically(toursCount: number) {
     this.planificatorProtocols.getSetupBundle().then((setupBundle) => {
       this._sigSetupBundle.set(setupBundle)

@@ -25,6 +25,6 @@ export class AppComponent {
     {address: "3 rue de la paix", orders: ["1", "2", "3"]},{address: "4 rue de la paix", orders: ["1", "2", "3"]}]
 
   constructor() {
-    this.mapService.testAllAdressesToCoords(this.deliveries, 2)
+    // this.mapService.testAllAdressesToCoords(this.deliveries, 2)
   }
 }

@@ -44264,3 +44264,2709 @@ Application bundle generation complete. [1.319 seconds]
 
 Watch mode enabled. Watching for file changes...
   ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-3ORKAJ4R.js   | -                       |  16.03 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 219.14 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-V7IXOXME.js   | -                       |  16.78 kB | 
+chunk-MNUY5DKC.js   | day-planner-component   |  12.57 kB | 
+chunk-S6DT6HOL.js   | homepage-component      |  12.01 kB | 
+chunk-OIQDJDDO.js   | day-preview-component   |   9.17 kB | 
+chunk-N5QTK74M.js   | day-displayer-component |   5.93 kB | 
+chunk-XB4QKUKF.js   | -                       |   2.51 kB | 
+
+Application bundle generation complete. [1.320 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-7R2QF4V7.js   | -                       | 16.38 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-TSMZRK5M.js   | -                       | 16.78 kB | 
+chunk-EEA3N5NV.js   | day-planner-component   | 12.57 kB | 
+chunk-XSL44MRV.js   | homepage-component      | 12.01 kB | 
+chunk-MI3UIO2G.js   | day-preview-component   |  9.17 kB | 
+chunk-6UHLVPMM.js   | day-displayer-component |  5.93 kB | 
+chunk-F7HMZNAX.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.750 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-VK6GGBZE.js   | -                       | 16.63 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-4UXZXPWR.js   | -                       | 16.78 kB | 
+chunk-NJZHGHXN.js   | day-planner-component   | 12.57 kB | 
+chunk-LZDZOCKG.js   | homepage-component      | 12.01 kB | 
+chunk-KPPQPFCB.js   | day-preview-component   |  9.17 kB | 
+chunk-JEZMN37T.js   | day-displayer-component |  5.93 kB | 
+chunk-L3H24X5G.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.695 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-ZGV6TEOR.js   | -                       | 17.05 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-VZNWOX7O.js   | -                       | 16.78 kB | 
+chunk-NOAI7OLM.js   | day-planner-component   | 12.57 kB | 
+chunk-HINH7CF7.js   | homepage-component      | 12.01 kB | 
+chunk-KE23E2K5.js   | day-preview-component   |  9.17 kB | 
+chunk-XMKD3EJG.js   | day-displayer-component |  5.93 kB | 
+chunk-QAIMOMA7.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.382 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.53 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-EOIRY3Q4.js   | homepage-component | 12.02 kB | 
+
+Application bundle generation complete. [0.236 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-2GPI6BMF.js   | -                       | 17.14 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-DY24ACPK.js   | -                       | 16.78 kB | 
+chunk-57YN4P3O.js   | day-planner-component   | 12.57 kB | 
+chunk-523KCPTJ.js   | homepage-component      | 12.02 kB | 
+chunk-U23XP36U.js   | day-preview-component   |  9.17 kB | 
+chunk-IEIOT6H6.js   | day-displayer-component |  5.93 kB | 
+chunk-DPO4JOBW.js   | -                       |  2.51 kB | 
+
+Application bundle generation complete. [0.434 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-ADDVR6UG.js   | day-displayer-component |  5.64 kB | 
+
+Application bundle generation complete. [0.319 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-TZQCKIQD.js   | day-displayer-component |  5.64 kB | 
+
+Application bundle generation complete. [0.331 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.53 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-MDMGMQM5.js   | homepage-component    | 12.02 kB | 
+chunk-PT3JFFB2.js   | day-preview-component |  9.17 kB | 
+chunk-3AGUW62W.js   | -                     |  2.69 kB | 
+
+Application bundle generation complete. [0.337 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.390 seconds]
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/components/map/map.component.ts:56:6:
+      56 │       this.mapService.routes = routes
+         ╵       ~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/components/map/map.component.ts:57:6:
+      57 │       this.mapService.initRoutesLayer(this.map)
+         ╵       ~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/components/map/map.component.ts:58:4:
+      58 │     })
+         ╵     ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-2GPI6BMF.js   | -                       |  17.14 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 220.25 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-DY24ACPK.js   | -                       |  16.78 kB | 
+chunk-57YN4P3O.js   | day-planner-component   |  12.57 kB | 
+chunk-PDISXOVZ.js   | homepage-component      |  12.02 kB | 
+chunk-R37G54R6.js   | day-preview-component   |   9.17 kB | 
+chunk-TZQCKIQD.js   | day-displayer-component |   5.64 kB | 
+chunk-HHQNZWYE.js   | -                       |   2.71 kB | 
+
+Application bundle generation complete. [0.326 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.53 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-MDMGMQM5.js   | homepage-component    | 12.02 kB | 
+chunk-PT3JFFB2.js   | day-preview-component |  9.17 kB | 
+chunk-3AGUW62W.js   | -                     |  2.69 kB | 
+
+Application bundle generation complete. [0.219 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.619 seconds]
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:61:23:
+      61 │     }).then(() => this.requestRoutes())
+         ╵                        ~~~~~~~~~~~~~
+
+  An argument for 'coords' was not provided.
+
+    src/app/shared/services/map.service.ts:114:16:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                 ~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.442 seconds]
+
+✘ [ERROR] TS2339: Property 'testAllAdressesToCoords' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/app.component.ts:28:20:
+      28 │     this.mapService.testAllAdressesToCoords(this.deliveries, 2)
+         ╵                     ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'initAllMarkers' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/components/map/map.component.ts:53:20:
+      53 │     this.mapService.initAllMarkers(this.map, this.planificatorServ...
+         ╵                     ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'initRoutesLayer' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/components/map/map.component.ts:54:20:
+      54 │     this.mapService.initRoutesLayer(this.map)
+         ╵                     ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] "await" can only be used inside an "async" function
+
+    src/app/shared/services/map.service.ts:41:20:
+      41 │             return: await firstValueFrom(this.requestMatrix(this.s...
+         ╵                     ~~~~~
+
+  Consider adding the "async" keyword here:
+
+    src/app/shared/services/map.service.ts:37:16:
+      37 │         }).then(() => this.requestRoutes(this.sigCoords()).subscri...
+         │                 ^
+         ╵                 async
+
+
+✘ [ERROR] TS2339: Property 'addressToCoords' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:49:69:
+      49 │ ...delivery) => await this.addressToCoords(delivery))).then((coord...
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'requestMatrix' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:52:38:
+      52 │ ...) => firstValueFrom(this.requestMatrix(this.sigCoords())).then(...
+         ╵                             ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'optimizeRoutes' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:53:19:
+      53 │        return this.optimizeRoutes(matrix.distances, toursCount)
+         ╵                    ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'addressToCoords' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:58:69:
+      58 │ ...delivery) => await this.addressToCoords(delivery))).then((coord...
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'requestRoutes' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:61:23:
+      61 │     }).then(() => this.requestRoutes(this.sigCoords()).subscribe((...
+         ╵                        ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:2:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵   ~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'testAddressToCoords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:2:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵   ~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:22:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵                       ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:30:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵                               ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:32:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵                                 ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:42:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵                                           ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:65:11:
+      65 │     return this.http.get("https://api-adresse.data.gouv.fr/search/...
+         ╵            ~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:65:90:
+      65 │ ...v.fr/search/?q="+encodeURIComponent(delivery.address!)+"&limit=1")
+         ╵                                        ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:2:
+      68 │   async testTest(toursCount: number) {
+         ╵   ~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'async'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:2:
+      68 │   async testTest(toursCount: number) {
+         ╵   ~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:8:
+      68 │   async testTest(toursCount: number) {
+         ╵         ~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'testTest'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:8:
+      68 │   async testTest(toursCount: number) {
+         ╵         ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:27:
+      68 │   async testTest(toursCount: number) {
+         ╵                            ^
+
+
+✘ [ERROR] TS2693: 'number' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:29:
+      68 │   async testTest(toursCount: number) {
+         ╵                              ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:37:
+      68 │   async testTest(toursCount: number) {
+         ╵                                      ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:69:11:
+      69 │     return await firstValueFrom(this.requestMatrix(this.sigCoords(...
+         ╵            ~~~~~
+
+
+✘ [ERROR] TS2339: Property 'requestMatrix' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:69:37:
+      69 │ ...wait firstValueFrom(this.requestMatrix(this.sigCoords())).then(...
+         ╵                             ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'optimizeRoutes' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:70:18:
+      70 │       return this.optimizeRoutes(matrix.distances, toursCount)
+         ╵                   ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:2:
+      74 │   testAllAdressesToCoords(deliveries: Delivery[], toursCount: numb...
+         ╵   ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'testAllAdressesToCoords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:2:
+      74 │   testAllAdressesToCoords(deliveries: Delivery[], toursCount: numb...
+         ╵   ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:36:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                   ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:38:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                     ~~~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:47:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                              ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:60:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                                           ^
+
+
+✘ [ERROR] TS2693: 'number' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:62:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                                             ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:70:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                                                     ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:75:10:
+      75 │     const obs = (maxFrequency(2, 1000)(from(deliveries))) as Obser...
+         ╵           ~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'obs'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:75:10:
+      75 │     const obs = (maxFrequency(2, 1000)(from(deliveries))) as Obser...
+         ╵           ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:76:4:
+      76 │     obs.subscribe((delivery) => {
+         ╵     ~~~
+
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'obs'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:76:4:
+      76 │     obs.subscribe((delivery) => {
+         ╵     ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:76:7:
+      76 │     obs.subscribe((delivery) => {
+         ╵        ^
+
+
+✘ [ERROR] TS7006: Parameter 'delivery' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:76:19:
+      76 │     obs.subscribe((delivery) => {
+         ╵                    ~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'testAddressToCoords' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:77:11:
+      77 │       this.testAddressToCoords(delivery as unknown as Delivery).su...
+         ╵            ~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'testTest' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:86:19:
+      86 │               this.testTest(toursCount).then((optimizedBundle) => ...
+         ╵                    ~~~~~~~~
+
+
+✘ [ERROR] TS7006: Parameter 'optimizedBundle' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:86:46:
+      86 │ ...tTest(toursCount).then((optimizedBundle) => {console.log(optimi...
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:2:
+      94 │   async optimizeRoutes(distancesMatrix: number[][], toursCount: nu...
+         ╵   ~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'async'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:2:
+      94 │   async optimizeRoutes(distancesMatrix: number[][], toursCount: nu...
+         ╵   ~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:8:
+      94 │   async optimizeRoutes(distancesMatrix: number[][], toursCount: nu...
+         ╵         ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'optimizeRoutes'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:8:
+      94 │   async optimizeRoutes(distancesMatrix: number[][], toursCount: nu...
+         ╵         ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'distancesMatrix'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:23:
+      94 │   async optimizeRoutes(distancesMatrix: number[][], toursCount: nu...
+         ╵                        ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:38:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                   ^
+
+
+✘ [ERROR] TS2693: 'number' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:40:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                     ~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:47:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                            ^
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:49:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                              ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:62:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                           ^
+
+
+✘ [ERROR] TS2693: 'number' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:64:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                             ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:72:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                                     ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:95:10:
+      95 │     const body = {
+         ╵           ~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'body'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:95:10:
+      95 │     const body = {
+         ╵           ~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'distancesMatrix'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:96:23:
+      96 │       distancesMatrix: distancesMatrix,
+         ╵                        ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:99:5:
+      99 │     };
+         ╵      ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:100:11:
+      100 │     return await firstValueFrom(this.http.post(environment.roUrl,...
+          ╵            ~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'body'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:100:66:
+      100 │ ...http.post(environment.roUrl, body)) as unknown as IOptimizedBu...
+          ╵                                 ~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:2:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵   ~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'async'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:2:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵   ~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:8:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'addressToCoords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:8:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:24:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵                         ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:32:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵                                 ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:34:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵                                   ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:44:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵                                             ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:104:11:
+      104 │     return await firstValueFrom(this.http.get("https://api-adress...
+          ╵            ~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:104:111:
+      104 │ ...ch/?q="+encodeURIComponent(delivery.address!)+"&limit=1")).the...
+          ╵                               ~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:108:8:
+      108 │         delivery.coordinates = [lat, lon]
+          ╵         ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:2:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵   ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'requestRoutes'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:2:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵   ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:16:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                 ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:22:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                       ^
+
+
+✘ [ERROR] TS2693: 'LatLngTuple' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:24:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                         ~~~~~~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:36:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                                     ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:39:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                                        ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:115:11:
+      115 │     return this.http.post("https://api.openrouteservice.org/v2/di...
+          ╵            ~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:115:111:
+      115 │ ...e.org/v2/directions/driving-car/geojson", {'coordinates':coords},
+          ╵                                                             ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:2:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵   ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'requestMatrix'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:2:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵   ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:16:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵                 ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:22:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵                       ^
+
+
+✘ [ERROR] TS2693: 'LatLngTuple' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:24:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵                         ~~~~~~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:36:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵                                     ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:39:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵                                        ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:123:11:
+      123 │     return this.http.post("https://api.openrouteservice.org/v2/ma...
+          ╵            ~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:123:97:
+      123 │ .../driving-car", {'locations':coords, 'metrics':['distance'], 'u...
+          ╵                                ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:130:2:
+      130 │   initRoutesLayer(map: L.Map) {
+          ╵   ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'initRoutesLayer'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:130:2:
+      130 │   initRoutesLayer(map: L.Map) {
+          ╵   ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:130:18:
+      130 │   initRoutesLayer(map: L.Map) {
+          ╵                   ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:130:21:
+      130 │   initRoutesLayer(map: L.Map) {
+          ╵                      ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:130:30:
+      130 │   initRoutesLayer(map: L.Map) {
+          ╵                               ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:131:10:
+      131 │     const routesLayer = L.geoJSON(this.routes, {
+          ╵           ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'routesLayer'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:131:10:
+      131 │     const routesLayer = L.geoJSON(this.routes, {
+          ╵           ~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:139:6:
+      139 │     });
+          ╵       ^
+
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'map'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:140:4:
+      140 │     map.addLayer(routesLayer);
+          ╵     ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:140:7:
+      140 │     map.addLayer(routesLayer);
+          ╵        ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'routesLayer'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:140:17:
+      140 │     map.addLayer(routesLayer);
+          ╵                  ~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:140:29:
+      140 │     map.addLayer(routesLayer);
+          ╵                              ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:2:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵   ~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'initMarker'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:2:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵   ~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:13:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵              ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:16:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵                 ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:25:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵                          ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:33:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵                                  ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:35:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵                                    ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:45:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵                                              ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:144:10:
+      144 │     const marker = L.marker(delivery.coordinates!)
+          ╵           ~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'marker'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:144:10:
+      144 │     const marker = L.marker(delivery.coordinates!)
+          ╵           ~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:144:28:
+      144 │     const marker = L.marker(delivery.coordinates!)
+          ╵                             ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:145:4:
+      145 │     marker.bindPopup(this.makePopup(delivery))
+          ╵     ~~~~~~
+
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'marker'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:145:4:
+      145 │     marker.bindPopup(this.makePopup(delivery))
+          ╵     ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:145:10:
+      145 │     marker.bindPopup(this.makePopup(delivery))
+          ╵           ^
+
+
+✘ [ERROR] TS2339: Property 'makePopup' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:145:26:
+      145 │     marker.bindPopup(this.makePopup(delivery))
+          ╵                           ~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:145:36:
+      145 │     marker.bindPopup(this.makePopup(delivery))
+          ╵                                     ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:146:4:
+      146 │     marker.addTo(map)
+          ╵     ~~~~~~
+
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'marker'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:146:4:
+      146 │     marker.addTo(map)
+          ╵     ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:146:10:
+      146 │     marker.addTo(map)
+          ╵           ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:146:17:
+      146 │     marker.addTo(map)
+          ╵                  ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:2:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵   ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'initAllMarkers'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:2:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵   ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:17:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                  ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:20:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                     ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:39:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                                        ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:41:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                                          ~~~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:50:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                                                   ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:53:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                                                      ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:150:14:
+      150 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵               ^
+
+
+✘ [ERROR] TS7006: Parameter 'delivery' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:150:20:
+      150 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵                     ~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'initMarker' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:150:38:
+      150 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵                                       ~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:150:49:
+      150 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵                                                  ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:2:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵   ~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'makePopup'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:2:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵   ~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:12:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵             ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:20:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵                     ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:22:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵                       ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:31:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵                                ^
+
+
+✘ [ERROR] TS2693: 'string' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:33:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵                                  ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:40:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵                                         ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:154:11:
+      154 │     return ``+
+          ╵            ~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:155:31:
+      155 │       `<div><u>Adresse:</u> ${ delivery.address }</div>`
+          ╵                                ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:158:0:
+      158 │ }
+          ╵ ^
+
+
+✘ [ERROR] TS1005: '}' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:159:0:
+      159 │ 
+          ╵ ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.182 seconds]
+
+✘ [ERROR] TS2339: Property 'testAllAdressesToCoords' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/app.component.ts:28:20:
+      28 │     this.mapService.testAllAdressesToCoords(this.deliveries, 2)
+         ╵                     ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'initAllMarkers' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/components/map/map.component.ts:53:20:
+      53 │     this.mapService.initAllMarkers(this.map, this.planificatorServ...
+         ╵                     ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'initRoutesLayer' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/components/map/map.component.ts:54:20:
+      54 │     this.mapService.initRoutesLayer(this.map)
+         ╵                     ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] "await" can only be used inside an "async" function
+
+    src/app/shared/services/map.service.ts:41:20:
+      41 │             return: await firstValueFrom(this.requestMatrix(this.s...
+         ╵                     ~~~~~
+
+  Consider adding the "async" keyword here:
+
+    src/app/shared/services/map.service.ts:37:16:
+      37 │         }).then(() => this.requestRoutes(this.sigCoords()).subscri...
+         │                 ^
+         ╵                 async
+
+
+✘ [ERROR] TS2339: Property 'addressToCoords' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:49:69:
+      49 │ ...delivery) => await this.addressToCoords(delivery))).then((coord...
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'requestMatrix' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:52:38:
+      52 │ ...) => firstValueFrom(this.requestMatrix(this.sigCoords())).then(...
+         ╵                             ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'optimizeRoutes' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:53:19:
+      53 │        return this.optimizeRoutes(matrix.distances, toursCount)
+         ╵                    ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'addressToCoords' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:58:69:
+      58 │ ...delivery) => await this.addressToCoords(delivery))).then((coord...
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'requestRoutes' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:61:23:
+      61 │     }).then(() => this.requestRoutes(this.sigCoords()).subscribe(r...
+         ╵                        ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7006: Parameter 'routes' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:61:65:
+      61 │ ...n(() => this.requestRoutes(this.sigCoords()).subscribe(routes => {
+         ╵                                                           ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:2:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵   ~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'testAddressToCoords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:2:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵   ~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:22:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵                       ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:30:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵                               ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:32:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵                                 ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:64:42:
+      64 │   testAddressToCoords(delivery: Delivery) {
+         ╵                                           ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:65:11:
+      65 │     return this.http.get("https://api-adresse.data.gouv.fr/search/...
+         ╵            ~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:65:90:
+      65 │ ...v.fr/search/?q="+encodeURIComponent(delivery.address!)+"&limit=1")
+         ╵                                        ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:2:
+      68 │   async testTest(toursCount: number) {
+         ╵   ~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'async'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:2:
+      68 │   async testTest(toursCount: number) {
+         ╵   ~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:8:
+      68 │   async testTest(toursCount: number) {
+         ╵         ~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'testTest'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:8:
+      68 │   async testTest(toursCount: number) {
+         ╵         ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:27:
+      68 │   async testTest(toursCount: number) {
+         ╵                            ^
+
+
+✘ [ERROR] TS2693: 'number' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:29:
+      68 │   async testTest(toursCount: number) {
+         ╵                              ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:68:37:
+      68 │   async testTest(toursCount: number) {
+         ╵                                      ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:69:11:
+      69 │     return await firstValueFrom(this.requestMatrix(this.sigCoords(...
+         ╵            ~~~~~
+
+
+✘ [ERROR] TS2339: Property 'requestMatrix' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:69:37:
+      69 │ ...wait firstValueFrom(this.requestMatrix(this.sigCoords())).then(...
+         ╵                             ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'optimizeRoutes' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:70:18:
+      70 │       return this.optimizeRoutes(matrix.distances, toursCount)
+         ╵                   ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:2:
+      74 │   testAllAdressesToCoords(deliveries: Delivery[], toursCount: numb...
+         ╵   ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'testAllAdressesToCoords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:2:
+      74 │   testAllAdressesToCoords(deliveries: Delivery[], toursCount: numb...
+         ╵   ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:36:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                   ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:38:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                     ~~~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:47:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                              ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:60:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                                           ^
+
+
+✘ [ERROR] TS2693: 'number' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:62:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                                             ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:74:70:
+      74 │ ...tAllAdressesToCoords(deliveries: Delivery[], toursCount: number) {
+         ╵                                                                     ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:75:10:
+      75 │     const obs = (maxFrequency(2, 1000)(from(deliveries))) as Obser...
+         ╵           ~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'obs'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:75:10:
+      75 │     const obs = (maxFrequency(2, 1000)(from(deliveries))) as Obser...
+         ╵           ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:76:4:
+      76 │     obs.subscribe((delivery) => {
+         ╵     ~~~
+
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'obs'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:76:4:
+      76 │     obs.subscribe((delivery) => {
+         ╵     ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:76:7:
+      76 │     obs.subscribe((delivery) => {
+         ╵        ^
+
+
+✘ [ERROR] TS7006: Parameter 'delivery' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:76:19:
+      76 │     obs.subscribe((delivery) => {
+         ╵                    ~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'testAddressToCoords' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:77:11:
+      77 │       this.testAddressToCoords(delivery as unknown as Delivery).su...
+         ╵            ~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'testTest' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:86:19:
+      86 │               this.testTest(toursCount).then((optimizedBundle) => ...
+         ╵                    ~~~~~~~~
+
+
+✘ [ERROR] TS7006: Parameter 'optimizedBundle' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:86:46:
+      86 │ ...tTest(toursCount).then((optimizedBundle) => {console.log(optimi...
+         ╵                            ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:2:
+      94 │   async optimizeRoutes(distancesMatrix: number[][], toursCount: nu...
+         ╵   ~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'async'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:2:
+      94 │   async optimizeRoutes(distancesMatrix: number[][], toursCount: nu...
+         ╵   ~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:8:
+      94 │   async optimizeRoutes(distancesMatrix: number[][], toursCount: nu...
+         ╵         ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'optimizeRoutes'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:8:
+      94 │   async optimizeRoutes(distancesMatrix: number[][], toursCount: nu...
+         ╵         ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'distancesMatrix'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:23:
+      94 │   async optimizeRoutes(distancesMatrix: number[][], toursCount: nu...
+         ╵                        ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:38:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                   ^
+
+
+✘ [ERROR] TS2693: 'number' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:40:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                     ~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:47:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                            ^
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:49:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                              ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:62:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                           ^
+
+
+✘ [ERROR] TS2693: 'number' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:64:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                             ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:94:72:
+      94 │ ... optimizeRoutes(distancesMatrix: number[][], toursCount: number) {
+         ╵                                                                     ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:95:10:
+      95 │     const body = {
+         ╵           ~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'body'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:95:10:
+      95 │     const body = {
+         ╵           ~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'distancesMatrix'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:96:23:
+      96 │       distancesMatrix: distancesMatrix,
+         ╵                        ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:99:5:
+      99 │     };
+         ╵      ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:100:11:
+      100 │     return await firstValueFrom(this.http.post(environment.roUrl,...
+          ╵            ~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'body'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:100:66:
+      100 │ ...http.post(environment.roUrl, body)) as unknown as IOptimizedBu...
+          ╵                                 ~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:2:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵   ~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'async'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:2:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵   ~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:8:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'addressToCoords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:8:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵         ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:24:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵                         ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:32:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵                                 ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:34:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵                                   ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:103:44:
+      103 │   async addressToCoords(delivery: Delivery) {
+          ╵                                             ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:104:11:
+      104 │     return await firstValueFrom(this.http.get("https://api-adress...
+          ╵            ~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:104:111:
+      104 │ ...ch/?q="+encodeURIComponent(delivery.address!)+"&limit=1")).the...
+          ╵                               ~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:108:8:
+      108 │         delivery.coordinates = [lat, lon]
+          ╵         ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:2:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵   ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'requestRoutes'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:2:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵   ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:16:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                 ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:22:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                       ^
+
+
+✘ [ERROR] TS2693: 'LatLngTuple' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:24:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                         ~~~~~~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:36:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                                     ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:114:39:
+      114 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                                        ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:115:11:
+      115 │     return this.http.post("https://api.openrouteservice.org/v2/di...
+          ╵            ~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:115:111:
+      115 │ ...e.org/v2/directions/driving-car/geojson", {'coordinates':coords},
+          ╵                                                             ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:2:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵   ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'requestMatrix'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:2:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵   ~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:16:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵                 ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:22:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵                       ^
+
+
+✘ [ERROR] TS2693: 'LatLngTuple' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:24:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵                         ~~~~~~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:36:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵                                     ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:122:39:
+      122 │   requestMatrix(coords: LatLngTuple[]) {
+          ╵                                        ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:123:11:
+      123 │     return this.http.post("https://api.openrouteservice.org/v2/ma...
+          ╵            ~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'coords'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:123:97:
+      123 │ .../driving-car", {'locations':coords, 'metrics':['distance'], 'u...
+          ╵                                ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:130:2:
+      130 │   initRoutesLayer(map: L.Map) {
+          ╵   ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'initRoutesLayer'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:130:2:
+      130 │   initRoutesLayer(map: L.Map) {
+          ╵   ~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:130:18:
+      130 │   initRoutesLayer(map: L.Map) {
+          ╵                   ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:130:21:
+      130 │   initRoutesLayer(map: L.Map) {
+          ╵                      ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:130:30:
+      130 │   initRoutesLayer(map: L.Map) {
+          ╵                               ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:131:10:
+      131 │     const routesLayer = L.geoJSON(this.routes, {
+          ╵           ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'routesLayer'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:131:10:
+      131 │     const routesLayer = L.geoJSON(this.routes, {
+          ╵           ~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:139:6:
+      139 │     });
+          ╵       ^
+
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'map'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:140:4:
+      140 │     map.addLayer(routesLayer);
+          ╵     ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:140:7:
+      140 │     map.addLayer(routesLayer);
+          ╵        ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'routesLayer'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:140:17:
+      140 │     map.addLayer(routesLayer);
+          ╵                  ~~~~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:140:29:
+      140 │     map.addLayer(routesLayer);
+          ╵                              ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:2:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵   ~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'initMarker'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:2:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵   ~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:13:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵              ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:16:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵                 ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:25:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵                          ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:33:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵                                  ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:35:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵                                    ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:143:45:
+      143 │   initMarker(map: L.Map, delivery: Delivery) {
+          ╵                                              ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:144:10:
+      144 │     const marker = L.marker(delivery.coordinates!)
+          ╵           ~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'marker'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:144:10:
+      144 │     const marker = L.marker(delivery.coordinates!)
+          ╵           ~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:144:28:
+      144 │     const marker = L.marker(delivery.coordinates!)
+          ╵                             ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:145:4:
+      145 │     marker.bindPopup(this.makePopup(delivery))
+          ╵     ~~~~~~
+
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'marker'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:145:4:
+      145 │     marker.bindPopup(this.makePopup(delivery))
+          ╵     ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:145:10:
+      145 │     marker.bindPopup(this.makePopup(delivery))
+          ╵           ^
+
+
+✘ [ERROR] TS2339: Property 'makePopup' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:145:26:
+      145 │     marker.bindPopup(this.makePopup(delivery))
+          ╵                           ~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:145:36:
+      145 │     marker.bindPopup(this.makePopup(delivery))
+          ╵                                     ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:146:4:
+      146 │     marker.addTo(map)
+          ╵     ~~~~~~
+
+
+✘ [ERROR] TS18004: No value exists in scope for the shorthand property 'marker'. Either declare one or provide an initializer. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:146:4:
+      146 │     marker.addTo(map)
+          ╵     ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:146:10:
+      146 │     marker.addTo(map)
+          ╵           ^
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:146:17:
+      146 │     marker.addTo(map)
+          ╵                  ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:2:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵   ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'initAllMarkers'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:2:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵   ~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:17:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                  ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:20:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                     ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:39:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                                        ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:41:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                                          ~~~~~~~~
+
+
+✘ [ERROR] TS1011: An element access expression should take an argument. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:50:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                                                   ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:149:53:
+      149 │   initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+          ╵                                                      ^
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:150:14:
+      150 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵               ^
+
+
+✘ [ERROR] TS7006: Parameter 'delivery' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:150:20:
+      150 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵                     ~~~~~~~~
+
+
+✘ [ERROR] TS2339: Property 'initMarker' does not exist on type 'MapService'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:150:38:
+      150 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵                                       ~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'map'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:150:49:
+      150 │     deliveries.map((delivery) => this.initMarker(map, delivery))
+          ╵                                                  ~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:2:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵   ~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'makePopup'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:2:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵   ~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:12:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵             ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:20:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵                     ^
+
+
+✘ [ERROR] TS2693: 'Delivery' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:22:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵                       ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:31:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵                                ^
+
+
+✘ [ERROR] TS2693: 'string' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:33:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵                                  ~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:153:40:
+      153 │   makePopup(delivery: Delivery): string {
+          ╵                                         ^
+
+
+✘ [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:154:11:
+      154 │     return ``+
+          ╵            ~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'delivery'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:155:31:
+      155 │       `<div><u>Adresse:</u> ${ delivery.address }</div>`
+          ╵                                ~~~~~~~~
+
+
+✘ [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:158:0:
+      158 │ }
+          ╵ ^
+
+
+✘ [ERROR] TS1005: '}' expected. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:159:0:
+      159 │ 
+          ╵ ^
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-V3KCMCPI.js   | -                       |  17.22 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 220.33 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-LNK6VZP2.js   | -                       |  16.78 kB | 
+chunk-D2V4DK3P.js   | day-planner-component   |  12.57 kB | 
+chunk-ADXSCKEP.js   | homepage-component      |  12.02 kB | 
+chunk-HKPY2QSK.js   | day-preview-component   |   9.17 kB | 
+chunk-SKBBYCJ4.js   | day-displayer-component |   5.64 kB | 
+chunk-K4MW5PW3.js   | -                       |   2.55 kB | 
+
+Application bundle generation complete. [0.293 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-AUYJTCNK.js   | -                       | 17.27 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-ATM2QTJZ.js   | -                       | 16.78 kB | 
+chunk-64S5SRVO.js   | day-planner-component   | 12.57 kB | 
+chunk-GDGJ3BL2.js   | homepage-component      | 12.02 kB | 
+chunk-6KWDON2L.js   | day-preview-component   |  9.17 kB | 
+chunk-OVMEM2UA.js   | day-displayer-component |  5.64 kB | 
+chunk-TDB7VW2J.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.186 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-BPQDZBJV.js   | -                       | 17.25 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-X5OS4ENC.js   | -                       | 16.78 kB | 
+chunk-HZFSFFXH.js   | day-planner-component   | 12.57 kB | 
+chunk-GLBGCDQJ.js   | homepage-component      | 12.02 kB | 
+chunk-NWU2MBD5.js   | day-preview-component   |  9.17 kB | 
+chunk-PZPRVYPB.js   | day-displayer-component |  5.64 kB | 
+chunk-JDGTN4UF.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.344 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-AUYJTCNK.js   | -                       | 17.27 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-ATM2QTJZ.js   | -                       | 16.78 kB | 
+chunk-64S5SRVO.js   | day-planner-component   | 12.57 kB | 
+chunk-GDGJ3BL2.js   | homepage-component      | 12.02 kB | 
+chunk-6KWDON2L.js   | day-preview-component   |  9.17 kB | 
+chunk-OVMEM2UA.js   | day-displayer-component |  5.64 kB | 
+chunk-TDB7VW2J.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.290 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.527 seconds]
+
+✘ [ERROR] TS2554: Expected 1 arguments, but got 0. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:61:11:
+      61 │       this.requestRoutes()
+         ╵            ~~~~~~~~~~~~~
+
+  An argument for 'coords' was not provided.
+
+    src/app/shared/services/map.service.ts:116:16:
+      116 │   requestRoutes(coords: LatLngTuple[]) {
+          ╵                 ~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-INVHL2X7.js   | -                       |  17.25 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 220.36 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-3QA7ASIN.js   | -                       |  16.78 kB | 
+chunk-27YUTN2F.js   | day-planner-component   |  12.57 kB | 
+chunk-ETMO7I5K.js   | homepage-component      |  12.02 kB | 
+chunk-C2S3L2AE.js   | day-preview-component   |   9.17 kB | 
+chunk-L73KMQG5.js   | day-displayer-component |   5.64 kB | 
+chunk-TUZLHEIL.js   | -                       |   2.55 kB | 
+
+Application bundle generation complete. [0.239 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-RPSJ3GCD.js   | -                       | 17.28 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-QAGRM7RE.js   | -                       | 16.78 kB | 
+chunk-LLCLHN54.js   | day-planner-component   | 12.57 kB | 
+chunk-DDRQ6HOH.js   | homepage-component      | 12.02 kB | 
+chunk-Q7RX2UEM.js   | day-preview-component   |  9.17 kB | 
+chunk-43BUYMUF.js   | day-displayer-component |  5.64 kB | 
+chunk-DPBNJT4O.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.335 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-DWORNKKF.js   | -                       | 17.28 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-XVFTS3ZB.js   | -                       | 16.78 kB | 
+chunk-DZYJZR2M.js   | day-planner-component   | 12.57 kB | 
+chunk-3EATN3HG.js   | homepage-component      | 12.02 kB | 
+chunk-2AZR3IDP.js   | day-preview-component   |  9.17 kB | 
+chunk-LURHUU64.js   | day-displayer-component |  5.64 kB | 
+chunk-5FTE64ZT.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.451 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-RPSJ3GCD.js   | -                       | 17.28 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-QAGRM7RE.js   | -                       | 16.78 kB | 
+chunk-LLCLHN54.js   | day-planner-component   | 12.57 kB | 
+chunk-DDRQ6HOH.js   | homepage-component      | 12.02 kB | 
+chunk-Q7RX2UEM.js   | day-preview-component   |  9.17 kB | 
+chunk-43BUYMUF.js   | day-displayer-component |  5.64 kB | 
+chunk-DPBNJT4O.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.200 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-SUAPRA7S.js   | -                       | 17.14 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-RHUXFGM5.js   | -                       | 16.78 kB | 
+chunk-27EVHTTA.js   | day-planner-component   | 12.57 kB | 
+chunk-C5G6CAYL.js   | homepage-component      | 12.02 kB | 
+chunk-OOKTEKDH.js   | day-preview-component   |  9.17 kB | 
+chunk-MUKPNNYE.js   | day-displayer-component |  5.64 kB | 
+chunk-33XOPADV.js   | -                       |  2.55 kB | 
+
+Application bundle generation complete. [0.325 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                 | Raw size
+main.js             | main                  | 11.53 kB | 
+
+Lazy chunk files    | Names                 | Raw size
+chunk-WLIHKOKK.js   | homepage-component    | 12.02 kB | 
+chunk-KVMIERCV.js   | day-preview-component |  9.17 kB | 
+chunk-5JXBPD7L.js   | -                     |  2.71 kB | 
+
+Application bundle generation complete. [0.365 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-3P6S2SRI.js   | -                       | 17.23 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-OR6RCYCX.js   | -                       | 16.78 kB | 
+chunk-RNN3SBW3.js   | day-planner-component   | 12.57 kB | 
+chunk-RE4P375I.js   | homepage-component      | 12.02 kB | 
+chunk-HGRGBGH7.js   | day-preview-component   |  9.17 kB | 
+chunk-772FBMCD.js   | day-displayer-component |  5.64 kB | 
+chunk-MBIO5X5V.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.331 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-E6D35LVD.js   | -                       | 17.32 kB | 
+main.js             | main                    | 11.53 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-M2NPGWN3.js   | -                       | 16.78 kB | 
+chunk-X5VGB2RD.js   | day-planner-component   | 12.57 kB | 
+chunk-XQ6AE6BG.js   | homepage-component      | 12.02 kB | 
+chunk-4A2QSAWJ.js   | day-preview-component   |  9.17 kB | 
+chunk-VGGWYYTO.js   | day-displayer-component |  5.64 kB | 
+chunk-FAE5LU3B.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.294 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-E6D35LVD.js   | -                       |  17.32 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 220.43 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-M2NPGWN3.js   | -                       |  16.78 kB | 
+chunk-X5VGB2RD.js   | day-planner-component   |  12.57 kB | 
+chunk-XQ6AE6BG.js   | homepage-component      |  12.02 kB | 
+chunk-4A2QSAWJ.js   | day-preview-component   |   9.17 kB | 
+chunk-VGGWYYTO.js   | day-displayer-component |   5.64 kB | 
+chunk-FAE5LU3B.js   | -                       |   2.71 kB | 
+
+Application bundle generation complete. [1.337 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.729 seconds]
+
+✘ [ERROR] TS2390: Constructor implementation is missing. [plugin angular-compiler]
+
+    src/app/views/homepage/homepage.component.ts:28:2:
+      28 │   constructor()
+         ╵   ~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-E6D35LVD.js   | -                       |  17.32 kB | 
+main.js             | main                    |  11.53 kB | 
+
+                    | Initial total           | 220.43 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-M2NPGWN3.js   | -                       |  16.78 kB | 
+chunk-X5VGB2RD.js   | day-planner-component   |  12.57 kB | 
+chunk-O7WHBXU4.js   | homepage-component      |  11.95 kB | 
+chunk-4A2QSAWJ.js   | day-preview-component   |   9.17 kB | 
+chunk-VGGWYYTO.js   | day-displayer-component |   5.64 kB | 
+chunk-FAE5LU3B.js   | -                       |   2.71 kB | 
+
+Application bundle generation complete. [0.230 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names | Raw size
+main.js             | main  | 11.47 kB | 
+
+Application bundle generation complete. [0.318 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-GRHIYMXA.js   | -                       | 17.32 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-S2J23NAA.js   | -                       | 16.78 kB | 
+chunk-R4R63EJG.js   | day-planner-component   | 12.57 kB | 
+chunk-T33I2SML.js   | homepage-component      | 11.95 kB | 
+chunk-OVMCKLNO.js   | day-preview-component   |  9.17 kB | 
+chunk-PULDQ3PX.js   | day-displayer-component |  5.64 kB | 
+chunk-QGWI6UDN.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.328 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-SVVABM72.js   | -                       | 17.22 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-YSTH65SJ.js   | -                       | 16.78 kB | 
+chunk-GRGIJYJU.js   | day-planner-component   | 12.57 kB | 
+chunk-G3A3IUSC.js   | homepage-component      | 11.95 kB | 
+chunk-5P7POZEU.js   | day-preview-component   |  9.17 kB | 
+chunk-ZX5HFKEP.js   | day-displayer-component |  5.64 kB | 
+chunk-O4ZIJWCR.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.417 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-SVVABM72.js   | -                       |  17.22 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 220.27 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-YSTH65SJ.js   | -                       |  16.78 kB | 
+chunk-GRGIJYJU.js   | day-planner-component   |  12.57 kB | 
+chunk-G3A3IUSC.js   | homepage-component      |  11.95 kB | 
+chunk-5P7POZEU.js   | day-preview-component   |   9.17 kB | 
+chunk-ZX5HFKEP.js   | day-displayer-component |   5.64 kB | 
+chunk-O4ZIJWCR.js   | -                       |   2.71 kB | 
+
+Application bundle generation complete. [1.436 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-SVVABM72.js   | -                       |  17.22 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 220.27 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-YSTH65SJ.js   | -                       |  16.78 kB | 
+chunk-GRGIJYJU.js   | day-planner-component   |  12.57 kB | 
+chunk-G3A3IUSC.js   | homepage-component      |  11.95 kB | 
+chunk-5P7POZEU.js   | day-preview-component   |   9.17 kB | 
+chunk-ZX5HFKEP.js   | day-displayer-component |   5.64 kB | 
+chunk-O4ZIJWCR.js   | -                       |   2.71 kB | 
+
+Application bundle generation complete. [1.292 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-YOF4WKJM.js   | -                       |  17.12 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 220.17 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-5FBK3HS7.js   | -                       |  16.78 kB | 
+chunk-CQSM4JVC.js   | day-planner-component   |  12.57 kB | 
+chunk-PI2SNOWZ.js   | homepage-component      |  11.95 kB | 
+chunk-RMR4IAKV.js   | day-preview-component   |   9.17 kB | 
+chunk-62AOGHOS.js   | day-displayer-component |   5.64 kB | 
+chunk-XOCGXMAE.js   | -                       |   2.71 kB | 
+
+Application bundle generation complete. [1.356 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/

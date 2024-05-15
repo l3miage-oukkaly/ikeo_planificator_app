@@ -47,11 +47,18 @@ export class MapService {
   // Return the optimized bundle.
   async test(deliveries: Delivery[], toursCount: number) {
     return Promise.all(deliveries.map(async (delivery) => await this.addressToCoords(delivery))).then((coords) => {
-      this._sigCoords.update(() => coords)
+      this._sigCoords.set(coords)
       console.log(this.sigCoords())
     }).then(() => firstValueFrom(this.requestMatrix(this.sigCoords())).then((matrix: any) => {
        return this.optimizeRoutes(matrix.distances, toursCount)
     }))
+  }
+
+  async testTemp(deliveries: Delivery[], toursCount: number) {
+    return Promise.all(deliveries.map(async (delivery) => await this.addressToCoords(delivery))).then((coords) => {
+      this._sigCoords.set(coords)
+      console.log(this.sigCoords())
+    })
   }
 
   testAddressToCoords(delivery: Delivery) {

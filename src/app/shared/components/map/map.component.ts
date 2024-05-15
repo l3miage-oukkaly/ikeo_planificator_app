@@ -51,6 +51,11 @@ export class MapComponent implements AfterViewInit {
     });
     tiles.addTo(this.map);
     this.mapService.initAllMarkers(this.map, this.planificatorService.sigPlanifiedDay().tours[this.tourIndex].deliveries)
+    this.mapService.requestRoutes(this.mapService.sigCoords()).subscribe((routes) => {
+      this.mapService.routes = routes
+      console.log(routes)
+      this.mapService.initRoutesLayer(this.map)
+    })
   }
 
 
