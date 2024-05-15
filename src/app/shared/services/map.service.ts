@@ -4,17 +4,9 @@ import * as L from 'leaflet';
 import {Delivery} from "../../core/models/delivery.models";
 import {LatLngTuple} from "leaflet";
 import {
-  concatMap,
-  first,
   firstValueFrom,
   from,
-  interval,
-  mergeMap,
-  Observable,
-  of,
-  switchMap,
-  takeWhile,
-  tap
+  Observable
 } from "rxjs";
 import {environment} from "../../../environments/environment";
 import {IOptimizedBundle} from "../../core/models/optimized-bundle.models";
@@ -38,16 +30,7 @@ export class MapService {
   private _sigCoords = signal<LatLngTuple[]>([]);
   sigCoords = computed<LatLngTuple[]>(() => this._sigCoords());
 
-  private _sigDeliveries = signal<Delivery[]>([]);
-  sigDeliveries = computed<Delivery[]>(() => this._sigDeliveries());
-
-  constructor(private http: HttpClient) {
-  }
-
-  setDeliveries(deliveries: Delivery[]) {
-    this._sigDeliveries.set(deliveries)
-  }
-
+  constructor(private http: HttpClient) { }
 
   // From a setup bundle that contains an array of Deliveries, convert all addresses to coordinates.
   // Pass the coordinates to the OpenRoute API to request the matrix of distances.

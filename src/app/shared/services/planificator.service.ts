@@ -1,4 +1,4 @@
-import {computed, inject, Injectable, signal, WritableSignal} from '@angular/core';
+import {computed, inject, Injectable, signal} from '@angular/core';
 import {
   PlanificatorProtocolsImplementation
 } from "../../core/adapters/planificator-protocols/planificator-protocols-implementation";
@@ -9,9 +9,7 @@ import {DatePipe} from "@angular/common";
 import {DeliveryTour} from "../../core/models/delivery-tour.models";
 import {MapService} from "./map.service";
 import {IOptimizedBundle} from "../../core/models/optimized-bundle.models";
-import * as L from 'leaflet'
 import {Router} from "@angular/router";
-import {DayPreviewComponent} from "../../views/day-preview/day-preview.component";
 
 export function maxFrequency<T>(nb: number, ms: number): (input: Observable<T>) => Observable<T> {
   return inputObs => {
@@ -59,23 +57,8 @@ export class PlanificatorService {
   }
 
   async getSetupBundle() {
-    // Reset enlevable lorsqu'il y aura cohérence entre les données demandées & reçues
     this.resetValues()
     this._sigSetupBundle.set(await this.planificatorProtocols.getSetupBundle())
-  }
-
-  buildDayAutomaticallyTemp(toursCount: number) {
-    this.planificatorProtocols.getSetupBundle().then((setupBundle) => {
-      this._sigSetupBundle.set(setupBundle)
-      return this.mapService.testTemp(setupBundle.multipleOrders, toursCount)
-    }).then(() => {
-      const day: Day = {date: this.getTomorrowDate(), tours: [{deliveries: this.sigSetupBundle().multipleOrders, truck: this.sigSetupBundle().trucks[0],
-            deliverymen: [this.sigSetupBundle().deliverymen[0]], distanceToCover: 0}]
-        }
-      day.tours.map((tour) => tour.deliveries.map((delivery) => {delivery.distanceToCover = 0}))
-      this._sigPlanifiedDay.set(day)
-      this.router.navigate(['/day-previewer'])
-    })
   }
 
   async buildDayAutomatically(toursCount: number) {

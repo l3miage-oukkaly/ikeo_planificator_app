@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit, inject, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit, inject} from '@angular/core';
 import {
   AccordionDeliverymenComponent
 } from "../../shared/components/accordion-deliverymen/accordion-deliverymen.component";
@@ -8,7 +8,6 @@ import { MatCard, MatCardContent, MatCardHeader, MatCardTitle } from "@angular/m
 import { MatDivider } from "@angular/material/divider";
 import { MatFabButton, MatMiniFabButton } from "@angular/material/button";
 import { MatIcon } from "@angular/material/icon";
-import { Day } from "../../core/models/day.models";
 import { PlanificatorService } from "../../shared/services/planificator.service";
 import {JsonPipe, NgClass} from "@angular/common";
 

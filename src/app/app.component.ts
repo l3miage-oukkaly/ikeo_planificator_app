@@ -5,11 +5,8 @@ import {SideMenuComponent} from "./shared/components/side-menu/side-menu.compone
 import {HeaderComponent} from "./shared/components/header/header.component";
 import {MatIcon} from "@angular/material/icon";
 import {MatIconButton} from "@angular/material/button";
-import {count, max, Observable, range} from "rxjs";
-import {maxFrequency} from "./shared/services/planificator.service";
 import {Delivery} from "./core/models/delivery.models";
 import {MapService} from "./shared/services/map.service";
-import {LatLngTuple} from "leaflet";
 
 @Component({
   selector: 'app-root',
