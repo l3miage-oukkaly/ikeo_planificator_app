@@ -34,8 +34,6 @@ describe('PlanificatorService', () => {
       ],
     });
 
-
-
     service = TestBed.inject(PlanificatorService);
     mapService = TestBed.inject(MapService);
     router = TestBed.inject(Router);
