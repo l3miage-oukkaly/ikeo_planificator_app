@@ -8,6 +8,8 @@ import {MatDivider} from "@angular/material/divider";
 import {PlanificatorService} from "../../shared/services/planificator.service";
 import {NgClass} from "@angular/common";
 import {RouterLink} from "@angular/router";
+import {MapDialogComponent} from "../../shared/components/map-dialog/map-dialog.component";
+import {MatDialog} from "@angular/material/dialog";
 
 @Component({
   selector: 'app-day-preview',
@@ -29,4 +31,20 @@ import {RouterLink} from "@angular/router";
 })
 export class DayPreviewComponent {
   planificatorService = inject(PlanificatorService)
+  dialog = inject(MatDialog)
+
+
+  openDialog(enterAnimationDuration: string, exitAnimationDuration: string, tourIndex: number): void {
+    this.dialog.open(MapDialogComponent, {
+      width: 90 + 'vw',
+      height: 90 + 'vh',
+      maxHeight: 90 + 'vh',
+      maxWidth: 90 + 'vw',
+      enterAnimationDuration,
+      exitAnimationDuration,
+      data: {
+        tourIndex
+      }
+    });
+  }
 }

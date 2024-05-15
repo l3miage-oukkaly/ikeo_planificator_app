@@ -1,4 +1,4 @@
-@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "../node_modules/@angular/material/prebuilt-themes/purple-green.css";
 
 body {
   --text-color: black;
@@ -7,6 +7,8 @@ body {
   --bkg-elevated-even: #EDEDED;
   --bkg-elevated-odd: #F5F5F5;
   --bkg-accordion-button: #424242;
+  --bkg-elevated-even2: #3c3c3c;
+  --bkg-elevated-odd2: #525252;
   margin: 0; font-family: Roboto,
 "Helvetica Neue", sans-serif;
 }
@@ -18,6 +20,8 @@ body.dark-theme {
   --bkg-accordion-button: #DBDBDB;
   --bkg-elevated-even: #272727;
   --bkg-elevated-odd: #373737;
+  --bkg-elevated-even2: #3c3c3c;
+  --bkg-elevated-odd2: #525252;
 }
 
 html, body { height: 100%; }
@@ -43,9 +47,17 @@ mat-divider {
   height: 100%;
 }
 
+.elevated-card-even2 {
+  background: var(--bkg-elevated-even2)!important;
+}
+
 .elevated-card-odd {
   background: var(--bkg-elevated-odd)!important;
   height: 100%;
+}
+
+.elevated-card-odd2 {
+  background: var(--bkg-elevated-odd2)!important;
 }
 
 mat-toolbar {

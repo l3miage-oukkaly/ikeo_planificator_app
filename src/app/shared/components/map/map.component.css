@@ -1,10 +1,17 @@
 .map-frame {
   border: 2px solid #673ab8;
-  height: 250px;
-  width: 250px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
 }
 
 #map {
-  height: 250px;
-  width: 250px;
+  height: 90vh;
+  width: 90vw;
 }

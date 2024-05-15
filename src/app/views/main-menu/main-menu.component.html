@@ -1,0 +1,16 @@
+<div style="text-align: center">
+  <p>Entrepôt X : Nom & Prénom</p>
+  @if (disabledSig()) {
+
+  }
+  @if (planificatorService.sigPlanifiedDay().tours.length === 0) {
+    <!--    <a [routerLink]="['/day-planner']"><button style="margin-right: 2em">Planifier J+1</button></a>-->
+    <button (click)="openDialog('0ms', '0ms')">Planifier J+1</button>
+  } @else {
+    <a [routerLink]="['/day-planner']"><button style="margin-right: 2em">Ajuster J+1</button></a>
+  }
+  <a [routerLink]="['/day-displayer']"><button [disabled]="disabledSig()" style="margin-left: 2em">Visualiser J+1</button></a>
+</div>
+<button (click)="planificatorService.changeDayStates('2024-05-15')">Test change</button>
+<button (click)="planificatorService.sendTodayDay(planificatorService.sigPlanifiedDay())">Plan today</button>
+<button (click)="authService.logout()">Log out</button>

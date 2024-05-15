@@ -3,7 +3,7 @@ import { PlanificatorService } from "../../shared/services/planificator.service"
 import { MatRow } from "@angular/material/table";
 import { MatButtonModule } from "@angular/material/button";
 import { MatIconModule } from "@angular/material/icon";
-import { MatCardModule } from "@angular/material/card";
+import {MatCard, MatCardContent, MatCardHeader, MatCardModule, MatCardTitle} from "@angular/material/card";
 import { NgClass } from "@angular/common";
 import { MatDivider } from "@angular/material/divider";
 import { CdkAccordionModule } from "@angular/cdk/accordion";
@@ -42,7 +42,11 @@ import {DeleteDialogComponent} from "../../shared/components/delete-dialog/delet
     CdkDragPlaceholder,
     AccordionDeliverymenComponent,
     AccordionTruckComponent,
-    RouterLink
+    RouterLink,
+    MatCard,
+    MatCardContent,
+    MatCardHeader,
+    MatCardTitle
   ],
   templateUrl: './day-planner.component.html',
   styleUrl: './day-planner.component.css',
@@ -74,7 +78,7 @@ export class DayPlannerComponent implements OnInit {
   }
 
   isValidTour(tour: DeliveryTour): boolean {
-    return (tour.deliveries.length != 0 && tour.truck != '' && tour.deliveryMen.length != 0)
+    return (tour.deliveries.length != 0 && tour.truck != '' && tour.deliverymen.length != 0)
   }
 
   isValidDay() {

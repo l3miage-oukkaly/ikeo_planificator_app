@@ -3,11 +3,11 @@
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="toggle()">
       <mat-icon class="account">menu</mat-icon>
     </button>
-    <span><a routerLink="/"><button class="logo">Ikeo Planificator App</button></a></span>
+    <span><a routerLink="/main-menu"><button class="logo">Ikeo Planificator App</button></a></span>
     <span class="spacer"></span>
     <mat-icon class="sun-moon">light_mode</mat-icon>
     <mat-slide-toggle
-      color="#673ab8"
+      color="primary"
       [checked]="sigDarkMode()"
       (toggleChange)="changeTheme()">
     </mat-slide-toggle>
