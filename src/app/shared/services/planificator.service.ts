@@ -36,7 +36,7 @@ export class PlanificatorService {
   private _sigPlanifiedDay = signal<Day>({date: this.getTomorrowDate(), tours: []})
   sigPlanifiedDay = computed(() => this._sigPlanifiedDay())
 
-  private _sigSetupBundle = signal<SetupBundle>({ multipleOrders: [], deliverymen: [], trucks: [] })
+  private _sigSetupBundle = signal<SetupBundle>({ multipleOrders: [], deliverymen: [], trucks: [] , coordinates: [0, 0]})
   sigSetupBundle = computed(() => this._sigSetupBundle())
 
   constructor() {}
@@ -81,7 +81,7 @@ export class PlanificatorService {
   async buildDayAutomatically(toursCount: number) {
     this.planificatorProtocols.getSetupBundle().then((setupBundle) => {
       this._sigSetupBundle.set(setupBundle)
-      return this.mapService.test(setupBundle.multipleOrders, toursCount)
+      return this.mapService.test(setupBundle, toursCount)
     }).then((optimizedBundle) => {
       console.log(optimizedBundle)
       this.buildDayFromOptimizedBundle(optimizedBundle, this._sigSetupBundle())})
@@ -89,7 +89,8 @@ export class PlanificatorService {
 
   buildDayFromOptimizedBundle(bundle: IOptimizedBundle, setupBundle: SetupBundle) {
     const day: Day = {date: this.getTomorrowDate(), tours: bundle.tournees.map((tournee, index) => {
-       return {deliveries: (tournee.map((delivery) => {return setupBundle.multipleOrders[delivery]})), truck: setupBundle.trucks[index],
+       tournee.splice(0, 1)
+       return {deliveries: (tournee.map((delivery) => {return setupBundle.multipleOrders[delivery-1]})), truck: setupBundle.trucks[index],
        deliverymen: [setupBundle.deliverymen[index]], distanceToCover: 0}
       })}
     day.tours.map((tour) => tour.deliveries.map((delivery) => {delivery.distanceToCover = 0}))
@@ -104,7 +105,9 @@ export class PlanificatorService {
   }
 
   async sendDayOrUpdate(day: Day) {
-    this._sigPlanifiedDay().tours.map((tour) => delete tour.coordinates)
+    this._sigPlanifiedDay().tours.map((tour) => {
+      delete tour.coordinates
+    })
     await this.sendDay(day).then(() => console.log("Day created"), (error) => {
       if (error.status === 406) {
         this.planificatorProtocols.updateDay(day, this.getDayID(day.date))
@@ -128,7 +131,7 @@ export class PlanificatorService {
 
   resetValues() {
     this._sigPlanifiedDay.set({date: this.getTomorrowDate(), tours: []})
-    this._sigSetupBundle.set({ multipleOrders: [], deliverymen: [], trucks: [] })
+    this._sigSetupBundle.set({ multipleOrders: [], deliverymen: [], trucks: [], coordinates: [0, 0]})
   }
 
   addTour() {
@@ -170,7 +173,7 @@ export class PlanificatorService {
   removeTruck(tourIndex: number) {
     if (this._sigPlanifiedDay().tours[tourIndex].truck != '') {
       this._sigSetupBundle.update((setupBundle) => {
-        return { multipleOrders: setupBundle.multipleOrders, deliverymen: setupBundle.deliverymen, trucks: setupBundle.trucks.concat(this._sigPlanifiedDay().tours[tourIndex].truck) }
+        return { multipleOrders: setupBundle.multipleOrders, deliverymen: setupBundle.deliverymen, trucks: setupBundle.trucks.concat(this._sigPlanifiedDay().tours[tourIndex].truck), coordinates: setupBundle.coordinates}
       })
       this._sigPlanifiedDay.update((day) => {return {date: day.date, tours: day.tours.map((tour, index) => {
           if (index === tourIndex) {
@@ -199,7 +202,7 @@ export class PlanificatorService {
     trucks.push(this._sigPlanifiedDay().tours[tourIndex].truck)
     this._sigSetupBundle.set({
       multipleOrders: this._sigSetupBundle().multipleOrders, deliverymen: this._sigSetupBundle().deliverymen,
-      trucks
+      trucks, coordinates: this._sigSetupBundle().coordinates
     })
     this.addTruck(index, tourIndex)
   }

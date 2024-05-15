@@ -50,8 +50,8 @@ export class MapComponent implements AfterViewInit {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     });
     tiles.addTo(this.map);
-    this.mapService.initAllMarkers(this.map, this.planificatorService.sigPlanifiedDay().tours[this.tourIndex].deliveries)
-    this.mapService.requestRoutes(this.mapService.sigCoords()).subscribe((routes) => {
+    this.mapService.initAllMarkers(this.map, this.planificatorService.sigPlanifiedDay().tours[this.tourIndex].deliveries, this.planificatorService.sigSetupBundle().coordinates)
+    this.mapService.requestRoutes(this.mapService.getTourCoords(this.planificatorService.sigPlanifiedDay().tours[this.tourIndex].deliveries, this.planificatorService.sigSetupBundle().coordinates)).subscribe((routes) => {
       this.mapService.routes = routes
       console.log(routes)
       this.mapService.initRoutesLayer(this.map)

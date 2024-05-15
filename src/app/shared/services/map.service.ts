@@ -19,6 +19,16 @@ import {
 import {environment} from "../../../environments/environment";
 import {IOptimizedBundle} from "../../core/models/optimized-bundle.models";
 import {maxFrequency} from "./planificator.service";
+import {SetupBundle} from "../../core/models/setup-bundle.models";
+
+export const greenIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
 
 @Injectable({
   providedIn: 'root'
@@ -45,9 +55,10 @@ export class MapService {
   // Request routes for each tour to the OpenRoute API
   // Initialize the routes & markers layer on the map.
   // Return the optimized bundle.
-  async test(deliveries: Delivery[], toursCount: number) {
-    return Promise.all(deliveries.map(async (delivery) => await this.addressToCoords(delivery))).then((coords) => {
-      this._sigCoords.set(coords)
+  async test(setupBundle: SetupBundle, toursCount: number) {
+    this._sigCoords.set([[setupBundle.coordinates[1], setupBundle.coordinates[0]]])
+    return Promise.all(setupBundle.multipleOrders.map(async (delivery) => await this.addressToCoords(delivery))).then((coords) => {
+      this._sigCoords.update((coordinates) => [...coordinates, ...coords])
       console.log(this.sigCoords())
     }).then(() => firstValueFrom(this.requestMatrix(this.sigCoords())).then((matrix: any) => {
        return this.optimizeRoutes(matrix.distances, toursCount)
@@ -127,6 +138,10 @@ export class MapService {
         }})
   }
 
+  getTourCoords(tour: Delivery[], warehouseCoords: LatLngTuple) {
+    return [[warehouseCoords[1], warehouseCoords[0]], ...tour.map((delivery) => [delivery.coordinates![1], delivery.coordinates![0]])] as LatLngTuple[]
+  }
+
   initRoutesLayer(map: L.Map) {
     const routesLayer = L.geoJSON(this.routes, {
       style: (feature) => ({
@@ -146,7 +161,19 @@ export class MapService {
     marker.addTo(map)
   }
 
-  initAllMarkers(map: L.Map, deliveries: Delivery[]) {
+  initWarehouseMarker(map: L.Map, warehouseCoords: LatLngTuple) {
+    const marker = L.marker(warehouseCoords, {icon: greenIcon})
+    marker.bindPopup(this.makeWarehousePopup())
+    marker.addTo(map)
+  }
+
+  makeWarehousePopup(): string {
+    return ``+
+      `<h4 style="text-align: center;">Entrepôt Grenis</h4>`
+  }
+
+  initAllMarkers(map: L.Map, deliveries: Delivery[], warehouseCoords: LatLngTuple) {
+    this.initWarehouseMarker(map, warehouseCoords)
     deliveries.map((delivery) => this.initMarker(map, delivery))
   }
 

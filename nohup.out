@@ -46970,3 +46970,890 @@ Application bundle generation complete. [1.356 seconds]
 
 Watch mode enabled. Watching for file changes...
   ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.47 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-NTRVE44O.js   | homepage-component | 11.95 kB | 
+
+Application bundle generation complete. [0.453 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.47 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-PI2SNOWZ.js   | homepage-component | 11.95 kB | 
+
+Application bundle generation complete. [0.417 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.47 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-NTRVE44O.js   | homepage-component | 11.95 kB | 
+
+Application bundle generation complete. [0.540 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-YOF4WKJM.js   | -                       |  17.12 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 220.17 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-5FBK3HS7.js   | -                       |  16.78 kB | 
+chunk-CQSM4JVC.js   | day-planner-component   |  12.57 kB | 
+chunk-NTRVE44O.js   | homepage-component      |  11.95 kB | 
+chunk-RMR4IAKV.js   | day-preview-component   |   9.17 kB | 
+chunk-62AOGHOS.js   | day-displayer-component |   5.64 kB | 
+chunk-XOCGXMAE.js   | -                       |   2.71 kB | 
+
+Application bundle generation complete. [1.315 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-YOF4WKJM.js   | -                       |  17.12 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 220.17 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-5FBK3HS7.js   | -                       |  16.78 kB | 
+chunk-CQSM4JVC.js   | day-planner-component   |  12.57 kB | 
+chunk-NTRVE44O.js   | homepage-component      |  11.95 kB | 
+chunk-RMR4IAKV.js   | day-preview-component   |   9.17 kB | 
+chunk-62AOGHOS.js   | day-displayer-component |   5.64 kB | 
+chunk-XOCGXMAE.js   | -                       |   2.71 kB | 
+
+Application bundle generation complete. [1.331 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names              | Raw size
+main.js             | main               | 11.47 kB | 
+
+Lazy chunk files    | Names              | Raw size
+chunk-PI2SNOWZ.js   | homepage-component | 11.95 kB | 
+
+Application bundle generation complete. [0.388 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.624 seconds]
+
+✘ [ERROR] TS2339: Property 'coordinates' does not exist on type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:50:36:
+      50 │     this._sigCoords.set(setupBundle.coordinates)
+         ╵                                     ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'deliveries'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:23:
+      51 │     return Promise.all(deliveries.map(async (delivery) => await th...
+         ╵                        ~~~~~~~~~~
+
+
+✘ [ERROR] TS7006: Parameter 'delivery' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:45:
+      51 │ ...e.all(deliveries.map(async (delivery) => await this.addressToCo...
+         ╵                                ~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'SetupBundle'.
+  Type 'Delivery[]' is missing the following properties from type 'SetupBundle': multipleOrders, deliverymen, trucks [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:84:34:
+      84 │ ...eturn this.mapService.test(setupBundle.multipleOrders, toursCount)
+         ╵                               ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.131 seconds]
+
+✘ [ERROR] TS2339: Property 'coordinates' does not exist on type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:50:36:
+      50 │     this._sigCoords.set(setupBundle.coordinates)
+         ╵                                     ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'deliveries'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:23:
+      51 │     return Promise.all(deliveries.map(async (delivery) => await th...
+         ╵                        ~~~~~~~~~~
+
+
+✘ [ERROR] TS7006: Parameter 'delivery' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:45:
+      51 │ ...e.all(deliveries.map(async (delivery) => await this.addressToCo...
+         ╵                                ~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'SetupBundle'.
+  Type 'Delivery[]' is missing the following properties from type 'SetupBundle': multipleOrders, deliverymen, trucks [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:84:34:
+      84 │ ...eturn this.mapService.test(setupBundle.multipleOrders, toursCount)
+         ╵                               ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.445 seconds]
+
+✘ [ERROR] TS2345: Argument of type '[number, number]' is not assignable to parameter of type 'LatLngTuple[]'.
+  Type 'number' is not assignable to type 'LatLngTuple'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:50:24:
+      50 │     this._sigCoords.set(setupBundle.coordinates)
+         ╵                         ~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2304: Cannot find name 'deliveries'. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:23:
+      51 │     return Promise.all(deliveries.map(async (delivery) => await th...
+         ╵                        ~~~~~~~~~~
+
+
+✘ [ERROR] TS7006: Parameter 'delivery' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/shared/services/map.service.ts:51:45:
+      51 │ ...e.all(deliveries.map(async (delivery) => await this.addressToCo...
+         ╵                                ~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type '{ multipleOrders: never[]; deliverymen: never[]; trucks: never[]; }' is not assignable to parameter of type 'SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: never[]; deliverymen: never[]; trucks: never[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:39:48:
+      39 │ ...<SetupBundle>({ multipleOrders: [], deliverymen: [], trucks: [] })
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type 'Delivery[]' is not assignable to parameter of type 'SetupBundle'.
+  Type 'Delivery[]' is missing the following properties from type 'SetupBundle': multipleOrders, deliverymen, trucks, coordinates [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:84:34:
+      84 │ ...eturn this.mapService.test(setupBundle.multipleOrders, toursCount)
+         ╵                               ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type '{ multipleOrders: never[]; deliverymen: never[]; trucks: never[]; }' is not assignable to parameter of type 'SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: never[]; deliverymen: never[]; trucks: never[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:131:29:
+      131 │ ...upBundle.set({ multipleOrders: [], deliverymen: [], trucks: [] })
+          ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type '(setupBundle: SetupBundle) => { multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' is not assignable to parameter of type '(value: SetupBundle) => SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:172:34:
+      172 │       this._sigSetupBundle.update((setupBundle) => {
+          ╵                                   ~~~~~~~~~~~~~~~~~~
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' is not assignable to parameter of type 'SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:200:29:
+      200 │     this._sigSetupBundle.set({
+          ╵                              ^
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.313 seconds]
+
+✘ [ERROR] TS2345: Argument of type '{ multipleOrders: never[]; deliverymen: never[]; trucks: never[]; }' is not assignable to parameter of type 'SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: never[]; deliverymen: never[]; trucks: never[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:39:48:
+      39 │ ...<SetupBundle>({ multipleOrders: [], deliverymen: [], trucks: [] })
+         ╵                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type '{ multipleOrders: never[]; deliverymen: never[]; trucks: never[]; }' is not assignable to parameter of type 'SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: never[]; deliverymen: never[]; trucks: never[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:131:29:
+      131 │ ...upBundle.set({ multipleOrders: [], deliverymen: [], trucks: [] })
+          ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type '(setupBundle: SetupBundle) => { multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' is not assignable to parameter of type '(value: SetupBundle) => SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:172:34:
+      172 │       this._sigSetupBundle.update((setupBundle) => {
+          ╵                                   ~~~~~~~~~~~~~~~~~~
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' is not assignable to parameter of type 'SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:200:29:
+      200 │     this._sigSetupBundle.set({
+          ╵                              ^
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.277 seconds]
+
+✘ [ERROR] TS2345: Argument of type '{ multipleOrders: never[]; deliverymen: never[]; trucks: never[]; }' is not assignable to parameter of type 'SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: never[]; deliverymen: never[]; trucks: never[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:131:29:
+      131 │ ...upBundle.set({ multipleOrders: [], deliverymen: [], trucks: [] })
+          ╵                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type '(setupBundle: SetupBundle) => { multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' is not assignable to parameter of type '(value: SetupBundle) => SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:172:34:
+      172 │       this._sigSetupBundle.update((setupBundle) => {
+          ╵                                   ~~~~~~~~~~~~~~~~~~
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' is not assignable to parameter of type 'SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:200:29:
+      200 │     this._sigSetupBundle.set({
+          ╵                              ^
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.162 seconds]
+
+✘ [ERROR] TS2345: Argument of type '(setupBundle: SetupBundle) => { multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' is not assignable to parameter of type '(value: SetupBundle) => SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:172:34:
+      172 │       this._sigSetupBundle.update((setupBundle) => {
+          ╵                                   ~~~~~~~~~~~~~~~~~~
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+✘ [ERROR] TS2345: Argument of type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' is not assignable to parameter of type 'SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:200:29:
+      200 │     this._sigSetupBundle.set({
+          ╵                              ^
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.339 seconds]
+
+✘ [ERROR] TS2345: Argument of type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' is not assignable to parameter of type 'SetupBundle'.
+  Property 'coordinates' is missing in type '{ multipleOrders: Delivery[]; deliverymen: string[]; trucks: string[]; }' but required in type 'SetupBundle'. [plugin angular-compiler]
+
+    src/app/shared/services/planificator.service.ts:200:29:
+      200 │     this._sigSetupBundle.set({
+          ╵                              ^
+
+  'coordinates' is declared here.
+
+    src/app/core/models/setup-bundle.models.ts:7:2:
+      7 │   coordinates: [number, number]
+        ╵   ~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-4NZ4EVRN.js   | -                       |  17.30 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 220.35 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-OCXASBOJ.js   | -                       |  16.78 kB | 
+chunk-VI5I6GVD.js   | day-planner-component   |  12.57 kB | 
+chunk-NQIFM636.js   | homepage-component      |  11.95 kB | 
+chunk-U7XQUFRZ.js   | day-preview-component   |   9.17 kB | 
+chunk-WKATI4V2.js   | day-displayer-component |   5.64 kB | 
+chunk-MKRBAVV4.js   | -                       |   2.71 kB | 
+
+Application bundle generation complete. [0.257 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-C7Z6FMVM.js   | -                       | 17.36 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-CUOLTEHK.js   | -                       | 16.78 kB | 
+chunk-JFLSSWXF.js   | day-planner-component   | 12.57 kB | 
+chunk-AXQTWLZ3.js   | homepage-component      | 11.95 kB | 
+chunk-UG34P6SH.js   | day-preview-component   |  9.17 kB | 
+chunk-5GIPMZJM.js   | day-displayer-component |  5.64 kB | 
+chunk-AA5V6K6I.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.348 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-CPGUVIP6.js   | -                       | 17.40 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-72ZYWLGF.js   | -                       | 16.78 kB | 
+chunk-ZHT7M7XC.js   | day-planner-component   | 12.57 kB | 
+chunk-ZILUHCJE.js   | homepage-component      | 11.95 kB | 
+chunk-KXAS6M45.js   | day-preview-component   |  9.17 kB | 
+chunk-GSH4YDPL.js   | day-displayer-component |  5.64 kB | 
+chunk-FSY4TDQR.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.557 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-ZBEUB7RM.js   | -                       | 17.43 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-TMQLP7WY.js   | -                       | 16.78 kB | 
+chunk-OMCGRTAJ.js   | day-planner-component   | 12.57 kB | 
+chunk-GPAKV6FH.js   | homepage-component      | 11.95 kB | 
+chunk-WTJTCJLP.js   | day-preview-component   |  9.17 kB | 
+chunk-IFGNX43Y.js   | day-displayer-component |  5.64 kB | 
+chunk-TYBSS3LJ.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.595 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-FQ4G2P63.js   | -                       | 17.47 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-2CIK4K7O.js   | -                       | 16.78 kB | 
+chunk-24EY53HK.js   | day-planner-component   | 12.57 kB | 
+chunk-G2DXHXVO.js   | homepage-component      | 11.95 kB | 
+chunk-VKOH2IZG.js   | day-preview-component   |  9.17 kB | 
+chunk-XUFPJWW3.js   | day-displayer-component |  5.64 kB | 
+chunk-TAWD5D6Q.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.407 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-R5DTR4TN.js   | -                       | 17.47 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-Z2RC4BLC.js   | -                       | 16.78 kB | 
+chunk-UE6GA3IH.js   | day-planner-component   | 12.57 kB | 
+chunk-7YHE7M3T.js   | homepage-component      | 11.95 kB | 
+chunk-JXORGUJZ.js   | day-preview-component   |  9.17 kB | 
+chunk-RB5EPCVQ.js   | day-displayer-component |  5.64 kB | 
+chunk-6W5DY7JM.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.263 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-3HDI6RVY.js   | -                       | 17.43 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-NPNFNTV4.js   | -                       | 16.78 kB | 
+chunk-D5G5H24L.js   | day-planner-component   | 12.57 kB | 
+chunk-XS5F7PUX.js   | homepage-component      | 11.95 kB | 
+chunk-IVQCR3DA.js   | day-preview-component   |  9.17 kB | 
+chunk-RSQS36YL.js   | day-displayer-component |  5.64 kB | 
+chunk-SW5AMX3G.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.271 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-CZYGOD7X.js   | -                       | 17.47 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-S6N6A2AF.js   | -                       | 16.78 kB | 
+chunk-BVKTLRGF.js   | day-planner-component   | 12.57 kB | 
+chunk-PPIB4DND.js   | homepage-component      | 11.95 kB | 
+chunk-E5NWLJJK.js   | day-preview-component   |  9.17 kB | 
+chunk-ZAXYNFAS.js   | day-displayer-component |  5.64 kB | 
+chunk-KZQDRDUP.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.457 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-I2J22MYH.js   | -                       | 17.43 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-JU3MYVGS.js   | -                       | 16.78 kB | 
+chunk-5Z4AI6HM.js   | day-planner-component   | 12.57 kB | 
+chunk-7NU6UHMO.js   | homepage-component      | 11.95 kB | 
+chunk-64JY4JNE.js   | day-preview-component   |  9.17 kB | 
+chunk-VQOT4JHQ.js   | day-displayer-component |  5.64 kB | 
+chunk-2CKYZUVI.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.447 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-O6272RUL.js   | -                       | 17.43 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-PZAYLZYD.js   | -                       | 16.78 kB | 
+chunk-3YRR4TCE.js   | day-planner-component   | 12.57 kB | 
+chunk-HBXEMYQR.js   | homepage-component      | 11.95 kB | 
+chunk-6OXNL3ZX.js   | day-preview-component   |  9.17 kB | 
+chunk-XBGLEPWG.js   | day-displayer-component |  5.64 kB | 
+chunk-HTVSXEI4.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.295 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-5Y2OP6PC.js   | -                       | 17.43 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-NVXJIKDL.js   | -                       | 16.78 kB | 
+chunk-VBQ4CS2B.js   | day-planner-component   | 12.57 kB | 
+chunk-KLJYH4J6.js   | homepage-component      | 11.95 kB | 
+chunk-TKKIJQ6J.js   | day-preview-component   |  9.17 kB | 
+chunk-2UF5MQTL.js   | day-displayer-component |  5.64 kB | 
+chunk-I5B6GNFA.js   | -                       |  2.71 kB | 
+
+Application bundle generation complete. [0.333 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-SD63M4EC.js   | -                       | 17.51 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-A7BLMULV.js   | -                       | 16.78 kB | 
+chunk-GLIXJXW4.js   | day-planner-component   | 12.57 kB | 
+chunk-W4YNCXQE.js   | homepage-component      | 11.95 kB | 
+chunk-7NRUSHL3.js   | day-preview-component   |  9.17 kB | 
+chunk-WNZVN43B.js   | day-displayer-component |  5.64 kB | 
+chunk-DNAQNTWR.js   | -                       |  2.79 kB | 
+
+Application bundle generation complete. [0.666 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-HTXLD7XJ.js   | -                       | 17.54 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-PIXT5IYG.js   | -                       | 16.78 kB | 
+chunk-PNVKLQYK.js   | day-planner-component   | 12.57 kB | 
+chunk-ZULTOXZ7.js   | homepage-component      | 11.95 kB | 
+chunk-TMYCH7GV.js   | day-preview-component   |  9.17 kB | 
+chunk-NO3KVPKK.js   | day-displayer-component |  5.64 kB | 
+chunk-ZF6Y4POJ.js   | -                       |  2.79 kB | 
+
+Application bundle generation complete. [0.430 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-FCCVXVR7.js   | -                       | 17.58 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-QTNO35EH.js   | -                       | 16.78 kB | 
+chunk-DAV54T3U.js   | day-planner-component   | 12.57 kB | 
+chunk-JUZ6LAVD.js   | homepage-component      | 11.95 kB | 
+chunk-OBDVOC5G.js   | day-preview-component   |  9.17 kB | 
+chunk-HWIELTX2.js   | day-displayer-component |  5.64 kB | 
+chunk-WOIF545U.js   | -                       |  2.84 kB | 
+
+Application bundle generation complete. [0.827 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.617 seconds]
+
+✘ [ERROR] TS2345: Argument of type '(LatLngTuple | number[])[]' is not assignable to parameter of type 'LatLngTuple[]'.
+  Type 'LatLngTuple | number[]' is not assignable to type 'LatLngTuple'.
+    Type 'number[]' is not assignable to type '[number, number, (number | undefined)?]'.
+      Target requires 2 element(s) but source may have fewer. [plugin angular-compiler]
+
+    src/app/shared/components/map/map.component.ts:54:34:
+      54 │ ...estRoutes(this.mapService.getTourCoords(this.planificatorServic...
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-HSGPGZZR.js   | -                       |  17.60 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 220.65 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-DIYVRPWB.js   | -                       |  16.78 kB | 
+chunk-4EEEDC7K.js   | day-planner-component   |  12.57 kB | 
+chunk-HIESKMNJ.js   | homepage-component      |  11.95 kB | 
+chunk-KCYC7ZZT.js   | day-preview-component   |   9.17 kB | 
+chunk-TPEXZOOM.js   | day-displayer-component |   5.64 kB | 
+chunk-IS4A5VXP.js   | -                       |   2.84 kB | 
+
+Application bundle generation complete. [0.647 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-VHCD7BYF.js   | -                       | 18.24 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-QKKJMJC4.js   | -                       | 16.78 kB | 
+chunk-TERMUGBU.js   | day-planner-component   | 12.57 kB | 
+chunk-N2XU2SGK.js   | homepage-component      | 11.95 kB | 
+chunk-KANQ7GOX.js   | day-preview-component   |  9.17 kB | 
+chunk-DM5EFYU2.js   | day-displayer-component |  5.64 kB | 
+chunk-F3PVPU6E.js   | -                       |  2.84 kB | 
+
+Application bundle generation complete. [0.587 seconds]
+
+Page reload sent to client(s).
+- Changes detected. Rebuilding...
+
+Initial chunk files | Names                   | Raw size
+chunk-JVJL3Y6P.js   | -                       | 18.28 kB | 
+main.js             | main                    | 11.47 kB | 
+
+Lazy chunk files    | Names                   | Raw size
+chunk-SSZ77DWG.js   | -                       | 16.78 kB | 
+chunk-WC3ZH6KN.js   | day-planner-component   | 12.57 kB | 
+chunk-5W2KCXNZ.js   | homepage-component      | 11.95 kB | 
+chunk-AD4RFAE2.js   | day-preview-component   |  9.17 kB | 
+chunk-BQR2NLZE.js   | day-displayer-component |  5.64 kB | 
+chunk-RKTBGMZV.js   | -                       |  2.90 kB | 
+
+Application bundle generation complete. [0.612 seconds]
+
+Page reload sent to client(s).
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-JVJL3Y6P.js   | -                       |  18.28 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 221.33 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-SSZ77DWG.js   | -                       |  16.78 kB | 
+chunk-WC3ZH6KN.js   | day-planner-component   |  12.57 kB | 
+chunk-5W2KCXNZ.js   | homepage-component      |  11.95 kB | 
+chunk-AD4RFAE2.js   | day-preview-component   |   9.17 kB | 
+chunk-BQR2NLZE.js   | day-displayer-component |   5.64 kB | 
+chunk-RKTBGMZV.js   | -                       |   2.90 kB | 
+
+Application bundle generation complete. [1.348 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-JVJL3Y6P.js   | -                       |  18.28 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 221.33 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-SSZ77DWG.js   | -                       |  16.78 kB | 
+chunk-WC3ZH6KN.js   | day-planner-component   |  12.57 kB | 
+chunk-5W2KCXNZ.js   | homepage-component      |  11.95 kB | 
+chunk-AD4RFAE2.js   | day-preview-component   |   9.17 kB | 
+chunk-BQR2NLZE.js   | day-displayer-component |   5.64 kB | 
+chunk-RKTBGMZV.js   | -                       |   2.90 kB | 
+
+Application bundle generation complete. [1.300 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-JVJL3Y6P.js   | -                       |  18.28 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 221.33 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-SSZ77DWG.js   | -                       |  16.78 kB | 
+chunk-WC3ZH6KN.js   | day-planner-component   |  12.57 kB | 
+chunk-5W2KCXNZ.js   | homepage-component      |  11.95 kB | 
+chunk-AD4RFAE2.js   | day-preview-component   |   9.17 kB | 
+chunk-BQR2NLZE.js   | day-displayer-component |   5.64 kB | 
+chunk-RKTBGMZV.js   | -                       |   2.90 kB | 
+
+Application bundle generation complete. [1.333 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-JVJL3Y6P.js   | -                       |  18.28 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 221.33 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-SSZ77DWG.js   | -                       |  16.78 kB | 
+chunk-WC3ZH6KN.js   | day-planner-component   |  12.57 kB | 
+chunk-5W2KCXNZ.js   | homepage-component      |  11.95 kB | 
+chunk-AD4RFAE2.js   | day-preview-component   |   9.17 kB | 
+chunk-BQR2NLZE.js   | day-displayer-component |   5.64 kB | 
+chunk-RKTBGMZV.js   | -                       |   2.90 kB | 
+
+Application bundle generation complete. [1.341 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+- Changes detected. Rebuilding...
+
+
+No output file changes.
+
+Application bundle generation complete. [0.333 seconds]
+
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+? Port 4303 is already in use.
+Would you like to use a different port? (Y/n) [46D[46C
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-JVJL3Y6P.js   | -                       |  18.28 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 221.33 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-SSZ77DWG.js   | -                       |  16.78 kB | 
+chunk-WC3ZH6KN.js   | day-planner-component   |  12.57 kB | 
+chunk-5W2KCXNZ.js   | homepage-component      |  11.95 kB | 
+chunk-AD4RFAE2.js   | day-preview-component   |   9.17 kB | 
+chunk-BQR2NLZE.js   | day-displayer-component |   5.64 kB | 
+chunk-RKTBGMZV.js   | -                       |   2.90 kB | 
+
+Application bundle generation complete. [1.330 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
+
+> ikeo-planificator-app@0.0.0 start
+> ng serve --port 4303
+
+- Building...
+
+Initial chunk files | Names                   |  Raw size
+styles.css          | styles                  | 107.98 kB | 
+polyfills.js        | polyfills               |  83.60 kB | 
+chunk-JVJL3Y6P.js   | -                       |  18.28 kB | 
+main.js             | main                    |  11.47 kB | 
+
+                    | Initial total           | 221.33 kB
+
+Lazy chunk files    | Names                   |  Raw size
+chunk-SSZ77DWG.js   | -                       |  16.78 kB | 
+chunk-WC3ZH6KN.js   | day-planner-component   |  12.57 kB | 
+chunk-5W2KCXNZ.js   | homepage-component      |  11.95 kB | 
+chunk-AD4RFAE2.js   | day-preview-component   |   9.17 kB | 
+chunk-BQR2NLZE.js   | day-displayer-component |   5.64 kB | 
+chunk-RKTBGMZV.js   | -                       |   2.90 kB | 
+
+Application bundle generation complete. [1.321 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4303/
