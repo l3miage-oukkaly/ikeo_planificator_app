@@ -203,4 +203,18 @@ export class PlanificatorService {
     tours[tourIndex].deliverymen.splice(index, 1)
     this._sigPlanifiedDay.set({ date: this._sigPlanifiedDay().date, tours })
   }
+
+  setSigDay(day : Day){
+    this._sigPlanifiedDay.set(day);
+  }
+  setSigSB(setup : SetupBundle){
+    this._sigSetupBundle.set(setup);
+  }
+  updSig(setup : SetupBundle){
+    this._sigSetupBundle.update(() => setup);
+  }
+
+  getSigDay(){
+    return this._sigPlanifiedDay();
+  }
 }
