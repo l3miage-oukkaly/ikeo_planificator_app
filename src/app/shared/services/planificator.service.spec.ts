@@ -44,9 +44,13 @@ describe('PlanificatorService', () => {
   it('should call getSetupBundle method return code 200', async () => {
     // Arrange
     const setupBundleResponse : SetupBundle = {
-      multipleOrders: [{ orders: ['order1', 'order2'], address: 'address1' }],
-      deliverymen: ['John', 'Doe'],
-      trucks: ['Truck1', 'Truck2'],
+      multipleOrders: [
+        {address : '12 rue de la joie', orders : ['c166']},
+        {address : '12 rue de la paix', orders : ['c167', 'c168']},
+        {address : 'Avenue du 8 mai 1945', orders : ['c898']}
+      ],
+      deliverymen: ['AWL', 'DBB'],
+      trucks : ['XP-907-AB', 'XA-926-AD'],
       coordinates : [0, 0]
     };
     const expectedObservable  = of(setupBundleResponse);
@@ -92,8 +96,8 @@ describe('PlanificatorService', () => {
     const deliveryTourResponse : DeliveryTour = {
       refTour: 't098B-A',
       deliveries: [
-        { address: '12, rue de la joie', orders: ['C1', 'C2'] },
-        { address: '14, rue des Oiseaux', orders: ['C3']}
+        { address: '12, rue de la joie', orders: ['c166', 'c167'] },
+        { address: '14, rue des Oiseaux', orders: ['c189']}
       ],
       deliverymen: ['AWL', 'DBB'],
       truck: 'XP-907-AB',
@@ -143,8 +147,8 @@ describe('PlanificatorService', () => {
     const deliveryTourResponse : DeliveryTour = {
       refTour: 't098B-A',
       deliveries: [
-        { address: '12, rue de la joie', orders: ['C1', 'C2'] },
-        { address: '14, rue des Oiseaux', orders: ['C3']}
+        { address: '12, rue de la joie', orders: ['c166', 'c167'] },
+        { address: '14, rue des Oiseaux', orders: ['c198']}
       ],
       deliverymen: ['AWL', 'DBB'],
       truck: 'XP-907-AB',
@@ -153,8 +157,8 @@ describe('PlanificatorService', () => {
     const deliveryTourResponse1 : DeliveryTour = {
       refTour: 't098B-A',
       deliveries: [
-        { address: '12, rue de la paix', orders: ['C4', 'C42'] },
-        { address: 'Avenue du 8 mai 1945', orders: ['C12']}
+        { address: '12, rue de la paix', orders: ['c444', 'c445'] },
+        { address: 'Avenue du 8 mai 1945', orders: ['c675']}
       ],
       deliverymen: ['AWL', 'DBB'],
       truck: 'XP-907-AB',
@@ -189,8 +193,8 @@ describe('PlanificatorService', () => {
     const deliveryTourResponse : DeliveryTour = {
       refTour: 't098B-A',
       deliveries: [
-        { address: '12, rue de la joie', orders: ['C1', 'C2'] },
-        { address: '14, rue des Oiseaux', orders: ['C3']}
+        { address: '12, rue de la paix', orders: ['c444', 'c445'] },
+        { address: 'Avenue du 8 mai 1945', orders: ['c675']}
       ],
       deliverymen: ['AWL', 'DBB'],
       truck: 'XP-907-AB',
@@ -262,7 +266,7 @@ describe('PlanificatorService', () => {
   it('should add a tour with deliveries when tours array is empty', () => {
     // Arrange
     const initialToursLength = service.sigPlanifiedDay().tours.length;
-    const setupBundle: SetupBundle = { multipleOrders: [{ orders: ['order1', 'order2'], address: 'address1' }], deliverymen: [], trucks: [], coordinates: [0, 0] };
+    const setupBundle: SetupBundle = { multipleOrders: [{ orders: ['c166', 'c167'], address: '12 rue de la joix' }], deliverymen: [], trucks: [], coordinates: [0, 0] };
     service.updSig(setupBundle)
 
     // Act
@@ -272,8 +276,8 @@ describe('PlanificatorService', () => {
     expect(service.sigPlanifiedDay().tours.length).toBe(initialToursLength + 1);
     const lastTour = service.sigPlanifiedDay().tours[initialToursLength];
     expect(lastTour.deliveries.length).toBe(1);
-    expect(lastTour.deliveries[0].orders).toEqual(['order1', 'order2']);
-    expect(lastTour.deliveries[0].address).toBe('address1');
+    expect(lastTour.deliveries[0].orders).toEqual(['c166', 'c167']);
+    expect(lastTour.deliveries[0].address).toBe('12 rue de la joix');
   });
 
   it('should add a tour with empty deliveries when tours array is not empty', () => {
@@ -317,7 +321,7 @@ describe('PlanificatorService', () => {
     const deliveryMenToRemove = ['John', 'Doe'];
     const initialDeliveryMenInTour = ['John', 'Doe', 'Alice'];
     const initialDeliveryMenInSetupBundle = ['Jane', 'Smith'];
-    const initialTours: DeliveryTour[] = [{ deliverymen: initialDeliveryMenInTour, truck: 'Truck1', distanceToCover: 10, deliveries: [] , coordinates: [0, 0]}];
+    const initialTours: DeliveryTour[] = [{ deliverymen: initialDeliveryMenInTour, truck: 'AB', distanceToCover: 10, deliveries: [] , coordinates: [0, 0]}];
     const initialSetupBundle: SetupBundle = { multipleOrders: [], deliverymen: initialDeliveryMenInSetupBundle, trucks: [], coordinates: [0, 0]};
     const day: Day = { date: service.getTomorrowDate(), tours: initialTours }
     service.setSigDay(day)
@@ -340,8 +344,8 @@ describe('PlanificatorService', () => {
     // Arrange
     const tourIndex = 1;
     const initialTours: DeliveryTour[] = [
-      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['order1'], address: 'address1', distanceToCover: 5 }] },
-      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['order2'], address: 'address2', distanceToCover: 7 }] }
+      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['c166'], address: '12 rue de la joie', distanceToCover: 5 }] },
+      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['c167'], address: '14 rue des martyrs', distanceToCover: 7 }] }
     ];
 
     const initialSetupBundle: SetupBundle = { multipleOrders: [], deliverymen: [], trucks: ['XA-926-AD', 'XD-126-AB'], coordinates: [0, 0]};
@@ -383,8 +387,8 @@ describe('PlanificatorService', () => {
     // Arrange
     const tourIndex = 1;
     const initialTours: DeliveryTour[] = [
-      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['order1'], address: 'address1', distanceToCover: 5 }] },
-      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['order2'], address: 'address2', distanceToCover: 7 }] }
+      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['c166'], address: '12 rue de la joie', distanceToCover: 5 }] },
+      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['c167'], address: '14 rue des martyrs', distanceToCover: 7 }] }
     ];
     const initialSetupBundle: SetupBundle = { multipleOrders: [], deliverymen: [], trucks: ['XA-926-AD'], coordinates: [0, 0]};
     const day: Day = { date: service.getTomorrowDate(), tours: initialTours }
@@ -411,8 +415,8 @@ describe('PlanificatorService', () => {
     const truckIndex = 1;
     const tourIndex = 0;
     const initialTours: DeliveryTour[] = [
-      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['order1'], address: 'address1', distanceToCover: 5 }] },
-      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['order2'], address: 'address2', distanceToCover: 7 }] }
+      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['c166'], address: '12 rue de la joie', distanceToCover: 5 }] },
+      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['c167'], address: '14 rue des martyrs', distanceToCover: 7 }] }
     ];
     const initialTruck = ['XA-926-AD', 'XD-126-AB']
     const initialSetupBundle: SetupBundle = { multipleOrders: [], deliverymen: [], trucks: initialTruck, coordinates: [0, 0]};
@@ -440,8 +444,8 @@ describe('PlanificatorService', () => {
     const truckIndex = 1;
     const tourIndex = 0;
     const initialTours: DeliveryTour[] = [
-      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['order1'], address: 'address1', distanceToCover: 5 }] },
-      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['order2'], address: 'address2', distanceToCover: 7 }] }
+      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['c166'], address: '12 rue de la joie', distanceToCover: 5 }] },
+      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['c167'], address: '14 rue des martyrs', distanceToCover: 7 }] }
     ];
     const initialTruck = ['XA-926-AD', 'XD-126-AB']
     const initialSetupBundle: SetupBundle = { multipleOrders: [], deliverymen: [], trucks: initialTruck, coordinates: [0, 0] };
@@ -470,8 +474,8 @@ describe('PlanificatorService', () => {
     const delIndex = 1;
     const tourIndex = 0;
     const initialTours: DeliveryTour[] = [
-      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['order1'], address: 'address1', distanceToCover: 5 }] },
-      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['order2'], address: 'address2', distanceToCover: 7 }] }
+      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['c166'], address: '12 rue de la joie', distanceToCover: 5 }] },
+      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['c167'], address: '14 rue des martyrs', distanceToCover: 7 }] }
     ];
     const initialDeliverymen = ['John', 'Doe', 'Alice', 'Bob']
     const initialSetupBundle: SetupBundle = { multipleOrders: [], deliverymen: initialDeliverymen, trucks: [], coordinates: [0, 0]};
@@ -498,8 +502,8 @@ describe('PlanificatorService', () => {
     const delIndex = 1;
     const tourIndex = 0;
     const initialTours: DeliveryTour[] = [
-      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['order1'], address: 'address1', distanceToCover: 5 }] },
-      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['order2'], address: 'address2', distanceToCover: 7 }] }
+      { deliverymen: ['John', 'Doe'], truck: 'XA-926-AD', distanceToCover: 10, deliveries: [{ orders: ['c166'], address: '12 rue de la joie', distanceToCover: 5 }] },
+      { deliverymen: ['Alice', 'Bob'], truck: 'XD-126-AB', distanceToCover: 15, deliveries: [{ orders: ['c167'], address: '14 rue des martyrs', distanceToCover: 7 }] }
     ];
     const initialDeliverymen = ['John', 'Doe', 'Alice', 'Bob']
     const initialSetupBundle: SetupBundle = { multipleOrders: [], deliverymen: initialDeliverymen, trucks: [], coordinates: [0, 0]};
@@ -528,9 +532,9 @@ describe('PlanificatorService', () => {
     const toursCount = 2;
     const initialSetupBundle : SetupBundle = {
       multipleOrders: [
-        {address : '12 rue de la joie', orders : ['order1']},
-        {address : '12 rue de la paix', orders : ['order2', 'order3']},
-        {address : 'Avenue du 8 mai 1945', orders : ['order18']}
+        {address : '12 rue de la joie', orders : ['c166']},
+        {address : '12 rue de la paix', orders : ['c167', 'c168']},
+        {address : 'Avenue du 8 mai 1945', orders : ['c898']}
       ],
       deliverymen: ['AWL', 'DBB'],
       trucks : ['XP-907-AB', 'XA-926-AD'],
@@ -574,9 +578,9 @@ describe('PlanificatorService', () => {
     // Arrange
     const initialSetupBundle : SetupBundle = {
       multipleOrders: [
-        {address : '12 rue de la joie', orders : ['order1']},
-        {address : '12 rue de la paix', orders : ['order2', 'order3']},
-        {address : 'Avenue du 8 mai 1945', orders : ['order18']}
+        {address : '12 rue de la joie', orders : ['c166']},
+        {address : '12 rue de la paix', orders : ['c167', 'c168']},
+        {address : 'Avenue du 8 mai 1945', orders : ['c898']}
       ],
       deliverymen: ['AWL', 'DBB'],
       trucks : ['XP-907-AB', 'XA-926-AD'],
