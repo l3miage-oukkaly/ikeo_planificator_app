@@ -38,6 +38,5 @@
 </div>
 <div style="text-align: center">
   <a [routerLink]="['/day-planner']"><button class="preview-button">Ajuster</button></a>
-  <a [routerLink]="['/']"><button disabled class="preview-button">Optimiser</button></a>
-  <a [routerLink]="['/']"><button class="preview-button" (click)="planificatorService.sendDayOrUpdate(planificatorService.sigPlanifiedDay())">Valider</button></a>
+  <a [routerLink]="['/main-menu']"><button class="preview-button" (click)="planificatorService.sendDayOrUpdate(planificatorService.sigPlanifiedDay())">Valider</button></a>
 </div>
